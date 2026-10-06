@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>web-components — index</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px 20px; color: #222; }
+  header h1 { margin: 0 0 8px 0; }
+  header p { color: #555; }
+  h2 { margin-top: 32px; border-bottom: 2px solid #eee; padding-bottom: 6px; }
+  .card { border: 1px solid #ddd; border-radius: 8px; padding: 16px 20px; margin: 12px 0; }
+  .card h3 { margin: 0 0 6px 0; }
+  .card p { margin: 6px 0; color: #444; }
+  .card .meta { font-size: 0.85em; color: #777; }
+  .card a { color: #1565c0; }
+  code { background: #f5f5f5; padding: 1px 6px; border-radius: 4px; font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>web-components</h1>
+  <p>A monorepo of vanilla web components — web standards only, no frameworks,
+     no libraries. Components communicate through events, attributes, and slots.</p>
+  <p><a href="https://github.com/musecirelli/web-components">github.com/musecirelli/web-components</a></p>
+</header>
+
+<h2>Auction tools</h2>
+
+<div class="card">
+  <h3><a href="./components/ebidlocal-watchlist/demo.html">ebidlocal-watchlist</a></h3>
+  <p>Renders ebidlocal auction scans as a feed. Point <code>&lt;ebidlocal-watchlist&gt;</code>
+     at a JSON feed and each auction becomes an entry with its lots as cards —
+     new scrapes become new entries, like RSS.</p>
+  <p class="meta">Elements: <code>ebidlocal-watchlist</code>, <code>watchlist-feed</code>,
+     <code>auction-entry</code>, <code>lot-card</code>, <code>filter-bar</code>
+     · <a href="./components/ebidlocal-watchlist/README.md">docs</a></p>
+</div>
+
+<h2>Primitives</h2>
+
+<div class="card">
+  <h3>shared/component-base.js</h3>
+  <p><code>WebComponent</code> base class: event scoping via
+     <code>event-source</code> attribute → parent element →
+     <code>document.body</code>, tracked listeners with automatic cleanup,
+     and bubbling/composed <code>emit()</code>. Not a rendered component —
+     the foundation the others build on.</p>
+</div>
+
+<!-- New groups go here as components are added, e.g.:
+<h2>Form controls</h2>
+<h2>Data display</h2>
+-->
+
+</body>
+</html>

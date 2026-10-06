@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ebidlocal watchlist — web component demo</title>
+<style>
+  body { margin: 0; background: #f5f5f5; color: #222; }
+  /* Theme the components via CSS custom properties (no shadow piercing). */
+  ebidlocal-watchlist {
+    --lot-card-bid-color: #1b5e20;
+    --filter-bar-border: #4caf50;
+  }
+</style>
+</head>
+<body>
+
+<ebidlocal-watchlist id="app" src="./feed.json">
+  <h1 slot="header" style="margin: 0 0 4px 0;">ebidlocal watchlist</h1>
+  <p slot="header" style="color:#555; margin: 0 0 8px 0;">
+    Auctions as a feed — new scrapes become new entries.
+    Bids move fast near close; the bid shown is from scan time.
+  </p>
+  <!--
+    Default slots already wire <filter-bar> and <watchlist-feed>.
+    Override them here if you want custom controls or layout:
+
+    <filter-bar slot="controls" placeholder="Search lots…"></filter-bar>
+    <watchlist-feed slot="feed" event-source="#app"></watchlist-feed>
+  -->
+</ebidlocal-watchlist>
+
+<script type="module">
+  import './ebidlocal-watchlist.js';
+
+  // Example: refresh the feed every 15 minutes for new auctions.
+  // const app = document.getElementById('app');
+  // setInterval(() => app.refresh(), 15 * 60 * 1000);
+
+  // Example: react to renders.
+  // document.body.addEventListener('watchlist:rendered', (e) => {
+  //   console.log('rendered', e.detail.count, 'auctions');
+  // });
+</script>
+
+</body>
+</html>
