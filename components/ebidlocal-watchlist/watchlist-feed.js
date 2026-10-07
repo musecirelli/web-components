@@ -3,20 +3,25 @@
  * like items in an RSS feed.
  *
  * Listens for: `watchlist:data` ({ auctions: [...] }) on its event source.
- * Each auction becomes an <auction-entry>. Re-renders on every data event,
- * so pointing the app at a fresh JSON file is just re-emitting the event.
+ * Renders according to the `group-by` attribute (default `category`):
+ *   - `category`: lots from all auctions grouped into Steve's named
+ *     keyword lists — one collapsed <category-entry> per list.
+ *   - `auction`: one <auction-entry> per auction (the RSS-style view).
+ * Re-renders on every data event, so pointing the app at a fresh JSON
+ * file is just re-emitting the event.
  *
  * Also listens for: `watchlist:filter` — forwards nothing itself; each
- * <auction-entry> handles its own filtering (they share the event source).
+ * entry handles its own filtering (they share the event source).
  *
  * Emits: `watchlist:rendered` ({ count }) after rendering.
  *
- * Attributes: event-source (inherited)
+ * Attributes: event-source (inherited), group-by ("category"|"auction")
  * Slots:
- *   <slot name="empty"> — shown when there are no auctions
+ *   <slot name="empty"> — shown when there are no lots
  */
 import { WebComponent } from '../../shared/component-base.js';
 import './auction-entry.js';
+import './category-entry.js';
 
 const template = document.createElement('template');
 template.innerHTML = `
@@ -25,10 +30,13 @@ template.innerHTML = `
     .empty { color: #888; padding: 24px; text-align: center; }
   </style>
   <div class="entries"></div>
-  <div class="empty" hidden><slot name="empty">No auctions in this feed.</slot></div>
+  <div class="empty" hidden><slot name="empty">No lots in this feed.</slot></div>
 `;
 
 export class WatchlistFeed extends WebComponent {
+  static get observedAttributes() {
+    return ['group-by', 'event-source'];
+  }
   #dataHandler = null;
   #filterHandler = null;
   #forwarding = false;
@@ -80,16 +88,59 @@ export class WatchlistFeed extends WebComponent {
     const auctions = feed?.auctions || [];
     const entries = this.shadowRoot.querySelector('.entries');
     entries.innerHTML = '';
-    this.shadowRoot.querySelector('.empty').hidden = auctions.length > 0;
 
+    const groupBy = (this.getAttribute('group-by') || 'category').toLowerCase();
+    let count = 0;
+    if (groupBy === 'auction') {
+      count = this._renderByAuction(auctions, entries);
+    } else {
+      count = this._renderByCategory(auctions, entries);
+    }
+
+    this.shadowRoot.querySelector('.empty').hidden = count > 0;
+    this.emit('watchlist:rendered', { count, groupBy });
+  }
+
+  _renderByAuction(auctions, entries) {
     auctions.forEach((auction, i) => {
       const entry = document.createElement('auction-entry');
       // First entry open by default, like an RSS reader's latest item.
       entry.data = { ...auction, open: i === 0 };
       entries.appendChild(entry);
     });
+    return auctions.length;
+  }
 
-    this.emit('watchlist:rendered', { count: auctions.length });
+  /**
+   * Steve's watchlist view: flatten lots across auctions, group by his
+   * named keyword lists. A lot in N categories appears in N lists.
+   * Worst case O(L*C) time, O(L*C) space for L lots and C categories —
+   * fine for feed sizes (hundreds of lots, tens of categories).
+   */
+  _renderByCategory(auctions, entries) {
+    const byCategory = new Map();
+    for (const auction of auctions) {
+      for (const lot of auction.lots || []) {
+        const cats = lot.categories?.length ? lot.categories : ['Uncategorized'];
+        for (const cat of cats) {
+          if (!byCategory.has(cat)) byCategory.set(cat, []);
+          byCategory.get(cat).push({
+            ...lot,
+            auctionNumber: auction.number || '',
+            auctionTitle: auction.title || '',
+          });
+        }
+      }
+    }
+    // Most lots first — the lists Steve checks most are on top.
+    const sorted = [...byCategory.entries()]
+      .sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+    for (const [name, lots] of sorted) {
+      const entry = document.createElement('category-entry');
+      entry.data = { name, lots };
+      entries.appendChild(entry);
+    }
+    return sorted.length;
   }
 }
 

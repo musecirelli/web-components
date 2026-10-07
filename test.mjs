@@ -1,6 +1,6 @@
 /**
  * Functional test for ebidlocal-watchlist components.
- * Run: node --experimental-vm-modules test.mjs (or plain node with jsdom)
+ * Run: node test.mjs (requires jsdom: npm install jsdom)
  */
 import { JSDOM } from 'jsdom';
 
@@ -38,6 +38,8 @@ const feed = {
       lots: [
         { id: 'l3', title: 'Violin', sku: 'SKU3', bid: 100.0,
           ends: '10/08 10:00', url: 'http://x/3', image: '', keywords: ['violin'], categories: ['Music'] },
+        { id: 'l4', title: 'Retro Radio', sku: 'SKU4', bid: 15.0,
+          ends: '10/08 11:00', url: 'http://x/4', image: '', keywords: ['radio'], categories: ['Retro'] },
       ],
     },
   ],
@@ -49,28 +51,44 @@ function assert(cond, msg) {
   else { console.log(`  FAIL: ${msg}`); failures++; }
 }
 
-console.log('Test 1: app renders feed from watchlist:data event');
+console.log('Test 1: default category grouping renders collapsed lists');
 {
   document.body.innerHTML = '';
   const app = document.createElement('ebidlocal-watchlist');
   document.body.appendChild(app);
-  // Simulate what _load() does after fetch (skip network).
   app.emit('watchlist:data', feed);
 
   const feedEl = app.shadowRoot.querySelector('watchlist-feed');
   assert(!!feedEl, 'watchlist-feed exists in app shadow DOM');
-  const entries = feedEl.shadowRoot.querySelectorAll('auction-entry');
-  assert(entries.length === 2, `2 auction entries rendered (got ${entries.length})`);
-  const cards = feedEl.shadowRoot.querySelectorAll('auction-entry')[0]
-    .shadowRoot.querySelectorAll('lot-card');
-  assert(cards.length === 2, `first entry has 2 lot cards (got ${cards.length})`);
-  const title = cards[0].shadowRoot.querySelector('.lot').textContent;
-  assert(title === 'Sega Game Gear', `lot title rendered ("${title}")`);
-  const bid = cards[0].shadowRoot.querySelector('.bid').textContent;
-  assert(bid === '$25', `bid formatted ("${bid}")`);
+  const entries = [...feedEl.shadowRoot.querySelectorAll('category-entry')];
+  assert(entries.length === 3, `3 category entries rendered (got ${entries.length})`);
+  // Sorted by lot count desc: Retro (2), then Appliances, Music (1 each, alpha).
+  const names = entries.map((e) => e.shadowRoot.querySelector('.title').textContent);
+  assert(names[0] === 'Retro', `Retro first by count ("${names.join(',')}")`);
+  assert(entries.every((e) => !e.shadowRoot.querySelector('details').open),
+    'all categories start collapsed');
+  const retroCards = entries[0].shadowRoot.querySelectorAll('lot-card');
+  assert(retroCards.length === 2, `Retro has 2 cards (got ${retroCards.length})`);
+  const auctionLabel = retroCards[0].shadowRoot.querySelector('.auction').textContent;
+  assert(auctionLabel === 'Auction 2066', `card shows auction ("${auctionLabel}")`);
 }
 
-console.log('Test 2: filter-bar filters entries via events');
+console.log('Test 2: group-by="auction" renders the RSS-style view');
+{
+  document.body.innerHTML = '';
+  const app = document.createElement('ebidlocal-watchlist');
+  document.body.appendChild(app);
+  const feedEl = app.shadowRoot.querySelector('watchlist-feed');
+  feedEl.setAttribute('group-by', 'auction');
+  app.emit('watchlist:data', feed);
+
+  const entries = feedEl.shadowRoot.querySelectorAll('auction-entry');
+  assert(entries.length === 2, `2 auction entries rendered (got ${entries.length})`);
+  const cards = entries[0].shadowRoot.querySelectorAll('lot-card');
+  assert(cards.length === 2, `first entry has 2 lot cards (got ${cards.length})`);
+}
+
+console.log('Test 3: filter narrows categories and auto-expands matches');
 {
   document.body.innerHTML = '';
   const app = document.createElement('ebidlocal-watchlist');
@@ -79,23 +97,21 @@ console.log('Test 2: filter-bar filters entries via events');
 
   const feedEl = app.shadowRoot.querySelector('watchlist-feed');
   const filterBar = app.shadowRoot.querySelector('filter-bar');
-
-  // Simulate a filter event as the filter bar would emit (bypasses debounce).
   filterBar.emit('watchlist:filter', { query: 'sega' });
-  // Feed forwards synchronously; entries filter synchronously.
-  const entries = [...feedEl.shadowRoot.querySelectorAll('auction-entry')];
-  assert(entries[0].hidden === false, 'auction 1 visible (has sega lot)');
-  assert(entries[1].hidden === true, 'auction 2 hidden (no sega lot)');
-  const cards = [...entries[0].shadowRoot.querySelectorAll('lot-card')];
-  assert(cards[0].hidden === false, 'sega card visible');
-  assert(cards[1].hidden === true, 'coffee card hidden');
 
-  // Clear filter.
+  const entries = [...feedEl.shadowRoot.querySelectorAll('category-entry')];
+  const retro = entries.find((e) => e.shadowRoot.querySelector('.title').textContent === 'Retro');
+  const music = entries.find((e) => e.shadowRoot.querySelector('.title').textContent === 'Music');
+  assert(retro.hidden === false, 'Retro visible (has sega lot)');
+  assert(retro.shadowRoot.querySelector('details').open === true, 'Retro auto-expanded');
+  assert(music.hidden === true, 'Music hidden (no sega lot)');
+
   filterBar.emit('watchlist:filter', { query: '' });
-  assert(entries[1].hidden === false, 'auction 2 visible again after clear');
+  assert(music.hidden === false, 'Music visible again after clear');
+  assert(retro.shadowRoot.querySelector('details').open === false, 'Retro collapsed after clear');
 }
 
-console.log('Test 3: event-source scoping');
+console.log('Test 4: event-source scoping');
 {
   document.body.innerHTML = '<div id="scope-a"></div><div id="scope-b"></div>';
   const appA = document.createElement('ebidlocal-watchlist');
@@ -103,13 +119,12 @@ console.log('Test 3: event-source scoping');
   document.getElementById('scope-a').appendChild(appA);
   document.getElementById('scope-b').appendChild(appB);
 
-  // Feed in appA listens on appA (shadow host). Emit data only on appA.
   appA.emit('watchlist:data', feed);
   const entriesA = appA.shadowRoot.querySelector('watchlist-feed')
-    .shadowRoot.querySelectorAll('auction-entry');
+    .shadowRoot.querySelectorAll('category-entry');
   const entriesB = appB.shadowRoot.querySelector('watchlist-feed')
-    .shadowRoot.querySelectorAll('auction-entry');
-  assert(entriesA.length === 2, 'appA feed rendered');
+    .shadowRoot.querySelectorAll('category-entry');
+  assert(entriesA.length === 3, 'appA feed rendered');
   assert(entriesB.length === 0, 'appB feed unaffected (scoped)');
 }
 

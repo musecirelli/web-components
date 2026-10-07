@@ -21,10 +21,16 @@ default (override via the `controls` slot).
 | Element | Role | Events in | Events out |
 |---|---|---|---|
 | `<ebidlocal-watchlist>` | App shell; fetches `src` | — | `watchlist:data`, `watchlist:error` |
-| `<watchlist-feed>` | Feed container; one `<auction-entry>` per auction | `watchlist:data` | `watchlist:rendered` |
-| `<auction-entry>` | One auction; expandable lot grid | `watchlist:filter` | — |
+| `<watchlist-feed>` | Feed container; groups lots by `group-by` | `watchlist:data` | `watchlist:rendered` |
+| `<category-entry>` | One named keyword list; collapsed, click to expand | `watchlist:filter` | — |
+| `<auction-entry>` | One auction; expandable lot grid (used when `group-by="auction"`) | `watchlist:filter` | — |
 | `<lot-card>` | One lot; pure attributes | — | — |
 | `<filter-bar>` | Search input | — | `watchlist:filter` |
+
+`<watchlist-feed group-by="category">` (the default) flattens lots across
+auctions into Steve's named keyword lists — one collapsed `<category-entry>`
+per list, most lots first. A lot in N categories appears in N lists.
+`<watchlist-feed group-by="auction">` renders the RSS-style per-auction view.
 
 All components extend `WebComponent` (`../../shared/component-base.js`):
 events bubble and are composed; listeners scope to the `event-source`

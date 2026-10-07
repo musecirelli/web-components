@@ -41,6 +41,7 @@ template.innerHTML = `
     .ends { color: #555; font-size: 0.85em; }
     .kws { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 2px; }
     .kw { background: #e8f5e9; color: #2e7d32; border-radius: 10px; padding: 1px 8px; font-size: 0.75em; }
+    .auction { color: #777; font-size: 0.8em; }
     .view { margin-top: 6px; color: #1565c0; font-weight: bold; font-size: 0.9em; }
     a.wrap:hover .view { text-decoration: underline; }
   </style>
@@ -48,6 +49,7 @@ template.innerHTML = `
     <img loading="lazy" alt="">
     <div class="info">
       <div class="lot"></div>
+      <div class="auction"></div>
       <div class="sku"></div>
       <div class="bid"></div>
       <div class="ends"></div>
@@ -59,7 +61,7 @@ template.innerHTML = `
 
 export class LotCard extends WebComponent {
   static get observedAttributes() {
-    return ['title', 'sku', 'bid', 'ends', 'image', 'url', 'keywords'];
+    return ['title', 'sku', 'bid', 'ends', 'image', 'url', 'keywords', 'auction'];
   }
 
   constructor() {
@@ -91,6 +93,9 @@ export class LotCard extends WebComponent {
     }
 
     $('.lot').textContent = this.getAttribute('title') || '';
+    const auction = this.getAttribute('auction');
+    $('.auction').textContent = auction ? `Auction ${auction}` : '';
+    $('.auction').style.display = auction ? '' : 'none';
     $('.sku').textContent = this.getAttribute('sku') || '';
 
     const bid = this.getAttribute('bid');

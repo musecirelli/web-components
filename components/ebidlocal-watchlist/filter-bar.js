@@ -26,7 +26,7 @@ template.innerHTML = `
     }
     input:focus { border-color: var(--filter-bar-focus, #2e7d32); }
   </style>
-  <input type="text" aria-label="Filter lots">
+  <input type="text" aria-label="Filter lots by title, keyword, or category">
 `;
 
 export class FilterBar extends WebComponent {
@@ -44,7 +44,7 @@ export class FilterBar extends WebComponent {
 
   connectedCallback() {
     const input = this.shadowRoot.querySelector('input');
-    input.placeholder = this.getAttribute('placeholder') || 'Filter lots…';
+    input.placeholder = this.getAttribute('placeholder') || 'Filter by title, keyword, or category…';
     input.addEventListener('input', () => this._onInput(input.value));
   }
 
@@ -52,7 +52,7 @@ export class FilterBar extends WebComponent {
     if (!this.isConnected) return;
     if (name === 'placeholder') {
       this.shadowRoot.querySelector('input').placeholder =
-        this.getAttribute('placeholder') || 'Filter lots…';
+        this.getAttribute('placeholder') || 'Filter by title, keyword, or category…';
     }
   }
 
