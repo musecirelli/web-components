@@ -73,7 +73,9 @@ export class CategoryEntry extends WebComponent {
     const d = this.#data;
     if (!d) return;
     const $ = (sel) => this.shadowRoot.querySelector(sel);
-    $('.title').textContent = d.name || '(unnamed list)';
+    // Display names in capital case ("tools" -> "Tools").
+    const name = d.name || '(unnamed list)';
+    $('.title').textContent = name.charAt(0).toUpperCase() + name.slice(1);
     const lotCount = (d.lots || []).length;
     $('.meta').textContent = `${lotCount} lot${lotCount === 1 ? '' : 's'}`;
     // Categories start collapsed; the feed never auto-opens them.
