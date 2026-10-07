@@ -68,6 +68,23 @@ export class WatchlistFeed extends WebComponent {
             cancelable: true,
           })
         );
+        // Entries filter synchronously; show a "no matches" note when
+        // the filter hides every entry.
+        const query = e.detail?.query || '';
+        const entries = [...this.shadowRoot.querySelectorAll('category-entry, auction-entry')];
+        const anyVisible = entries.some((en) => !en.hidden);
+        const emptyEl = this.shadowRoot.querySelector('.empty');
+        if (query && !anyVisible) {
+          emptyEl.hidden = false;
+          emptyEl.innerHTML = `No lots match "<strong></strong>".`;
+          emptyEl.querySelector('strong').textContent = query;
+        } else if (!query) {
+          // Restore the default empty slot content.
+          emptyEl.innerHTML = '<slot name="empty">No lots in this feed.</slot>';
+          emptyEl.hidden = entries.length > 0;
+        } else {
+          emptyEl.hidden = true;
+        }
       } finally {
         this.#forwarding = false;
       }

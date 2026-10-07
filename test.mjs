@@ -108,7 +108,8 @@ console.log('Test 3: filter narrows categories and auto-expands matches');
 
   filterBar.emit('watchlist:filter', { query: '' });
   assert(music.hidden === false, 'Music visible again after clear');
-  assert(retro.shadowRoot.querySelector('details').open === false, 'Retro collapsed after clear');
+  assert(retro.shadowRoot.querySelector('details').open === true,
+    'Retro stays as the user left it after clear (no forced collapse)');
 }
 
 console.log('Test 4: event-source scoping');

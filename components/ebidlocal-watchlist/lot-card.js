@@ -29,6 +29,7 @@ template.innerHTML = `
       overflow: hidden;
       background: #fff;
     }
+    :host([hidden]) { display: none; }
     a.wrap { display: block; color: inherit; text-decoration: none; }
     img {
       width: 100%; height: 150px; object-fit: cover;
