@@ -9,50 +9,126 @@
   header h1 { margin: 0 0 8px 0; }
   header p { color: #555; }
   h2 { margin-top: 32px; border-bottom: 2px solid #eee; padding-bottom: 6px; }
+  h2 + p.blurb { color: #555; margin-top: -8px; }
   .card { border: 1px solid #ddd; border-radius: 8px; padding: 16px 20px; margin: 12px 0; }
-  .card h3 { margin: 0 0 6px 0; }
+  .card h3 { margin: 0 0 6px 0; font-weight: normal; }
   .card p { margin: 6px 0; color: #444; }
   .card .meta { font-size: 0.85em; color: #777; }
   .card a { color: #1565c0; }
+  .kind { display: inline-block; font-size: 0.75em; color: #555; background: #f0f0f0;
+          border-radius: 4px; padding: 2px 8px; margin-left: 8px; vertical-align: middle; }
   code { background: #f5f5f5; padding: 1px 6px; border-radius: 4px; font-size: 0.9em; }
+  #toc-loading { color: #777; }
+  .error { background: #ffebee; border: 1px solid #ef9a9a; border-radius: 8px;
+           padding: 16px; color: #c62828; }
 </style>
 </head>
 <body>
 
 <header>
   <h1>web-components</h1>
-  <p>A monorepo of vanilla web components — web standards only, no frameworks,
-     no libraries. Components communicate through events, attributes, and slots.</p>
-  <p><a href="https://github.com/musecirelli/web-components">github.com/musecirelli/web-components</a></p>
+  <p id="repo-description">A monorepo of vanilla web components — web standards only.</p>
+  <p><a href="https://github.com/musecirelli/web-components">github.com/musecirelli/web-components</a>
+     · <a href="./manifest.json">manifest.json</a></p>
 </header>
 
-<h2>Auction tools</h2>
+<main id="toc">
+  <p id="toc-loading">Loading index from manifest.json…</p>
+</main>
 
-<div class="card">
-  <h3><a href="./components/ebidlocal-watchlist/demo.html">ebidlocal-watchlist</a></h3>
-  <p>Renders ebidlocal auction scans as a feed. Point <code>&lt;ebidlocal-watchlist&gt;</code>
-     at a JSON feed and each auction becomes an entry with its lots as cards —
-     new scrapes become new entries, like RSS.</p>
-  <p class="meta">Elements: <code>ebidlocal-watchlist</code>, <code>watchlist-feed</code>,
-     <code>auction-entry</code>, <code>lot-card</code>, <code>filter-bar</code>
-     · <a href="./components/ebidlocal-watchlist/README.md">docs</a></p>
-</div>
+<noscript>
+  <div class="error">
+    This index is rendered from <a href="./manifest.json">manifest.json</a>
+    and needs JavaScript. The manifest itself is human- and machine-readable.
+  </div>
+</noscript>
 
-<h2>Primitives</h2>
+<script>
+  // Table of contents, rendered from manifest.json (the single source of truth
+  // for what lives in this repo). No build step: this runs on GitHub Pages as-is.
+  fetch('./manifest.json')
+    .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then((manifest) => {
+      if (manifest.description) {
+        document.getElementById('repo-description').textContent = manifest.description;
+      }
+      const toc = document.getElementById('toc');
+      toc.textContent = '';
+      const byGroup = new Map();
+      for (const item of manifest.items || []) {
+        for (const g of item.groups || []) {
+          if (!byGroup.has(g)) byGroup.set(g, []);
+          byGroup.get(g).push(item);
+        }
+      }
+      for (const group of manifest.groups || []) {
+        const items = byGroup.get(group.id) || [];
+        if (!items.length) continue;
+        const h2 = document.createElement('h2');
+        h2.textContent = group.title;
+        toc.appendChild(h2);
+        if (group.blurb) {
+          const blurb = document.createElement('p');
+          blurb.className = 'blurb';
+          blurb.textContent = group.blurb;
+          toc.appendChild(blurb);
+        }
+        for (const item of items) {
+          toc.appendChild(renderCard(item));
+        }
+      }
+    })
+    .catch((err) => {
+      document.getElementById('toc').innerHTML =
+        '<div class="error">Could not load manifest.json: ' +
+        String(err.message || err).replace(/</g, '&lt;') + '</div>';
+    });
 
-<div class="card">
-  <h3>shared/component-base.js</h3>
-  <p><code>WebComponent</code> base class: event scoping via
-     <code>event-source</code> attribute → parent element →
-     <code>document.body</code>, tracked listeners with automatic cleanup,
-     and bubbling/composed <code>emit()</code>. Not a rendered component —
-     the foundation the others build on.</p>
-</div>
+  function renderCard(item) {
+    const card = document.createElement('div');
+    card.className = 'card';
+    const h3 = document.createElement('h3');
+    const link = document.createElement('a');
+    link.href = './' + item.path;
+    link.textContent = item.title;
+    h3.appendChild(link);
+    if (item.kind) {
+      const kind = document.createElement('span');
+      kind.className = 'kind';
+      kind.textContent = item.kind;
+      h3.appendChild(kind);
+    }
+    card.appendChild(h3);
+    if (item.description) {
+      const p = document.createElement('p');
+      p.textContent = item.description;
+      card.appendChild(p);
+    }
+    const meta = document.createElement('p');
+    meta.className = 'meta';
+    // Source link for apps; demo link for components that have one.
+    const bits = [];
+    if (item.source && item.source !== item.path) {
+      bits.push(linkHtml('./' + item.source, 'source'));
+    }
+    if (item.demo && item.demo !== item.path) {
+      bits.push(linkHtml('./' + item.demo, 'demo'));
+    }
+    if (bits.length) meta.innerHTML = bits.join(' · ');
+    else meta.hidden = true;
+    card.appendChild(meta);
+    return card;
+  }
 
-<!-- New groups go here as components are added, e.g.:
-<h2>Form controls</h2>
-<h2>Data display</h2>
--->
+  function linkHtml(href, text) {
+    const a = document.createElement('a');
+    a.href = href;
+    a.textContent = text;
+    const span = document.createElement('span');
+    span.appendChild(a);
+    return span.innerHTML;
+  }
+</script>
 
 </body>
 </html>

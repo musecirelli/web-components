@@ -30,13 +30,39 @@ All components extend `WebComponent` (`../../shared/component-base.js`):
 events bubble and are composed; listeners scope to the `event-source`
 attribute → parent element → `document.body`.
 
-## Feed format
+## Feed format and lifecycle
 
-See [feed-schema.md](./feed-schema.md). Generate one from scan data with:
+See [feed-schema.md](./feed-schema.md). The feed is RSS-like with paging:
+
+- `feed.json.gz` — **active auctions only** (the "current" feed), gzipped.
+- `archive/<slug>.json.gz` — one file per **expired** auction, frozen with
+  its lots as last seen. Slugs are `auction-<number>-<id-hash>.json.gz`
+  because display numbers aren't unique.
+- `archive/index.json` — manifest of archived auctions (number, title,
+  closed date, lot count, file) backing the feed picker in `demo.html`.
+  Small, stored uncompressed.
+
+Feeds are gzipped (the raw JSON runs ~600KB; gzip shrinks it ~8x).
+`<ebidlocal-watchlist>` detects the gzip magic bytes on load and
+decompresses transparently via `DecompressionStream` — `src` can point
+at `.json` or `.json.gz`.
+
+`demo.html` has a feed picker: "Current auctions" plus every archived
+auction. Switching feeds just sets `src` on `<ebidlocal-watchlist>`,
+which reloads.
+
+Generate and maintain the feed from scan data with the change-aware
+exporter — it regenerates `feed.json` only when the auction set changes
+(new auction appears, old one expires) and archives the expired ones:
 
 ```bash
-python3 ../../tools/export-feed.py state.json auctions.json > feed.json
+python3 ../../tools/export-feed.py state.json auctions.json \
+    --feed-dir .
+# → {"changed": true, "new": ["2071"], "expired": ["2066"], ...}
 ```
+
+On a quiet day it prints `"changed": false` and touches nothing, so the
+files stay cache-stable.
 
 ## Theming
 

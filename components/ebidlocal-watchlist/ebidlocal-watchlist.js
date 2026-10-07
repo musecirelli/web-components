@@ -4,13 +4,14 @@
  * Fetches a JSON feed (see feed-schema.md) and emits it as
  * `watchlist:data`, which <watchlist-feed> renders. Composes:
  *
- *   <ebidlocal-watchlist src="feed.json">
+ *   <ebidlocal-watchlist src="feed.json.gz">
  *     <filter-bar> + <watchlist-feed> (default light-DOM children,
  *     replaceable via slots)
  *   </ebidlocal-watchlist>
  *
  * Attributes:
- *   src          - URL of the JSON feed to load
+ *   src          - URL of the JSON feed to load (.json or .json.gz;
+ *                  gzip is detected by magic bytes and decompressed)
  *   event-source - inherited (defaults resolve to this element's parent,
  *                  so a page wrapping the app is the scope)
  *
@@ -47,6 +48,29 @@ template.innerHTML = `
   </div>
 `;
 
+/**
+ * Load a feed response, transparently handling gzipped feeds.
+ *
+ * Feeds are stored as `.json.gz` (the raw JSON is hundreds of KB; gzip
+ * shrinks it ~8x). GitHub Pages serves the .gz bytes as-is without a
+ * Content-Encoding, so the browser won't decompress automatically — detect
+ * the gzip magic bytes and run DecompressionStream ourselves. Plain JSON
+ * responses pass through untouched.
+ */
+async function loadFeed(res) {
+  const buf = await res.arrayBuffer();
+  const bytes = new Uint8Array(buf);
+  const isGzip = bytes.length >= 2 && bytes[0] === 0x1f && bytes[1] === 0x8b;
+  if (!isGzip) {
+    return JSON.parse(new TextDecoder().decode(bytes));
+  }
+  const stream = new Blob([buf])
+    .stream()
+    .pipeThrough(new DecompressionStream('gzip'));
+  const text = await new Response(stream).text();
+  return JSON.parse(text);
+}
+
 export class EbayLocalWatchlist extends WebComponent {
   static get observedAttributes() {
     return ['src', 'event-source'];
@@ -81,7 +105,7 @@ export class EbayLocalWatchlist extends WebComponent {
     try {
       const res = await fetch(src);
       if (!res.ok) throw new Error(`HTTP ${res.status} loading ${src}`);
-      const feed = await res.json();
+      const feed = await loadFeed(res);
       const count = (feed.auctions || []).length;
       metaEl.hidden = false;
       metaEl.textContent =

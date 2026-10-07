@@ -11,14 +11,27 @@ is a table of contents grouping components by how they're used.
 
 ```
 index.html                  # landing page / TOC (GH Pages root)
+manifest.json               # repo index: groups + items (TOC source of truth)
 shared/component-base.js    # WebComponent base class (event conventions)
 components/<name>/         # one directory per component or component family
   <name>.js                # the element(s), as ES modules
   demo.html                # working demo
   README.md                # usage docs
   feed-schema.md           # (when applicable) data format docs
+  feed.json                # (when applicable) live data feed, active entries
+  archive/                 # (when applicable) one file per expired feed entry
+    index.json             # manifest of archived entries, for pickers
 tools/                     # helper scripts (exporters, etc.)
 ```
+
+## manifest.json
+
+The landing page's table of contents is data, not hand-edited HTML.
+`manifest.json` lists **groups** (id, title, blurb) and **items**
+(title, kind, groups, path, description, optional demo/source links).
+`index.html` fetches it at runtime and renders the grouped TOC —
+no build step, and the manifest doubles as a machine-readable index
+for programmatic discovery (`fetch('./manifest.json')`).
 
 ## Communication conventions
 
@@ -91,5 +104,6 @@ groups components by how they're used, not by abstraction level.
 1. Create `components/<name>/` with the element module(s), `demo.html`,
    and `README.md`.
 2. Extend `WebComponent`; follow the communication conventions above.
-3. Add a card to the relevant group in `index.html` (or start a new group).
+3. Add an entry to `manifest.json` under the right group (or add a group).
+   The landing page renders itself from the manifest.
 4. Demo must run from the repo root over plain HTTP with no build step.

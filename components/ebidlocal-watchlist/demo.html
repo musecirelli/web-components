@@ -15,11 +15,17 @@
 </head>
 <body>
 
-<ebidlocal-watchlist id="app" src="./feed.json">
+<ebidlocal-watchlist id="app" src="./feed.json.gz">
   <h1 slot="header" style="margin: 0 0 4px 0;">ebidlocal watchlist</h1>
   <p slot="header" style="color:#555; margin: 0 0 8px 0;">
     Auctions as a feed — new scrapes become new entries.
     Bids move fast near close; the bid shown is from scan time.
+  </p>
+  <p slot="header" style="margin: 0 0 8px 0;">
+    <label for="feed-picker" style="color:#555;">Feed:</label>
+    <select id="feed-picker">
+      <option value="./feed.json.gz">Current auctions</option>
+    </select>
   </p>
   <!--
     Default slots already wire <filter-bar> and <watchlist-feed>.
@@ -32,6 +38,29 @@
 
 <script type="module">
   import './ebidlocal-watchlist.js';
+
+  const app = document.getElementById('app');
+  const picker = document.getElementById('feed-picker');
+
+  // Paging through history: archived (expired) auctions live in archive/,
+  // one file each, indexed by archive/index.json. Changing src reloads
+  // the feed — <ebidlocal-watchlist> observes the attribute.
+  fetch('./archive/index.json')
+    .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then((index) => {
+      for (const a of index.archived || []) {
+        const opt = document.createElement('option');
+        opt.value = './' + a.file;
+        const lots = a.lots === 1 ? '1 lot' : `${a.lots} lots`;
+        opt.textContent = `#${a.number} — ${a.title} (closed ${a.closed}, ${lots})`;
+        picker.appendChild(opt);
+      }
+    })
+    .catch(() => { /* no archive yet — current feed only */ });
+
+  picker.addEventListener('change', () => {
+    app.setAttribute('src', picker.value);
+  });
 
   // Example: refresh the feed every 15 minutes for new auctions.
   // const app = document.getElementById('app');

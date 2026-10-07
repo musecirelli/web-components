@@ -43,3 +43,32 @@ Field notes:
 
 See `tools/export-feed.py` for a converter from the ebidlocal-scan
 `state.json` format to this schema.
+
+## Archive format
+
+Expired auctions are frozen to `archive/auction-<number>-<idhash>.json.gz` —
+one file each, gzipped, in exactly the feed shape above for a single
+auction, plus a `closed` date field on the auction entry.
+`archive/index.json` lists them for feed pickers:
+
+```json
+{
+  "archived": [
+    {
+      "id": "QnGT3BhftWOEo8RNlRZKwA==",
+      "number": "2066",
+      "title": "Multi Seller Auction: 7700 Advantage Storage Dr, Chester VA",
+      "ends": "2026-10-07",
+      "closed": "2026-10-08",
+      "lots": 242,
+      "file": "archive/auction-2066-ed1a13cb.json.gz",
+      "archived_at": "2026-10-08T12:00:00Z"
+    }
+  ]
+}
+```
+
+Newest-closed first. Any page can offer feed paging by listing
+`archive/index.json` next to `feed.json.gz` and switching the `src`
+attribute — see `demo.html`. The component sniffs the gzip magic bytes,
+so `.json` and `.json.gz` both work as `src`.
