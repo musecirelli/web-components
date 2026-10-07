@@ -107,7 +107,7 @@ export class CategoryEntry extends WebComponent {
     if (!query) {
       this.hidden = false;
       cards.forEach((c) => (c.hidden = false));
-      details.open = false;
+      // Leave open/closed state alone — the user may have expanded this manually.
       return;
     }
     let visible = 0;
