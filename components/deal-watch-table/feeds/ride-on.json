@@ -1,0 +1,704 @@
+{
+ "hunt": "ride-on",
+ "title": "24V Ride-On Car Hunt",
+ "generated": "2026-10-08T14:58:13.669582+00:00",
+ "spec_columns": [
+  {
+   "key": "motors",
+   "label": "Motors"
+  },
+  {
+   "key": "battery",
+   "label": "Battery"
+  },
+  {
+   "key": "seats",
+   "label": "Seats"
+  },
+  {
+   "key": "load",
+   "label": "Max load"
+  },
+  {
+   "key": "speed",
+   "label": "Top speed"
+  }
+ ],
+ "items": [
+  {
+   "id": "joyracer-4x4-user-link",
+   "name": "Joyracer 800W 24V Ride on Toys for Big Kids, 4WD/2WD Switchable, 2 Seater",
+   "url": "https://www.walmart.com/ip/Joyracer-4x4-24V-Kids-Ride-Truck-Car-w-Remote-Control-2-Seater-Ride-Toys-w-3-Speeds-4-200W-Motor-Battery-Powered-Electric-Car-Kids-Spring-Suspension/565198621",
+   "image": null,
+   "retailer": "Walmart",
+   "brand": "Joyracer",
+   "price": 245.99,
+   "baseline": 245.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "clearance",
+    "rollback",
+    "save $"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": "4×200W (800W)",
+    "battery": "24V",
+    "seats": "2",
+    "load": "135 lb",
+    "speed": "3 speeds"
+   }
+  },
+  {
+   "id": "joyracer-4x200w",
+   "name": "Joyracer 24V 2 Seater Kids Ride on Truck, 4x200W Motor",
+   "url": "https://www.walmart.com/ip/Joyracer-24V-2-Seater-Kids-Ride-Truck-Remote-Control-4-200W-Motor-Electric-Battery-Powered-Toys-Car-w-4-Wheels-Spring-Suspension-3-Speeds-LED-Lights/1849740637",
+   "image": null,
+   "retailer": "Walmart",
+   "brand": "Joyracer",
+   "price": 499.99,
+   "baseline": 224.99,
+   "was": null,
+   "change": 275.0,
+   "in_stock": true,
+   "badges": [
+    "save $"
+   ],
+   "confidence": "low",
+   "specs": {
+    "motors": "4×200W",
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "joyracer-xl-4wd",
+   "name": "Joyracer 24V Ride on Truck 4WD/2WD Switchable, 2 XL Seater, 800W",
+   "url": "https://www.walmart.com/ip/Joyracer-24V-Ride-Car-Truck-Remote-Control-2-Seater-4WD-800W-Powered-Ride-Toys-Spring-Suspension-3-Speeds-Bluetooth-Music-Gift-Girl-Boy-Pink/1916358511",
+   "image": null,
+   "retailer": "Walmart",
+   "brand": "Joyracer",
+   "price": 399.99,
+   "baseline": 259.03,
+   "was": null,
+   "change": 140.96,
+   "in_stock": true,
+   "badges": [
+    "clearance",
+    "reduced price",
+    "rollback",
+    "save $"
+   ],
+   "confidence": "low",
+   "specs": {
+    "motors": "4×200W",
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "bcp-range-rover",
+   "name": "Best Choice Products 24V 2-Seater Licensed Range Rover Sport, 132 lb capacity",
+   "url": "https://www.walmart.com/ip/Best-Choice-Products-Kids-24V-2-Seater-Licensed-Range-Rover-Ride-On-Car-w-Parent-Control-132lb-Weight-Capacity-Pink/17954220546",
+   "image": null,
+   "retailer": "Walmart",
+   "brand": "Best Choice Products",
+   "price": 359.99,
+   "baseline": 359.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "clearance",
+    "reduced price",
+    "save $"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": null,
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "bcp-truck",
+   "name": "Best Choice Products Kids 24V 2-Seater Electric Ride-On Car Truck, 132 lb capacity",
+   "url": "https://www.walmart.com/ip/Best-Choice-Products-Kids-24V-2-Seater-Electric-Ride-On-Car-Truck-w-Parent-Control-Bluetooth-LED-Lights-Red/15427767210",
+   "image": null,
+   "retailer": "Walmart",
+   "brand": "Best Choice Products",
+   "price": 299.99,
+   "baseline": 299.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "clearance",
+    "reduced price",
+    "save $"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": null,
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "freddo-gmc-police",
+   "name": "Freddo 24V GMC Police 2-Seater Ride On",
+   "url": "https://faoschwarz.com/products/24v-gmc-police-2-seater-ride-on",
+   "image": null,
+   "retailer": "Freddo direct",
+   "brand": "Freddo",
+   "price": 800.0,
+   "baseline": 800.0,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "sale"
+   ],
+   "confidence": "low",
+   "specs": {
+    "motors": null,
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "fro-raptor",
+   "name": "FIRST RIDE ON 24V Licensed Ford F-150 Raptor Electric Ride-On Truck",
+   "url": "https://www.bestbuy.com/product/first-ride-on-24v-kids-ride-on-truck-licensed-ford-f-150-raptor-electric-car-w-remote-control-bluetooth-music-truck-bed-storage-red/JXR47VKQHC/sku/12746651",
+   "image": null,
+   "retailer": "Best Buy",
+   "brand": "First Ride On",
+   "price": null,
+   "baseline": 369.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "specs": {
+    "motors": null,
+    "battery": "24V",
+    "seats": null,
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "amz-joyracer-xl",
+   "name": "JOYRACER 24V XL 4WD/2WD switchable 2-seater (Amazon)",
+   "url": "https://www.amazon.com/dp/B0FC5S47L5",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "",
+   "price": 269.99,
+   "baseline": 269.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": "4×200W",
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "amz-bcp-24v",
+   "name": "Best Choice Products 24V 2-seater (Amazon)",
+   "url": "https://www.amazon.com/dp/B0DZ3Z3DSF",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "",
+   "price": 299.99,
+   "baseline": 299.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": null,
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "amz-police-lr",
+   "name": "Licensed Land Rover 24V police 2-seater (Amazon)",
+   "url": "https://www.amazon.com/dp/B0CY4YSFM9",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "",
+   "price": 329.99,
+   "baseline": 329.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": null,
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "amz-police-ram",
+   "name": "Licensed RAM 1500 24V police 2-seater (Amazon)",
+   "url": "https://www.amazon.com/dp/B0GWSP7Z7R",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "",
+   "price": 389.99,
+   "baseline": 389.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": null,
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "amz-joyracer-dumptruck",
+   "name": "JOYRACER 24V Ride on Dump Truck, XL 2 Seater, 4x200W, 6-wheel suspension, electric dump bed (Amazon)",
+   "url": "https://www.amazon.com/dp/B0GT3SNLBJ",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "",
+   "price": 299.99,
+   "baseline": 299.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": "4×200W",
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "amz-joyracer-utv",
+   "name": "JOYRACER 24V Battery Powered Off-Road UTV, 4x150W, 2-seater (Amazon)",
+   "url": "https://www.amazon.com/dp/B0F6LRGW38",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "",
+   "price": 209.99,
+   "baseline": 209.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": null,
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "amz-police-lr-cheap",
+   "name": "Licensed Land Rover 24V 2 Seater Ride on Police Car w/Remote (Amazon)",
+   "url": "https://www.amazon.com/dp/B0DLWTM7DK",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "",
+   "price": 296.99,
+   "baseline": 296.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": null,
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "amz-police-ram-rho",
+   "name": "First Ride On RAM 1500 RHO 24V Police Car 2 Seater (Amazon)",
+   "url": "https://www.amazon.com/dp/B0HC75W4F2",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "",
+   "price": 389.99,
+   "baseline": 389.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": null,
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "amz-police-lr-outfunny",
+   "name": "Licensed Land Rover 2 Seater Ride on Police Car, 24V (Amazon, Outfunny)",
+   "url": "https://www.amazon.com/dp/B0DTP8RV22",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "",
+   "price": 329.99,
+   "baseline": 329.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": null,
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "amz-police-ram-4wd",
+   "name": "24V Licensed Dodge RAM Police Ride On Truck, 4WD Motor, 2-Seater (Amazon)",
+   "url": "https://www.amazon.com/dp/B0GFCC3P9F",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "",
+   "price": 349.99,
+   "baseline": 349.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": "4×200W",
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "amz-qaba-utv",
+   "name": "Qaba 24V 2 Seater Ride on Car Electric Off-Road UTV Truck (Amazon)",
+   "url": "https://www.amazon.com/dp/B0DS2FLRFJ",
+   "image": "https://m.media-amazon.com/images/I/81dEm0o1ScL._AC_SL1500_.jpg",
+   "retailer": "Amazon",
+   "brand": "",
+   "price": 269.99,
+   "baseline": 269.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": null,
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "amz-police-hikiddo",
+   "name": "Hikiddo Licensed Ford Shelby F-150 24V 2-seater (Amazon)",
+   "url": "https://www.amazon.com/dp/B0DM4Z4YFP",
+   "image": "https://m.media-amazon.com/images/I/61RHFkfo+ZL._AC_SL1000_.jpg",
+   "retailer": "Amazon",
+   "brand": "",
+   "price": 359.99,
+   "baseline": 359.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": null,
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "amz-joyracer-bigkid-800w",
+   "name": "JOYRACER 24V 2 Seater Ride on Car, 800W Motors, 20in Seat (Amazon)",
+   "url": "https://www.amazon.com/dp/B0GLM6HB6V",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "",
+   "price": 269.99,
+   "baseline": 269.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": "4×200W (800W)",
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "amz-joyracer-utv-xl-4x4",
+   "name": "JOYRACER 24V 2 Seater XL 4X4 Off-Road UTV, 4x200W (Amazon)",
+   "url": "https://www.amazon.com/dp/B0FJXTTFD7",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "",
+   "price": 309.99,
+   "baseline": 309.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": "4×200W",
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "amz-police-ram-rho-ram01",
+   "name": "First Ride On 24V Licensed Ram 1500 RHO Police Car 2 Seater (Ram01 model)",
+   "url": "https://www.amazon.com/dp/B0FCFJYM8B",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "First Ride On",
+   "price": 389.99,
+   "baseline": 389.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": null,
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "wm-luibas-police-silverado",
+   "name": "LUIBAS Police Car Ride On 24V 4WD 2-Seater Licensed Chevrolet Silverado",
+   "url": "https://www.walmart.com/ip/LUIBAS-Police-Car-Ride-24V-4WD-2-Seater-Battery-Powered-Licensed-Chevrolet-Silverado-Ride-Truck-Electric-Car-Remote-Control-Ride-Toy-Car-Bluetooth-St/15272952074",
+   "image": null,
+   "retailer": "Walmart",
+   "brand": "LUIBAS",
+   "price": 299.99,
+   "baseline": null,
+   "was": null,
+   "change": null,
+   "in_stock": false,
+   "badges": [
+    "clearance",
+    "reduced price",
+    "rollback",
+    "save $"
+   ],
+   "confidence": "low",
+   "specs": {
+    "motors": "4×200W",
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "wm-outfunny-police-24v",
+   "name": "Outfunny Electric Police Car for Kids 24V 400W 2-Seater",
+   "url": "https://www.walmart.com/ip/Outfunny-12V-10Ah-Kids-Ride-on-Toy-4WD-2-Seater-Electric-Ride-on-Car-UTV-for-Big-Kids-w-Remote-Bluetooth-Green/9736958043",
+   "image": null,
+   "retailer": "Walmart",
+   "brand": "Outfunny",
+   "price": 242.98,
+   "baseline": 242.98,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "clearance",
+    "rollback",
+    "save $"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": "4×200W",
+    "battery": "12V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "wm-iyofe-bronco-raptor",
+   "name": "iYofe Licensed Ford Bronco Raptor 24V 2-Seater Ride On",
+   "url": "https://www.walmart.com/ip/24V-2-Seater-Ride-Cars-Licensed-Ford-Bronco-Raptor-Powered-Ride-Toy-Truck-Remote-Control-Electric-Car-Kids-3-8-Gifts-Bluetooth-LED-Light-Spring-Suspe/8143322045",
+   "image": null,
+   "retailer": "Walmart",
+   "brand": "iYofe",
+   "price": 297.99,
+   "baseline": 297.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "rollback",
+    "save $"
+   ],
+   "confidence": "low",
+   "specs": {
+    "motors": null,
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "anpabo-trailstorm-x4",
+   "name": "ANPABO 24V TrailStorm X4 2-Seater Ride-On UTV",
+   "url": "https://www.anpabotoy.com/products/24v-4x200w-2-seater-ride-on-utv",
+   "image": null,
+   "retailer": "Anpabo direct",
+   "brand": "Anpabo",
+   "price": null,
+   "baseline": 365.0,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "specs": {
+    "motors": null,
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  },
+  {
+   "id": "amz-costzon-lc250",
+   "name": "Costzon 24V 2-Seater Licensed Toyota LC250 4WD/2WD Ride On",
+   "url": "https://www.amazon.com/dp/B0FLJGCVSQ",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "Costzon",
+   "price": 239.99,
+   "baseline": 239.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motors": "4×200W",
+    "battery": "24V",
+    "seats": "2",
+    "load": null,
+    "speed": null
+   }
+  }
+ ]
+}

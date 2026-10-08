@@ -1,0 +1,251 @@
+{
+ "hunt": "scooter",
+ "title": "Electric Scooter Hunt",
+ "generated": "2026-10-08T12:38:38.917536+00:00",
+ "spec_columns": [
+  {
+   "key": "motor",
+   "label": "Motor"
+  },
+  {
+   "key": "speed",
+   "label": "Top speed"
+  },
+  {
+   "key": "range",
+   "label": "Range"
+  },
+  {
+   "key": "load",
+   "label": "Max load"
+  },
+  {
+   "key": "tires",
+   "label": "Tires"
+  },
+  {
+   "key": "brakes",
+   "label": "Brakes"
+  }
+ ],
+ "items": [
+  {
+   "id": "gotrax-g4-walmart",
+   "name": "GOTRAX G4 Foldable Adult Electric Scooter, 20MPH, 25-mile range, 10-inch tires",
+   "url": "https://www.walmart.com/ip/GOTRAX-G4-Adult-Electric-Scooter-10inch-Tires-20MPH-25mile-Range-Folding-Frame-and-2-Gear-Speed-Commuter-E-Scooter-for-Adult/234871823",
+   "image": null,
+   "retailer": "Walmart",
+   "brand": "GOTRAX",
+   "price": null,
+   "baseline": 479.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "specs": {
+    "motor": "500W",
+    "speed": null,
+    "range": null,
+    "load": "264 lb",
+    "tires": "10in",
+    "brakes": null
+   }
+  },
+  {
+   "id": "volpam-500w-amazon",
+   "name": "VOLPAM 500W Electric Scooter, 10-inch tires, dual suspension, 265-lb max load",
+   "url": "https://www.amazon.com/dp/B0GZVZQF1Y",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "VOLPAM",
+   "price": 279.0,
+   "baseline": 279.0,
+   "was": 349.99,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motor": "500W",
+    "speed": "19 mph",
+    "range": "25 mi",
+    "load": "265 lb",
+    "tires": "10in",
+    "brakes": null
+   }
+  },
+  {
+   "id": "hiboy-s2-pro-amazon",
+   "name": "Hiboy S2 Pro Electric Scooter, 500W, 10-inch solid tires, 25.6-mile range",
+   "url": "https://www.amazon.com/dp/B086N23QBD",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "Hiboy",
+   "price": 399.99,
+   "baseline": 399.99,
+   "was": 469.99,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motor": "500W",
+    "speed": "19 mph",
+    "range": "25.6 mi",
+    "load": "220 lb",
+    "tires": "10in solid",
+    "brakes": null
+   }
+  },
+  {
+   "id": "hiboy-s2-pro-walmart",
+   "name": "Hiboy S2 Pro Electric Scooter, 500W, 10-inch solid tires, 25-mile range",
+   "url": "https://www.walmart.com/ip/Hiboy-Electric-Scooter-S2-Pro-Electric-Scooters-Adults-500W-Motor-10-Solid-Tires-25-Miles-Max-Range-19-Mph-Speed-Foldable-Kick-E-Scooter-Urban-Commut/513619623",
+   "image": null,
+   "retailer": "Walmart",
+   "brand": "Hiboy",
+   "price": null,
+   "baseline": 422.97,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "specs": {
+    "motor": "500W",
+    "speed": "19 mph",
+    "range": "25.6 mi",
+    "load": "220 lb",
+    "tires": "10in solid",
+    "brakes": null
+   }
+  },
+  {
+   "id": "iscooter-500w-walmart",
+   "name": "iScooter 500W Electric Scooter, 23-mile range, 22MPH, 264-lb max load",
+   "url": "https://www.walmart.com/ip/iScooter-Electric-Scooter-Adults-18-Miles-500W-Peak-Motor-Foldable-E-Scooter-19Mph-Top-Speed-Dual-Braking-System-Commuter-Electric-Scooter-Adults-Tee/16026520434",
+   "image": null,
+   "retailer": "Walmart",
+   "brand": "iScooter",
+   "price": null,
+   "baseline": 199.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "specs": {
+    "motor": "500W",
+    "speed": "22 mph",
+    "range": "23 mi",
+    "load": null,
+    "tires": null,
+    "brakes": null
+   }
+  },
+  {
+   "id": "hiboy-ks4-pro-walmart",
+   "name": "Hiboy KS4 Pro Electric Scooter, 500W, dual rear suspension, 25-mile range",
+   "url": "https://www.walmart.com/ip/Hiboy-KS4-Pro-Electric-Scooter-for-Adults-500W-Motor-Dual-Rear-Suspension-Smart-LED-Display-Up-to-25-Miles-Range-19-MPH-Max-Speed-App-Control/20384601860",
+   "image": null,
+   "retailer": "Walmart",
+   "brand": "Hiboy",
+   "price": null,
+   "baseline": 479.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "specs": {
+    "motor": null,
+    "speed": null,
+    "range": null,
+    "load": null,
+    "tires": null,
+    "brakes": null
+   }
+  },
+  {
+   "id": "hiboy-s2-max-walmart",
+   "name": "Hiboy S2 MAX Electric Scooter, 500W, 40.4-mile range, 19MPH",
+   "url": "https://www.walmart.com/ip/Hiboy-S2-MAX-Electric-Scooter-Upgraded-500-W-Motor-10-In-Air-filled-Tires-40-4-Miles-Range-19-Mph-Speed-Portable-Commuting-Adults-Double-Braking-Syst/182517870",
+   "image": null,
+   "retailer": "Walmart",
+   "brand": "Hiboy",
+   "price": null,
+   "baseline": 465.47,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "specs": {
+    "motor": "500W",
+    "speed": null,
+    "range": "40.4 mi",
+    "load": null,
+    "tires": null,
+    "brakes": null
+   }
+  },
+  {
+   "id": "segway-e2-pro-amazon",
+   "name": "Segway Ninebot E2 Pro Electric Scooter, 350W (750W peak), 25-mile range",
+   "url": "https://www.amazon.com/dp/B0CT8HFMC2",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "Segway",
+   "price": 398.99,
+   "baseline": 398.99,
+   "was": 499.99,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motor": "350W",
+    "speed": "15.5 mph",
+    "range": "24.9 mi",
+    "load": null,
+    "tires": null,
+    "brakes": null
+   }
+  },
+  {
+   "id": "phantom-a10-costco",
+   "name": "Phantom A10 Smart Electric Scooter",
+   "url": "https://www.costco.com/p/-/phantom-a10-smart-electric-scooter/4000309209?langId=-1",
+   "image": null,
+   "retailer": "Costco",
+   "brand": "Phantom",
+   "price": 399.99,
+   "baseline": 399.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "warehouse-price"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motor": null,
+    "speed": null,
+    "range": null,
+    "load": null,
+    "tires": null,
+    "brakes": null
+   }
+  }
+ ]
+}

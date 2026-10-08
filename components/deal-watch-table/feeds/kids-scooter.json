@@ -1,0 +1,321 @@
+{
+ "hunt": "kids-scooter",
+ "title": "Kids Electric Scooter Hunt",
+ "generated": "2026-10-08T15:35:46.826185+00:00",
+ "spec_columns": [
+  {
+   "key": "motor",
+   "label": "Motor"
+  },
+  {
+   "key": "speed",
+   "label": "Top speed"
+  },
+  {
+   "key": "range",
+   "label": "Range"
+  },
+  {
+   "key": "load",
+   "label": "Max load"
+  },
+  {
+   "key": "tires",
+   "label": "Tires"
+  },
+  {
+   "key": "brakes",
+   "label": "Brakes"
+  },
+  {
+   "key": "cert",
+   "label": "Certification"
+  }
+ ],
+ "items": [
+  {
+   "id": "segway-dlx2-walmart",
+   "name": "Segway DLX 2 Kids Electric Kick Scooter, 12.4 mph, 9.3-mile range",
+   "url": "https://www.walmart.com/ip/c2-pro-Scooter/15128504174",
+   "image": null,
+   "retailer": "Walmart",
+   "brand": "Segway",
+   "price": 148.0,
+   "baseline": 148.0,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "clearance",
+    "rollback",
+    "save $"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motor": "150W brushless",
+    "speed": "12.4 mph",
+    "range": "9.3 mi",
+    "load": "110 lb",
+    "tires": "9in solid",
+    "brakes": "drum + e-brake",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "segway-c2pro-bestbuy",
+   "name": "Segway C2 Pro Electric Scooter for Kids, 12.4 mph, 9.3-mile range",
+   "url": "https://www.bestbuy.com/product/segway-c2-pro-electric-scooter-for-kids-high-safety-scooter-9-3-mile-range-12-4-mph-max-speed-adjustable-height-blue/J394R97J57",
+   "image": null,
+   "retailer": "Best Buy",
+   "brand": "Segway",
+   "price": null,
+   "baseline": 249.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "specs": {
+    "motor": "150W brushless",
+    "speed": "12.4 mph",
+    "range": "9.3 mi",
+    "load": "132 lb",
+    "tires": "7in solid",
+    "brakes": "drum + e-brake",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "segway-c2lite-bestbuy",
+   "name": "Segway C2 Lite Electric Scooter for Kids, 9.9 mph, 8.7-mile range",
+   "url": "https://www.bestbuy.com/product/segway-c2-lite-electric-scooter-for-kids-safe-fun-scooter-8-7-mile-range-9-9-mph-max-speed-rgb-lights-blue/J394R972PC",
+   "image": null,
+   "retailer": "Best Buy",
+   "brand": "Segway",
+   "price": null,
+   "baseline": 142.49,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "specs": {
+    "motor": "130W brushless",
+    "speed": "9.9 mph",
+    "range": "8.7 mi",
+    "load": "110 lb",
+    "tires": "7in solid",
+    "brakes": "drum + e-brake",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "segway-c2lite-amazon",
+   "name": "Segway C2 Lite Electric Scooter for Kids (Amazon)",
+   "url": "https://www.amazon.com/dp/B0DB5SGHX2",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "Segway",
+   "price": 142.49,
+   "baseline": 142.49,
+   "was": 179.99,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motor": "130W brushless",
+    "speed": "9.9 mph",
+    "range": "8.7 mi",
+    "load": "110 lb",
+    "tires": "7in solid",
+    "brakes": "drum + e-brake",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "segway-c2pro-amazon",
+   "name": "Segway C2 Pro Electric Scooter for Kids, 12.4 mph, 9.3-mile range (Amazon)",
+   "url": "https://www.amazon.com/dp/B0CRDG6KMT",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "Segway",
+   "price": 239.99,
+   "baseline": 239.99,
+   "was": 279.99,
+   "change": 0.0,
+   "in_stock": null,
+   "badges": [
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motor": "150W brushless",
+    "speed": "12.4 mph",
+    "range": "9.3 mi",
+    "load": "132 lb",
+    "tires": "7in solid",
+    "brakes": "drum + e-brake",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "segway-c2go-amazon",
+   "name": "Segway C2 Go Kids Electric Scooter, 10 mph, 9-mile range",
+   "url": "https://www.amazon.com/dp/B0HDSSPY7Z",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "Segway",
+   "price": 149.99,
+   "baseline": 149.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motor": "150W brushless",
+    "speed": "10 mph",
+    "range": "9 mi",
+    "load": "132 lb",
+    "tires": "7in solid",
+    "brakes": "dual",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "aigo-e3-costco",
+   "name": "Aigo E3 Rainbow Kids Electric Scooter (Costco)",
+   "url": "https://www.costco.com/p/-/aigo-e3-rainbow-kids-electric-scooter/4000402707?langId=-1",
+   "image": null,
+   "retailer": "Costco",
+   "brand": "Aigo",
+   "price": null,
+   "baseline": 149.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "specs": {
+    "motor": "130W",
+    "speed": "9 mph",
+    "range": "5 mi",
+    "load": "154 lb",
+    "tires": "solid",
+    "brakes": "dual",
+    "cert": null
+   }
+  },
+  {
+   "id": "fanttikride-t9apex-amazon",
+   "name": "FanttikRide T9 Apex Kids Electric Scooter, 200W, 7/10/12 mph",
+   "url": "https://www.amazon.com/dp/B0CF241958",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "FanttikRide",
+   "price": 249.99,
+   "baseline": 249.99,
+   "was": 429.98,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motor": "200W (listing claim)",
+    "speed": "12 mph",
+    "range": "6.8 mi",
+    "load": "154 lb",
+    "tires": "8in solid",
+    "brakes": "dual + fender",
+    "cert": null
+   }
+  },
+  {
+   "id": "fanttikride-t9-amazon",
+   "name": "FanttikRide T9 Kids Electric Scooter, 7/10/12 mph (Steve's link)",
+   "url": "https://www.amazon.com/dp/B0CR1492SG",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "FanttikRide",
+   "price": 229.99,
+   "baseline": 229.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
+   "specs": {
+    "motor": "150W brushless",
+    "speed": "12 mph",
+    "range": "6.8 mi",
+    "load": "154 lb",
+    "tires": "8in solid",
+    "brakes": "dual + fender",
+    "cert": null
+   }
+  },
+  {
+   "id": "fanttikride-k9pro-direct",
+   "name": "FanttikRide K9 Pro Electric Scooter for Kids",
+   "url": "https://fanttik.com/products/fanttikride-k9-pro-electric-scooter-for-kids",
+   "image": null,
+   "retailer": "FanttikRide direct",
+   "brand": "FanttikRide",
+   "price": 179.99,
+   "baseline": 179.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": null,
+   "badges": [
+    "sale"
+   ],
+   "confidence": "low",
+   "specs": {
+    "motor": null,
+    "speed": null,
+    "range": null,
+    "load": null,
+    "tires": null,
+    "brakes": null,
+    "cert": null
+   }
+  },
+  {
+   "id": "simate-250w-walmart",
+   "name": "SIMATE Foldable Electric Scooter for Kids, 250W, 12 mph",
+   "url": "https://www.walmart.com/ip/SIMATE-Foldable-Electric-Scooter-for-Kids-Teen-Adults-Ages-8-7-Solid-Tires-250W-10-Miles-Range-Top-12mph-Portable-Pink/20280005399",
+   "image": null,
+   "retailer": "Walmart",
+   "brand": "SIMATE",
+   "price": null,
+   "baseline": 189.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "specs": {
+    "motor": "250W",
+    "speed": "12 mph",
+    "range": "10 mi",
+    "load": null,
+    "tires": "solid",
+    "brakes": null,
+    "cert": null
+   }
+  }
+ ]
+}

@@ -35,6 +35,28 @@
    "title": "eBidLocal Watchlist"
   },
   {
+   "id": "deal-watch-app",
+   "kind": "app",
+   "title": "Deal Watch",
+   "path": "components/deal-watch-table/demo.html",
+   "source": "components/deal-watch-table/",
+   "groups": [
+    "apps"
+   ],
+   "description": "Sortable, filterable results tables for the deal-watch scans (kids scooter, adult scooter, 24V ride-on). Backed by per-hunt feed JSON regenerated after each scan."
+  },
+  {
+   "id": "deal-watch-table",
+   "kind": "component",
+   "title": "<deal-watch-table>",
+   "path": "components/deal-watch-table/deal-watch-table.js",
+   "demo": "components/deal-watch-table/demo.html",
+   "groups": [
+    "components"
+   ],
+   "description": "Sortable/filterable results table. Fetches a deal-watch feed JSON from src (or receives dealwatch:data) and renders price vs baseline, stock, badges, and spec columns."
+  },
+  {
    "demo": "components/ebidlocal-watchlist/demo.html",
    "description": "App shell. Fetches a feed JSON from src and emits watchlist:data / watchlist:error.",
    "groups": [
@@ -101,7 +123,7 @@
    "title": "<filter-bar>"
   },
   {
-   "description": "Event-source scoping (event-source attribute → shadow host → parent → document.body), tracked on()/off() listeners, namespaced emit().",
+   "description": "Event-source scoping (event-source attribute \u2192 shadow host \u2192 parent \u2192 document.body), tracked on()/off() listeners, namespaced emit().",
    "groups": [
     "shared"
    ],
@@ -111,7 +133,7 @@
    "title": "WebComponent"
   },
   {
-   "description": "Change-aware exporter: scan state → feed.json; expired auctions → archive/. Regenerates only when the auction set changes.",
+   "description": "Change-aware exporter: scan state \u2192 feed.json; expired auctions \u2192 archive/. Regenerates only when the auction set changes.",
    "groups": [
     "tools"
    ],
@@ -272,7 +294,7 @@
    "path": "components/spending-dashboard/spend-sankey.js",
    "demo": "components/spending-dashboard/demo.html",
    "source": "components/spending-dashboard/",
-   "description": "Canvas Sankey diagram: total spend → categories → merchants. Click a band to filter."
+   "description": "Canvas Sankey diagram: total spend \u2192 categories \u2192 merchants. Click a band to filter."
   }
  ],
  "name": "web-components"

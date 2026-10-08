@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deal Watch — web component demo</title>
+<style>
+  body { margin: 0; background: #f5f5f5; color: #222; }
+  .page { max-width: 1200px; margin: 0 auto; padding: 16px; }
+  deal-watch-table {
+    --dealwatch-accent: #1a73e8;
+    --dealwatch-good: #1b5e20;
+    --dealwatch-bad: #b3261e;
+  }
+  .hunt-picker { margin: 8px 0 4px 0; }
+  .hunt-picker label { color: #555; margin-right: 6px; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<deal-watch-table id="app" src="./feeds/kids-scooter.json">
+  <div slot="header">
+    <h1 style="margin: 0 0 4px 0;">Deal Watch</h1>
+    <p style="color:#555; margin: 0 0 8px 0;">
+      Live prices from the deal-watch scans. Click a column header to sort.
+      Prices are from the last scan — the timestamp is under the toolbar.
+    </p>
+    <p class="hunt-picker">
+      <label for="hunt">Hunt:</label>
+      <select id="hunt">
+        <option value="./feeds/kids-scooter.json">Kids electric scooter</option>
+        <option value="./feeds/scooter.json">Electric scooter (adult)</option>
+        <option value="./feeds/ride-on.json">24V ride-on car</option>
+      </select>
+    </p>
+  </div>
+  <p slot="footer" style="color:#777; font-size: 13px;">
+    A dash (—) means the last scan couldn't read that value.
+    "vs baseline" compares against the reference price from when the item
+    joined the watchlist; green means it's cheaper now.
+  </p>
+</deal-watch-table>
+
+</div>
+
+<script type="module">
+  import './deal-watch-table.js';
+
+  const app = document.getElementById('app');
+  const picker = document.getElementById('hunt');
+
+  picker.addEventListener('change', () => {
+    app.setAttribute('src', picker.value);
+  });
+
+  // Example: refresh the feed every 30 minutes while the page is open.
+  // setInterval(() => app.refresh(), 30 * 60 * 1000);
+
+  // Example: react to renders.
+  // document.body.addEventListener('dealwatch:data', (e) => {
+  //   console.log('loaded', e.detail.feed.items.length, 'items');
+  // });
+</script>
+
+</body>
+</html>
