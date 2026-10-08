@@ -25,6 +25,7 @@ import './spend-overview.js';
 import './spend-timeline.js';
 import './spend-category-chart.js';
 import './spend-merchant-list.js';
+import './spend-sankey.js';
 import './spend-transaction-table.js';
 import './spend-insights.js';
 import './spend-budget-tracker.js';
@@ -93,6 +94,7 @@ export class SpendingDashboard extends WebComponent {
           <spend-category-chart></spend-category-chart>
           <spend-merchant-list></spend-merchant-list>
         </div>
+        <spend-sankey></spend-sankey>
         <div class="grid2">
           <spend-insights></spend-insights>
           <spend-budget-tracker></spend-budget-tracker>

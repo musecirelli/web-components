@@ -20,6 +20,7 @@ locally and persists them to `localStorage`.
 | `<spend-timeline>` | Monthly bars / cumulative line. Click a bar to drill into that month. |
 | `<spend-category-chart>` | Donut + legend. Click to filter by category. |
 | `<spend-merchant-list>` | Top merchants with bars. Click to search that merchant. |
+| `<spend-sankey>` | Canvas Sankey: total → categories → merchants. Click a band to filter. |
 | `<spend-insights>` | Auto observations: biggest month, concentration, recurring charges, trends. |
 | `<spend-budget-tracker>` | Editable per-category monthly targets with actual-vs-target bars (localStorage). |
 | `<spend-transaction-table>` | Sortable, paginated table of the filtered transactions. |

@@ -261,6 +261,18 @@
    "path": "components/spending-dashboard/spend-utils.js",
    "source": "components/spending-dashboard/",
    "description": "Formatting, palettes, canvas helpers shared by the spending components."
+  },
+  {
+   "id": "spend-sankey",
+   "title": "<spend-sankey>",
+   "kind": "component",
+   "groups": [
+    "components"
+   ],
+   "path": "components/spending-dashboard/spend-sankey.js",
+   "demo": "components/spending-dashboard/demo.html",
+   "source": "components/spending-dashboard/",
+   "description": "Canvas Sankey diagram: total spend → categories → merchants. Click a band to filter."
   }
  ],
  "name": "web-components"

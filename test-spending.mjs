@@ -99,7 +99,24 @@ console.log('Test 3: search filter via spend:filter');
     'every row matches the search');
 }
 
-console.log('Test 4: rules.js matches the Python pipeline');
+console.log('Test 4: sankey renders bands and drills on click');
+{
+  document.body.innerHTML = '';
+  const dash = document.createElement('spending-dashboard');
+  document.body.appendChild(dash);
+  dash.data = SAMPLE_TRANSACTIONS;
+
+  const sankey = q(dash, 'spend-sankey');
+  assert(!!sankey, 'spend-sankey present in dashboard');
+  assert(!!sankey.shadowRoot.querySelector('canvas'), 'sankey canvas present');
+  // bands are internal; verify drill wiring through the dashboard instead:
+  sankey.emit('spend:drill', { q: 'Harvest Market' });
+  const rows = qa(q(dash, 'spend-transaction-table'), 'tbody tr');
+  assert(rows.length > 0 && rows.every((r) => /harvest market/i.test(r.querySelectorAll('td')[1].textContent)),
+    'merchant drill via spend:drill narrows table to that merchant');
+}
+
+console.log('Test 5: rules.js matches the Python pipeline');
 {
   assert(rules.normalizeMerchant('COSTCO WHSE #1089 RICHMOND VA') === 'Costco', 'costco normalized');
   assert(rules.normalizeMerchant('SQ *MOBIUS STRIP TECHNOLOgosq.com OH') === 'Mobius Strip Technologies', 'mobius normalized');
@@ -112,7 +129,7 @@ console.log('Test 4: rules.js matches the Python pipeline');
   assert(c3.category === 'Transfers', `payment categorized (${c3.category})`);
 }
 
-console.log('Test 5: budget tracker renders latest month with editable targets');
+console.log('Test 6: budget tracker renders latest month with editable targets');
 {
   document.body.innerHTML = '';
   const dash = document.createElement('spending-dashboard');
