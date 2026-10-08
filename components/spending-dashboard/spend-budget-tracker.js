@@ -34,6 +34,10 @@ export class SpendBudgetTracker extends WebComponent {
         .edit input { width: 90px; font: inherit; font-size: 13px; padding: 3px 8px;
           border: 1px solid var(--spend-border, #e5e7eb); border-radius: 6px; }
         .over { color: #b91c1c; font-weight: 600; }
+        .suggested {
+          font-size: 11px; font-style: italic; padding: 1px 8px; border-radius: 999px;
+          background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe;
+        }
       </style>
       <div class="card">
         <h3>Monthly budgets</h3>
@@ -44,18 +48,34 @@ export class SpendBudgetTracker extends WebComponent {
     this.shadowRoot.querySelector('ul').addEventListener('change', (e) => {
       const input = e.target.closest('input[data-cat]');
       if (!input) return;
-      const budgets = this.#load();
+      const budgets = this.#stored();
       const v = parseFloat(input.value);
-      if (Number.isFinite(v) && v > 0) budgets[input.dataset.cat] = Math.round(v * 100) / 100;
-      else delete budgets[input.dataset.cat];
+      // 0 (not delete) so a cleared input keeps overriding a seeded default
+      budgets[input.dataset.cat] = Number.isFinite(v) && v > 0 ? Math.round(v * 100) / 100 : 0;
       this.#save(budgets);
       this.#render();
     });
   }
 
-  #load() {
+  /** Seeded defaults, e.g. window.__SPENDING_BUDGETS__ in the single-file build. */
+  #defaults() {
+    try { return (typeof window !== 'undefined' && window.__SPENDING_BUDGETS__) || {}; }
+    catch { return {}; }
+  }
+  #stored() {
     try { return JSON.parse(localStorage.getItem(STORE_KEY) || '{}'); }
     catch { return {}; }
+  }
+  /** Merged view: user-saved values win over seeded defaults. */
+  #load() {
+    const merged = { ...this.#defaults() };
+    for (const [k, v] of Object.entries(this.#stored())) merged[k] = v;
+    return merged;
+  }
+  /** True when the effective target came from seeds, not from the user. */
+  #isSuggested(cat) {
+    const s = this.#stored();
+    return !(cat in s && s[cat] > 0) && (this.#defaults()[cat] || 0) > 0;
   }
   #save(b) {
     try { localStorage.setItem(STORE_KEY, JSON.stringify(b)); } catch { /* private mode */ }
@@ -90,7 +110,8 @@ export class SpendBudgetTracker extends WebComponent {
         <div class="bar"><i style="width:${pct.toFixed(1)}%;background:${color}"></i></div>
         <div class="edit">Monthly target $
           <input data-cat="${c.replace(/"/g, '&quot;')}" type="number" min="0" step="10"
-                 placeholder="e.g. 400" value="${target ?? ''}" aria-label="Monthly budget for ${c.replace(/"/g, '&quot;')}">
+                 placeholder="e.g. 400" value="${target || ''}" aria-label="Monthly budget for ${c.replace(/"/g, '&quot;')}">
+          ${this.#isSuggested(c) ? '<span class="suggested" title="Seeded from your historical monthly average — edit freely">suggested</span>' : ''}
         </div>
       </li>`;
     }).join('') || '<li>No spending this month.</li>';

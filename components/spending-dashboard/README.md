@@ -22,7 +22,7 @@ locally and persists them to `localStorage`.
 | `<spend-merchant-list>` | Top merchants with bars. Click to search that merchant. |
 | `<spend-sankey>` | Canvas Sankey: total → categories → merchants. Click a band to filter. |
 | `<spend-insights>` | Auto observations: biggest month, concentration, recurring charges, trends. |
-| `<spend-budget-tracker>` | Editable per-category monthly targets with actual-vs-target bars (localStorage). |
+| `<spend-budget-tracker>` | Editable per-category monthly targets with actual-vs-target bars. Targets persist to localStorage; `window.__SPENDING_BUDGETS__` seeds suggested defaults (marked "suggested" until edited). |
 | `<spend-transaction-table>` | Sortable, paginated table of the filtered transactions. |
 | `<spend-csv-import>` | Drag-and-drop statement CSVs → `spend:imported`. Same rules as the Python pipeline. |
 
