@@ -101,7 +101,7 @@
    "title": "<filter-bar>"
   },
   {
-   "description": "Event-source scoping (event-source attribute \u2192 shadow host \u2192 parent \u2192 document.body), tracked on()/off() listeners, namespaced emit().",
+   "description": "Event-source scoping (event-source attribute → shadow host → parent → document.body), tracked on()/off() listeners, namespaced emit().",
    "groups": [
     "shared"
    ],
@@ -111,7 +111,7 @@
    "title": "WebComponent"
   },
   {
-   "description": "Change-aware exporter: scan state \u2192 feed.json; expired auctions \u2192 archive/. Regenerates only when the auction set changes.",
+   "description": "Change-aware exporter: scan state → feed.json; expired auctions → archive/. Regenerates only when the auction set changes.",
    "groups": [
     "tools"
    ],
@@ -119,6 +119,148 @@
    "kind": "tool",
    "path": "tools/export-feed.py",
    "title": "export-feed.py"
+  },
+  {
+   "id": "spending-dashboard-app",
+   "title": "Spending Dashboard",
+   "kind": "app",
+   "groups": [
+    "apps"
+   ],
+   "path": "components/spending-dashboard/demo.html",
+   "source": "components/spending-dashboard/",
+   "description": "Personal spending analyzer: timeline, category donut, merchants, insights, budgets, transaction table, CSV import. Demo runs on synthetic data."
+  },
+  {
+   "id": "spending-dashboard",
+   "title": "<spending-dashboard>",
+   "kind": "component",
+   "groups": [
+    "components"
+   ],
+   "path": "components/spending-dashboard/spending-dashboard.js",
+   "demo": "components/spending-dashboard/demo.html",
+   "source": "components/spending-dashboard/",
+   "description": "Root shell. Owns data + filter state; fans out spend:data to children."
+  },
+  {
+   "id": "spend-filter-bar",
+   "title": "<spend-filter-bar>",
+   "kind": "component",
+   "groups": [
+    "components"
+   ],
+   "path": "components/spending-dashboard/spend-filter-bar.js",
+   "demo": "components/spending-dashboard/demo.html",
+   "source": "components/spending-dashboard/",
+   "description": "Month range, search, category picker, card-payments toggle. Emits spend:filter."
+  },
+  {
+   "id": "spend-overview",
+   "title": "<spend-overview>",
+   "kind": "component",
+   "groups": [
+    "components"
+   ],
+   "path": "components/spending-dashboard/spend-overview.js",
+   "demo": "components/spending-dashboard/demo.html",
+   "source": "components/spending-dashboard/",
+   "description": "Stat cards: total, count, top category, largest purchase, vs-prior-period delta."
+  },
+  {
+   "id": "spend-timeline",
+   "title": "<spend-timeline>",
+   "kind": "component",
+   "groups": [
+    "components"
+   ],
+   "path": "components/spending-dashboard/spend-timeline.js",
+   "demo": "components/spending-dashboard/demo.html",
+   "source": "components/spending-dashboard/",
+   "description": "Canvas monthly-bars / cumulative-line chart. Click a bar to drill into that month."
+  },
+  {
+   "id": "spend-category-chart",
+   "title": "<spend-category-chart>",
+   "kind": "component",
+   "groups": [
+    "components"
+   ],
+   "path": "components/spending-dashboard/spend-category-chart.js",
+   "demo": "components/spending-dashboard/demo.html",
+   "source": "components/spending-dashboard/",
+   "description": "Canvas donut + legend of spend by category. Click to filter."
+  },
+  {
+   "id": "spend-merchant-list",
+   "title": "<spend-merchant-list>",
+   "kind": "component",
+   "groups": [
+    "components"
+   ],
+   "path": "components/spending-dashboard/spend-merchant-list.js",
+   "demo": "components/spending-dashboard/demo.html",
+   "source": "components/spending-dashboard/",
+   "description": "Top merchants with proportional bars. Click to search that merchant."
+  },
+  {
+   "id": "spend-insights",
+   "title": "<spend-insights>",
+   "kind": "component",
+   "groups": [
+    "components"
+   ],
+   "path": "components/spending-dashboard/spend-insights.js",
+   "demo": "components/spending-dashboard/demo.html",
+   "source": "components/spending-dashboard/",
+   "description": "Auto-generated observations: biggest month, concentration, recurring charges, trends."
+  },
+  {
+   "id": "spend-budget-tracker",
+   "title": "<spend-budget-tracker>",
+   "kind": "component",
+   "groups": [
+    "components"
+   ],
+   "path": "components/spending-dashboard/spend-budget-tracker.js",
+   "demo": "components/spending-dashboard/demo.html",
+   "source": "components/spending-dashboard/",
+   "description": "Editable per-category monthly targets with actual-vs-target bars (localStorage)."
+  },
+  {
+   "id": "spend-transaction-table",
+   "title": "<spend-transaction-table>",
+   "kind": "component",
+   "groups": [
+    "components"
+   ],
+   "path": "components/spending-dashboard/spend-transaction-table.js",
+   "demo": "components/spending-dashboard/demo.html",
+   "source": "components/spending-dashboard/",
+   "description": "Sortable, paginated table of the filtered transactions."
+  },
+  {
+   "id": "spend-csv-import",
+   "title": "<spend-csv-import>",
+   "kind": "component",
+   "groups": [
+    "components"
+   ],
+   "path": "components/spending-dashboard/spend-csv-import.js",
+   "demo": "components/spending-dashboard/demo.html",
+   "source": "components/spending-dashboard/",
+   "description": "Drag-and-drop statement CSVs; client-side parse, dedupe, categorize via rules.js."
+  },
+  {
+   "id": "spend-utils",
+   "title": "spend-utils",
+   "kind": "helper",
+   "groups": [
+    "shared"
+   ],
+   "path": "components/spending-dashboard/spend-utils.js",
+   "source": "components/spending-dashboard/",
+   "description": "Formatting, palettes, canvas helpers shared by the spending components."
   }
  ],
  "name": "web-components"

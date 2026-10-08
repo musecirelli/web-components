@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spending Dashboard — demo</title>
+<style>
+  body { margin: 0; background: #eef1f5; padding: 24px 12px; }
+  main { max-width: 1160px; margin: 0 auto; }
+  .note {
+    max-width: 1160px; margin: 0 auto 14px; font: 13px/1.5 system-ui, sans-serif;
+    color: #6b7280; background: #fff8e1; border: 1px solid #f0df9a;
+    border-radius: 10px; padding: 10px 14px;
+  }
+</style>
+</head>
+<body>
+<main>
+  <p class="note"><strong>Demo data only.</strong> The charts below run on synthetic
+  transactions — no real financial data. Drop your own statement CSVs into the
+  “Add statements” card to try the importer, or open the local build with your
+  real data.</p>
+  <spending-dashboard id="dash"></spending-dashboard>
+</main>
+<script type="module">
+  import './spending-dashboard.js';
+  import { SAMPLE_TRANSACTIONS } from './sample-data.js';
+  document.getElementById('dash').data = SAMPLE_TRANSACTIONS;
+</script>
+</body>
+</html>
