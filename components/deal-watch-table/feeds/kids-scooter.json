@@ -317,6 +317,30 @@
     "brakes": null,
     "cert": null
    }
+  },
+  {
+   "id": "segway-dlx2-temu",
+   "name": "Segway DLX 2 Kids Electric Kick Scooter, 12.4 mph, 9.3 mi (Temu)",
+   "url": "https://www.temu.com/-dlx-2-kids-electric--12-4-mph--9-3-miles-max-range-ages-6-black-g-602601718396731.html",
+   "image": "https://img.kwcdn.com/local-goods-image/21140d62958/a6d59f95-9350-4f69-a0dc-e277fd5e2911_2000x2000.jpeg.format.jpg?imageView2/2/w/800/q/70/format/avif",
+   "retailer": "Temu",
+   "brand": "Segway",
+   "price": null,
+   "baseline": 106.0,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "specs": {
+    "motor": "150W brushless",
+    "speed": "12.4 mph",
+    "range": "9.3 mi",
+    "load": "110 lb",
+    "tires": "9in solid",
+    "brakes": "drum + e-brake",
+    "cert": "UL 2272"
+   }
   }
  ]
 }
