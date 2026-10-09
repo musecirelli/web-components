@@ -89,7 +89,7 @@ _BRAND_TRUST = {
     "gotrax": 10, "hiboy": 10, "segway": 10, "phantomgogo": 10,
     "phantom": 10,
     # web-presence white-label (own site, stated warranty)
-    "volpam": 6, "iscooter": 6,
+    "volpam": 6, "iscooter": 6, "ecoroad": 6,
     # marketplace-only default: 4
 }
 

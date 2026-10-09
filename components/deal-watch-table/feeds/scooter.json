@@ -782,7 +782,7 @@
    "retailer": "ECOROAD direct",
    "brand": "ECOROAD",
    "brand_url": "https://ecoroad.com",
-   "rating": 87.0,
+   "rating": 89.0,
    "ruled_out": false,
    "price": 399.99,
    "baseline": 399.99,
@@ -831,6 +831,64 @@
     "load": "264 lb",
     "tires": "10 in all-terrain pneumatic (deep tread)",
     "brakes": "front drum + rear disc + E-ABS",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "ecoroad-es6-direct",
+   "name": "ECOROAD ES6 Electric Scooter, 800W rated (1000W peak), 10-inch off-road tires, dual suspension, 330-lb max load",
+   "url": "https://ecoroad.com/products/es6-electric-scooter",
+   "image": null,
+   "retailer": "ECOROAD direct",
+   "brand": "ECOROAD",
+   "brand_url": "https://ecoroad.com",
+   "rating": 87.5,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 499.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": "off-road",
+   "spec_verification": {
+    "motor": {
+     "status": "conflict",
+     "note": "Brand markets '1000W'; Amazon ES6 tech specs say 800W rated / 1000W peak. Recorded as 800W nominal."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Brand and Amazon agree: 31 mph (modes 9/15/21/31)."
+    },
+    "range": {
+     "status": "conflict",
+     "note": "Brand claims 37 mi; Amazon ES6 listing says 31 mi. Real-world range at his weight will be lower."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Brand and Amazon agree: 330 lb."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Brand: 10-inch pneumatic off-road tires; Amazon: 10x2.75 in."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Brand and Amazon agree: dual disc + EABS."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Brand: passed UL 2272 (TÜV Rheinland)."
+    }
+   },
+   "specs": {
+    "motor": "800W rated / 1000W peak",
+    "speed": "31 mph",
+    "range": "37 mi",
+    "load": "330 lb",
+    "tires": "10 in off-road pneumatic",
+    "brakes": "dual disc + EABS",
     "cert": "UL 2272"
    }
   }
