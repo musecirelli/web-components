@@ -33,6 +33,7 @@ from urllib.parse import urlparse
 HUNTS = {
     "kids-scooter": {
         "title": "Kids Electric Scooter Hunt",
+        "rate": "kids",  # kid-specific quality/spec fit rating per item
         "spec_columns": [
             {"key": "motor", "label": "Motor"},
             {"key": "speed", "label": "Top speed"},
@@ -181,6 +182,100 @@ def rate_item(item):
     return {"rating": round(max(0.0, min(100.0, score)), 1),
             "ruled_out": bool(ruled_out)}
 
+
+# --- automatic quality/spec rating (kids-scooter hunt) -----------------------
+# Steve's rule (2026-10-09): PRICE IS EXCLUDED from the rating — he sorts on
+# price himself. The score (0-100) reflects spec quality vs his needs:
+# 10-year-old rider, ~70-80 lb, slightly hilly pavement, durability first.
+# Weights follow his stated durability criteria: brushless motor, solid
+# puncture-proof tires, dual brakes, UL 2272, payload headroom well above
+# her weight, and brand trust (parts/support longevity).
+# Complexity: O(n*m) time and O(n) extra space, m a small constant.
+KID_RIDER_LB = 80.0
+
+_KID_BRAND_TRUST = {
+    # established brands with real support channels
+    "segway": 10, "ninebot": 10, "razor": 9, "gotrax": 9, "hiboy": 9,
+    "aigo": 6,
+    "simate": 5,
+    # discontinued line on the brand's own site: parts/support risk
+    "fanttikride": 4, "fanttik": 4,
+    # marketplace-only default: 4
+}
+
+
+def _kid_motor_score(motor_s):
+    watts = _first_num(motor_s)
+    brushless = "brushless" in str(motor_s or "").lower()
+    if watts is None:
+        return 8
+    if watts >= 150:
+        return 25 if brushless else 20
+    if watts >= 130:
+        return 16 if brushless else 12
+    return 8 if brushless else 6
+
+
+def _kid_tire_score(tires_s):
+    s = str(tires_s or "").lower()
+    if not s:
+        return 10
+    if any(k in s for k in ("solid", "airless", "flat-free", "flatfree",
+                            "honeycomb")):
+        return 20
+    if "pneumatic" in s:
+        return 8
+    return 10
+
+
+def rate_kids_item(item):
+    """Return {'rating': 0-100, 'ruled_out': bool} for a kids-scooter item."""
+    specs = item.get("specs") or {}
+    ver = item.get("spec_verification") or {}
+    brand = str(item.get("brand") or "").lower()
+    score = 0.0
+
+    score += _kid_motor_score(specs.get("motor"))
+    score += _kid_tire_score(specs.get("tires"))
+
+    brakes = specs.get("brakes")
+    if not brakes:
+        score += 8
+    elif _dual_brakes(brakes):
+        score += 15
+    else:
+        score += 7
+
+    load = _first_num(specs.get("load"))
+    if load is None:
+        score += 8
+    elif load >= 150:
+        score += 15
+    elif load >= 132:
+        score += 12
+    elif load >= 110:
+        score += 10
+    elif load >= 100:
+        score += 7
+    else:
+        score += 4
+    ruled_out = load is not None and load < KID_RIDER_LB
+
+    if str(specs.get("cert") or "").upper().replace(" ", "") == "UL2272":
+        score += 10
+
+    score += _KID_BRAND_TRUST.get(brand, 4)
+
+    verified = sum(1 for v in ver.values()
+                   if isinstance(v, dict) and v.get("status") == "verified")
+    conflicts = sum(1 for v in ver.values()
+                    if isinstance(v, dict) and v.get("status") == "conflict")
+    score += min(verified * 0.5, 5)
+    score -= conflicts * 3
+
+    return {"rating": round(max(0.0, min(100.0, score)), 1),
+            "ruled_out": bool(ruled_out)}
+
 RETAILER_BY_HOST = {
     "amazon.com": "Amazon",
     "walmart.com": "Walmart",
@@ -235,7 +330,13 @@ def main():
             b["image"] = image
             baseline_touched = True
         specs = b.get("specs") or {}
-        rating = rate_item(b) if hunt.get("rate") else {}
+        rate_key = hunt.get("rate")
+        if rate_key == "kids":
+            rating = rate_kids_item(b)
+        elif rate_key:
+            rating = rate_item(b)
+        else:
+            rating = {}
         items.append({
             "id": b["id"],
             "name": b.get("name", b["id"]),
