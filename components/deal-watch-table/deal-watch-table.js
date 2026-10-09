@@ -170,7 +170,18 @@ export class DealWatchTable extends WebComponent {
       .item-cell { display: flex; gap: 10px; align-items: center; min-width: 220px; }
       .item-cell img { width: 56px; height: 56px; object-fit: contain;
         border: 1px solid var(--dealwatch-border, #e0e0e0); border-radius: 6px;
-        background: #fff; flex: none; }
+        background: #fff; flex: none; cursor: zoom-in; }
+      .item-cell .thumb { position: relative; flex: none; line-height: 0; }
+      .item-cell .thumb::after { content: "🔍"; position: absolute; right: 2px; bottom: 2px;
+        font-size: 12px; line-height: 1; opacity: 0; transition: opacity .15s;
+        background: rgba(255,255,255,.85); border-radius: 4px; padding: 1px 2px; }
+      .item-cell .thumb:hover::after { opacity: 1; }
+      .lightbox { position: fixed; inset: 0; z-index: 9999; display: none;
+        align-items: center; justify-content: center;
+        background: rgba(0,0,0,.8); cursor: zoom-out; }
+      .lightbox.open { display: flex; }
+      .lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain;
+        background: #fff; border-radius: 8px; }
       .item-cell a { color: inherit; font-weight: 600; }
       .price { font-weight: 700; white-space: nowrap; }
       .was { color: var(--dealwatch-muted, #666); text-decoration: line-through;
@@ -199,6 +210,9 @@ export class DealWatchTable extends WebComponent {
       </div>
       <div class="meta" id="generated"></div>
       <div class="table-wrap"><div id="body"></div></div>
+      <div class="lightbox" id="lightbox" role="dialog" aria-label="Product image">
+        <img id="lightbox-img" alt="">
+      </div>
       <slot name="footer"></slot>
     `;
     this.shadowRoot.appendChild(wrap);
@@ -211,6 +225,19 @@ export class DealWatchTable extends WebComponent {
       this.#dealsOnly = e.target.checked;
       this.#renderTable();
     });
+
+    // Lightbox: click a thumbnail to zoom, click/Esc to close.
+    const lightbox = this.shadowRoot.getElementById('lightbox');
+    lightbox.addEventListener('click', () => lightbox.classList.remove('open'));
+    this.shadowRoot.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') lightbox.classList.remove('open');
+    });
+  }
+
+  #zoom(src) {
+    const lightbox = this.shadowRoot.getElementById('lightbox');
+    this.shadowRoot.getElementById('lightbox-img').src = src;
+    lightbox.classList.add('open');
   }
 
   #showStatus(msg) {
@@ -301,7 +328,7 @@ export class DealWatchTable extends WebComponent {
         : it.in_stock === false ? 'Out of stock' : 'Unknown';
       const badges = (it.badges || []).map((b) => `<span class="badge">${this.#esc(b)}</span>`).join('');
       const img = it.image
-        ? `<img loading="lazy" src="${this.#esc(it.image)}" alt="">`
+        ? `<span class="thumb"><img loading="lazy" src="${this.#esc(it.image)}" alt="" data-full="${this.#esc(it.image)}"></span>`
         : '';
       html += '<tr>';
       html += `<td><div class="item-cell">${img}<div><a href="${this.#esc(it.url)}" target="_blank" rel="noopener">${this.#esc(it.name)}</a><div>${badges}</div></div></div></td>`;
@@ -332,6 +359,13 @@ export class DealWatchTable extends WebComponent {
       el.addEventListener('click', go);
       el.addEventListener('keydown', (e) => {
         if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); }
+      });
+    });
+
+    body.querySelectorAll('.thumb img').forEach((img) => {
+      img.addEventListener('click', (e) => {
+        e.stopPropagation();
+        this.#zoom(img.getAttribute('data-full'));
       });
     });
   }

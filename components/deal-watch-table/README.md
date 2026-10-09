@@ -41,6 +41,15 @@ tools/export-deal-feed.py --hunt kids-scooter \
   --out components/deal-watch-table/feeds/kids-scooter.json
 ```
 
+## Images
+
+Thumbnails are **hotlinked** from the retailer's own image URLs — nothing is
+downloaded or cached. The price checker captures each product's main image
+URL during its normal page visit (no extra requests) and the feed exporter
+persists new URLs back into the baseline. Thumbnails render at 56px; click
+one (or the 🔍 badge on hover) to open a full-size lightbox, click or Esc to
+close. Rows without an image URL render without a thumbnail.
+
 ## Theming
 
 Style via CSS custom properties on the element:

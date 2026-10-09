@@ -145,5 +145,22 @@ console.log('Test 7: change cell coloring and stock labels');
   assert(nullPrice.textContent.trim() === '—', 'null price renders as dash');
 }
 
+console.log('Test 8: clicking a thumbnail opens the lightbox; click closes it');
+{
+  // Give the first item an image so a thumbnail renders.
+  feed.items[0].image = 'http://x/img-a.jpg';
+  const el = makeTable();
+  const thumb = el.shadowRoot.querySelector('.thumb img');
+  assert(!!thumb, 'thumbnail rendered for item with image');
+  thumb.click();
+  const lightbox = el.shadowRoot.getElementById('lightbox');
+  assert(lightbox.classList.contains('open'), 'lightbox opens on thumbnail click');
+  assert(el.shadowRoot.getElementById('lightbox-img').getAttribute('src') === 'http://x/img-a.jpg',
+    'lightbox shows the full-size image URL');
+  lightbox.click();
+  assert(!lightbox.classList.contains('open'), 'lightbox closes on click');
+  feed.items[0].image = '';
+}
+
 if (failures) { console.log(`\n${failures} FAILURES`); process.exit(1); }
 console.log('\nAll deal-watch-table tests passed.');

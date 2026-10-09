@@ -102,6 +102,7 @@ def main():
     checked_at = check.get("checked_at")
 
     items = []
+    baseline_touched = False
     for b in baseline.get("items", []):
         r = by_id.get(b["id"], {})
         price = r.get("price")
@@ -109,6 +110,13 @@ def main():
         change = None
         if isinstance(price, (int, float)) and isinstance(base_price, (int, float)):
             change = round(price - base_price, 2)
+        # Image URLs are hotlinked, never downloaded. Prefer the baseline's
+        # stored URL; adopt a newly seen one from the check and persist it
+        # back to the baseline so it survives failed future checks.
+        image = b.get("image") or r.get("image") or None
+        if image and not b.get("image"):
+            b["image"] = image
+            baseline_touched = True
         specs = b.get("specs") or {}
         items.append({
             "id": b["id"],
@@ -126,6 +134,10 @@ def main():
             "confidence": r.get("confidence"),
             "specs": {c["key"]: specs.get(c["key"]) for c in hunt["spec_columns"]},
         })
+
+    if baseline_touched:
+        Path(args.baseline).write_text(
+            json.dumps(baseline, indent=2, ensure_ascii=False) + "\n")
 
     feed = {
         "hunt": args.hunt,
