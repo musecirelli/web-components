@@ -103,7 +103,8 @@ def _dual_brakes(s):
     s = str(s or "").lower()
     if "dual" in s:
         return True
-    kinds = ["drum", "disc", "electronic", "eabs", "e-abs", "e-brake", "electric"]
+    kinds = ["drum", "disc", "electronic", "electromagnetic", "eabs", "e-abs",
+             "e-brake", "electric"]
     return sum(1 for k in kinds if k in s) >= 2
 
 

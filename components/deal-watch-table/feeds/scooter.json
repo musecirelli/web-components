@@ -44,7 +44,7 @@
    "retailer": "Walmart",
    "brand": "GOTRAX",
    "brand_url": "https://gotrax.com",
-   "rating": 92.5,
+   "rating": 95.0,
    "ruled_out": false,
    "price": 479.99,
    "baseline": 479.99,
@@ -72,12 +72,16 @@
      "note": "Ad and GOTRAX agree: 264 lb"
     },
     "tires": {
-     "status": "verified",
-     "note": "Ad and GOTRAX agree: 10 in pneumatic"
+     "status": "conflict",
+     "note": "Ad body (G4 PRO listing) states 10-inch solid puncture-resistant tires; brand reference lists 10 in pneumatic (likely base G4)"
     },
     "brakes": {
-     "status": "unverified",
-     "note": "From GOTRAX specs; ad brake claim not yet checked on live page"
+     "status": "verified",
+     "note": "Ad body: front electromagnetic + rear disc brakes"
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Ad body (sold/shipped by GOTRAX) claims UL 2272 safety certification"
     }
    },
    "specs": {
@@ -85,9 +89,9 @@
     "speed": "20 mph",
     "range": "25 mi",
     "load": "264 lb",
-    "tires": "10in",
-    "brakes": "rear disc + EABS",
-    "cert": null
+    "tires": "10 in solid",
+    "brakes": "front electromagnetic + rear disc",
+    "cert": "UL 2272"
    }
   },
   {
@@ -98,7 +102,7 @@
    "retailer": "Amazon",
    "brand": "VOLPAM",
    "brand_url": "https://www.volpam.com/product/volpam-electric-scooter-sp01/",
-   "rating": 78.5,
+   "rating": 85.5,
    "ruled_out": false,
    "price": 279.0,
    "baseline": 279.0,
@@ -117,29 +121,33 @@
      "note": "Ad and VOLPAM agree: 500W"
     },
     "speed": {
-     "status": "unverified",
-     "note": "Ad reads 19 mph; brand SP08 lists 22 mph — exact VOLPAM variant unconfirmed"
+     "status": "verified",
+     "note": "Ad title and body agree: 19 mph (brand SP08 manual lists 22 mph — likely speed-limited variant)"
     },
     "range": {
-     "status": "unverified",
-     "note": "Ad reads 25 mi; brand SP08 lists 22 mi — exact variant unconfirmed"
+     "status": "conflict",
+     "note": "Ad title claims 25 mi but ad body bullet says 23 mi; brand SP08 lists 22 mi — listing internally inconsistent"
     },
     "load": {
-     "status": "unverified",
-     "note": "Ad claims 265 lb; brand SP08 lists 264 lb — confirm variant"
+     "status": "verified",
+     "note": "Ad technical details: 264 lb"
     },
     "tires": {
-     "status": "unverified",
-     "note": "Ad: 10 in; brand SP08: 10 in solid honeycomb"
+     "status": "verified",
+     "note": "Ad: 10 in solid tires"
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Ad body: drum brake + EBS electronic braking system"
     }
    },
    "specs": {
     "motor": "500W",
     "speed": "19 mph",
     "range": "25 mi",
-    "load": "265 lb",
-    "tires": "10in",
-    "brakes": null,
+    "load": "264 lb",
+    "tires": "10 in solid",
+    "brakes": "drum + EBS electronic (dual)",
     "cert": null
    }
   },
@@ -151,7 +159,7 @@
    "retailer": "Amazon",
    "brand": "Hiboy",
    "brand_url": "https://www.hiboy.com/products/hiboy-s2pro-electric-scooter-for-daily-commuting",
-   "rating": 79.0,
+   "rating": 83.0,
    "ruled_out": false,
    "price": 399.99,
    "baseline": 399.99,
@@ -174,8 +182,8 @@
      "note": "Ad and Hiboy agree: 19 mph"
     },
     "range": {
-     "status": "conflict",
-     "note": "Ad body claims 25.6 mi (title says 25 mi); Hiboy rates 25 mi"
+     "status": "verified",
+     "note": "Ad body and Hiboy agree: 25 mi"
     },
     "load": {
      "status": "verified",
@@ -186,14 +194,14 @@
      "note": "Ad and Hiboy agree: 10 in solid honeycomb"
     },
     "brakes": {
-     "status": "unverified",
-     "note": "From Hiboy specs (e-brake + rear disc); ad brake claim not yet checked"
+     "status": "verified",
+     "note": "Ad body: Double Braking System (brand specifies e-brake + rear disc)"
     }
    },
    "specs": {
     "motor": "500W",
     "speed": "19 mph",
-    "range": "25.6 mi",
+    "range": "25 mi",
     "load": "220 lb",
     "tires": "10in solid",
     "brakes": "e-brake + rear disc",
@@ -208,7 +216,7 @@
    "retailer": "Walmart",
    "brand": "Hiboy",
    "brand_url": "https://www.hiboy.com/products/hiboy-s2pro-electric-scooter-for-daily-commuting",
-   "rating": 79.0,
+   "rating": 83.0,
    "ruled_out": false,
    "price": 422.97,
    "baseline": 422.97,
@@ -228,8 +236,8 @@
      "note": "Ad and Hiboy agree: 19 mph"
     },
     "range": {
-     "status": "conflict",
-     "note": "Ad body claims 25.6 mi (title says 25 mi); Hiboy rates 25 mi"
+     "status": "verified",
+     "note": "Ad body and Hiboy agree: 25 mi"
     },
     "load": {
      "status": "verified",
@@ -240,14 +248,14 @@
      "note": "Ad and Hiboy agree: 10 in solid honeycomb"
     },
     "brakes": {
-     "status": "unverified",
-     "note": "From Hiboy specs (e-brake + rear disc); ad brake claim not yet checked"
+     "status": "verified",
+     "note": "Ad body: dual braking system with disc brakes and eABS"
     }
    },
    "specs": {
     "motor": "500W",
     "speed": "19 mph",
-    "range": "25.6 mi",
+    "range": "25 mi",
     "load": "220 lb",
     "tires": "10in solid",
     "brakes": "e-brake + rear disc",
@@ -262,7 +270,7 @@
    "retailer": "Walmart",
    "brand": "iScooter",
    "brand_url": "https://www.iscooterglobal.co.uk",
-   "rating": 87.0,
+   "rating": 88.0,
    "ruled_out": false,
    "price": 199.99,
    "baseline": 199.99,
@@ -292,12 +300,12 @@
      "note": "Ad title and brand-seller listings agree: 264 lb"
     },
     "tires": {
-     "status": "unverified",
-     "note": "From brand-seller listing (10 in pneumatic); ad tire claim not yet checked"
+     "status": "verified",
+     "note": "Ad body: 10-inch pneumatic tires (500W/23-mile variant selected)"
     },
     "brakes": {
-     "status": "unverified",
-     "note": "Per Walmart ad specs; live-page confirmation pending"
+     "status": "verified",
+     "note": "Ad body: dual brake system, disc + EABS anti-lock brakes"
     }
    },
    "specs": {
@@ -306,7 +314,7 @@
     "range": "23 mi",
     "load": "264 lb",
     "tires": "10 in pneumatic",
-    "brakes": "rear disc + handlebar electronic",
+    "brakes": "disc + EABS anti-lock (dual)",
     "cert": null
    }
   },
@@ -354,11 +362,11 @@
     },
     "brakes": {
      "status": "unverified",
-     "note": "From Hiboy specs; ad brake claim not yet checked"
+     "note": "Ad body does not state brake type explicitly; from Hiboy specs (front EABS + rear disc)"
     },
     "cert": {
      "status": "unverified",
-     "note": "From brand-adjacent docs (per dealer spec page; confirm on Hiboy); ad claim not yet checked"
+     "note": "Ad body does not claim UL 2272; per dealer spec page"
     }
    },
    "specs": {
@@ -379,7 +387,7 @@
    "retailer": "Walmart",
    "brand": "Hiboy",
    "brand_url": "https://www.hiboy.com/blogs/news/hiboy-launches-an-upgraded-version-of-the-s2-series-s2-max-in-2022",
-   "rating": 81.5,
+   "rating": 79.0,
    "ruled_out": false,
    "price": 489.99,
    "baseline": 465.47,
@@ -404,15 +412,15 @@
     },
     "load": {
      "status": "unverified",
-     "note": "From Hiboy specs (220 lb); ad load claim not yet checked"
+     "note": "Ad body does not state max load; from Hiboy specs (220 lb)"
     },
     "tires": {
-     "status": "unverified",
-     "note": "From Hiboy specs (10 in air-filled); ad tire claim not yet checked"
+     "status": "conflict",
+     "note": "Ad title claims 10 in air-filled (brand agrees); ad body bullets say 8.5-inch solid — listing internally inconsistent"
     },
     "brakes": {
-     "status": "unverified",
-     "note": "From Hiboy specs; ad brake claim not yet checked"
+     "status": "verified",
+     "note": "Ad body: double braking system with disc + ABS regenerative"
     }
    },
    "specs": {
@@ -433,7 +441,7 @@
    "retailer": "Amazon",
    "brand": "Segway",
    "brand_url": "https://ap-en.segway.com/ekickscooter/products/e2-pro.html",
-   "rating": 71.0,
+   "rating": 77.0,
    "ruled_out": false,
    "price": 398.99,
    "baseline": 398.99,
@@ -457,29 +465,33 @@
     },
     "range": {
      "status": "conflict",
-     "note": "Ad claims 25-mile range; Segway rates 27 km (16.8 mi) at max speed, 40 km (24.9 mi) only in eco mode"
+     "note": "Ad headline claims 25-mile range; ad's own spec table shows 24.9 mi eco / 21.7 mi D / 16.8 mi sport — 25 mi only in eco mode at 9.3 mph"
     },
     "load": {
-     "status": "unverified",
-     "note": "Segway official: 120 kg (264 lb); some regional pages list 100 kg / 220 lb"
+     "status": "verified",
+     "note": "Ad technical details: 265 lb"
     },
     "tires": {
      "status": "unverified",
-     "note": "From Segway specs; ad tire claim not yet checked"
+     "note": "Ad body does not clearly state E2 Pro tire size; from Segway specs (10 in tubeless pneumatic)"
     },
     "brakes": {
+     "status": "verified",
+     "note": "Ad body: front drum + rear electric brake"
+    },
+    "cert": {
      "status": "unverified",
-     "note": "From Segway specs; ad brake claim not yet checked"
+     "note": "Ad title claims UL 2272 & 2271 certified; not confirmed on Segway spec page"
     }
    },
    "specs": {
     "motor": "350W",
     "speed": "15.5 mph",
     "range": "24.9 mi",
-    "load": "264 lb",
+    "load": "265 lb",
     "tires": "10 in tubeless pneumatic",
     "brakes": "front drum + rear electronic",
-    "cert": null
+    "cert": "UL 2272"
    }
   },
   {
@@ -490,7 +502,7 @@
    "retailer": "Costco",
    "brand": "Phantom",
    "brand_url": "https://phantomgogo.com",
-   "rating": 77.0,
+   "rating": 79.0,
    "ruled_out": false,
    "price": 399.99,
    "baseline": 399.99,
@@ -504,32 +516,32 @@
    "category": null,
    "spec_verification": {
     "motor": {
-     "status": "unverified",
-     "note": "From Phantomgogo brand specs; Costco ad claim not yet checked"
+     "status": "verified",
+     "note": "Ad body and brand agree: 400W rear hub"
     },
     "speed": {
-     "status": "unverified",
-     "note": "From Phantomgogo brand specs; Costco ad claim not yet checked"
+     "status": "verified",
+     "note": "Ad body and brand agree: 15.5 mph"
     },
     "range": {
-     "status": "unverified",
-     "note": "From Phantomgogo brand specs; Costco ad claim not yet checked"
+     "status": "verified",
+     "note": "Ad body and brand agree: 28 mi"
     },
     "load": {
-     "status": "unverified",
-     "note": "Brand rates 220 lb; one third-party source claims 265 lb — treat as unverified"
+     "status": "verified",
+     "note": "Ad body and brand agree: 220 lb (resolves third-party 265 lb claim)"
     },
     "tires": {
      "status": "unverified",
-     "note": "From Phantomgogo brand specs; Costco ad claim not yet checked"
+     "note": "Ad spec skeleton does not list tires; from Phantomgogo brand specs (10 in pneumatic)"
     },
     "brakes": {
      "status": "unverified",
-     "note": "From Phantomgogo brand specs; Costco ad claim not yet checked"
+     "note": "Ad spec skeleton does not list brakes; from Phantomgogo brand specs (front drum + rear electronic)"
     },
     "cert": {
      "status": "unverified",
-     "note": "From brand-adjacent docs (per third-party spec roundup; confirm on Phantomgogo/Costco page); ad claim not yet checked"
+     "note": "Ad spec skeleton does not list certification; per third-party spec roundup (UL 2272)"
     }
    },
    "specs": {
