@@ -53,7 +53,7 @@
    "in_stock": true,
    "badges": [],
    "confidence": "high",
-   "category": null,
+   "category": "commuter",
    "spec_verification": {
     "motor": {
      "status": "verified",
@@ -114,7 +114,7 @@
     "sale"
    ],
    "confidence": "high",
-   "category": null,
+   "category": "commuter",
    "spec_verification": {
     "motor": {
      "status": "verified",
@@ -171,7 +171,7 @@
     "sale"
    ],
    "confidence": "high",
-   "category": null,
+   "category": "commuter",
    "spec_verification": {
     "motor": {
      "status": "verified",
@@ -225,7 +225,7 @@
    "in_stock": true,
    "badges": [],
    "confidence": "high",
-   "category": null,
+   "category": "commuter",
    "spec_verification": {
     "motor": {
      "status": "verified",
@@ -270,7 +270,7 @@
    "retailer": "Walmart",
    "brand": "iScooter",
    "brand_url": "https://www.iscooterglobal.com",
-   "rating": 76.0,
+   "rating": 67.5,
    "ruled_out": false,
    "price": 199.99,
    "baseline": 199.99,
@@ -281,7 +281,7 @@
     "save $"
    ],
    "confidence": "high",
-   "category": null,
+   "category": "commuter",
    "spec_verification": {
     "motor": {
      "status": "conflict",
@@ -326,7 +326,7 @@
    "retailer": "Walmart",
    "brand": "Hiboy",
    "brand_url": "https://www.hiboy.com/products/hiboy-ks4-pro-advanced-commuter-electric-scooter",
-   "rating": 87.5,
+   "rating": 84.5,
    "ruled_out": false,
    "price": 399.99,
    "baseline": 399.99,
@@ -338,7 +338,7 @@
     "save $"
    ],
    "confidence": "high",
-   "category": null,
+   "category": "commuter",
    "spec_verification": {
     "motor": {
      "status": "verified",
@@ -387,7 +387,7 @@
    "retailer": "Walmart",
    "brand": "Hiboy",
    "brand_url": "https://www.hiboy.com/blogs/news/hiboy-launches-an-upgraded-version-of-the-s2-series-s2-max-in-2022",
-   "rating": 79.0,
+   "rating": 77.5,
    "ruled_out": false,
    "price": 489.99,
    "baseline": 465.47,
@@ -396,7 +396,7 @@
    "in_stock": true,
    "badges": [],
    "confidence": "high",
-   "category": null,
+   "category": "commuter",
    "spec_verification": {
     "motor": {
      "status": "verified",
@@ -441,7 +441,7 @@
    "retailer": "Amazon",
    "brand": "Segway",
    "brand_url": "https://ap-en.segway.com/ekickscooter/products/e2-pro.html",
-   "rating": 77.0,
+   "rating": 74.0,
    "ruled_out": false,
    "price": 398.99,
    "baseline": 398.99,
@@ -453,7 +453,7 @@
     "sale"
    ],
    "confidence": "high",
-   "category": null,
+   "category": "commuter",
    "spec_verification": {
     "motor": {
      "status": "verified",
@@ -502,7 +502,7 @@
    "retailer": "Costco",
    "brand": "Phantom",
    "brand_url": "https://phantomgogo.com",
-   "rating": 79.0,
+   "rating": 74.5,
    "ruled_out": false,
    "price": 399.99,
    "baseline": 399.99,
@@ -513,7 +513,7 @@
     "sale"
    ],
    "confidence": "high",
-   "category": null,
+   "category": "commuter",
    "spec_verification": {
     "motor": {
      "status": "verified",
@@ -562,7 +562,7 @@
    "retailer": "Temu",
    "brand": "Blutron",
    "brand_url": "https://www.temu.com/-100-65-foldable-electric-scooter--scooter-500w-brushless-motor-w-40mi-max-operating-range-20-mph-max-speend-grey-g-610420261810913.html",
-   "rating": 75.0,
+   "rating": 73.5,
    "ruled_out": false,
    "price": 260.73,
    "baseline": 260.73,
@@ -571,7 +571,7 @@
    "in_stock": true,
    "badges": [],
    "confidence": "high",
-   "category": null,
+   "category": "commuter",
    "spec_verification": {
     "motor": {
      "status": "conflict",
@@ -605,6 +605,172 @@
     "load": "265 lb",
     "tires": "10 in pneumatic",
     "brakes": "front drum + rear electric",
+    "cert": null
+   }
+  },
+  {
+   "id": "generic-500w-air-walmart",
+   "name": "Electric Scooter for Adults, 500W, 10-inch Air Tires, Dual Brakes (Walmart white-label)",
+   "url": "https://www.walmart.com/ip/Electric-Scooter-for-Adults-500W-Motor-10-Air-Tires-Portable-Commuting-Scooter/17794424729",
+   "image": "https://i5.walmartimages.com/seo/Electric-Scooter-for-Adults-500W-Motor-10-Air-Tires-Portable-Commuting-Scooter_d0506473-6934-4792-a72e-3c169ca0ee9e.f0bc72c7cef8d89e2b3b6e613619965c.jpeg",
+   "retailer": "Walmart",
+   "brand": "Generic",
+   "brand_url": null,
+   "rating": 78.5,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 219.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad claims 500W brushless."
+    },
+    "speed": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad claims 25 mph (3 modes: 10/16/25)."
+    },
+    "range": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad claims 25 mi (36V 15Ah)."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad claims 330 lb."
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad claims 10-in air tires."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad claims dual drum+disc."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad claims UL2272."
+    }
+   },
+   "specs": {
+    "motor": "500W",
+    "speed": "25 mph",
+    "range": "25 mi",
+    "load": "330 lb",
+    "tires": "10 in pneumatic",
+    "brakes": "drum + disc (dual)",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "generic-500w-10in-amazon",
+   "name": "Electric Scooter 500W, 10-inch Tires, 25MPH, 265-lb Load (Amazon white-label)",
+   "url": "https://www.amazon.com/dp/B0H1L8F55M",
+   "image": null,
+   "retailer": "Amazon",
+   "brand": "Generic",
+   "brand_url": null,
+   "rating": 70.0,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 249.0,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad claims 500W."
+    },
+    "speed": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad claims 25 mph."
+    },
+    "range": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad claims 22 mi (36V 8Ah; 12Ah variant also listed)."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad claims 265 lb."
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad claims 10-in tires."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad claims dual e-brake + drum."
+    }
+   },
+   "specs": {
+    "motor": "500W",
+    "speed": "25 mph",
+    "range": "22 mi",
+    "load": "265 lb",
+    "tires": "10 in",
+    "brakes": "e-brake + drum (dual)",
+    "cert": null
+   }
+  },
+  {
+   "id": "generic-500w-25mph-walmart",
+   "name": "Electric Scooter for Adults, 500W, 10-inch Tires, 25MPH, 265-lb Load (Walmart white-label)",
+   "url": "https://www.walmart.com/ip/19449800797",
+   "image": null,
+   "retailer": "Walmart",
+   "brand": "Generic",
+   "brand_url": null,
+   "rating": 67.0,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 199.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad claims 500W."
+    },
+    "speed": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad claims 25 mph."
+    },
+    "range": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad claims 25 mi."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad body: 'Max Load is 265lbs'."
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad claims 10-in tires."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "White-label marketplace listing; no brand site to match the model against (Steve's 2026-10-09 white-label rule). Specs below are from the ad only, not brand-confirmed. Ad does not state brake type."
+    }
+   },
+   "specs": {
+    "motor": "500W",
+    "speed": "25 mph",
+    "range": "25 mi",
+    "load": "265 lb",
+    "tires": "10 in",
+    "brakes": null,
     "cert": null
    }
   }

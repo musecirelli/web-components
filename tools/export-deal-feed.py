@@ -87,9 +87,9 @@ RIDER_LB = 220.0
 _BRAND_TRUST = {
     # established brands with real support channels
     "gotrax": 10, "hiboy": 10, "segway": 10, "phantomgogo": 10,
-    "phantom": 10, "iscooter": 10,
+    "phantom": 10,
     # web-presence white-label (own site, stated warranty)
-    "volpam": 6,
+    "volpam": 6, "iscooter": 6,
     # marketplace-only default: 4
 }
 
@@ -177,7 +177,10 @@ def rate_item(item):
                    if isinstance(v, dict) and v.get("status") == "verified")
     conflicts = sum(1 for v in ver.values()
                     if isinstance(v, dict) and v.get("status") == "conflict")
+    unverified = sum(1 for v in ver.values()
+                       if isinstance(v, dict) and v.get("status") == "unverified")
     score += min(verified * 0.5, 5)
+    score -= unverified * 1.5
     score -= conflicts * 3
 
     return {"rating": round(max(0.0, min(100.0, score)), 1),
@@ -271,7 +274,10 @@ def rate_kids_item(item):
                    if isinstance(v, dict) and v.get("status") == "verified")
     conflicts = sum(1 for v in ver.values()
                     if isinstance(v, dict) and v.get("status") == "conflict")
+    unverified = sum(1 for v in ver.values()
+                       if isinstance(v, dict) and v.get("status") == "unverified")
     score += min(verified * 0.5, 5)
+    score -= unverified * 1.5
     score -= conflicts * 3
 
     return {"rating": round(max(0.0, min(100.0, score)), 1),
