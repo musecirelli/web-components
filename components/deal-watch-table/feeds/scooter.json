@@ -773,6 +773,66 @@
     "brakes": null,
     "cert": null
    }
+  },
+  {
+   "id": "ecoroad-ec10-direct",
+   "name": "ECOROAD EC10 Electric Scooter, 500W rated (750W peak), 10-inch all-terrain tires, dual suspension, 264-lb max load",
+   "url": "https://ecoroad.com/products/ec10-electric-scooter",
+   "image": "https://ecoroad.com/cdn/shop/files/cfab60e71e492da0f6ea9bdf3e720203.png?v=1785293861&width=1080",
+   "retailer": "ECOROAD direct",
+   "brand": "ECOROAD",
+   "brand_url": "https://ecoroad.com",
+   "rating": 87.0,
+   "ruled_out": false,
+   "price": 399.99,
+   "baseline": 399.99,
+   "was": 449.99,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "11%OFF"
+   ],
+   "confidence": "high",
+   "category": "off-road",
+   "spec_verification": {
+    "motor": {
+     "status": "conflict",
+     "note": "Brand site markets '750W motor'; Amazon tech specs for EC10 say Rated 500W (Peak 750W). Recorded as 500W nominal / 750W peak; nominal meets 500W criterion."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Brand site and Amazon agree: 25 mph (12/18/25 modes)"
+    },
+    "range": {
+     "status": "unverified",
+     "note": "Brand site claims up to 35 mi (36V 15Ah/540Wh); Amazon 36V 13.5Ah variant lists 25-32 mi. Possible battery variants; recorded 35 mi from brand site."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Brand site and Amazon agree: 264 lb"
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Brand site: 10-inch all-terrain tires with deep tread; Amazon: 10x2.5 in pneumatic"
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Brand site and Amazon agree: front drum + rear disc + E-ABS"
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Brand site: UL 2272 tested by TÜV Rheinland"
+    }
+   },
+   "specs": {
+    "motor": "500W rated / 750W peak",
+    "speed": "25 mph",
+    "range": "35 mi",
+    "load": "264 lb",
+    "tires": "10 in all-terrain pneumatic (deep tread)",
+    "brakes": "front drum + rear disc + E-ABS",
+    "cert": "UL 2272"
+   }
   }
  ]
 }
