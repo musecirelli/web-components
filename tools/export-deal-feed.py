@@ -24,6 +24,7 @@ Prints a JSON summary to stdout:
 import argparse
 import hashlib
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -44,6 +45,7 @@ HUNTS = {
     },
     "scooter": {
         "title": "Electric Scooter Hunt",
+        "rate": True,  # compute automatic quality/spec fit rating per item
         "spec_columns": [
             {"key": "motor", "label": "Motor"},
             {"key": "speed", "label": "Top speed"},
@@ -51,6 +53,7 @@ HUNTS = {
             {"key": "load", "label": "Max load"},
             {"key": "tires", "label": "Tires"},
             {"key": "brakes", "label": "Brakes"},
+            {"key": "cert", "label": "Certification"},
         ],
     },
     "ride-on": {
@@ -64,6 +67,119 @@ HUNTS = {
         ],
     },
 }
+
+# Certification values link to the standard's documentation where possible.
+# (The UL 2272 spec text itself is paywalled; the UL Standards Academy case
+# study is the closest official public explainer.)
+CERT_LINKS = {
+    "UL 2272": "https://standardsacademy.org/wp-content/uploads/2025/02/UL-2272-Case-Study_v5.pdf",
+}
+
+# --- automatic quality/spec rating (adult-scooter hunt) ---------------------
+# Steve's rule (2026-10-09): PRICE IS EXCLUDED from the rating — he sorts on
+# price himself. The score (0-100) reflects spec quality vs his needs:
+# 212-220 lb rider, slightly hilly pavement. Complexity: O(n*m) time and O(n)
+# extra space for n items and m spec fields; m is a small constant, so
+# effectively O(n) time / O(n) space.
+RIDER_LB = 220.0
+
+_BRAND_TRUST = {
+    # established brands with real support channels
+    "gotrax": 10, "hiboy": 10, "segway": 10, "phantomgogo": 10,
+    "phantom": 10, "iscooter": 10,
+    # web-presence white-label (own site, stated warranty)
+    "volpam": 6,
+    # marketplace-only default: 4
+}
+
+
+def _first_num(s):
+    m = re.search(r"(\d+(?:\.\d+)?)", str(s or ""))
+    return float(m.group(1)) if m else None
+
+
+def _dual_brakes(s):
+    s = str(s or "").lower()
+    if "dual" in s:
+        return True
+    kinds = ["drum", "disc", "electronic", "eabs", "e-abs", "e-brake", "electric"]
+    return sum(1 for k in kinds if k in s) >= 2
+
+
+def rate_item(item):
+    """Return {'rating': 0-100, 'ruled_out': bool} for an adult-scooter item."""
+    specs = item.get("specs") or {}
+    ver = item.get("spec_verification") or {}
+    brand = str(item.get("brand") or "").lower()
+    score = 0.0
+
+    load = _first_num(specs.get("load"))
+    if load is None:
+        score += 8
+    elif load >= 264:
+        score += 25
+    elif load >= RIDER_LB:
+        score += 15
+    ruled_out = load is not None and load < RIDER_LB
+
+    motor = _first_num(specs.get("motor"))  # nominal (first) wattage figure
+    if motor is None:
+        score += 6
+    elif motor >= 500:
+        score += 20
+    elif motor >= 400:
+        score += 12
+    elif motor >= 350:
+        score += 8
+    else:
+        score += 4
+
+    rng = item.get("realistic_range_mi")
+    if rng is None:
+        rng = _first_num(specs.get("range"))
+    if rng is None:
+        score += 5
+    elif rng >= 25:
+        score += 15
+    elif rng >= 20:
+        score += 10
+    elif rng >= 15:
+        score += 6
+    else:
+        score += 3
+
+    brakes = specs.get("brakes")
+    if not brakes:
+        score += 2
+    elif _dual_brakes(brakes):
+        score += 10
+    else:
+        score += 5
+
+    tires = _first_num(specs.get("tires"))
+    if tires is None:
+        score += 3
+    elif tires >= 10:
+        score += 10
+    elif tires >= 8.5:
+        score += 6
+    else:
+        score += 3
+
+    score += _BRAND_TRUST.get(brand, 4)
+
+    if str(specs.get("cert") or "").upper().replace(" ", "") == "UL2272":
+        score += 5
+
+    verified = sum(1 for v in ver.values()
+                   if isinstance(v, dict) and v.get("status") == "verified")
+    conflicts = sum(1 for v in ver.values()
+                    if isinstance(v, dict) and v.get("status") == "conflict")
+    score += min(verified * 0.5, 5)
+    score -= conflicts * 3
+
+    return {"rating": round(max(0.0, min(100.0, score)), 1),
+            "ruled_out": bool(ruled_out)}
 
 RETAILER_BY_HOST = {
     "amazon.com": "Amazon",
@@ -119,6 +235,7 @@ def main():
             b["image"] = image
             baseline_touched = True
         specs = b.get("specs") or {}
+        rating = rate_item(b) if hunt.get("rate") else {}
         items.append({
             "id": b["id"],
             "name": b.get("name", b["id"]),
@@ -126,6 +243,9 @@ def main():
             "image": b.get("image") or None,
             "retailer": retailer_for(b),
             "brand": b.get("brand", ""),
+            "brand_url": b.get("brand_url") or None,
+            "rating": rating.get("rating"),
+            "ruled_out": rating.get("ruled_out", False),
             "price": price,
             "baseline": base_price,
             "was": r.get("was_price"),
@@ -147,6 +267,7 @@ def main():
         "title": hunt["title"],
         "generated": checked_at or datetime.now(timezone.utc).isoformat(),
         "spec_columns": hunt["spec_columns"],
+        "cert_links": CERT_LINKS,
         "items": items,
     }
 

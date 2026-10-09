@@ -72,9 +72,22 @@ See `tools/export-deal-feed.py` for the converter.
 Optional item fields:
 - `category` — e.g. `"commuter"` or `"off-road"`. When any item in the feed
   has a category, the table renders a sortable Category column.
+- `brand_url` — link for the Brand column cell, pointing at the brand's or
+  model's information page or sales page.
+- `rating` — numeric quality/spec fit score (0-100, price excluded). When any
+  item carries a rating, the table renders a sortable Rating column with a
+  red→green gradient and sorts by rating descending by default.
+- `ruled_out` — boolean. Ruled-out rows render dimmed at the bottom; a
+  toolbar "show ruled-out" checkbox (shown only when some item is ruled
+  out) hides them entirely.
 - `spec_verification` — per-spec verification state against the brand's own
   site/manuals, e.g.
   `"spec_verification": {"motor": {"status": "conflict", "note": "Brand lists 400W nominal; ad claims 500W"}}`.
   `status` is one of `verified`, `unverified`, `conflict`. Unverified and
   conflicting cells render in red with a ⓘ hover icon carrying the note
   (defaulting to "Could not be verified against the brand's website").
+
+Optional feed fields:
+- `cert_links` — maps certification values to documentation URLs, e.g.
+  `{"UL 2272": "https://…"}`. A `cert` spec cell whose value appears in this
+  map renders as a link.

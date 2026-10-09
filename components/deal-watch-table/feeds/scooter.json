@@ -26,8 +26,15 @@
   {
    "key": "brakes",
    "label": "Brakes"
+  },
+  {
+   "key": "cert",
+   "label": "Certification"
   }
  ],
+ "cert_links": {
+  "UL 2272": "https://standardsacademy.org/wp-content/uploads/2025/02/UL-2272-Case-Study_v5.pdf"
+ },
  "items": [
   {
    "id": "gotrax-g4-walmart",
@@ -36,6 +43,9 @@
    "image": "https://i5.walmartimages.com/seo/GOTRAX-G4-Adult-Electric-Scooter-10inch-Tires-20MPH-25mile-Range-Folding-Frame-and-2-Gear-Speed-Commuter-E-Scooter-for-Adult_269bdbec-c2cb-4ed6-9f70-a06034fa2293.6df2e0d6a1f6110e7d155c6380c14b4c.jpeg",
    "retailer": "Walmart",
    "brand": "GOTRAX",
+   "brand_url": "https://gotrax.com",
+   "rating": 92.5,
+   "ruled_out": false,
    "price": 479.99,
    "baseline": 479.99,
    "was": null,
@@ -76,7 +86,8 @@
     "range": "25 mi",
     "load": "264 lb",
     "tires": "10in",
-    "brakes": "rear disc + EABS"
+    "brakes": "rear disc + EABS",
+    "cert": null
    }
   },
   {
@@ -86,6 +97,9 @@
    "image": "https://m.media-amazon.com/images/I/71IOrNEfKUL._AC_SL1500_.jpg",
    "retailer": "Amazon",
    "brand": "VOLPAM",
+   "brand_url": "https://www.volpam.com/product/volpam-electric-scooter-sp01/",
+   "rating": 78.5,
+   "ruled_out": false,
    "price": 279.0,
    "baseline": 279.0,
    "was": 349.99,
@@ -125,7 +139,8 @@
     "range": "25 mi",
     "load": "265 lb",
     "tires": "10in",
-    "brakes": null
+    "brakes": null,
+    "cert": null
    }
   },
   {
@@ -135,6 +150,9 @@
    "image": "https://m.media-amazon.com/images/I/61gggOqhLXL._AC_SL1500_.jpg",
    "retailer": "Amazon",
    "brand": "Hiboy",
+   "brand_url": "https://www.hiboy.com/products/hiboy-s2pro-electric-scooter-for-daily-commuting",
+   "rating": 79.0,
+   "ruled_out": false,
    "price": 399.99,
    "baseline": 399.99,
    "was": 469.99,
@@ -178,7 +196,8 @@
     "range": "25.6 mi",
     "load": "220 lb",
     "tires": "10in solid",
-    "brakes": "e-brake + rear disc"
+    "brakes": "e-brake + rear disc",
+    "cert": null
    }
   },
   {
@@ -188,6 +207,9 @@
    "image": "https://i5.walmartimages.com/seo/Hiboy-Electric-Scooter-S2-Pro-Electric-Scooters-Adults-500W-Motor-10-Solid-Tires-25-Miles-Max-Range-19-Mph-Speed-Foldable-Kick-E-Scooter-Urban-Commut_1ffd4420-4c28-48c4-8e61-0c41b9306bed.c4c21fdc6454adcfc071f6bd58931abd.jpeg",
    "retailer": "Walmart",
    "brand": "Hiboy",
+   "brand_url": "https://www.hiboy.com/products/hiboy-s2pro-electric-scooter-for-daily-commuting",
+   "rating": 79.0,
+   "ruled_out": false,
    "price": 422.97,
    "baseline": 422.97,
    "was": null,
@@ -228,7 +250,8 @@
     "range": "25.6 mi",
     "load": "220 lb",
     "tires": "10in solid",
-    "brakes": "e-brake + rear disc"
+    "brakes": "e-brake + rear disc",
+    "cert": null
    }
   },
   {
@@ -238,6 +261,9 @@
    "image": "https://i5.walmartimages.com/seo/iScooter-Electric-Scooter-Adults-18-Miles-500W-Peak-Motor-Foldable-E-Scooter-19Mph-Top-Speed-Dual-Braking-System-Commuter-Electric-Scooter-Adults-Tee_10ba6ba1-84f6-4979-bda3-69ddb03f9b6a.04932b427528d75cced256e6a0a5599f.jpeg",
    "retailer": "Walmart",
    "brand": "iScooter",
+   "brand_url": "https://www.iscooterglobal.co.uk",
+   "rating": 87.0,
+   "ruled_out": false,
    "price": 199.99,
    "baseline": 199.99,
    "was": null,
@@ -280,7 +306,8 @@
     "range": "23 mi",
     "load": "264 lb",
     "tires": "10 in pneumatic",
-    "brakes": "rear disc + handlebar electronic"
+    "brakes": "rear disc + handlebar electronic",
+    "cert": null
    }
   },
   {
@@ -290,6 +317,9 @@
    "image": "https://i5.walmartimages.com/seo/Hiboy-KS4-Pro-Electric-Scooter-for-Adults-500W-Motor-Dual-Rear-Suspension-Smart-LED-Display-Up-to-25-Miles-Range-19-MPH-Max-Speed-App-Control_0fd7d59b-a31d-474d-aa78-61f98be7717d.932fffcfd185b0a117c7cbd5705609a5.jpeg",
    "retailer": "Walmart",
    "brand": "Hiboy",
+   "brand_url": "https://www.hiboy.com/products/hiboy-ks4-pro-advanced-commuter-electric-scooter",
+   "rating": 87.5,
+   "ruled_out": false,
    "price": 399.99,
    "baseline": 399.99,
    "was": null,
@@ -325,6 +355,10 @@
     "brakes": {
      "status": "unverified",
      "note": "From Hiboy specs; ad brake claim not yet checked"
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "From brand-adjacent docs (per dealer spec page; confirm on Hiboy); ad claim not yet checked"
     }
    },
    "specs": {
@@ -333,7 +367,8 @@
     "range": "25 mi",
     "load": "220 lb",
     "tires": "10in honeycomb",
-    "brakes": "front EABS + rear disc"
+    "brakes": "front EABS + rear disc",
+    "cert": "UL 2272"
    }
   },
   {
@@ -343,6 +378,9 @@
    "image": "https://i5.walmartimages.com/seo/Hiboy-S2-MAX-Electric-Scooter-Upgraded-500-W-Motor-10-In-Air-filled-Tires-40-4-Miles-Range-19-Mph-Speed-Portable-Commuting-Adults-Double-Braking-Syst_16c10de0-c7c3-4adc-8b56-dd3051f50a1c.1a0d25c90c892fa0df26be4d8cc9cf79.jpeg",
    "retailer": "Walmart",
    "brand": "Hiboy",
+   "brand_url": "https://www.hiboy.com/blogs/news/hiboy-launches-an-upgraded-version-of-the-s2-series-s2-max-in-2022",
+   "rating": 81.5,
+   "ruled_out": false,
    "price": 489.99,
    "baseline": 465.47,
    "was": null,
@@ -383,7 +421,8 @@
     "range": "40.4 mi",
     "load": "220 lb",
     "tires": "10 in air-filled",
-    "brakes": "E-brake + disc"
+    "brakes": "E-brake + disc",
+    "cert": null
    }
   },
   {
@@ -393,6 +432,9 @@
    "image": "https://m.media-amazon.com/images/I/61g5In+ZQ0L._AC_SL1500_.jpg",
    "retailer": "Amazon",
    "brand": "Segway",
+   "brand_url": "https://ap-en.segway.com/ekickscooter/products/e2-pro.html",
+   "rating": 71.0,
+   "ruled_out": false,
    "price": 398.99,
    "baseline": 398.99,
    "was": 499.99,
@@ -436,7 +478,8 @@
     "range": "24.9 mi",
     "load": "264 lb",
     "tires": "10 in tubeless pneumatic",
-    "brakes": "front drum + rear electronic"
+    "brakes": "front drum + rear electronic",
+    "cert": null
    }
   },
   {
@@ -446,6 +489,9 @@
    "image": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:37910a21-70a5-4aef-9b07-33a093a2cb79/as/4000309209-847__1.avif?width=350",
    "retailer": "Costco",
    "brand": "Phantom",
+   "brand_url": "https://phantomgogo.com",
+   "rating": 77.0,
+   "ruled_out": false,
    "price": 399.99,
    "baseline": 399.99,
    "was": null,
@@ -480,6 +526,10 @@
     "brakes": {
      "status": "unverified",
      "note": "From Phantomgogo brand specs; Costco ad claim not yet checked"
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "From brand-adjacent docs (per third-party spec roundup; confirm on Phantomgogo/Costco page); ad claim not yet checked"
     }
    },
    "specs": {
@@ -488,7 +538,8 @@
     "range": "28 mi",
     "load": "220 lb",
     "tires": "10 in pneumatic",
-    "brakes": "front drum + rear electronic"
+    "brakes": "front drum + rear electronic",
+    "cert": "UL 2272"
    }
   },
   {
@@ -498,6 +549,9 @@
    "image": null,
    "retailer": "Temu",
    "brand": "Blutron",
+   "brand_url": "https://www.temu.com/-100-65-foldable-electric-scooter--scooter-500w-brushless-motor-w-40mi-max-operating-range-20-mph-max-speend-grey-g-610420261810913.html",
+   "rating": 75.0,
+   "ruled_out": false,
    "price": 260.73,
    "baseline": 260.73,
    "was": null,
@@ -538,7 +592,8 @@
     "range": "40 mi advertised (eco, 165-lb rider); ~25-30 realistic at 220 lb",
     "load": "265 lb",
     "tires": "10 in pneumatic",
-    "brakes": "front drum + rear electric"
+    "brakes": "front drum + rear electric",
+    "cert": null
    }
   }
  ]

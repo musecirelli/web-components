@@ -216,5 +216,73 @@ console.log('Test 12: category column appears when an item has a category');
   delete feed.items[1].category;
 }
 
+console.log('Test 13: rating column renders with gradient, default sort is rating desc');
+{
+  feed.items[0].rating = 92; feed.items[1].rating = 78; feed.items[2].rating = 85;
+  const el = makeTable();
+  const headers = [...el.shadowRoot.querySelectorAll('thead th')]
+    .map((th) => th.textContent.replace(/[▲▼]/g, '').trim());
+  assert(headers.includes('Rating'), 'Rating column rendered');
+  const names = firstColText(el);
+  assert(names[0] === 'Segway C2 Pro' && names[1] === 'Aigo E3' && names[2] === 'Segway DLX 2',
+    `default sort by rating desc ("${names.join(',')}")`);
+  const ratingCell = rows(el)[0].querySelector('.rating');
+  assert(!!ratingCell && ratingCell.textContent.trim() === '92', 'rating cell shows rounded score');
+  assert((ratingCell.getAttribute('style') || '').includes('hsl('), 'rating cell has gradient background');
+  delete feed.items[0].rating; delete feed.items[1].rating; delete feed.items[2].rating;
+}
+
+console.log('Test 14: ruled-out rows dim and the toggle hides them');
+{
+  feed.items[0].rating = 90; feed.items[1].rating = 80; feed.items[2].rating = 70;
+  feed.items[2].ruled_out = true;
+  const el = makeTable();
+  assert(!!rows(el).find((r) => r.classList.contains('ruled-out')), 'ruled-out row dimmed');
+  assert(!el.shadowRoot.getElementById('ruledout-wrap').hasAttribute('hidden'),
+    'show ruled-out toggle visible');
+  const box = el.shadowRoot.getElementById('ruledout');
+  box.checked = false;
+  box.dispatchEvent(new dom.window.Event('change', { bubbles: true }));
+  const names = firstColText(el);
+  assert(names.length === 2 && !names.includes('Aigo E3'), `toggle hides ruled-out ("${names.join(',')}")`);
+  delete feed.items[0].rating; delete feed.items[1].rating; delete feed.items[2].rating;
+  delete feed.items[2].ruled_out;
+}
+
+console.log('Test 15: brand cell links to brand_url');
+{
+  feed.items[0].brand_url = 'http://brand.example/segway';
+  const el = makeTable();
+  const link = el.shadowRoot.querySelector('.brand-link');
+  assert(!!link && link.getAttribute('href') === 'http://brand.example/segway', 'brand link rendered');
+  assert(link.textContent === 'Segway', 'brand link shows the brand name');
+  delete feed.items[0].brand_url;
+}
+
+console.log('Test 16: cert cell links via feed.cert_links');
+{
+  feed.spec_columns = [...feed.spec_columns, { key: 'cert', label: 'Certification' }];
+  feed.cert_links = { 'UL 2272': 'http://example.com/ul2272' };
+  feed.items[0].specs.cert = 'UL 2272';
+  const el = makeTable();
+  const cell = [...rows(el)[0].querySelectorAll('td')]
+    .find((td) => td.textContent.includes('UL 2272'));
+  const link = cell.querySelector('a');
+  assert(!!link && link.getAttribute('href') === 'http://example.com/ul2272', 'cert value linked');
+  delete feed.items[0].specs.cert;
+  delete feed.cert_links;
+  feed.spec_columns = feed.spec_columns.filter((c) => c.key !== 'cert');
+}
+
+console.log('Test 17: imageless items get a placeholder square');
+{
+  const el = makeTable(); // all test items have image: ''
+  const placeholders = el.shadowRoot.querySelectorAll('.thumb.placeholder');
+  assert(placeholders.length === 3, `placeholder per imageless row (got ${placeholders.length})`);
+  const styleText = el.shadowRoot.querySelector('style').textContent;
+  assert(styleText.includes('.thumb.placeholder') && styleText.includes('width: 56px'),
+    'placeholder styled 56x56 like thumbnails');
+}
+
 if (failures) { console.log(`\n${failures} FAILURES`); process.exit(1); }
 console.log('\nAll extended deal-watch-table tests passed.');

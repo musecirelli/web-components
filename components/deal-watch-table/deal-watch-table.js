@@ -14,8 +14,24 @@
  *   src          - URL of the JSON feed to load
  *   event-source - inherited (defaults resolve to this element's parent)
  *
- * Toolbar: text filter, retailer chips, deals-only checkbox, and a Columns
+ * Toolbar: text filter, retailer chips, deals-only checkbox, a "show ruled-out"
+ * checkbox (only when the feed flags ruled-out items), and a Columns
  * menu to show/hide individual columns (choice persists in localStorage).
+ *
+ * Rating: when feed items carry a numeric `rating` (automatic quality/spec
+ * fit score, price excluded), a Rating column renders with a red→green
+ * gradient and the table sorts by rating descending by default. Items with
+ * `ruled_out: true` render dimmed at the bottom; the toolbar toggle hides
+ * them entirely.
+ *
+ * Brand links: an item's `brand_url` turns the Brand column into a link to
+ * the brand/model information or sales page.
+ *
+ * Cert links: `feed.cert_links` maps certification values (e.g. "UL 2272")
+ * to documentation URLs; matching spec cells render as links.
+ *
+ * Images: items without an image get a blank placeholder square so rows
+ * stay aligned with items that have thumbnails.
  *
  * Sorting: click a header to sort by that column (click again to reverse).
  * Ctrl/Cmd+click adds columns to a multi-column sort; the header arrows show
@@ -47,6 +63,7 @@ export class DealWatchTable extends WebComponent {
   #query = '';
   #retailer = 'all';
   #dealsOnly = false;
+  #showRuledOut = true;
   #hiddenCols = new Set(); // column keys hidden via the Columns menu
 
   constructor() {
@@ -59,6 +76,9 @@ export class DealWatchTable extends WebComponent {
     this.on('dealwatch:data', (e) => {
       if (e.target === this || !e.detail || !e.detail.feed) return;
       this.#feed = e.detail.feed;
+      const hasRating = (this.#feed.items || [])
+        .some((it) => typeof it.rating === 'number');
+      this.#sortKeys = hasRating ? [{ key: 'rating', dir: -1 }] : [{ key: 'change', dir: 1 }];
       this.#render();
     });
   }
@@ -92,10 +112,12 @@ export class DealWatchTable extends WebComponent {
       }
       const feed = JSON.parse(new TextDecoder().decode(buf));
       this.#feed = feed;
-      this.#sortKeys = [{ key: 'change', dir: 1 }];
+      const hasRating = (feed.items || []).some((it) => typeof it.rating === 'number');
+      this.#sortKeys = hasRating ? [{ key: 'rating', dir: -1 }] : [{ key: 'change', dir: 1 }];
       this.#query = '';
       this.#retailer = 'all';
       this.#dealsOnly = false;
+      this.#showRuledOut = true;
       this.#loadHiddenCols();
       this.#render();
       this.emit('dealwatch:data', { feed });
@@ -114,14 +136,23 @@ export class DealWatchTable extends WebComponent {
 
   /** All renderable columns for the current feed, in display order. */
   #allColumns() {
+    const items = this.#feed.items || [];
     const cols = [
       { key: 'name', label: 'Item' },
+    ];
+    if (items.some((it) => it.brand)) {
+      cols.push({ key: 'brand', label: 'Brand' });
+    }
+    if (items.some((it) => typeof it.rating === 'number')) {
+      cols.push({ key: 'rating', label: 'Rating' });
+    }
+    cols.push(
       { key: 'retailer', label: 'Retailer' },
       { key: 'price', label: 'Price' },
       { key: 'change', label: 'vs baseline' },
       { key: 'stock', label: 'Stock' },
-    ];
-    if ((this.#feed.items || []).some((it) => it.category)) {
+    );
+    if (items.some((it) => it.category)) {
       cols.push({ key: 'category', label: 'Category' });
     }
     for (const c of (this.#feed.spec_columns || [])) {
@@ -162,6 +193,7 @@ export class DealWatchTable extends WebComponent {
     return this.#feed.items.filter((it) => {
       if (this.#retailer !== 'all' && (it.retailer || '') !== this.#retailer) return false;
       if (this.#dealsOnly && !(typeof it.change === 'number' && it.change < 0)) return false;
+      if (!this.#showRuledOut && it.ruled_out) return false;
       if (q) {
         const hay = [it.name, it.brand, it.retailer, it.id, it.category,
           ...Object.values(it.specs || {})].join(' ').toLowerCase();
@@ -173,6 +205,8 @@ export class DealWatchTable extends WebComponent {
 
   #cellValue(item, key) {
     if (key === 'name') return (item.name || '').toLowerCase();
+    if (key === 'brand') return (item.brand || '').toLowerCase();
+    if (key === 'rating') return typeof item.rating === 'number' ? item.rating : -1;
     if (key === 'retailer') return (item.retailer || '').toLowerCase();
     if (key === 'category') return (item.category || '').toLowerCase();
     if (key === 'price') return item.price ?? Number.POSITIVE_INFINITY;
@@ -263,6 +297,13 @@ export class DealWatchTable extends WebComponent {
       .stock-unknown { color: var(--dealwatch-muted, #666); white-space: nowrap; }
       .spec-unverified { color: var(--dealwatch-bad, #b3261e); }
       .verify-icon { cursor: help; font-size: 12px; }
+      .rating { font-weight: 700; text-align: center; white-space: nowrap;
+        border-radius: 4px; }
+      tr.ruled-out { opacity: 0.55; }
+      .brand-link { color: var(--dealwatch-accent, #1a73e8); }
+      .item-cell .thumb.placeholder { display: block; width: 56px; height: 56px;
+        border: 1px solid var(--dealwatch-border, #e0e0e0); border-radius: 6px;
+        background: var(--dealwatch-placeholder-bg, #f1f3f4); }
       .badge { display: inline-block; font-size: 11px; padding: 1px 7px; margin: 1px 2px 1px 0;
         border-radius: 999px; background: var(--dealwatch-badge-bg, #e8f0fe);
         color: var(--dealwatch-badge-fg, #1a73e8); white-space: nowrap; }
@@ -277,6 +318,7 @@ export class DealWatchTable extends WebComponent {
         <input type="search" id="q" placeholder="Filter items…" aria-label="Filter items">
         <div class="chips" id="retailers"></div>
         <label class="meta"><input type="checkbox" id="deals"> deals only</label>
+        <label class="meta" id="ruledout-wrap" hidden><input type="checkbox" id="ruledout" checked> show ruled-out</label>
         <div class="colmenu-wrap">
           <button type="button" class="chip" id="colmenu-btn"
             aria-haspopup="true" aria-expanded="false">Columns ▾</button>
@@ -302,6 +344,10 @@ export class DealWatchTable extends WebComponent {
     });
     this.shadowRoot.getElementById('deals').addEventListener('change', (e) => {
       this.#dealsOnly = e.target.checked;
+      this.#renderTable();
+    });
+    this.shadowRoot.getElementById('ruledout').addEventListener('change', (e) => {
+      this.#showRuledOut = e.target.checked;
       this.#renderTable();
     });
 
@@ -384,6 +430,16 @@ export class DealWatchTable extends WebComponent {
     };
     mk('all', 'All retailers');
     retailers.forEach((r) => mk(r, r));
+    // Ruled-out toggle: only relevant when the feed flags ruled-out items.
+    const roWrap = this.shadowRoot.getElementById('ruledout-wrap');
+    const roBox = this.shadowRoot.getElementById('ruledout');
+    if ((feed.items || []).some((it) => it.ruled_out)) {
+      roWrap.removeAttribute('hidden');
+    } else {
+      roWrap.setAttribute('hidden', '');
+    }
+    roBox.checked = true;
+    this.#showRuledOut = true;
     this.#renderColumnMenu();
     this.#renderTable();
   }
@@ -446,7 +502,12 @@ export class DealWatchTable extends WebComponent {
         : 'Conflicts with the brand\u2019s website');
       icon = ` <span class="verify-icon" title="${this.#esc(note)}">ⓘ</span>`;
     }
-    return `<td${cls}>${this.#esc(specs[specKey] ?? '—')}${icon}</td>`;
+    const raw = specs[specKey] ?? '—';
+    const certLinks = this.#feed.cert_links || {};
+    const val = (specKey === 'cert' && raw !== '—' && certLinks[raw])
+      ? `<a href="${this.#esc(certLinks[raw])}" target="_blank" rel="noopener">${this.#esc(raw)}</a>`
+      : this.#esc(raw);
+    return `<td${cls}>${val}${icon}</td>`;
   }
 
   #renderTable() {
@@ -473,8 +534,23 @@ export class DealWatchTable extends WebComponent {
         const badges = (it.badges || []).map((b) => `<span class="badge">${this.#esc(b)}</span>`).join('');
         const img = it.image
           ? `<span class="thumb"><img loading="lazy" src="${this.#esc(it.image)}" alt="" data-full="${this.#esc(it.image)}"></span>`
-          : '';
+          : `<span class="thumb placeholder" aria-hidden="true"></span>`;
         return `<td><div class="item-cell">${img}<div><a href="${this.#esc(it.url)}" target="_blank" rel="noopener">${this.#esc(it.name)}</a><div>${badges}</div></div></div></td>`;
+      }
+      if (key === 'brand') {
+        const label = this.#esc(it.brand || '—');
+        return it.brand_url
+          ? `<td><a class="brand-link" href="${this.#esc(it.brand_url)}" target="_blank" rel="noopener">${label}</a></td>`
+          : `<td>${label}</td>`;
+      }
+      if (key === 'rating') {
+        if (typeof it.rating !== 'number') return '<td>—</td>';
+        const r = it.rating;
+        const hue = Math.round(Math.max(0, Math.min(100, r)) * 1.2); // 0=red → 120=green
+        const title = `Quality/spec fit score (price excluded)` +
+          (it.ruled_out ? `; ruled out: max load below 220 lb rider weight` : '');
+        const flag = it.ruled_out ? ' ⚠' : '';
+        return `<td class="rating" style="background:hsl(${hue},75%,88%)" title="${this.#esc(title)}">${r.toFixed(0)}${flag}</td>`;
       }
       if (key === 'retailer') return `<td>${this.#esc(it.retailer || '—')}</td>`;
       if (key === 'category') return `<td>${this.#esc(it.category || '—')}</td>`;
@@ -506,7 +582,7 @@ export class DealWatchTable extends WebComponent {
     for (const c of cols) html += th(c.key, c.label);
     html += '</tr></thead><tbody>';
     for (const it of items) {
-      html += '<tr>';
+      html += it.ruled_out ? '<tr class="ruled-out">' : '<tr>';
       for (const c of cols) html += cellFor(it, c.key);
       html += '</tr>';
     }
