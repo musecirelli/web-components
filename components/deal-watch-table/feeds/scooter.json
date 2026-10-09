@@ -842,28 +842,30 @@
    "retailer": "ECOROAD direct",
    "brand": "ECOROAD",
    "brand_url": "https://ecoroad.com",
-   "rating": 87.5,
+   "rating": 94.5,
    "ruled_out": false,
-   "price": null,
+   "price": 499.99,
    "baseline": 499.99,
-   "was": null,
-   "change": null,
-   "in_stock": null,
-   "badges": [],
-   "confidence": null,
+   "was": 699.99,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "29%OFF"
+   ],
+   "confidence": "high",
    "category": "off-road",
    "spec_verification": {
     "motor": {
-     "status": "conflict",
-     "note": "Brand markets '1000W'; Amazon ES6 tech specs say 800W rated / 1000W peak. Recorded as 800W nominal."
+     "status": "verified",
+     "note": "Brand site ecoroad.com (ground truth): 1000W brushless DC motor. Amazon reseller listing claims 800W rated / 1000W peak — reseller does not override brand."
     },
     "speed": {
      "status": "verified",
      "note": "Brand and Amazon agree: 31 mph (modes 9/15/21/31)."
     },
     "range": {
-     "status": "conflict",
-     "note": "Brand claims 37 mi; Amazon ES6 listing says 31 mi. Real-world range at his weight will be lower."
+     "status": "verified",
+     "note": "Brand site (ground truth): up to 37 miles. Amazon reseller listing says 31 mi."
     },
     "load": {
      "status": "verified",
@@ -883,7 +885,7 @@
     }
    },
    "specs": {
-    "motor": "800W rated / 1000W peak",
+    "motor": "1000W",
     "speed": "31 mph",
     "range": "37 mi",
     "load": "330 lb",
