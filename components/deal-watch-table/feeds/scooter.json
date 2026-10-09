@@ -43,6 +43,8 @@
    "in_stock": true,
    "badges": [],
    "confidence": "high",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "500W",
     "speed": null,
@@ -69,6 +71,8 @@
     "sale"
    ],
    "confidence": "high",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "500W",
     "speed": "19 mph",
@@ -95,6 +99,8 @@
     "sale"
    ],
    "confidence": "high",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "500W",
     "speed": "19 mph",
@@ -118,6 +124,8 @@
    "in_stock": true,
    "badges": [],
    "confidence": "high",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "500W",
     "speed": "19 mph",
@@ -143,6 +151,8 @@
     "save $"
    ],
    "confidence": "high",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "500W",
     "speed": "22 mph",
@@ -169,6 +179,8 @@
     "save $"
    ],
    "confidence": "high",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "500W",
     "speed": "19 mph",
@@ -192,6 +204,8 @@
    "in_stock": true,
    "badges": [],
    "confidence": "high",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "500W",
     "speed": null,
@@ -218,6 +232,8 @@
     "sale"
    ],
    "confidence": "high",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "350W",
     "speed": "15.5 mph",
@@ -243,6 +259,8 @@
     "sale"
    ],
    "confidence": "high",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": null,
     "speed": null,
@@ -257,7 +275,7 @@
    "name": "Blutron S65 Foldable Electric Scooter (Temu)",
    "url": "https://www.temu.com/-100-65-foldable-electric-scooter--scooter-500w-brushless-motor-w-40mi-max-operating-range-20-mph-max-speend-grey-g-610420261810913.html",
    "image": null,
-   "retailer": "Blutron direct",
+   "retailer": "Temu",
    "brand": "Blutron",
    "price": 260.73,
    "baseline": 260.73,
@@ -266,6 +284,8 @@
    "in_stock": true,
    "badges": [],
    "confidence": "high",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "400W nominal / 800W peak (Temu title claims 500W)",
     "speed": "20 mph",

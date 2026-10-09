@@ -162,5 +162,59 @@ console.log('Test 8: clicking a thumbnail opens the lightbox; click closes it');
   feed.items[0].image = '';
 }
 
+console.log('Test 9: ctrl+click adds a secondary sort column');
+{
+  const el = makeTable();
+  const priceTh = [...el.shadowRoot.querySelectorAll('thead th')]
+    .find((th) => th.textContent.includes('Price'));
+  priceTh.click(); // primary: price asc
+  const retailerTh = [...el.shadowRoot.querySelectorAll('thead th')]
+    .find((th) => th.textContent.includes('Retailer'));
+  retailerTh.dispatchEvent(new dom.window.MouseEvent('click', { bubbles: true, ctrlKey: true }));
+  const names = firstColText(el);
+  // price asc primary: DLX 2 (148), C2 Pro (239.99), Aigo (null last)
+  assert(names[0] === 'Segway DLX 2', `multi-sort keeps price primary ("${names.join(',')}")`);
+  const prio = [...el.shadowRoot.querySelectorAll('thead th')]
+    .map((th) => th.innerHTML);
+  assert(prio.some((h) => h.includes('sort-prio')), 'sort priority indicator shown');
+}
+
+console.log('Test 10: Columns menu hides a column');
+{
+  const el = makeTable();
+  const btn = el.shadowRoot.getElementById('colmenu-btn');
+  btn.click();
+  const menu = el.shadowRoot.getElementById('colmenu');
+  assert(!menu.hasAttribute('hidden'), 'columns menu opens');
+  const stockBox = [...menu.querySelectorAll('label')]
+    .find((l) => l.textContent.includes('Stock')).querySelector('input');
+  stockBox.checked = false;
+  stockBox.dispatchEvent(new dom.window.Event('change', { bubbles: true }));
+  const headers = [...el.shadowRoot.querySelectorAll('thead th')].map((th) => th.textContent);
+  assert(!headers.some((h) => h.includes('Stock')), 'Stock column hidden after uncheck');
+}
+
+console.log('Test 11: unverified spec cell renders red with hover icon');
+{
+  feed.items[0].spec_verification = {
+    motor: { status: 'conflict', note: 'Brand lists 400W nominal; ad claims 500W' },
+  };
+  const el = makeTable();
+  const icon = el.shadowRoot.querySelector('.verify-icon');
+  assert(!!icon, 'verification icon rendered');
+  assert(icon.getAttribute('title').includes('400W nominal'), 'icon carries the note');
+  assert(icon.closest('td').classList.contains('spec-unverified'), 'cell marked unverified (red)');
+  delete feed.items[0].spec_verification;
+}
+
+console.log('Test 12: category column appears when an item has a category');
+{
+  feed.items[1].category = 'off-road';
+  const el = makeTable();
+  const headers = [...el.shadowRoot.querySelectorAll('thead th')].map((th) => th.textContent);
+  assert(headers.some((h) => h.includes('Category')), 'Category column rendered');
+  delete feed.items[1].category;
+}
+
 if (failures) { console.log(`\n${failures} FAILURES`); process.exit(1); }
-console.log('\nAll deal-watch-table tests passed.');
+console.log('\nAll extended deal-watch-table tests passed.');

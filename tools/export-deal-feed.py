@@ -72,6 +72,7 @@ RETAILER_BY_HOST = {
     "bestbuy.com": "Best Buy",
     "target.com": "Target",
     "samsclub.com": "Sam's Club",
+    "temu.com": "Temu",
 }
 
 
@@ -132,6 +133,8 @@ def main():
             "in_stock": r.get("in_stock"),
             "badges": r.get("badges") or [],
             "confidence": r.get("confidence"),
+            "category": b.get("category"),
+            "spec_verification": b.get("spec_verification") or {},
             "specs": {c["key"]: specs.get(c["key"]) for c in hunt["spec_columns"]},
         })
 

@@ -68,3 +68,13 @@ Field notes:
 - All URL fields should be absolute.
 
 See `tools/export-deal-feed.py` for the converter.
+
+Optional item fields:
+- `category` — e.g. `"commuter"` or `"off-road"`. When any item in the feed
+  has a category, the table renders a sortable Category column.
+- `spec_verification` — per-spec verification state against the brand's own
+  site/manuals, e.g.
+  `"spec_verification": {"motor": {"status": "conflict", "note": "Brand lists 400W nominal; ad claims 500W"}}`.
+  `status` is one of `verified`, `unverified`, `conflict`. Unverified and
+  conflicting cells render in red with a ⓘ hover icon carrying the note
+  (defaulting to "Could not be verified against the brand's website").
