@@ -59,6 +59,8 @@ export class DealWatchTable extends WebComponent {
   }
 
   #feed = null;
+  #loadToken = 0;   // generation counter: stale #load() calls bail out
+  #pendingSrc = null; // src currently being fetched (dedupes upgrade double-load)
   #sortKeys = [{ key: 'change', dir: 1 }]; // [{key, dir}] — multi-column sort
   #query = '';
   #retailer = 'all';
@@ -101,14 +103,24 @@ export class DealWatchTable extends WebComponent {
       this.#showStatus('No feed configured (missing src attribute).');
       return;
     }
+    // A load for this exact src is already in flight (e.g. the upgrade-time
+    // attributeChangedCallback + connectedCallback double call) — let it finish.
+    if (this.#pendingSrc === src) return;
+    // Generation guard: a newer #load() (src changed mid-fetch) supersedes
+    // this one; stale responses must not render over fresher data.
+    const token = ++this.#loadToken;
+    this.#pendingSrc = src;
     this.#showStatus('Loading…');
     try {
       const res = await fetch(src);
+      if (token !== this.#loadToken) return;
       if (!res.ok) throw new Error(`HTTP ${res.status} loading ${src}`);
       let buf = new Uint8Array(await res.arrayBuffer());
+      if (token !== this.#loadToken) return;
       if (buf.length >= 2 && buf[0] === GZIP_MAGIC_1 && buf[1] === GZIP_MAGIC_2) {
         const stream = new Blob([buf]).stream().pipeThrough(new DecompressionStream('gzip'));
         buf = new Uint8Array(await new Response(stream).arrayBuffer());
+        if (token !== this.#loadToken) return;
       }
       const feed = JSON.parse(new TextDecoder().decode(buf));
       this.#feed = feed;
@@ -122,8 +134,11 @@ export class DealWatchTable extends WebComponent {
       this.#render();
       this.emit('dealwatch:data', { feed });
     } catch (err) {
+      if (token !== this.#loadToken) return;
       this.#showStatus(`Could not load feed: ${err.message}`);
       this.emit('dealwatch:error', { error: String(err && err.message || err) });
+    } finally {
+      if (token === this.#loadToken) this.#pendingSrc = null;
     }
   }
 

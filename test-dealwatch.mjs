@@ -284,5 +284,38 @@ console.log('Test 17: imageless items get a placeholder square');
     'placeholder styled 56x56 like thumbnails');
 }
 
+console.log('Test 18: stale fetch responses never render over fresher data');
+{
+  // Simulates the page-refresh race: connectedCallback starts fetching the
+  // default src, then the hunt restore sets src to the saved feed. If the
+  // first response arrives last, it must be ignored.
+  const item = (id, name) => ({ id, name, url: `http://x/${id}`, image: '',
+    retailer: 'X', brand: 'X', price: 1, baseline: 1, was: null, change: 0,
+    in_stock: true, badges: [], confidence: 'high', specs: {} });
+  const feedA = { ...feed, hunt: 'a', title: 'Feed A', items: [item('a1', 'Alpha Scooter')] };
+  const feedB = { ...feed, hunt: 'b', title: 'Feed B', items: [item('b1', 'Beta Scooter')] };
+  const enc = (o) => new TextEncoder().encode(JSON.stringify(o)).buffer;
+  let resolveA, resolveB;
+  const realFetch = global.fetch;
+  global.fetch = (url) => new Promise((resolve) => {
+    const res = { ok: true, arrayBuffer: async () => enc(url.includes('feed-a.json') ? feedA : feedB) };
+    if (url.includes('feed-a.json')) resolveA = () => resolve(res);
+    else resolveB = () => resolve(res);
+  });
+  document.body.innerHTML = '';
+  const el = document.createElement('deal-watch-table');
+  el.setAttribute('src', 'http://x/feed-a.json');
+  document.body.appendChild(el);          // starts fetching feed A
+  el.setAttribute('src', 'http://x/feed-b.json'); // superseded by feed B
+  resolveB();                            // fresh response arrives first
+  await new Promise((r) => setTimeout(r, 10));
+  resolveA();                            // stale response arrives last
+  await new Promise((r) => setTimeout(r, 10));
+  const names = firstColText(el);
+  assert(names.length === 1 && names[0] === 'Beta Scooter',
+    `stale feed ignored, fresh feed rendered ("${names.join(',')}")`);
+  global.fetch = realFetch;
+}
+
 if (failures) { console.log(`\n${failures} FAILURES`); process.exit(1); }
 console.log('\nAll extended deal-watch-table tests passed.');
