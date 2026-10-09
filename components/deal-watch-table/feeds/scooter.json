@@ -44,14 +44,39 @@
    "badges": [],
    "confidence": "high",
    "category": null,
-   "spec_verification": {},
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Ad and GOTRAX agree: 500W"
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Ad title and GOTRAX agree: 20 mph"
+    },
+    "range": {
+     "status": "verified",
+     "note": "Ad title and GOTRAX agree: 25 mi"
+    },
+    "load": {
+     "status": "verified",
+     "note": "Ad and GOTRAX agree: 264 lb"
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Ad and GOTRAX agree: 10 in pneumatic"
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "From GOTRAX specs; ad brake claim not yet checked on live page"
+    }
+   },
    "specs": {
     "motor": "500W",
-    "speed": null,
-    "range": null,
+    "speed": "20 mph",
+    "range": "25 mi",
     "load": "264 lb",
     "tires": "10in",
-    "brakes": null
+    "brakes": "rear disc + EABS"
    }
   },
   {
@@ -72,7 +97,28 @@
    ],
    "confidence": "high",
    "category": null,
-   "spec_verification": {},
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Ad and VOLPAM agree: 500W"
+    },
+    "speed": {
+     "status": "unverified",
+     "note": "Ad reads 19 mph; brand SP08 lists 22 mph — exact VOLPAM variant unconfirmed"
+    },
+    "range": {
+     "status": "unverified",
+     "note": "Ad reads 25 mi; brand SP08 lists 22 mi — exact variant unconfirmed"
+    },
+    "load": {
+     "status": "unverified",
+     "note": "Ad claims 265 lb; brand SP08 lists 264 lb — confirm variant"
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "Ad: 10 in; brand SP08: 10 in solid honeycomb"
+    }
+   },
    "specs": {
     "motor": "500W",
     "speed": "19 mph",
@@ -100,14 +146,39 @@
    ],
    "confidence": "high",
    "category": null,
-   "spec_verification": {},
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Ad and Hiboy agree: 500W rated"
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Ad and Hiboy agree: 19 mph"
+    },
+    "range": {
+     "status": "conflict",
+     "note": "Ad body claims 25.6 mi (title says 25 mi); Hiboy rates 25 mi"
+    },
+    "load": {
+     "status": "verified",
+     "note": "Ad and Hiboy agree: 220 lb"
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Ad and Hiboy agree: 10 in solid honeycomb"
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "From Hiboy specs (e-brake + rear disc); ad brake claim not yet checked"
+    }
+   },
    "specs": {
     "motor": "500W",
     "speed": "19 mph",
     "range": "25.6 mi",
     "load": "220 lb",
     "tires": "10in solid",
-    "brakes": null
+    "brakes": "e-brake + rear disc"
    }
   },
   {
@@ -125,14 +196,39 @@
    "badges": [],
    "confidence": "high",
    "category": null,
-   "spec_verification": {},
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Ad and Hiboy agree: 500W rated"
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Ad and Hiboy agree: 19 mph"
+    },
+    "range": {
+     "status": "conflict",
+     "note": "Ad body claims 25.6 mi (title says 25 mi); Hiboy rates 25 mi"
+    },
+    "load": {
+     "status": "verified",
+     "note": "Ad and Hiboy agree: 220 lb"
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Ad and Hiboy agree: 10 in solid honeycomb"
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "From Hiboy specs (e-brake + rear disc); ad brake claim not yet checked"
+    }
+   },
    "specs": {
     "motor": "500W",
     "speed": "19 mph",
     "range": "25.6 mi",
     "load": "220 lb",
     "tires": "10in solid",
-    "brakes": null
+    "brakes": "e-brake + rear disc"
    }
   },
   {
@@ -152,14 +248,39 @@
    ],
    "confidence": "high",
    "category": null,
-   "spec_verification": {},
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Ad and brand-seller listings agree: 500W"
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Ad and brand-seller listings agree: 22 mph"
+    },
+    "range": {
+     "status": "verified",
+     "note": "Ad and brand-seller listings agree: 23 mi"
+    },
+    "load": {
+     "status": "verified",
+     "note": "Ad title and brand-seller listings agree: 264 lb"
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "From brand-seller listing (10 in pneumatic); ad tire claim not yet checked"
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Per Walmart ad specs; live-page confirmation pending"
+    }
+   },
    "specs": {
     "motor": "500W",
     "speed": "22 mph",
     "range": "23 mi",
-    "load": null,
-    "tires": null,
-    "brakes": null
+    "load": "264 lb",
+    "tires": "10 in pneumatic",
+    "brakes": "rear disc + handlebar electronic"
    }
   },
   {
@@ -180,14 +301,39 @@
    ],
    "confidence": "high",
    "category": null,
-   "spec_verification": {},
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Ad and Hiboy agree: 500W"
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Ad and Hiboy agree: 19 mph"
+    },
+    "range": {
+     "status": "verified",
+     "note": "Ad and Hiboy agree: 25 mi"
+    },
+    "load": {
+     "status": "verified",
+     "note": "Ad and Hiboy agree: 220 lb"
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Ad and Hiboy agree: 10 in honeycomb solid"
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "From Hiboy specs; ad brake claim not yet checked"
+    }
+   },
    "specs": {
     "motor": "500W",
     "speed": "19 mph",
     "range": "25 mi",
     "load": "220 lb",
     "tires": "10in honeycomb",
-    "brakes": null
+    "brakes": "front EABS + rear disc"
    }
   },
   {
@@ -205,14 +351,39 @@
    "badges": [],
    "confidence": "high",
    "category": null,
-   "spec_verification": {},
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Ad and Hiboy agree: 500W"
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Ad title and Hiboy agree: 19 mph"
+    },
+    "range": {
+     "status": "verified",
+     "note": "Ad and Hiboy agree: 40.4 mi"
+    },
+    "load": {
+     "status": "unverified",
+     "note": "From Hiboy specs (220 lb); ad load claim not yet checked"
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "From Hiboy specs (10 in air-filled); ad tire claim not yet checked"
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "From Hiboy specs; ad brake claim not yet checked"
+    }
+   },
    "specs": {
     "motor": "500W",
-    "speed": null,
+    "speed": "19 mph",
     "range": "40.4 mi",
-    "load": null,
-    "tires": null,
-    "brakes": null
+    "load": "220 lb",
+    "tires": "10 in air-filled",
+    "brakes": "E-brake + disc"
    }
   },
   {
@@ -233,14 +404,39 @@
    ],
    "confidence": "high",
    "category": null,
-   "spec_verification": {},
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Ad and Segway agree: 350W nominal / 750W peak"
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Ad and Segway agree: 15.5 mph"
+    },
+    "range": {
+     "status": "conflict",
+     "note": "Ad claims 25-mile range; Segway rates 27 km (16.8 mi) at max speed, 40 km (24.9 mi) only in eco mode"
+    },
+    "load": {
+     "status": "unverified",
+     "note": "Segway official: 120 kg (264 lb); some regional pages list 100 kg / 220 lb"
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "From Segway specs; ad tire claim not yet checked"
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "From Segway specs; ad brake claim not yet checked"
+    }
+   },
    "specs": {
     "motor": "350W",
     "speed": "15.5 mph",
     "range": "24.9 mi",
-    "load": null,
-    "tires": null,
-    "brakes": null
+    "load": "264 lb",
+    "tires": "10 in tubeless pneumatic",
+    "brakes": "front drum + rear electronic"
    }
   },
   {
@@ -260,14 +456,39 @@
    ],
    "confidence": "high",
    "category": null,
-   "spec_verification": {},
+   "spec_verification": {
+    "motor": {
+     "status": "unverified",
+     "note": "From Phantomgogo brand specs; Costco ad claim not yet checked"
+    },
+    "speed": {
+     "status": "unverified",
+     "note": "From Phantomgogo brand specs; Costco ad claim not yet checked"
+    },
+    "range": {
+     "status": "unverified",
+     "note": "From Phantomgogo brand specs; Costco ad claim not yet checked"
+    },
+    "load": {
+     "status": "unverified",
+     "note": "Brand rates 220 lb; one third-party source claims 265 lb — treat as unverified"
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "From Phantomgogo brand specs; Costco ad claim not yet checked"
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "From Phantomgogo brand specs; Costco ad claim not yet checked"
+    }
+   },
    "specs": {
-    "motor": null,
-    "speed": null,
-    "range": null,
-    "load": null,
-    "tires": null,
-    "brakes": null
+    "motor": "400W",
+    "speed": "15.5 mph",
+    "range": "28 mi",
+    "load": "220 lb",
+    "tires": "10 in pneumatic",
+    "brakes": "front drum + rear electronic"
    }
   },
   {
@@ -285,7 +506,32 @@
    "badges": [],
    "confidence": "high",
    "category": null,
-   "spec_verification": {},
+   "spec_verification": {
+    "motor": {
+     "status": "conflict",
+     "note": "Temu title claims 500W; brand manual says 400W nominal / 800W peak"
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Manual and listing agree: 20 mph"
+    },
+    "range": {
+     "status": "unverified",
+     "note": "Manual's 40-mi figure tested with 165-lb rider at low speed; realistic ~25-30 mi at 220 lb"
+    },
+    "load": {
+     "status": "verified",
+     "note": "Manual: 265 lb"
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Manual: 10 in pneumatic"
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Manual: front drum + rear electric"
+    }
+   },
    "specs": {
     "motor": "400W nominal / 800W peak (Temu title claims 500W)",
     "speed": "20 mph",
