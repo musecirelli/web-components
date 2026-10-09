@@ -1,7 +1,7 @@
 {
  "hunt": "kids-scooter",
  "title": "Kids Electric Scooter Hunt",
- "generated": "2026-10-09T01:54:01.477986+00:00",
+ "generated": "2026-10-09T15:34:58.015304+00:00",
  "spec_columns": [
   {
    "key": "motor",
@@ -32,21 +32,32 @@
    "label": "Certification"
   }
  ],
+ "cert_links": {
+  "UL 2272": "https://standardsacademy.org/wp-content/uploads/2025/02/UL-2272-Case-Study_v5.pdf"
+ },
  "items": [
   {
    "id": "segway-dlx2-walmart",
    "name": "Segway DLX 2 Kids Electric Kick Scooter, 12.4 mph, 9.3-mile range",
    "url": "https://www.walmart.com/ip/c2-pro-Scooter/15128504174",
-   "image": null,
+   "image": "https://i5.walmartimages.com/seo/c2-pro-Scooter_41437325-f0b3-4544-aed3-3279e4c2ac08.429750de74b9961656fdf1da503d8278.jpeg",
    "retailer": "Walmart",
    "brand": "Segway",
-   "price": null,
+   "brand_url": null,
+   "rating": null,
+   "ruled_out": false,
+   "price": 148.0,
    "baseline": 148.0,
    "was": null,
-   "change": null,
-   "in_stock": null,
-   "badges": [],
-   "confidence": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "rollback",
+    "save $"
+   ],
+   "confidence": "high",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "150W brushless",
     "speed": "12.4 mph",
@@ -64,6 +75,9 @@
    "image": null,
    "retailer": "Best Buy",
    "brand": "Segway",
+   "brand_url": null,
+   "rating": null,
+   "ruled_out": false,
    "price": null,
    "baseline": 249.99,
    "was": null,
@@ -71,6 +85,8 @@
    "in_stock": null,
    "badges": [],
    "confidence": null,
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "150W brushless",
     "speed": "12.4 mph",
@@ -88,6 +104,9 @@
    "image": null,
    "retailer": "Best Buy",
    "brand": "Segway",
+   "brand_url": null,
+   "rating": null,
+   "ruled_out": false,
    "price": null,
    "baseline": 142.49,
    "was": null,
@@ -95,6 +114,8 @@
    "in_stock": null,
    "badges": [],
    "confidence": null,
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "130W brushless",
     "speed": "9.9 mph",
@@ -112,6 +133,9 @@
    "image": "https://m.media-amazon.com/images/I/61nBXujGjwL._AC_SL1500_.jpg",
    "retailer": "Amazon",
    "brand": "Segway",
+   "brand_url": null,
+   "rating": null,
+   "ruled_out": false,
    "price": 142.49,
    "baseline": 142.49,
    "was": 179.99,
@@ -122,6 +146,8 @@
     "sale"
    ],
    "confidence": "high",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "130W brushless",
     "speed": "9.9 mph",
@@ -139,6 +165,9 @@
    "image": "https://m.media-amazon.com/images/I/517HoEH7H+L._AC_SL1500_.jpg",
    "retailer": "Amazon",
    "brand": "Segway",
+   "brand_url": null,
+   "rating": null,
+   "ruled_out": false,
    "price": 239.99,
    "baseline": 239.99,
    "was": 279.99,
@@ -149,6 +178,8 @@
     "sale"
    ],
    "confidence": "high",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "150W brushless",
     "speed": "12.4 mph",
@@ -166,6 +197,9 @@
    "image": "https://m.media-amazon.com/images/I/51PysMK+6kL._AC_SL1500_.jpg",
    "retailer": "Amazon",
    "brand": "Segway",
+   "brand_url": null,
+   "rating": null,
+   "ruled_out": false,
    "price": 149.99,
    "baseline": 149.99,
    "was": null,
@@ -176,6 +210,8 @@
     "sale"
    ],
    "confidence": "high",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "150W brushless",
     "speed": "10 mph",
@@ -190,9 +226,12 @@
    "id": "aigo-e3-costco",
    "name": "Aigo E3 Rainbow Kids Electric Scooter (Costco)",
    "url": "https://www.costco.com/p/-/aigo-e3-rainbow-kids-electric-scooter/4000402707?langId=-1",
-   "image": null,
+   "image": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:91719cd7-3732-4a24-9686-3ce85cdddb57/as/4000402707-847__1.avif?width=350",
    "retailer": "Costco",
    "brand": "Aigo",
+   "brand_url": null,
+   "rating": null,
+   "ruled_out": false,
    "price": null,
    "baseline": 149.99,
    "was": null,
@@ -202,6 +241,8 @@
     "sale"
    ],
    "confidence": "low",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "130W",
     "speed": "9 mph",
@@ -219,6 +260,9 @@
    "image": "https://m.media-amazon.com/images/I/61ay6Y0yaAL._AC_SL1500_.jpg",
    "retailer": "Amazon",
    "brand": "FanttikRide",
+   "brand_url": null,
+   "rating": null,
+   "ruled_out": false,
    "price": 249.99,
    "baseline": 249.99,
    "was": 429.98,
@@ -229,6 +273,8 @@
     "sale"
    ],
    "confidence": "high",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "200W (listing claim)",
     "speed": "12 mph",
@@ -246,6 +292,9 @@
    "image": "https://m.media-amazon.com/images/I/51VonZE-2TL._AC_SL1039_.jpg",
    "retailer": "Amazon",
    "brand": "FanttikRide",
+   "brand_url": null,
+   "rating": null,
+   "ruled_out": false,
    "price": 229.99,
    "baseline": 229.99,
    "was": null,
@@ -256,6 +305,8 @@
     "sale"
    ],
    "confidence": "high",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "150W brushless",
     "speed": "12 mph",
@@ -273,6 +324,9 @@
    "image": "https://fanttik.com/cdn/shop/files/01_788eda30-0bd8-45fb-b236-c2ae817d79cc.jpg?v=1754463706&width=2048",
    "retailer": "FanttikRide direct",
    "brand": "FanttikRide",
+   "brand_url": null,
+   "rating": null,
+   "ruled_out": false,
    "price": 179.99,
    "baseline": 179.99,
    "was": null,
@@ -282,6 +336,8 @@
     "sale"
    ],
    "confidence": "low",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": null,
     "speed": null,
@@ -299,6 +355,9 @@
    "image": "https://i5.walmartimages.com/seo/SIMATE-Foldable-Electric-Scooter-for-Kids-Teen-Adults-Ages-8-7-Solid-Tires-250W-10-Miles-Range-Top-12mph-Portable-Pink_007ba2fd-5a08-4f4c-b62f-ba3f4f142fe4.63bd6c1fe28c55346a0a0e3000979792.jpeg",
    "retailer": "Walmart",
    "brand": "SIMATE",
+   "brand_url": null,
+   "rating": null,
+   "ruled_out": false,
    "price": 189.99,
    "baseline": 189.99,
    "was": null,
@@ -308,6 +367,8 @@
     "save $"
    ],
    "confidence": "high",
+   "category": null,
+   "spec_verification": {},
    "specs": {
     "motor": "250W",
     "speed": "12 mph",
