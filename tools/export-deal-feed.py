@@ -201,6 +201,8 @@ _KID_BRAND_TRUST = {
     # established brands with real support channels
     "segway": 10, "ninebot": 10, "razor": 9, "gotrax": 9, "hiboy": 9,
     "aigo": 6,
+    # brand-direct with own site and stated warranty
+    "ecoroad": 6,
     "simate": 5,
     # discontinued line on the brand's own site: parts/support risk
     "fanttikride": 4, "fanttik": 4,
