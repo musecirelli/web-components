@@ -378,6 +378,64 @@
     "brakes": null,
     "cert": null
    }
+  },
+  {
+   "id": "ecoroad-ek6-kids",
+   "name": "ECOROAD EK6 Kids Electric Scooter",
+   "url": "https://ecoroad.com/products/ek6-electric-scooter",
+   "image": "http://ecoroad.com/cdn/shop/files/EK6_3.png?v=1775645242",
+   "retailer": "ECOROAD direct",
+   "brand": "ECOROAD",
+   "brand_url": null,
+   "rating": 91.0,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 139.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": null,
+   "spec_verification": {},
+   "specs": {
+    "motor": "150W (brushless unconfirmed)",
+    "speed": "10 mph",
+    "range": null,
+    "load": "154 lb",
+    "tires": "6.5in solid",
+    "brakes": "dual (e-brake + fender)",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "ecoroad-ek8-2in1",
+   "name": "ECOROAD EK8 2-in-1 Electric Scooter (sit & stand)",
+   "url": "https://ecoroad.com/products/ek8-electric-scooter",
+   "image": "http://ecoroad.com/cdn/shop/files/EK8_1.png?v=1770261577",
+   "retailer": "ECOROAD direct",
+   "brand": "ECOROAD",
+   "brand_url": null,
+   "rating": 91.0,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 199.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": null,
+   "spec_verification": {},
+   "specs": {
+    "motor": "200W brushless",
+    "speed": "10 mph",
+    "range": "9 mi",
+    "load": "154 lb",
+    "tires": "6.5in solid",
+    "brakes": "dual",
+    "cert": "UL 2272"
+   }
   }
  ]
 }
