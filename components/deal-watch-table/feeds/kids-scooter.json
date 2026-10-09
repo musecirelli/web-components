@@ -387,7 +387,7 @@
    "retailer": "ECOROAD direct",
    "brand": "ECOROAD",
    "brand_url": null,
-   "rating": 91.0,
+   "rating": 86.0,
    "ruled_out": false,
    "price": null,
    "baseline": 139.99,
@@ -399,7 +399,7 @@
    "category": null,
    "spec_verification": {},
    "specs": {
-    "motor": "150W (brushless unconfirmed)",
+    "motor": "150W (type unconfirmed)",
     "speed": "10 mph",
     "range": null,
     "load": "154 lb",
