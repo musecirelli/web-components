@@ -269,8 +269,8 @@
    "image": "https://i5.walmartimages.com/seo/iScooter-Electric-Scooter-Adults-18-Miles-500W-Peak-Motor-Foldable-E-Scooter-19Mph-Top-Speed-Dual-Braking-System-Commuter-Electric-Scooter-Adults-Tee_10ba6ba1-84f6-4979-bda3-69ddb03f9b6a.04932b427528d75cced256e6a0a5599f.jpeg",
    "retailer": "Walmart",
    "brand": "iScooter",
-   "brand_url": "https://www.iscooterglobal.co.uk",
-   "rating": 88.0,
+   "brand_url": "https://www.iscooterglobal.com",
+   "rating": 76.0,
    "ruled_out": false,
    "price": 199.99,
    "baseline": 199.99,
@@ -284,28 +284,28 @@
    "category": null,
    "spec_verification": {
     "motor": {
-     "status": "verified",
-     "note": "Ad and brand-seller listings agree: 500W"
+     "status": "conflict",
+     "note": "Model identity UNCONFIRMED (2026-10-09): the Walmart URL slug advertises '500W Peak Motor / 18 Miles / 19Mph' but the recorded specs say 500W nominal / 23 mi / 22 mph — the specs do not match the linked listing. Ad does not name the iScooter model. Walmart reviews are weak. Needs a model match against the brand site (iscooterglobal.com) before this can be trusted."
     },
     "speed": {
-     "status": "verified",
-     "note": "Ad and brand-seller listings agree: 22 mph"
+     "status": "conflict",
+     "note": "Model identity UNCONFIRMED (2026-10-09): the Walmart URL slug advertises '500W Peak Motor / 18 Miles / 19Mph' but the recorded specs say 500W nominal / 23 mi / 22 mph — the specs do not match the linked listing. Ad does not name the iScooter model. Walmart reviews are weak. Needs a model match against the brand site (iscooterglobal.com) before this can be trusted."
     },
     "range": {
-     "status": "verified",
-     "note": "Ad and brand-seller listings agree: 23 mi"
+     "status": "conflict",
+     "note": "Model identity UNCONFIRMED (2026-10-09): the Walmart URL slug advertises '500W Peak Motor / 18 Miles / 19Mph' but the recorded specs say 500W nominal / 23 mi / 22 mph — the specs do not match the linked listing. Ad does not name the iScooter model. Walmart reviews are weak. Needs a model match against the brand site (iscooterglobal.com) before this can be trusted."
     },
     "load": {
-     "status": "verified",
-     "note": "Ad title and brand-seller listings agree: 264 lb"
+     "status": "unverified",
+     "note": "Model identity UNCONFIRMED (2026-10-09): the Walmart URL slug advertises '500W Peak Motor / 18 Miles / 19Mph' but the recorded specs say 500W nominal / 23 mi / 22 mph — the specs do not match the linked listing. Ad does not name the iScooter model. Walmart reviews are weak. Needs a model match against the brand site (iscooterglobal.com) before this can be trusted."
     },
     "tires": {
-     "status": "verified",
-     "note": "Ad body: 10-inch pneumatic tires (500W/23-mile variant selected)"
+     "status": "unverified",
+     "note": "Model identity UNCONFIRMED (2026-10-09): the Walmart URL slug advertises '500W Peak Motor / 18 Miles / 19Mph' but the recorded specs say 500W nominal / 23 mi / 22 mph — the specs do not match the linked listing. Ad does not name the iScooter model. Walmart reviews are weak. Needs a model match against the brand site (iscooterglobal.com) before this can be trusted."
     },
     "brakes": {
-     "status": "verified",
-     "note": "Ad body: dual brake system, disc + EABS anti-lock brakes"
+     "status": "unverified",
+     "note": "Model identity UNCONFIRMED (2026-10-09): the Walmart URL slug advertises '500W Peak Motor / 18 Miles / 19Mph' but the recorded specs say 500W nominal / 23 mi / 22 mph — the specs do not match the linked listing. Ad does not name the iScooter model. Walmart reviews are weak. Needs a model match against the brand site (iscooterglobal.com) before this can be trusted."
     }
    },
    "specs": {
