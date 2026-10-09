@@ -234,15 +234,15 @@
    "image": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:37910a21-70a5-4aef-9b07-33a093a2cb79/as/4000309209-847__1.avif?width=350",
    "retailer": "Costco",
    "brand": "Phantom",
-   "price": null,
+   "price": 399.99,
    "baseline": 399.99,
    "was": null,
-   "change": null,
-   "in_stock": null,
+   "change": 0.0,
+   "in_stock": true,
    "badges": [
     "sale"
    ],
-   "confidence": "low",
+   "confidence": "high",
    "specs": {
     "motor": null,
     "speed": null,
