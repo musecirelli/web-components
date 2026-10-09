@@ -50,7 +50,28 @@
   const app = document.getElementById('app');
   const picker = document.getElementById('hunt');
 
+  // Persist the selected hunt across page refreshes.
+  const HUNT_KEY = 'dealwatch-hunt';
+  const huntValues = [...picker.options].map((o) => o.value);
+  const loadSaved = () => {
+    try { return localStorage.getItem(HUNT_KEY); } catch { return null; }
+  };
+  const saveHunt = (value) => {
+    try { localStorage.setItem(HUNT_KEY, value); } catch { /* private mode */ }
+  };
+  const saved = loadSaved();
+  if (saved && huntValues.includes(saved)) {
+    picker.value = saved;
+    app.setAttribute('src', saved);
+  } else {
+    // Unknown or missing saved hunt: clear storage, default to the first.
+    try { localStorage.removeItem(HUNT_KEY); } catch { /* private mode */ }
+    picker.value = huntValues[0];
+    app.setAttribute('src', huntValues[0]);
+  }
+
   picker.addEventListener('change', () => {
+    saveHunt(picker.value);
     app.setAttribute('src', picker.value);
   });
 
