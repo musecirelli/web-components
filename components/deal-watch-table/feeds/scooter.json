@@ -1,7 +1,7 @@
 {
  "hunt": "scooter",
  "title": "Electric Scooter Hunt",
- "generated": "2026-10-10T19:10:51.578052+00:00",
+ "generated": "2026-10-10T19:15:18.622114+00:00",
  "spec_columns": [
   {
    "key": "motor",
@@ -2401,6 +2401,354 @@
     "load": "220 lb",
     "tires": "10 in honeycomb (in-stock variant)",
     "brakes": null,
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "navee-v40i-samsclub",
+   "name": "NAVEE V40i Electric Scooter, 700W, 20 mph, 25-mi range, 265-lb load",
+   "url": "https://www.samsclub.com/ip/navee-v401-700w-electric-scooter-ride-on/20578522163",
+   "image": null,
+   "retailer": "Sam's Club",
+   "brand": "NAVEE",
+   "brand_url": "https://naveetech.us",
+   "rating": 92.5,
+   "ruled_out": false,
+   "price": 299.0,
+   "baseline": 299.0,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Sam's listing: 700W motor."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Sam's listing: 20 mph max."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Sam's listing: up to 25 mi."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Sam's listing: 265-lb max load."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Sam's listing: 10-in pneumatic tires."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Sam's listing: front EABS + rear disc brakes."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "BJ's listing for same model: UL 2272 certified."
+    }
+   },
+   "specs": {
+    "motor": "700W",
+    "speed": "20 mph",
+    "range": "25 mi",
+    "load": "265 lb",
+    "tires": "10 in pneumatic",
+    "brakes": "front EABS + rear disc",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "navee-st3-samsclub",
+   "name": "NAVEE ST3 Electric Scooter, 1000W peak, 25 mph, 37.5-mi range, 265-lb load",
+   "url": "https://www.samsclub.com/ip/navee-st3-electric-scooter-max-speed-25-mph/17369409049",
+   "image": null,
+   "retailer": "Sam's Club",
+   "brand": "NAVEE",
+   "brand_url": "https://naveetech.us",
+   "rating": 82.5,
+   "ruled_out": false,
+   "price": 499.0,
+   "baseline": 499.0,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "NAVEE ST3-U manual: 1000W peak (nominal unstated)."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Sam's listing + manual: 25 mph max."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Sam's listing + manual: up to 37.5 mi."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Sam's listing + manual: 265-lb max load."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Manual: 10-in tubeless tires."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Brake configuration not stated for the base ST3 (Pro variant has drum+disc+EABS)."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Manual: UL 2272 certified."
+    }
+   },
+   "specs": {
+    "motor": "1000W peak",
+    "speed": "25 mph",
+    "range": "37.5 mi",
+    "load": "265 lb",
+    "tires": "10 in tubeless",
+    "brakes": null,
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "segway-f-se-samsclub",
+   "name": "Segway F-SE Electric Kick Scooter, 19 mph, 25-mi range, 265-lb load",
+   "url": "https://www.samsclub.com/ip/segway-f-se-electric-kick-scooter/13953568492",
+   "image": null,
+   "retailer": "Sam's Club",
+   "brand": "Segway",
+   "brand_url": "https://www.segway.com",
+   "rating": 69.0,
+   "ruled_out": false,
+   "price": 499.0,
+   "baseline": 499.0,
+   "was": 529.0,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "conflict",
+     "note": "Sam's listing omits wattage; third-party review claims 300W but its 15.5 mph / 18.6-mi figures conflict with Sam's 19 mph / 25-mi listing."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Sam's listing: 19 mph max."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Sam's listing: 25-mi range."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Sam's listing: 265-lb capacity."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Sam's listing: 10-in self-sealing tubeless tires."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Sam's listing: front and rear braking."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "No UL certification stated on the Sam's listing."
+    }
+   },
+   "specs": {
+    "motor": null,
+    "speed": "19 mph",
+    "range": "25 mi",
+    "load": "265 lb",
+    "tires": "10 in self-sealing tubeless",
+    "brakes": "front + rear",
+    "cert": null
+   }
+  },
+  {
+   "id": "fifth-wheel-v40pro-bjs",
+   "name": "5th Wheel V40PRO Electric Scooter, 400W rated (800W peak), 20 mph, 25-mi range",
+   "url": "https://www.bjs.com/product/5th-wheel-v40pro-electric-scooter---800w-peak-20-mph-max-speed-25-mile-max-range/3000000000005951789/",
+   "image": null,
+   "retailer": "5th Wheel direct",
+   "brand": "5th Wheel",
+   "brand_url": null,
+   "rating": 84.5,
+   "ruled_out": false,
+   "price": 369.99,
+   "baseline": 369.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "BJ's page: 800W peak / 400W rating."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "BJ's page: up to 20 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "BJ's page: up to 25 mi per charge."
+    },
+    "load": {
+     "status": "verified",
+     "note": "BJ's page omits load; Best Buy spec for same model: 265-lb max."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "BJ's page: 10-in maintenance-free solid tires."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "BJ's page: front EABS + rear disc (features block also says dual disc)."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "BJ's page: UL 2272 certified."
+    }
+   },
+   "specs": {
+    "motor": "400W rated (800W peak)",
+    "speed": "20 mph",
+    "range": "25 mi",
+    "load": "265 lb",
+    "tires": "10 in solid",
+    "brakes": "front EABS + rear disc",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "schwinn-typhoon-dicks",
+   "name": "Schwinn Typhoon Electric Scooter, 250W, 15.5 mph, 15-mi range, 220-lb load",
+   "url": "https://www.dickssportinggoods.com/p/schwinn-typhoon-electric-scooter-25scwy10schtyphnswhg/25scwy10schtyphnswhg",
+   "image": null,
+   "retailer": "Schwinn direct",
+   "brand": "Schwinn",
+   "brand_url": "https://www.schwinnbikes.com",
+   "rating": 43.5,
+   "ruled_out": false,
+   "price": 399.99,
+   "baseline": 399.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Dick's listing: 250W hub motor."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Dick's listing: up to 15.5 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Dick's listing: up to 15 mi on 36V battery."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Dick's listing: 220-lb capacity."
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "Dick's listing says extra-wide tires; size not stated."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Dick's listing: rear disc brake."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Dick's listing: ANSI/UL 2272 certified."
+    }
+   },
+   "specs": {
+    "motor": "250W",
+    "speed": "15.5 mph",
+    "range": "15 mi",
+    "load": "220 lb",
+    "tires": null,
+    "brakes": "rear disc",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "yvolution-yes-academy",
+   "name": "Yvolution YES Electric Scooter, 350W (500W max), 15 mph, 220-lb load",
+   "url": "https://www.academy.com/p/yes-electric-scooter",
+   "image": null,
+   "retailer": "Yvolution direct",
+   "brand": "Yvolution",
+   "brand_url": null,
+   "rating": 46.5,
+   "ruled_out": false,
+   "price": 399.99,
+   "baseline": 399.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Academy specs: 350W (500W max)."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Academy specs: 15 mph max."
+    },
+    "range": {
+     "status": "unverified",
+     "note": "Range not stated on Academy listing."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Academy specs: 220-lb max."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Academy specs: 8-in semi solid pneumatic."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Academy: 2 brake systems (electronic and mechanical)."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Academy: UL 2272 certified."
+    }
+   },
+   "specs": {
+    "motor": "350W (500W max)",
+    "speed": "15 mph",
+    "range": null,
+    "load": "220 lb",
+    "tires": "8 in semi-solid pneumatic",
+    "brakes": "electronic + mechanical",
     "cert": "UL 2272"
    }
   }
