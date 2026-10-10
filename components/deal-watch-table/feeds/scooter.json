@@ -1,7 +1,7 @@
 {
  "hunt": "scooter",
  "title": "Electric Scooter Hunt",
- "generated": "2026-10-09T12:29:36.280027+00:00",
+ "generated": "2026-10-10T12:40:16.525951+00:00",
  "spec_columns": [
   {
    "key": "motor",
@@ -161,8 +161,8 @@
    "brand_url": "https://www.hiboy.com/products/hiboy-s2pro-electric-scooter-for-daily-commuting",
    "rating": 83.0,
    "ruled_out": false,
-   "price": 399.99,
-   "baseline": 399.99,
+   "price": 422.95,
+   "baseline": 422.95,
    "was": 469.99,
    "change": 0.0,
    "in_stock": true,
@@ -223,7 +223,9 @@
    "was": null,
    "change": 0.0,
    "in_stock": true,
-   "badges": [],
+   "badges": [
+    "save $"
+   ],
    "confidence": "high",
    "category": "commuter",
    "spec_verification": {
@@ -277,10 +279,8 @@
    "was": null,
    "change": 0.0,
    "in_stock": true,
-   "badges": [
-    "save $"
-   ],
-   "confidence": "high",
+   "badges": [],
+   "confidence": "verified-manual",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -333,11 +333,8 @@
    "was": null,
    "change": 0.0,
    "in_stock": true,
-   "badges": [
-    "reduced price",
-    "save $"
-   ],
-   "confidence": "high",
+   "badges": [],
+   "confidence": "verified-manual",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -390,12 +387,12 @@
    "rating": 77.5,
    "ruled_out": false,
    "price": 489.99,
-   "baseline": 465.47,
+   "baseline": 489.99,
    "was": null,
-   "change": 24.52,
+   "change": 0.0,
    "in_stock": true,
    "badges": [],
-   "confidence": "high",
+   "confidence": "verified-manual",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -450,7 +447,8 @@
    "in_stock": true,
    "badges": [
     "coupon",
-    "sale"
+    "sale",
+    "save $"
    ],
    "confidence": "high",
    "category": "commuter",
@@ -509,10 +507,8 @@
    "was": null,
    "change": 0.0,
    "in_stock": true,
-   "badges": [
-    "sale"
-   ],
-   "confidence": "high",
+   "badges": [],
+   "confidence": "verified-manual",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -564,13 +560,13 @@
    "brand_url": "https://www.temu.com/-100-65-foldable-electric-scooter--scooter-500w-brushless-motor-w-40mi-max-operating-range-20-mph-max-speend-grey-g-610420261810913.html",
    "rating": 73.5,
    "ruled_out": false,
-   "price": 260.73,
+   "price": null,
    "baseline": 260.73,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "high",
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -618,13 +614,15 @@
    "brand_url": null,
    "rating": 78.5,
    "ruled_out": false,
-   "price": null,
+   "price": 219.99,
    "baseline": 219.99,
    "was": null,
-   "change": null,
-   "in_stock": null,
-   "badges": [],
-   "confidence": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "save $"
+   ],
+   "confidence": "verified-manual",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -670,19 +668,22 @@
    "id": "generic-500w-10in-amazon",
    "name": "Electric Scooter 500W, 10-inch Tires, 25MPH, 265-lb Load (Amazon white-label)",
    "url": "https://www.amazon.com/dp/B0H1L8F55M",
-   "image": null,
+   "image": "https://m.media-amazon.com/images/I/61-RrEPTwXL._AC_SL1500_.jpg",
    "retailer": "Amazon",
    "brand": "Generic",
    "brand_url": null,
    "rating": 70.0,
    "ruled_out": false,
-   "price": null,
+   "price": 249.0,
    "baseline": 249.0,
    "was": null,
-   "change": null,
-   "in_stock": null,
-   "badges": [],
-   "confidence": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -730,13 +731,15 @@
    "brand_url": null,
    "rating": 67.0,
    "ruled_out": false,
-   "price": null,
+   "price": 199.99,
    "baseline": 199.99,
-   "was": null,
-   "change": null,
-   "in_stock": null,
-   "badges": [],
-   "confidence": null,
+   "was": 399.99,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "save $"
+   ],
+   "confidence": "verified-manual",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -786,13 +789,11 @@
    "ruled_out": false,
    "price": 399.99,
    "baseline": 399.99,
-   "was": 449.99,
+   "was": null,
    "change": 0.0,
    "in_stock": true,
-   "badges": [
-    "11%OFF"
-   ],
-   "confidence": "high",
+   "badges": [],
+   "confidence": "verified-manual",
    "category": "off-road",
    "spec_verification": {
     "motor": {
@@ -838,7 +839,7 @@
    "id": "ecoroad-es6-direct",
    "name": "ECOROAD ES6 Electric Scooter, 800W rated (1000W peak), 10-inch off-road tires, dual suspension, 330-lb max load",
    "url": "https://ecoroad.com/products/es6-electric-scooter",
-   "image": null,
+   "image": "http://ecoroad.com/cdn/shop/files/ES6_1.png?v=1773122583",
    "retailer": "ECOROAD direct",
    "brand": "ECOROAD",
    "brand_url": "https://ecoroad.com",
@@ -846,13 +847,11 @@
    "ruled_out": false,
    "price": 499.99,
    "baseline": 499.99,
-   "was": 699.99,
+   "was": null,
    "change": 0.0,
    "in_stock": true,
-   "badges": [
-    "29%OFF"
-   ],
-   "confidence": "high",
+   "badges": [],
+   "confidence": "verified-manual",
    "category": "off-road",
    "spec_verification": {
     "motor": {
