@@ -1,7 +1,7 @@
 {
  "hunt": "scooter",
  "title": "Electric Scooter Hunt",
- "generated": "2026-10-10T19:15:18.622114+00:00",
+ "generated": "2026-10-10T19:19:52.149579+00:00",
  "spec_columns": [
   {
    "key": "motor",
@@ -2749,6 +2749,238 @@
     "load": "220 lb",
     "tires": "8 in semi-solid pneumatic",
     "brakes": "electronic + mechanical",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "gotrax-tour-xp-direct",
+   "name": "GOTRAX Tour XP Electric Scooter, 350W, 10-in pneumatic, EABS + disc",
+   "url": "https://gotrax.com/products/tour-xp-electric-scooter",
+   "image": null,
+   "retailer": "GOTRAX direct",
+   "brand": "GOTRAX",
+   "brand_url": "https://gotrax.com",
+   "rating": 55.5,
+   "ruled_out": false,
+   "price": 499.99,
+   "baseline": 499.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Brand page / parts listing: 350W motor."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Retailer listings: 20 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Retailer listings: 20-25 mi."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "Max load not stated on the brand page."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Retailer listings: 10-in pneumatic."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Retailer listings: EABS + disc."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL certification not stated on the brand page."
+    }
+   },
+   "specs": {
+    "motor": "350W",
+    "speed": "20 mph",
+    "range": "20-25 mi",
+    "load": null,
+    "tires": "10 in pneumatic",
+    "brakes": "EABS + disc",
+    "cert": null
+   }
+  },
+  {
+   "id": "fifth-wheel-v40pro-macys",
+   "name": "5th Wheel V40PRO Electric Scooter, 400W rated (800W peak), 265-lb load (Macy’s)",
+   "url": "https://www.macys.com/shop/product/5th-wheel-v40pro-400w-electric-scooter?ID=23711668",
+   "image": null,
+   "retailer": "5th Wheel direct",
+   "brand": "5th Wheel",
+   "brand_url": "https://ride5thwheel.com",
+   "rating": 84.5,
+   "ruled_out": false,
+   "price": 499.99,
+   "baseline": 499.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Macy’s product page: 800W peak with 400W rating."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Macy’s product page: 20 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Macy’s product page: 25 mi."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Same model as BJ’s entry: 265-lb max load."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Macy’s product page: 10-in solid."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Macy’s product page: front EABS + rear disc."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Same model as BJ’s entry: UL 2272."
+    }
+   },
+   "specs": {
+    "motor": "400W rated (800W peak)",
+    "speed": "20 mph",
+    "range": "25 mi",
+    "load": "265 lb",
+    "tires": "10 in solid",
+    "brakes": "front EABS + rear disc",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "fifth-wheel-v20pro-macys",
+   "name": "5th Wheel V20PRO Electric Scooter, 350W rated (600W peak), UL 2272 (Macy’s)",
+   "url": "https://www.macys.com/shop/product/5th-wheel-v20pro-350w-electric-scooter?ID=23746069",
+   "image": null,
+   "retailer": "5th Wheel direct",
+   "brand": "5th Wheel",
+   "brand_url": "https://ride5thwheel.com",
+   "rating": 42.0,
+   "ruled_out": false,
+   "price": 299.99,
+   "baseline": 299.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Macy’s product page: 600W peak with 350W rating."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Macy’s product page: 18 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Macy’s product page: 12 mi."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "Max load not stated on the Macy’s page."
+    },
+    "tires": {
+     "status": "conflict",
+     "note": "Macy’s blurb says 10-in solid; feature list says 8.5-in solid."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Macy’s product page: front E-ABS + rear disc."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Macy’s product page: UL 2272."
+    }
+   },
+   "specs": {
+    "motor": "350W rated (600W peak)",
+    "speed": "18 mph",
+    "range": "12 mi",
+    "load": null,
+    "tires": "8.5-10 in solid (conflict)",
+    "brakes": "front E-ABS + rear disc",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "gotrax-apex-plus-academy",
+   "name": "GOTRAX Apex Plus Electric Scooter, 250W, 15.5 mph (Academy)",
+   "url": "https://Www.Academy.com/p/gotrax-apex-plus-electric-scooter",
+   "image": null,
+   "retailer": "GOTRAX direct",
+   "brand": "GOTRAX",
+   "brand_url": "https://gotrax.com",
+   "rating": 42.5,
+   "ruled_out": false,
+   "price": 319.99,
+   "baseline": 319.99,
+   "was": 399.99,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Academy product page: 250W."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Academy product page: 15.5 mph."
+    },
+    "range": {
+     "status": "unverified",
+     "note": "Range not stated on the Academy page."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "Max load not stated on the Academy page."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Academy product page: 8.5-in tires."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Academy product page: rear drum brake."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Academy product page: UL 2272."
+    }
+   },
+   "specs": {
+    "motor": "250W",
+    "speed": "15.5 mph",
+    "range": null,
+    "load": null,
+    "tires": "8.5 in",
+    "brakes": "rear drum",
     "cert": "UL 2272"
    }
   }
