@@ -266,13 +266,13 @@
   },
   {
    "id": "iscooter-500w-walmart",
-   "name": "iScooter 500W Electric Scooter, 23-mile range, 22MPH, 264-lb max load",
+   "name": "iScooter i9M Electric Scooter — 500W peak, 18-mi range, up to 22 mph, 264-lb load",
    "url": "https://www.walmart.com/ip/iScooter-Electric-Scooter-Adults-18-Miles-500W-Peak-Motor-Foldable-E-Scooter-19Mph-Top-Speed-Dual-Braking-System-Commuter-Electric-Scooter-Adults-Tee/16026520434",
    "image": "https://i5.walmartimages.com/seo/iScooter-Electric-Scooter-Adults-18-Miles-500W-Peak-Motor-Foldable-E-Scooter-19Mph-Top-Speed-Dual-Braking-System-Commuter-Electric-Scooter-Adults-Tee_10ba6ba1-84f6-4979-bda3-69ddb03f9b6a.04932b427528d75cced256e6a0a5599f.jpeg",
    "retailer": "Walmart",
    "brand": "iScooter",
    "brand_url": "https://www.iscooterglobal.com",
-   "rating": 67.5,
+   "rating": 72.5,
    "ruled_out": false,
    "price": 199.99,
    "baseline": 199.99,
@@ -285,33 +285,33 @@
    "spec_verification": {
     "motor": {
      "status": "conflict",
-     "note": "Model identity UNCONFIRMED (2026-10-09): the Walmart URL slug advertises '500W Peak Motor / 18 Miles / 19Mph' but the recorded specs say 500W nominal / 23 mi / 22 mph — the specs do not match the linked listing. Ad does not name the iScooter model. Walmart reviews are weak. Needs a model match against the brand site (iscooterglobal.com) before this can be trusted."
+     "note": "Brand page (iscooterglobal.com i9M) states 500W PEAK. 500W NOMINAL not verified — ~450W is only an estimate from the sibling i8M. FAILS Steve's hard 500W-nominal criterion."
     },
     "speed": {
-     "status": "conflict",
-     "note": "Model identity UNCONFIRMED (2026-10-09): the Walmart URL slug advertises '500W Peak Motor / 18 Miles / 19Mph' but the recorded specs say 500W nominal / 23 mi / 22 mph — the specs do not match the linked listing. Ad does not name the iScooter model. Walmart reviews are weak. Needs a model match against the brand site (iscooterglobal.com) before this can be trusted."
+     "status": "verified",
+     "note": "Per iscooterglobal.com i9M brand page: up to 22 mph."
     },
     "range": {
-     "status": "conflict",
-     "note": "Model identity UNCONFIRMED (2026-10-09): the Walmart URL slug advertises '500W Peak Motor / 18 Miles / 19Mph' but the recorded specs say 500W nominal / 23 mi / 22 mph — the specs do not match the linked listing. Ad does not name the iScooter model. Walmart reviews are weak. Needs a model match against the brand site (iscooterglobal.com) before this can be trusted."
+     "status": "verified",
+     "note": "Per iscooterglobal.com i9M brand page: 18-mi max range."
     },
     "load": {
-     "status": "unverified",
-     "note": "Model identity UNCONFIRMED (2026-10-09): the Walmart URL slug advertises '500W Peak Motor / 18 Miles / 19Mph' but the recorded specs say 500W nominal / 23 mi / 22 mph — the specs do not match the linked listing. Ad does not name the iScooter model. Walmart reviews are weak. Needs a model match against the brand site (iscooterglobal.com) before this can be trusted."
+     "status": "verified",
+     "note": "Per iscooterglobal.com i9M brand page: 264-lb max load."
     },
     "tires": {
      "status": "unverified",
-     "note": "Model identity UNCONFIRMED (2026-10-09): the Walmart URL slug advertises '500W Peak Motor / 18 Miles / 19Mph' but the recorded specs say 500W nominal / 23 mi / 22 mph — the specs do not match the linked listing. Ad does not name the iScooter model. Walmart reviews are weak. Needs a model match against the brand site (iscooterglobal.com) before this can be trusted."
+     "note": "10 in pneumatic from the Walmart reseller listing; not confirmed on the brand page."
     },
     "brakes": {
      "status": "unverified",
-     "note": "Model identity UNCONFIRMED (2026-10-09): the Walmart URL slug advertises '500W Peak Motor / 18 Miles / 19Mph' but the recorded specs say 500W nominal / 23 mi / 22 mph — the specs do not match the linked listing. Ad does not name the iScooter model. Walmart reviews are weak. Needs a model match against the brand site (iscooterglobal.com) before this can be trusted."
+     "note": "Disc + EABS (dual) from the Walmart reseller listing; not confirmed on the brand page."
     }
    },
    "specs": {
-    "motor": "500W",
+    "motor": "500W peak (nominal unverified — est. ~450W, unconfirmed)",
     "speed": "22 mph",
-    "range": "23 mi",
+    "range": "18 mi",
     "load": "264 lb",
     "tires": "10 in pneumatic",
     "brakes": "disc + EABS anti-lock (dual)",
