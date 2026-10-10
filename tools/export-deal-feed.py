@@ -368,6 +368,41 @@ def main():
             "specs": {c["key"]: specs.get(c["key"]) for c in hunt["spec_columns"]},
         })
 
+    # Full-inventory scan candidates (2026-10-10, Steve's standing rule):
+    # every listing a discovery scan reviewed, not just the shortlist.
+    # These are NOT price-checked daily (price_check.py only reads "items");
+    # they carry the scan-time price and a rating so the table shows all data.
+    for c in baseline.get("candidates", []):
+        specs = c.get("specs") or {}
+        rate_key = hunt.get("rate")
+        if rate_key == "kids":
+            rating = rate_kids_item(c)
+        elif rate_key:
+            rating = rate_item(c)
+        else:
+            rating = {}
+        items.append({
+            "id": c["id"],
+            "name": c.get("name", c["id"]),
+            "url": c.get("url", ""),
+            "image": c.get("image") or None,
+            "retailer": retailer_for(c),
+            "brand": c.get("brand", ""),
+            "brand_url": c.get("brand_url") or None,
+            "rating": rating.get("rating"),
+            "ruled_out": rating.get("ruled_out", False),
+            "price": c.get("price"),
+            "baseline": c.get("price"),
+            "was": None,
+            "change": None,
+            "in_stock": c.get("in_stock"),
+            "badges": (c.get("badges") or []) + ["inventory scan"],
+            "confidence": c.get("confidence"),
+            "category": c.get("category"),
+            "spec_verification": c.get("spec_verification") or {},
+            "specs": {k["key"]: specs.get(k["key"]) for k in hunt["spec_columns"]},
+        })
+
     if baseline_touched:
         Path(args.baseline).write_text(
             json.dumps(baseline, indent=2, ensure_ascii=False) + "\n")
