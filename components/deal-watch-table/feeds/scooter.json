@@ -1,7 +1,7 @@
 {
  "hunt": "scooter",
  "title": "Electric Scooter Hunt",
- "generated": "2026-10-10T12:40:16.525951+00:00",
+ "generated": "2026-10-10T19:10:51.578052+00:00",
  "spec_columns": [
   {
    "key": "motor",
@@ -2170,6 +2170,238 @@
     "tires": "10 in pneumatic/honeycomb",
     "brakes": "disc + electronic",
     "cert": null
+   }
+  },
+  {
+   "id": "gotrax-g3-max-direct",
+   "name": "Gotrax G3 MAX Long Range eScooter, 500W, 17 mph, 37-mi range, 264-lb load",
+   "url": "https://gotrax.com/products/g3-max-electric-scooter",
+   "image": null,
+   "retailer": "GOTRAX direct",
+   "brand": "GOTRAX",
+   "brand_url": "https://gotrax.com",
+   "rating": 88.5,
+   "ruled_out": false,
+   "price": 489.0,
+   "baseline": 489.0,
+   "was": 699.0,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Brand page: 500W avg."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Brand page: 17 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Brand page: up to 37 mi."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Brand page: 264 lb payload."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Brand page: 10-in pneumatic."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Brake type not stated on the brand page."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Brand page: UL 2272."
+    }
+   },
+   "specs": {
+    "motor": "500W",
+    "speed": "17 mph",
+    "range": "37 mi",
+    "load": "264 lb",
+    "tires": "10 in pneumatic",
+    "brakes": null,
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "gotrax-apex-pro-direct",
+   "name": "Gotrax Apex PRO Commuting Electric Scooter, 250W, 15.5 mph, 220-lb load",
+   "url": "https://gotrax.com/products/apex-pro-commuting-electric-scooter",
+   "image": null,
+   "retailer": "GOTRAX direct",
+   "brand": "GOTRAX",
+   "brand_url": "https://gotrax.com",
+   "rating": 49.5,
+   "ruled_out": false,
+   "price": 279.0,
+   "baseline": 279.0,
+   "was": 349.0,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Brand page: 250W avg."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Brand page: 15.5 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Brand page: up to 15.5 mi."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Brand page: 220 lb payload."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Brand page: 8.5-in pneumatic."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Brake type not stated on the brand page."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Brand page: UL 2272."
+    }
+   },
+   "specs": {
+    "motor": "250W",
+    "speed": "15.5 mph",
+    "range": "15.5 mi",
+    "load": "220 lb",
+    "tires": "8.5 in pneumatic",
+    "brakes": null,
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "gotrax-apex-direct",
+   "name": "Gotrax Apex Folding Electric Scooter, 250W, 15.5 mph, 220-lb load",
+   "url": "https://gotrax.com/products/apex-electric-scooter",
+   "image": null,
+   "retailer": "GOTRAX direct",
+   "brand": "GOTRAX",
+   "brand_url": "https://gotrax.com",
+   "rating": 49.5,
+   "ruled_out": false,
+   "price": 320.0,
+   "baseline": 320.0,
+   "was": 350.0,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Brand page: 250W avg."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Brand page: 15.5 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Brand page: up to 15.5 mi."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Brand page: 220 lb payload."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Brand page: 8.5-in pneumatic."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Brake type not stated on the brand page."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Brand page: UL 2272."
+    }
+   },
+   "specs": {
+    "motor": "250W",
+    "speed": "15.5 mph",
+    "range": "15.5 mi",
+    "load": "220 lb",
+    "tires": "8.5 in pneumatic",
+    "brakes": null,
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "gotrax-gmax-direct",
+   "name": "Gotrax GMAX Electric Scooter, 500W, 20 mph, 42-mi range, 220-lb load",
+   "url": "https://gotrax.com/products/gmax-electric-scooter",
+   "image": null,
+   "retailer": "GOTRAX direct",
+   "brand": "GOTRAX",
+   "brand_url": "https://gotrax.com",
+   "rating": 78.5,
+   "ruled_out": false,
+   "price": 499.0,
+   "baseline": 499.0,
+   "was": 749.0,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Brand page: 500W avg."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Brand page: 20 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Brand page spec blocks: up to 42 mi (page title says 45 mi)."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Brand page: 220 lb payload."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Brand page: 10-in; in-stock $499 variant has honeycomb tires."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Brake type not stated on the brand page."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Brand page: UL 2272."
+    }
+   },
+   "specs": {
+    "motor": "500W",
+    "speed": "20 mph",
+    "range": "42 mi",
+    "load": "220 lb",
+    "tires": "10 in honeycomb (in-stock variant)",
+    "brakes": null,
+    "cert": "UL 2272"
    }
   }
  ]
