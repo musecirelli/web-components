@@ -1,7 +1,7 @@
 {
  "hunt": "scooter",
  "title": "Electric Scooter Hunt",
- "generated": "2026-10-10T19:20:50.910322+00:00",
+ "generated": "2026-10-10T19:26:28.408293+00:00",
  "spec_columns": [
   {
    "key": "motor",
@@ -3388,6 +3388,238 @@
     "tires": "10 in solid",
     "brakes": "drum + electric",
     "cert": null
+   }
+  },
+  {
+   "id": "gotrax-apex-lite-academy",
+   "name": "GOTRAX Apex Lite Electric Scooter, 200W, 12 mph, 6.5-in tires (Academy)",
+   "url": "https://www.academy.com/p/gotrax-apex-lite-electric-scooter?sku=black",
+   "image": null,
+   "retailer": "GOTRAX direct",
+   "brand": "GOTRAX",
+   "brand_url": "https://gotrax.com",
+   "rating": 39.5,
+   "ruled_out": false,
+   "price": 239.99,
+   "baseline": 239.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Academy listing: 200W."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Academy listing: up to 12 mph."
+    },
+    "range": {
+     "status": "unverified",
+     "note": "Range not stated."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "Max load not stated."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Academy listing: 6.5-in tires."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Academy listing: rear drum brake."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Academy listing: UL 2272."
+    }
+   },
+   "specs": {
+    "motor": "200W",
+    "speed": "12 mph",
+    "range": null,
+    "load": null,
+    "tires": "6.5 in",
+    "brakes": "rear drum",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "gopower-goone-academy",
+   "name": "GoPower GoOne Electric Scooter, 400W brushless, 18.6 mph, 17-mi range (Academy)",
+   "url": "https://www.academy.com/p/gopower-adults-goone-electric-scooter?sku=black",
+   "image": null,
+   "retailer": "GoPower direct",
+   "brand": "GoPower",
+   "brand_url": null,
+   "rating": 47.5,
+   "ruled_out": false,
+   "price": 287.99,
+   "baseline": 287.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Academy listing: 400W brushless."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Academy listing: up to 18.6 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Academy listing: up to 17 mi."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "Max load not stated."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Academy listing: 8.5-in solid puncture-proof."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Academy listing: front + rear drum."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Academy listing: UL 2272."
+    }
+   },
+   "specs": {
+    "motor": "400W",
+    "speed": "18.6 mph",
+    "range": "17 mi",
+    "load": null,
+    "tires": "8.5 in solid",
+    "brakes": "front + rear drum",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "gopower-godelta-academy",
+   "name": "GoPower GoDelta Electric Scooter, 1000W brushless, 28 mph, 330-lb load (Academy)",
+   "url": "https://www.academy.com/p/gopower-adults-godelta-electric-scooter?sku=black",
+   "image": null,
+   "retailer": "GoPower direct",
+   "brand": "GoPower",
+   "brand_url": null,
+   "rating": 83.5,
+   "ruled_out": false,
+   "price": 479.99,
+   "baseline": 479.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Academy listing: 1000W brushless."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Academy listing: up to 28 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Academy listing: up to 25 mi."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Academy listing: supports riders up to 330 lb."
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "Tire size not stated."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Academy listing: dual front + rear disc."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Academy listing: UL 2272."
+    }
+   },
+   "specs": {
+    "motor": "1000W",
+    "speed": "28 mph",
+    "range": "25 mi",
+    "load": "330 lb",
+    "tires": null,
+    "brakes": "dual disc",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "fifth-wheel-v30pro-bjs",
+   "name": "5th Wheel V30PRO Electric Scooter, 350W (700W peak), 18 mph, 265-lb load (BJ's)",
+   "url": "https://www.bjs.com/product/5th-wheel-v30pro-electric-scooter---700w-peak-18-mph-top-speed-20-mile-max-range/3000000000005951787/",
+   "image": null,
+   "retailer": "5th Wheel direct",
+   "brand": "5th Wheel",
+   "brand_url": null,
+   "rating": 65.5,
+   "ruled_out": false,
+   "price": 279.99,
+   "baseline": 279.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": false,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "5th Wheel specs via retailer listings: 350W rated / 700W peak."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Retailer listings: 18 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Retailer listings: 20 mi."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Retailer listings: 265-lb load."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Retailer listings: 10-in."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Brake type not confirmed."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Retailer listings: UL 2272."
+    }
+   },
+   "specs": {
+    "motor": "350W",
+    "speed": "18 mph",
+    "range": "20 mi",
+    "load": "265 lb",
+    "tires": "10 in",
+    "brakes": null,
+    "cert": "UL 2272"
    }
   }
  ]
