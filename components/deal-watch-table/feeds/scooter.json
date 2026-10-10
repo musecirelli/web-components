@@ -908,8 +908,11 @@
    "was": null,
    "change": 0.0,
    "in_stock": true,
-   "badges": [],
-   "confidence": "low",
+   "badges": [
+    "coupon",
+    "sale"
+   ],
+   "confidence": "high",
    "category": "commuter",
    "spec_verification": {
     "motor": {
