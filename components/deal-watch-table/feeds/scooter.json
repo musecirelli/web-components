@@ -1,7 +1,7 @@
 {
  "hunt": "scooter",
  "title": "Electric Scooter Hunt",
- "generated": "2026-10-10T19:19:52.149579+00:00",
+ "generated": "2026-10-10T19:20:50.910322+00:00",
  "spec_columns": [
   {
    "key": "motor",
@@ -2982,6 +2982,412 @@
     "tires": "8.5 in",
     "brakes": "rear drum",
     "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "aovopro-esmax-aliexpress",
+   "name": "AOVOPRO ESMAX Electric Scooter, 500W, 22 mph, 28-mi range, 265-lb load (AliExpress)",
+   "url": "https://www.aliexpress.us/item/3256809986361764.html",
+   "image": null,
+   "retailer": "AOVOPRO direct",
+   "brand": "AOVOPRO",
+   "brand_url": "https://www.aovopro.com/",
+   "rating": 85.5,
+   "ruled_out": false,
+   "price": 264.38,
+   "baseline": 264.38,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Brand site aovopro.com: 500W motor / 1000W peak."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Brand site: 35 km/h (22 mph)."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Brand site: 35-45 km; ad claims 28 mi."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Brand site: 120 kg max load."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Brand site: 10-in."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Brand site: front drum + rear electric."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL 2272 not stated on the ad or brand site."
+    }
+   },
+   "specs": {
+    "motor": "500W",
+    "speed": "22 mph",
+    "range": "28 mi",
+    "load": "265 lb",
+    "tires": "10 in",
+    "brakes": "drum + electric",
+    "cert": null
+   }
+  },
+  {
+   "id": "aovopro-500w-2026-aliexpress",
+   "name": "AOVOPRO 500W Adult Electric Scooter, 10-in solid tires, 22 mph, 265-lb load (AliExpress)",
+   "url": "https://www.aliexpress.us/item/3256812556823451.html",
+   "image": null,
+   "retailer": "AOVOPRO direct",
+   "brand": "AOVOPRO",
+   "brand_url": "https://www.aovopro.com/",
+   "rating": 61.5,
+   "ruled_out": false,
+   "price": 175.26,
+   "baseline": 175.26,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "unverified",
+     "note": "Ad claim only; model not confirmed on brand site."
+    },
+    "speed": {
+     "status": "unverified",
+     "note": "Ad claim only; model not confirmed on brand site."
+    },
+    "range": {
+     "status": "unverified",
+     "note": "Ad claim only; model not confirmed on brand site."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "Ad claim only; model not confirmed on brand site."
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "Ad claim only; model not confirmed on brand site."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Ad claim only; model not confirmed on brand site."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL 2272 not stated."
+    }
+   },
+   "specs": {
+    "motor": "500W",
+    "speed": "22 mph",
+    "range": "13-22 mi",
+    "load": "265 lb",
+    "tires": "10 in solid",
+    "brakes": "drum + electric",
+    "cert": null
+   }
+  },
+  {
+   "id": "osboo-1200w-offroad-aliexpress",
+   "name": "Osboo 1200W Off-Road Electric Scooter, 31 mph, 11-in all-terrain, 300-lb load (AliExpress)",
+   "url": "https://www.aliexpress.us/item/3256812297807650.html",
+   "image": null,
+   "retailer": "Osboo direct",
+   "brand": "Osboo",
+   "brand_url": null,
+   "rating": 68.5,
+   "ruled_out": false,
+   "price": 367.78,
+   "baseline": 367.78,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "off-road",
+   "spec_verification": {
+    "motor": {
+     "status": "unverified",
+     "note": "Ad claim only; no brand official site found."
+    },
+    "speed": {
+     "status": "unverified",
+     "note": "Ad claim only; no brand official site found."
+    },
+    "range": {
+     "status": "unverified",
+     "note": "Ad claim only; no brand official site found."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "Ad claim only; no brand official site found."
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "Ad claim only; no brand official site found."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Ad claim only; no brand official site found."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL 2272 not stated."
+    }
+   },
+   "specs": {
+    "motor": "1200W",
+    "speed": "31 mph",
+    "range": "25 mi",
+    "load": "300 lb",
+    "tires": "11 in all-terrain",
+    "brakes": "disc",
+    "cert": null
+   }
+  },
+  {
+   "id": "osboo-a17-1200w-aliexpress",
+   "name": "Osboo A17 1200W Off-Road Electric Scooter, 31 mph, 31-mi range, 300-lb load (AliExpress)",
+   "url": "https://www.aliexpress.us/item/3256812469405327.html",
+   "image": null,
+   "retailer": "Osboo direct",
+   "brand": "Osboo",
+   "brand_url": null,
+   "rating": 68.5,
+   "ruled_out": false,
+   "price": 427.12,
+   "baseline": 427.12,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "off-road",
+   "spec_verification": {
+    "motor": {
+     "status": "unverified",
+     "note": "Ad claim only; no brand official site found."
+    },
+    "speed": {
+     "status": "unverified",
+     "note": "Ad claim only; no brand official site found."
+    },
+    "range": {
+     "status": "unverified",
+     "note": "Ad claim only; no brand official site found."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "Ad claim only; no brand official site found."
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "Ad claim only; no brand official site found."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Ad claim only; no brand official site found."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL 2272 not stated."
+    }
+   },
+   "specs": {
+    "motor": "1200W",
+    "speed": "31 mph",
+    "range": "31 mi",
+    "load": "300 lb",
+    "tires": "11 in all-terrain",
+    "brakes": "disc",
+    "cert": null
+   }
+  },
+  {
+   "id": "eoeotwo-1200w-offroad-aliexpress",
+   "name": "EOEOTWO 1200W Off-Road Electric Scooter, 30 mph, 11-in tubeless, 330-lb load (AliExpress)",
+   "url": "https://www.aliexpress.us/item/3256809945399812.html",
+   "image": null,
+   "retailer": "EOEOTWO direct",
+   "brand": "EOEOTWO",
+   "brand_url": null,
+   "rating": 55.5,
+   "ruled_out": false,
+   "price": 346.1,
+   "baseline": 346.1,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "off-road",
+   "spec_verification": {
+    "motor": {
+     "status": "unverified",
+     "note": "Ad claim only; no brand official site found."
+    },
+    "speed": {
+     "status": "unverified",
+     "note": "Ad claim only; no brand official site found."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "Ad claim only; no brand official site found."
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "Ad claim only; no brand official site found."
+    },
+    "range": {
+     "status": "unverified",
+     "note": "No distance stated; battery options 48V 13Ah / 23Ah."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Brake type not stated in ad."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "Ad spec table claims UL 2272 — not confirmed."
+    }
+   },
+   "specs": {
+    "motor": "1200W",
+    "speed": "30 mph",
+    "range": null,
+    "load": "330 lb",
+    "tires": "11 in tubeless off-road",
+    "brakes": null,
+    "cert": "UL 2272 (claimed, unverified)"
+   }
+  },
+  {
+   "id": "bikydom-1200w-offroad-aliexpress",
+   "name": "Bikydom 1200W Off-Road Electric Scooter, 10-in tires, disc brakes (AliExpress)",
+   "url": "https://www.aliexpress.us/item/3256812332987084.html",
+   "image": null,
+   "retailer": "Bikydom direct",
+   "brand": "Bikydom",
+   "brand_url": null,
+   "rating": 62.0,
+   "ruled_out": false,
+   "price": 339.1,
+   "baseline": 339.1,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "off-road",
+   "spec_verification": {
+    "motor": {
+     "status": "unverified",
+     "note": "Ad claim only; no brand official site found."
+    },
+    "speed": {
+     "status": "conflict",
+     "note": "Title says 35 mph, description 30 mph, spec table <25 km/h."
+    },
+    "range": {
+     "status": "unverified",
+     "note": "Ad: 20-40 km (description claims up to 30 mi ideal)."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "Ad claim only: 120 kg."
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "Ad claim only: 10-in honeycomb."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Ad claim only: disc brakes."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL 2272 not stated."
+    }
+   },
+   "specs": {
+    "motor": "1200W",
+    "speed": null,
+    "range": "20-40 km",
+    "load": "265 lb",
+    "tires": "10 in honeycomb",
+    "brakes": "disc",
+    "cert": null
+   }
+  },
+  {
+   "id": "aovopro-tmax-aliexpress",
+   "name": "AOVOPRO TMAX 10-in Electric Scooter, 500W, 22 mph, 264-lb load (AliExpress)",
+   "url": "https://www.aliexpress.us/item/3256809344449287.html",
+   "image": null,
+   "retailer": "AOVOPRO direct",
+   "brand": "AOVOPRO",
+   "brand_url": "https://www.aovopro.com/",
+   "rating": 61.5,
+   "ruled_out": false,
+   "price": 235.96,
+   "baseline": 235.96,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "unverified",
+     "note": "Ad claim only; TMAX not confirmed on brand site (brand exists)."
+    },
+    "speed": {
+     "status": "unverified",
+     "note": "Ad claim only; TMAX not confirmed on brand site (brand exists)."
+    },
+    "range": {
+     "status": "unverified",
+     "note": "Ad claim only; TMAX not confirmed on brand site (brand exists)."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "Ad claim only; TMAX not confirmed on brand site (brand exists)."
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "Ad claim only; TMAX not confirmed on brand site (brand exists)."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Ad claim only; TMAX not confirmed on brand site (brand exists)."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL 2272 not stated."
+    }
+   },
+   "specs": {
+    "motor": "500W",
+    "speed": "22 mph",
+    "range": "13-21 mi",
+    "load": "264 lb",
+    "tires": "10 in solid",
+    "brakes": "drum + electric",
+    "cert": null
    }
   }
  ]
