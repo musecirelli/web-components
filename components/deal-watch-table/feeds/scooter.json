@@ -1,7 +1,7 @@
 {
  "hunt": "scooter",
  "title": "Electric Scooter Hunt",
- "generated": "2026-10-10T19:26:28.408293+00:00",
+ "generated": "2026-10-10T19:43:03.927497+00:00",
  "spec_columns": [
   {
    "key": "motor",
@@ -560,11 +560,11 @@
    "brand_url": "https://www.temu.com/-100-65-foldable-electric-scooter--scooter-500w-brushless-motor-w-40mi-max-operating-range-20-mph-max-speend-grey-g-610420261810913.html",
    "rating": 73.5,
    "ruled_out": false,
-   "price": null,
+   "price": 260.73,
    "baseline": 260.73,
    "was": null,
-   "change": null,
-   "in_stock": null,
+   "change": 0.0,
+   "in_stock": false,
    "badges": [],
    "confidence": null,
    "category": "commuter",
@@ -3620,6 +3620,238 @@
     "tires": "10 in",
     "brakes": null,
     "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "aovopro-500w-350lb-temu",
+   "name": "AOVOPRO Folding Adult Electric Scooter, 500W brushless, 10-in tires, 350-lb load (Temu)",
+   "url": "https://www.temu.com/-folding--scooter-500w-brushless-motor-10-tires--settings-21--range-dual-suspension--absorption--control--safety-bell-350-lbs--g-601099731236612.html",
+   "image": null,
+   "retailer": "Temu",
+   "brand": "AOVOPRO",
+   "brand_url": "https://www.aovopro.com/",
+   "rating": 60.5,
+   "ruled_out": false,
+   "price": 282.25,
+   "baseline": 282.25,
+   "was": null,
+   "change": 0.0,
+   "in_stock": false,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "unverified",
+     "note": "Ad claim only; model not confirmed on brand site."
+    },
+    "speed": {
+     "status": "unverified",
+     "note": "Speed not stated."
+    },
+    "range": {
+     "status": "unverified",
+     "note": "Ad claim only: 21-28 mi."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "Ad claim only: 350 lb max load."
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "Ad claim only: 10-in."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Brake type not stated (dual suspension stated)."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL 2272 not stated."
+    }
+   },
+   "specs": {
+    "motor": "500W",
+    "speed": null,
+    "range": "21-28 mi",
+    "load": "350 lb",
+    "tires": "10 in",
+    "brakes": null,
+    "cert": null
+   }
+  },
+  {
+   "id": "aovopro-500w-lcd-temu",
+   "name": "AOVOPRO 500W Adult Electric Scooter, 10-in solid tires, dual brakes, 350-lb load (Temu)",
+   "url": "https://www.temu.com/lightweight-quick-foldable-electric-scooter-for--500w-motor-10-inch-solid-anti-slip-tires-app-and-lcd-dashboard-control-dual-brakes-safety-bell-up-to-350-lbs-load-long-range-commuter-e-scooter-durable-aluminum-alloy-body-g-606788866942878.html",
+   "image": null,
+   "retailer": "Temu",
+   "brand": "AOVOPRO",
+   "brand_url": "https://www.aovopro.com/",
+   "rating": 63.5,
+   "ruled_out": false,
+   "price": 247.18,
+   "baseline": 247.18,
+   "was": null,
+   "change": 0.0,
+   "in_stock": false,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "unverified",
+     "note": "Ad claim only; model not confirmed on brand site."
+    },
+    "speed": {
+     "status": "unverified",
+     "note": "Speed not stated."
+    },
+    "range": {
+     "status": "unverified",
+     "note": "Range stated only as \"long-range\"."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "Ad claim only: up to 350 lb."
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "Ad claim only: 10-in solid anti-slip."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Ad claim only: dual brakes."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL 2272 not stated."
+    }
+   },
+   "specs": {
+    "motor": "500W",
+    "speed": null,
+    "range": null,
+    "load": "350 lb",
+    "tires": "10 in solid",
+    "brakes": "dual",
+    "cert": null
+   }
+  },
+  {
+   "id": "quick-fold-450w-temu",
+   "name": "Quick Fold Adult Commuter Electric Scooter, 450W, 8.5-in solid tires, 265-lb load (Temu)",
+   "url": "https://www.temu.com/--commuter-electric-scooter-450w-motor-long-range-8-5-anti-slip-solid-tires--connect-lcd-display-adjustable-3--dual-safe-brakes-headlight-taillight-built-in-bell-aluminum-alloy-body-supports-265-lbs-g-601101942281054.html",
+   "image": null,
+   "retailer": "Temu",
+   "brand": "Generic",
+   "brand_url": null,
+   "rating": 51.5,
+   "ruled_out": false,
+   "price": 129.92,
+   "baseline": 129.92,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "unverified",
+     "note": "Ad claim only; white-label, no brand site."
+    },
+    "speed": {
+     "status": "unverified",
+     "note": "Speed not stated (3 adjustable speeds)."
+    },
+    "range": {
+     "status": "unverified",
+     "note": "Range stated only as \"long range\"."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "Ad claim only: 265 lb."
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "Ad claim only: 8.5-in anti-slip solid."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Ad claim only: dual safe brakes."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL 2272 not stated."
+    }
+   },
+   "specs": {
+    "motor": "450W",
+    "speed": null,
+    "range": null,
+    "load": "265 lb",
+    "tires": "8.5 in solid",
+    "brakes": "dual",
+    "cert": null
+   }
+  },
+  {
+   "id": "ladped-350w-temu",
+   "name": "LADPED 350W Adult Electric Scooter, 8.5-in solid tires, 265-lb load (Temu)",
+   "url": "https://www.temu.com/long-distance-range-foldable--scooter-350w-motor-8-5-anti-slip-solid-tires--lcd-dashboard-3-adjustable--dual-safe-brakes-led-headlight-taillight-built-in-bell-aluminum-alloy-frame-265-lbs--g-601103053496355.html",
+   "image": null,
+   "retailer": "Temu",
+   "brand": "LADPED",
+   "brand_url": null,
+   "rating": 47.5,
+   "ruled_out": false,
+   "price": 136.14,
+   "baseline": 136.14,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [],
+   "confidence": "verified-manual",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "unverified",
+     "note": "Ad claim only; white-label, no brand site."
+    },
+    "speed": {
+     "status": "unverified",
+     "note": "Speed not stated (3 adjustable speeds)."
+    },
+    "range": {
+     "status": "unverified",
+     "note": "Range stated only as \"long distance range\"."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "Ad claim only: 265 lb max load."
+    },
+    "tires": {
+     "status": "unverified",
+     "note": "Ad claim only: 8.5-in anti-slip solid."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Ad claim only: dual safe brakes."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL 2272 not stated."
+    }
+   },
+   "specs": {
+    "motor": "350W",
+    "speed": null,
+    "range": null,
+    "load": "265 lb",
+    "tires": "8.5 in solid",
+    "brakes": "dual",
+    "cert": null
    }
   }
  ]
