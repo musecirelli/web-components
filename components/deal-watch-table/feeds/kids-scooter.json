@@ -436,6 +436,64 @@
     "brakes": "dual",
     "cert": "UL 2272"
    }
+  },
+  {
+   "id": "gyroor-h30max-amazon",
+   "name": "Gyroor H30Max Kids Electric Scooter, 150W brushless, 6/8/10 mph",
+   "url": "https://www.amazon.com/dp/B0CXN8VLND",
+   "image": "https://m.media-amazon.com/images/I/61-o9qPSk8L._AC_SL1500_.jpg",
+   "retailer": "Amazon",
+   "brand": "Gyroor",
+   "brand_url": null,
+   "rating": 68.0,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 178.0,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": null,
+   "spec_verification": {},
+   "specs": {
+    "motor": "150W brushless",
+    "speed": "10 mph",
+    "range": null,
+    "load": "132 lb",
+    "tires": null,
+    "brakes": "electronic + foot",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "gotrax-150w-kids-amazon",
+   "name": "Gotrax Kids Electric Scooter 6-12, 150W, 7.5 mph",
+   "url": "https://www.amazon.com/dp/B0F9W3TZJB",
+   "image": "https://m.media-amazon.com/images/I/613AIza5wGL._AC_SL1500_.jpg",
+   "retailer": "Amazon",
+   "brand": "Gotrax",
+   "brand_url": null,
+   "rating": 81.0,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 119.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": null,
+   "spec_verification": {},
+   "specs": {
+    "motor": "150W (brushless unconfirmed)",
+    "speed": "7.5 mph",
+    "range": "3.75 mi",
+    "load": "120 lb",
+    "tires": "6in solid",
+    "brakes": "e-brake + foot",
+    "cert": "UL 2272"
+   }
   }
  ]
 }
