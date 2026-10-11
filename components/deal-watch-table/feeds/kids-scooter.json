@@ -1,7 +1,7 @@
 {
  "hunt": "kids-scooter",
  "title": "Kids Electric Scooter Hunt",
- "generated": "2026-10-11T15:59:26.771194+00:00",
+ "generated": "2026-10-11T16:34:44.767265+00:00",
  "spec_columns": [
   {
    "key": "motor",
@@ -238,10 +238,8 @@
    "was": null,
    "change": null,
    "in_stock": null,
-   "badges": [
-    "sale"
-   ],
-   "confidence": "low",
+   "badges": [],
+   "confidence": null,
    "category": null,
    "spec_verification": {},
    "specs": {
@@ -328,13 +326,15 @@
    "brand_url": null,
    "rating": 38.0,
    "ruled_out": false,
-   "price": null,
+   "price": 179.99,
    "baseline": 179.99,
    "was": null,
-   "change": null,
+   "change": 0.0,
    "in_stock": null,
-   "badges": [],
-   "confidence": null,
+   "badges": [
+    "sale"
+   ],
+   "confidence": "low",
    "category": null,
    "spec_verification": {},
    "specs": {
@@ -389,15 +389,13 @@
    "brand_url": null,
    "rating": 86.0,
    "ruled_out": false,
-   "price": 169.99,
+   "price": null,
    "baseline": 139.99,
    "was": null,
-   "change": 30.0,
-   "in_stock": true,
-   "badges": [
-    "sale"
-   ],
-   "confidence": "low",
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
    "category": null,
    "spec_verification": {},
    "specs": {
