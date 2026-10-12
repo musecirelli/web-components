@@ -1,7 +1,7 @@
 {
  "hunt": "scooter",
  "title": "Electric Scooter Hunt",
- "generated": "2026-10-10T19:43:03.927497+00:00",
+ "generated": "2026-10-12T13:47:35.960283+00:00",
  "spec_columns": [
   {
    "key": "motor",
@@ -51,8 +51,11 @@
    "was": null,
    "change": 0.0,
    "in_stock": true,
-   "badges": [],
-   "confidence": "high",
+   "badges": [
+    "rollback",
+    "save $"
+   ],
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -218,15 +221,13 @@
    "brand_url": "https://www.hiboy.com/products/hiboy-s2pro-electric-scooter-for-daily-commuting",
    "rating": 83.0,
    "ruled_out": false,
-   "price": 422.97,
+   "price": null,
    "baseline": 422.97,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
-   "badges": [
-    "save $"
-   ],
-   "confidence": "high",
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -274,13 +275,17 @@
    "brand_url": "https://www.iscooterglobal.com",
    "rating": 72.5,
    "ruled_out": false,
-   "price": 199.99,
-   "baseline": 199.99,
+   "price": 219.99,
+   "baseline": 219.99,
    "was": null,
    "change": 0.0,
    "in_stock": true,
-   "badges": [],
-   "confidence": "verified-manual",
+   "badges": [
+    "reduced price",
+    "rollback",
+    "save $"
+   ],
+   "confidence": "high",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -333,8 +338,13 @@
    "was": null,
    "change": 0.0,
    "in_stock": true,
-   "badges": [],
-   "confidence": "verified-manual",
+   "badges": [
+    "clearance",
+    "reduced price",
+    "rollback",
+    "save $"
+   ],
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -386,13 +396,13 @@
    "brand_url": "https://www.hiboy.com/blogs/news/hiboy-launches-an-upgraded-version-of-the-s2-series-s2-max-in-2022",
    "rating": 77.5,
    "ruled_out": false,
-   "price": 489.99,
+   "price": null,
    "baseline": 489.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -502,13 +512,13 @@
    "brand_url": "https://phantomgogo.com",
    "rating": 74.5,
    "ruled_out": false,
-   "price": 399.99,
+   "price": null,
    "baseline": 399.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -560,13 +570,15 @@
    "brand_url": "https://www.temu.com/-100-65-foldable-electric-scooter--scooter-500w-brushless-motor-w-40mi-max-operating-range-20-mph-max-speend-grey-g-610420261810913.html",
    "rating": 73.5,
    "ruled_out": false,
-   "price": 260.73,
+   "price": null,
    "baseline": 260.73,
    "was": null,
-   "change": 0.0,
-   "in_stock": false,
-   "badges": [],
-   "confidence": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [
+    "coupon"
+   ],
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -614,15 +626,13 @@
    "brand_url": null,
    "rating": 78.5,
    "ruled_out": false,
-   "price": 219.99,
+   "price": null,
    "baseline": 219.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
-   "badges": [
-    "save $"
-   ],
-   "confidence": "verified-manual",
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -725,7 +735,7 @@
    "id": "generic-500w-25mph-walmart",
    "name": "Electric Scooter for Adults, 500W, 10-inch Tires, 25MPH, 265-lb Load (Walmart white-label)",
    "url": "https://www.walmart.com/ip/19449800797",
-   "image": null,
+   "image": "https://i5.walmartimages.com/seo/Electric-Scooter-for-Adults-500W-Motor-10-Tires-up-to-25MPH-and-25Miles-Long-Range-Portable-E-Scooter_f616f43d-0868-4f93-bc43-893e3a677dc6.55c4da951546d0677de0645eea11b57b.jpeg",
    "retailer": "Walmart",
    "brand": "Generic",
    "brand_url": null,
@@ -733,13 +743,16 @@
    "ruled_out": false,
    "price": 199.99,
    "baseline": 199.99,
-   "was": 399.99,
+   "was": null,
    "change": 0.0,
    "in_stock": true,
    "badges": [
+    "clearance",
+    "reduced price",
+    "rollback",
     "save $"
    ],
-   "confidence": "verified-manual",
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -787,13 +800,15 @@
    "brand_url": "https://ecoroad.com",
    "rating": 89.0,
    "ruled_out": false,
-   "price": 399.99,
+   "price": 449.99,
    "baseline": 399.99,
    "was": null,
-   "change": 0.0,
+   "change": 50.0,
    "in_stock": true,
-   "badges": [],
-   "confidence": "verified-manual",
+   "badges": [
+    "sale"
+   ],
+   "confidence": "low",
    "category": "off-road",
    "spec_verification": {
     "motor": {
@@ -845,13 +860,13 @@
    "brand_url": "https://ecoroad.com",
    "rating": 94.5,
    "ruled_out": false,
-   "price": 499.99,
+   "price": null,
    "baseline": 499.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": null,
    "category": "off-road",
    "spec_verification": {
     "motor": {
@@ -897,7 +912,7 @@
    "id": "segway-e2-plus-ii-amazon",
    "name": "Segway Ninebot E2 Plus II Electric Scooter, 15.5 mph, 16-mi range, 198-lb load",
    "url": "https://www.amazon.com/dp/B0F62SVY89",
-   "image": null,
+   "image": "https://m.media-amazon.com/images/I/51CF+E51jqL._AC_SL1500_.jpg",
    "retailer": "Amazon",
    "brand": "Segway",
    "brand_url": "https://www.segway.com",
@@ -905,7 +920,7 @@
    "ruled_out": true,
    "price": 285.99,
    "baseline": 285.99,
-   "was": null,
+   "was": 349.99,
    "change": 0.0,
    "in_stock": true,
    "badges": [
@@ -964,13 +979,13 @@
    "brand_url": "https://ecoroad.com",
    "rating": 80.5,
    "ruled_out": false,
-   "price": 379.99,
+   "price": null,
    "baseline": 379.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1022,13 +1037,13 @@
    "brand_url": "https://ecoroad.com",
    "rating": 79.5,
    "ruled_out": false,
-   "price": 499.99,
+   "price": null,
    "baseline": 499.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": false,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1074,7 +1089,7 @@
    "id": "navee-g5-pro-direct",
    "name": "NAVEE G5 Pro Electric Scooter, 400W rated (800W max), 20 mph, 34-mi range, 264-lb load",
    "url": "https://naveetech.us/products/navee-g5-pro",
-   "image": null,
+   "image": "http://naveetech.us/cdn/shop/files/prime_day_2.jpg?v=1790597943",
    "retailer": "NAVEE direct",
    "brand": "NAVEE",
    "brand_url": "https://naveetech.com",
@@ -1085,8 +1100,10 @@
    "was": null,
    "change": 0.0,
    "in_stock": true,
-   "badges": [],
-   "confidence": "verified-manual",
+   "badges": [
+    "sale"
+   ],
+   "confidence": "high",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1138,13 +1155,13 @@
    "brand_url": "https://gotrax.com",
    "rating": 46.5,
    "ruled_out": false,
-   "price": 289.99,
+   "price": null,
    "baseline": 289.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1196,13 +1213,13 @@
    "brand_url": "https://gotrax.com",
    "rating": 81.5,
    "ruled_out": false,
-   "price": 420.0,
+   "price": null,
    "baseline": 420.0,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1248,19 +1265,19 @@
    "id": "fifth-wheel-v10pro-target",
    "name": "5TH WHEEL V10PRO Electric Scooter, 300W rated (500W peak), 18 mph, 12-mi range, 265-lb load (Target)",
    "url": "https://Www.target.com/p/5th-wheel-v10pro-electric-scooter-500w-peak-motor-18-mph-top-speed-12-mile-max-range-265-lbs-capacity-8-5-solid-tires-with-turn-signals/-/A-1005217645",
-   "image": null,
+   "image": "https://target.scene7.com/is/image/Target/GUEST_58fe715c-cf84-4ea1-8f25-efd52fbed313",
    "retailer": "Target",
    "brand": "5th Wheel",
    "brand_url": "https://ride5thwheel.com",
    "rating": 58.5,
    "ruled_out": false,
-   "price": 199.99,
+   "price": null,
    "baseline": 199.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1317,8 +1334,10 @@
    "was": null,
    "change": 0.0,
    "in_stock": true,
-   "badges": [],
-   "confidence": "verified-manual",
+   "badges": [
+    "sale"
+   ],
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1364,7 +1383,7 @@
    "id": "maxfind-glider-g5-pro-direct",
    "name": "MAXFIND Glider G5 Pro Electric Scooter, dual motor, 25 mph, 18-mi range, 265-lb load",
    "url": "https://www.maxfind.com/products/electric-scooter-glider-g5-pro",
-   "image": null,
+   "image": "http://www.maxfind.com/cdn/shop/files/G5_PRO-1_824beb12-2de0-4c14-b359-421f8ef5a382.jpg?v=1782185490",
    "retailer": "MAXFIND direct",
    "brand": "MAXFIND",
    "brand_url": "https://www.maxfind.com",
@@ -1375,8 +1394,11 @@
    "was": null,
    "change": 0.0,
    "in_stock": true,
-   "badges": [],
-   "confidence": "low",
+   "badges": [
+    "clearance",
+    "sale"
+   ],
+   "confidence": "high",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1428,13 +1450,13 @@
    "brand_url": "https://www.hiboy.com",
    "rating": 56.5,
    "ruled_out": false,
-   "price": 352.99,
+   "price": null,
    "baseline": 352.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1480,19 +1502,21 @@
    "id": "gotrax-gxl-v2-direct",
    "name": "Gotrax GXL V2 Lightweight Electric Scooter, 250W, 15.5 mph, 12.5-mi range",
    "url": "https://gotrax.com/products/gxl-commuter-scooter-hand-brake-edition",
-   "image": null,
+   "image": "http://gotrax.com/cdn/shop/products/gxl-v2-electric-scooter-131781.jpg?v=1681768698&width=2048",
    "retailer": "GOTRAX direct",
    "brand": "GOTRAX",
    "brand_url": "https://gotrax.com",
    "rating": 43.0,
    "ruled_out": false,
-   "price": 300.0,
+   "price": 29.99,
    "baseline": 300.0,
    "was": null,
-   "change": 0.0,
+   "change": -270.01,
    "in_stock": true,
-   "badges": [],
-   "confidence": "verified-manual",
+   "badges": [
+    "sale"
+   ],
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1549,8 +1573,10 @@
    "was": null,
    "change": 0.0,
    "in_stock": false,
-   "badges": [],
-   "confidence": "verified-manual",
+   "badges": [
+    "sale"
+   ],
+   "confidence": "high",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1596,7 +1622,7 @@
    "id": "hyper-skute-jet-fuel-direct",
    "name": "Hyper 37V Skute Jet Fuel Folding Electric Scooter, 350W, 16 mph, 14-mi range, 264-lb load",
    "url": "https://hyperbicycles.com/collections/electric-scooters/products/37v-skute-jet-fuel-folding-electric-scooter-350w-motor-adult",
-   "image": null,
+   "image": "http://hyperbicycles.com/cdn/shop/files/0690995985910_1.jpg?v=1700575212",
    "retailer": "Hyper direct",
    "brand": "Hyper",
    "brand_url": "https://hyperbicycles.com",
@@ -1607,8 +1633,10 @@
    "was": null,
    "change": 0.0,
    "in_stock": true,
-   "badges": [],
-   "confidence": "verified-manual",
+   "badges": [
+    "sale"
+   ],
+   "confidence": "high",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1660,13 +1688,15 @@
    "brand_url": "https://gotrax.com",
    "rating": 49.5,
    "ruled_out": false,
-   "price": 249.0,
+   "price": null,
    "baseline": 249.0,
    "was": null,
-   "change": 0.0,
-   "in_stock": false,
-   "badges": [],
-   "confidence": "verified-manual",
+   "change": null,
+   "in_stock": null,
+   "badges": [
+    "sale"
+   ],
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1718,13 +1748,13 @@
    "brand_url": "https://www.hiboy.com",
    "rating": 49.5,
    "ruled_out": false,
-   "price": 289.99,
+   "price": null,
    "baseline": 289.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "low",
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1776,13 +1806,13 @@
    "brand_url": "https://shop.niu.com",
    "rating": 35.5,
    "ruled_out": false,
-   "price": 419.0,
+   "price": null,
    "baseline": 419.0,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "low",
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1828,19 +1858,22 @@
    "id": "niu-kqi-100-direct",
    "name": "NIU KQi 100 Electric Kick Scooter (100F/100P), 300W rated (600W max), 17.4 mph, 18-mi range, 265-lb load",
    "url": "https://Shop.niu.com/products/niu-kqi-100-electric-scooter",
-   "image": null,
+   "image": "http://shop.niu.com/cdn/shop/files/KQi-100F_Basic-Render_Gray_Left-45.jpg?v=1766985413",
    "retailer": "NIU direct",
    "brand": "NIU",
    "brand_url": "https://shop.niu.com",
    "rating": 51.5,
    "ruled_out": false,
-   "price": 299.0,
-   "baseline": 299.0,
-   "was": null,
+   "price": 449.0,
+   "baseline": 449.0,
+   "was": 479.0,
    "change": 0.0,
    "in_stock": true,
-   "badges": [],
-   "confidence": "low",
+   "badges": [
+    "sale",
+    "save $"
+   ],
+   "confidence": "high",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1886,7 +1919,7 @@
    "id": "niu-kqi1-sport-direct",
    "name": "NIU KQi1 Sport Electric Kick Scooter, 250W rated (450W max), 15.5 mph, 15.5-mi range",
    "url": "https://shop.niu.com/products/niu-kqi1-sport-for-adults",
-   "image": null,
+   "image": "http://shop.niu.com/cdn/shop/products/K1.jpg?v=1696230254",
    "retailer": "NIU direct",
    "brand": "NIU",
    "brand_url": "https://shop.niu.com",
@@ -1896,9 +1929,11 @@
    "baseline": 499.0,
    "was": null,
    "change": 0.0,
-   "in_stock": true,
-   "badges": [],
-   "confidence": "low",
+   "in_stock": false,
+   "badges": [
+    "sale"
+   ],
+   "confidence": "high",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1944,17 +1979,17 @@
    "id": "ninebot-es1l-segway-direct",
    "name": "Ninebot KickScooter ES1L, 12.4 mph, 12.4-mi range (Segway direct)",
    "url": "https://store.segway.com/ninebot-kickscooter-es1l",
-   "image": null,
+   "image": "https://segway.imgix.net/catalog/product/cache/d3ec3723470ff918c92e447639eaf984/e/s/es1l_708x708_2.png",
    "retailer": "Segway direct",
    "brand": "Segway",
    "brand_url": "https://store.segway.com",
    "rating": 34.5,
    "ruled_out": false,
-   "price": 399.99,
+   "price": null,
    "baseline": 399.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": false,
+   "change": null,
+   "in_stock": null,
    "badges": [],
    "confidence": "low",
    "category": "commuter",
@@ -2008,13 +2043,13 @@
    "brand_url": "https://gotrax.com",
    "rating": 53.5,
    "ruled_out": false,
-   "price": 319.0,
+   "price": null,
    "baseline": 319.0,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "low",
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -2066,13 +2101,13 @@
    "brand_url": "https://gotrax.com",
    "rating": 46.5,
    "ruled_out": false,
-   "price": 349.0,
+   "price": null,
    "baseline": 349.0,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "low",
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -2118,7 +2153,7 @@
    "id": "turboant-x7-max-direct",
    "name": "TurboAnt X7 Max Folding Electric Scooter, 350W (700W peak), 20 mph, 32-mi range, 275-lb load",
    "url": "https://turboant.com/products/x7-max-folding-electric-scooter",
-   "image": null,
+   "image": "https://cdn.shopify.com/s/files/1/0103/7054/7793/files/X7_MAX_d9643df3-518c-4ada-bbf2-211d8944b602.jpg?v=1776156096",
    "retailer": "TurboAnt direct",
    "brand": "TurboAnt",
    "brand_url": "https://turboant.com",
@@ -2129,7 +2164,10 @@
    "was": null,
    "change": 0.0,
    "in_stock": true,
-   "badges": [],
+   "badges": [
+    "clearance",
+    "sale"
+   ],
    "confidence": "low",
    "category": "commuter",
    "spec_verification": {
@@ -2176,19 +2214,21 @@
    "id": "gotrax-g3-max-direct",
    "name": "Gotrax G3 MAX Long Range eScooter, 500W, 17 mph, 37-mi range, 264-lb load",
    "url": "https://gotrax.com/products/g3-max-electric-scooter",
-   "image": null,
+   "image": "http://gotrax.com/cdn/shop/files/g3-max-electric-scooter-664994.jpg?v=1730367781&width=2048",
    "retailer": "GOTRAX direct",
    "brand": "GOTRAX",
    "brand_url": "https://gotrax.com",
    "rating": 88.5,
    "ruled_out": false,
-   "price": 489.0,
+   "price": null,
    "baseline": 489.0,
-   "was": 699.0,
-   "change": 0.0,
+   "was": null,
+   "change": null,
    "in_stock": true,
-   "badges": [],
-   "confidence": "verified-manual",
+   "badges": [
+    "sale"
+   ],
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -2234,19 +2274,21 @@
    "id": "gotrax-apex-pro-direct",
    "name": "Gotrax Apex PRO Commuting Electric Scooter, 250W, 15.5 mph, 220-lb load",
    "url": "https://gotrax.com/products/apex-pro-commuting-electric-scooter",
-   "image": null,
+   "image": "http://gotrax.com/cdn/shop/files/apex-pro-commuting-electric-scooter-548242.jpg?v=1718863702&width=2048",
    "retailer": "GOTRAX direct",
    "brand": "GOTRAX",
    "brand_url": "https://gotrax.com",
    "rating": 49.5,
    "ruled_out": false,
-   "price": 279.0,
+   "price": 29.99,
    "baseline": 279.0,
-   "was": 349.0,
-   "change": 0.0,
+   "was": null,
+   "change": -249.01,
    "in_stock": true,
-   "badges": [],
-   "confidence": "verified-manual",
+   "badges": [
+    "sale"
+   ],
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -2292,19 +2334,21 @@
    "id": "gotrax-apex-direct",
    "name": "Gotrax Apex Folding Electric Scooter, 250W, 15.5 mph, 220-lb load",
    "url": "https://gotrax.com/products/apex-electric-scooter",
-   "image": null,
+   "image": "http://gotrax.com/cdn/shop/files/apex-electric-scooter-592041.jpg?v=1742309411&width=2048",
    "retailer": "GOTRAX direct",
    "brand": "GOTRAX",
    "brand_url": "https://gotrax.com",
    "rating": 49.5,
    "ruled_out": false,
-   "price": 320.0,
+   "price": null,
    "baseline": 320.0,
-   "was": 350.0,
-   "change": 0.0,
+   "was": null,
+   "change": null,
    "in_stock": true,
-   "badges": [],
-   "confidence": "verified-manual",
+   "badges": [
+    "sale"
+   ],
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -2350,19 +2394,21 @@
    "id": "gotrax-gmax-direct",
    "name": "Gotrax GMAX Electric Scooter, 500W, 20 mph, 42-mi range, 220-lb load",
    "url": "https://gotrax.com/products/gmax-electric-scooter",
-   "image": null,
+   "image": "http://gotrax.com/cdn/shop/products/gmax-electric-scooter-777674.jpg?v=1681768673&width=2048",
    "retailer": "GOTRAX direct",
    "brand": "GOTRAX",
    "brand_url": "https://gotrax.com",
    "rating": 78.5,
    "ruled_out": false,
-   "price": 499.0,
+   "price": null,
    "baseline": 499.0,
-   "was": 749.0,
-   "change": 0.0,
+   "was": null,
+   "change": null,
    "in_stock": true,
-   "badges": [],
-   "confidence": "verified-manual",
+   "badges": [
+    "sale"
+   ],
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -2414,13 +2460,13 @@
    "brand_url": "https://naveetech.us",
    "rating": 92.5,
    "ruled_out": false,
-   "price": 299.0,
+   "price": null,
    "baseline": 299.0,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -2472,13 +2518,13 @@
    "brand_url": "https://naveetech.us",
    "rating": 82.5,
    "ruled_out": false,
-   "price": 499.0,
+   "price": null,
    "baseline": 499.0,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -2530,13 +2576,13 @@
    "brand_url": "https://www.segway.com",
    "rating": 69.0,
    "ruled_out": false,
-   "price": 499.0,
+   "price": null,
    "baseline": 499.0,
-   "was": 529.0,
-   "change": 0.0,
-   "in_stock": true,
+   "was": null,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -2588,13 +2634,13 @@
    "brand_url": null,
    "rating": 84.5,
    "ruled_out": false,
-   "price": 369.99,
+   "price": null,
    "baseline": 369.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -2646,13 +2692,13 @@
    "brand_url": "https://www.schwinnbikes.com",
    "rating": 43.5,
    "ruled_out": false,
-   "price": 399.99,
+   "price": null,
    "baseline": 399.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -2698,7 +2744,7 @@
    "id": "yvolution-yes-academy",
    "name": "Yvolution YES Electric Scooter, 350W (500W max), 15 mph, 220-lb load",
    "url": "https://www.academy.com/p/yes-electric-scooter",
-   "image": null,
+   "image": "https://academy.scene7.com/is/image/academy/og-image/20982082",
    "retailer": "Yvolution direct",
    "brand": "Yvolution",
    "brand_url": null,
@@ -2709,8 +2755,10 @@
    "was": null,
    "change": 0.0,
    "in_stock": true,
-   "badges": [],
-   "confidence": "verified-manual",
+   "badges": [
+    "clearance"
+   ],
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -2756,19 +2804,21 @@
    "id": "gotrax-tour-xp-direct",
    "name": "GOTRAX Tour XP Electric Scooter, 350W, 10-in pneumatic, EABS + disc",
    "url": "https://gotrax.com/products/tour-xp-electric-scooter",
-   "image": null,
+   "image": "http://gotrax.com/cdn/shop/products/tour-xp-electric-scooter-500333.jpg?v=1681768742&width=2048",
    "retailer": "GOTRAX direct",
    "brand": "GOTRAX",
    "brand_url": "https://gotrax.com",
    "rating": 55.5,
    "ruled_out": false,
-   "price": 499.99,
+   "price": null,
    "baseline": 499.99,
    "was": null,
-   "change": 0.0,
+   "change": null,
    "in_stock": true,
-   "badges": [],
-   "confidence": "verified-manual",
+   "badges": [
+    "sale"
+   ],
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -2820,13 +2870,13 @@
    "brand_url": "https://ride5thwheel.com",
    "rating": 84.5,
    "ruled_out": false,
-   "price": 499.99,
+   "price": null,
    "baseline": 499.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -2878,13 +2928,13 @@
    "brand_url": "https://ride5thwheel.com",
    "rating": 42.0,
    "ruled_out": false,
-   "price": 299.99,
+   "price": null,
    "baseline": 299.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -2936,13 +2986,13 @@
    "brand_url": "https://gotrax.com",
    "rating": 42.5,
    "ruled_out": false,
-   "price": 319.99,
+   "price": null,
    "baseline": 319.99,
-   "was": 399.99,
-   "change": 0.0,
-   "in_stock": true,
+   "was": null,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -2994,13 +3044,13 @@
    "brand_url": "https://www.aovopro.com/",
    "rating": 85.5,
    "ruled_out": false,
-   "price": 264.38,
+   "price": null,
    "baseline": 264.38,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -3052,13 +3102,13 @@
    "brand_url": "https://www.aovopro.com/",
    "rating": 61.5,
    "ruled_out": false,
-   "price": 175.26,
+   "price": null,
    "baseline": 175.26,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -3104,19 +3154,19 @@
    "id": "osboo-1200w-offroad-aliexpress",
    "name": "Osboo 1200W Off-Road Electric Scooter, 31 mph, 11-in all-terrain, 300-lb load (AliExpress)",
    "url": "https://www.aliexpress.us/item/3256812297807650.html",
-   "image": null,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0b2080067b6741f6a7cdc97016f53307e.jpg",
    "retailer": "Osboo direct",
    "brand": "Osboo",
    "brand_url": null,
    "rating": 68.5,
    "ruled_out": false,
-   "price": 367.78,
+   "price": null,
    "baseline": 367.78,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": "low",
    "category": "off-road",
    "spec_verification": {
     "motor": {
@@ -3162,19 +3212,21 @@
    "id": "osboo-a17-1200w-aliexpress",
    "name": "Osboo A17 1200W Off-Road Electric Scooter, 31 mph, 31-mi range, 300-lb load (AliExpress)",
    "url": "https://www.aliexpress.us/item/3256812469405327.html",
-   "image": null,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S71b9417583214564a275c6fd581ceab0U.jpg",
    "retailer": "Osboo direct",
    "brand": "Osboo",
    "brand_url": null,
    "rating": 68.5,
    "ruled_out": false,
-   "price": 427.12,
+   "price": null,
    "baseline": 427.12,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
-   "badges": [],
-   "confidence": "verified-manual",
+   "change": null,
+   "in_stock": null,
+   "badges": [
+    "coupon"
+   ],
+   "confidence": "low",
    "category": "off-road",
    "spec_verification": {
     "motor": {
@@ -3220,19 +3272,19 @@
    "id": "eoeotwo-1200w-offroad-aliexpress",
    "name": "EOEOTWO 1200W Off-Road Electric Scooter, 30 mph, 11-in tubeless, 330-lb load (AliExpress)",
    "url": "https://www.aliexpress.us/item/3256809945399812.html",
-   "image": null,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6798c29c0e0748b18ab250af51e0b2f3y.jpg",
    "retailer": "EOEOTWO direct",
    "brand": "EOEOTWO",
    "brand_url": null,
    "rating": 55.5,
    "ruled_out": false,
-   "price": 346.1,
+   "price": null,
    "baseline": 346.1,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": "low",
    "category": "off-road",
    "spec_verification": {
     "motor": {
@@ -3278,19 +3330,19 @@
    "id": "bikydom-1200w-offroad-aliexpress",
    "name": "Bikydom 1200W Off-Road Electric Scooter, 10-in tires, disc brakes (AliExpress)",
    "url": "https://www.aliexpress.us/item/3256812332987084.html",
-   "image": null,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S625df3029acc418da6dfe3a3b58d881eP.jpg",
    "retailer": "Bikydom direct",
    "brand": "Bikydom",
    "brand_url": null,
    "rating": 62.0,
    "ruled_out": false,
-   "price": 339.1,
+   "price": null,
    "baseline": 339.1,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": "low",
    "category": "off-road",
    "spec_verification": {
     "motor": {
@@ -3336,19 +3388,19 @@
    "id": "aovopro-tmax-aliexpress",
    "name": "AOVOPRO TMAX 10-in Electric Scooter, 500W, 22 mph, 264-lb load (AliExpress)",
    "url": "https://www.aliexpress.us/item/3256809344449287.html",
-   "image": null,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0ac6ee6a23394facba903c0c8fc6bcf54.jpg",
    "retailer": "AOVOPRO direct",
    "brand": "AOVOPRO",
    "brand_url": "https://www.aovopro.com/",
    "rating": 61.5,
    "ruled_out": false,
-   "price": 235.96,
+   "price": null,
    "baseline": 235.96,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -3400,13 +3452,13 @@
    "brand_url": "https://gotrax.com",
    "rating": 39.5,
    "ruled_out": false,
-   "price": 239.99,
+   "price": null,
    "baseline": 239.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -3458,13 +3510,13 @@
    "brand_url": null,
    "rating": 47.5,
    "ruled_out": false,
-   "price": 287.99,
+   "price": null,
    "baseline": 287.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -3516,13 +3568,13 @@
    "brand_url": null,
    "rating": 83.5,
    "ruled_out": false,
-   "price": 479.99,
+   "price": null,
    "baseline": 479.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -3574,13 +3626,13 @@
    "brand_url": null,
    "rating": 65.5,
    "ruled_out": false,
-   "price": 279.99,
+   "price": null,
    "baseline": 279.99,
    "was": null,
-   "change": 0.0,
-   "in_stock": false,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -3632,13 +3684,13 @@
    "brand_url": "https://www.aovopro.com/",
    "rating": 60.5,
    "ruled_out": false,
-   "price": 282.25,
+   "price": null,
    "baseline": 282.25,
    "was": null,
-   "change": 0.0,
-   "in_stock": false,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -3690,13 +3742,15 @@
    "brand_url": "https://www.aovopro.com/",
    "rating": 63.5,
    "ruled_out": false,
-   "price": 247.18,
+   "price": null,
    "baseline": 247.18,
    "was": null,
-   "change": 0.0,
-   "in_stock": false,
-   "badges": [],
-   "confidence": "verified-manual",
+   "change": null,
+   "in_stock": null,
+   "badges": [
+    "coupon"
+   ],
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -3748,13 +3802,13 @@
    "brand_url": null,
    "rating": 51.5,
    "ruled_out": false,
-   "price": 129.92,
+   "price": null,
    "baseline": 129.92,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -3806,13 +3860,13 @@
    "brand_url": null,
    "rating": 47.5,
    "ruled_out": false,
-   "price": 136.14,
+   "price": null,
    "baseline": 136.14,
    "was": null,
-   "change": 0.0,
-   "in_stock": true,
+   "change": null,
+   "in_stock": null,
    "badges": [],
-   "confidence": "verified-manual",
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -3851,6 +3905,880 @@
     "load": "265 lb",
     "tires": "8.5 in solid",
     "brakes": "dual",
+    "cert": null
+   }
+  },
+  {
+   "id": "hovermax-h10k-pro-walmart",
+   "name": "HOVERMAX H10K Pro Electric Scooter, 500W, 19mph, 22-mi range, 10-in solid tires",
+   "url": "https://www.walmart.com/ip/HOVERMAX-H10K-Pro-Electric-Scooter-500W-Motor-19MPH-Top-Speed-22-Miles-Long-Range-10-Solid-Tires-Folding-Electric-Scooter-for-Adult-Commute/1656416431",
+   "image": "https://i5.walmartimages.com/seo/HOVERMAX-H10K-Pro-Electric-Scooter-500W-Motor-19MPH-Top-Speed-22-Miles-Long-Range-10-Solid-Tires-Folding-Electric-Scooter-for-Adult-Commute_1671cfbd-1366-42a7-a471-2fec32e9ce6d.f17aab5069a83d816ec43ea82fdba8d2.jpeg",
+   "retailer": "Walmart",
+   "brand": "HOVERMAX",
+   "brand_url": null,
+   "rating": 79.0,
+   "ruled_out": false,
+   "price": 199.99,
+   "baseline": 199.99,
+   "was": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "clearance",
+    "rollback",
+    "save $"
+   ],
+   "confidence": "high",
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "unconfirmed",
+     "note": "Ad-only; no brand site found"
+    },
+    "speed": {
+     "status": "unconfirmed",
+     "note": "Ad-only; no brand site found"
+    },
+    "range": {
+     "status": "unconfirmed",
+     "note": "Ad-only; no brand site found"
+    },
+    "load": {
+     "status": "unconfirmed",
+     "note": "Ad states 330 lb; no brand site found"
+    },
+    "tires": {
+     "status": "unconfirmed",
+     "note": "Ad states 10-in honeycomb solid; no brand site found"
+    },
+    "brakes": {
+     "status": "unconfirmed",
+     "note": "Ad states electronic + disc; no brand site found"
+    },
+    "cert": {
+     "status": "unconfirmed",
+     "note": "No certification stated"
+    }
+   },
+   "specs": {
+    "motor": "500W",
+    "speed": "19 mph",
+    "range": "22 mi",
+    "load": "330 lb",
+    "tires": "10 in honeycomb solid",
+    "brakes": "electronic + disc",
+    "cert": null
+   }
+  },
+  {
+   "id": "iscooter-l8-direct",
+   "name": "iScooter L8 Electric Scooter, 500W peak, 21 mph, 21-mi range, 264-lb load",
+   "url": "https://www.iscooterglobal.com/products/l8-electric-scooter-for-adults-500w-motor-21mph",
+   "image": "https://www.iscooterglobal.com/cdn/shop/files/N2_2.jpg?v=1775207259&width=1600",
+   "retailer": "iScooter direct",
+   "brand": "iScooter",
+   "brand_url": "https://www.iscooterglobal.com",
+   "rating": 65.0,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 299.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "conflict",
+     "note": "Brand headline 'Peak 500W'; nominal wattage unverified — same treatment as the i9M entry."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Brand page: 21 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Brand page: 21 mi (36V 7.8Ah)."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Brand page: 264 lb max load."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Brand page: 8.5-in pneumatic."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Brake type not stated on the brand page."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL badge image present; standard unstated."
+    }
+   },
+   "specs": {
+    "motor": "500W peak (nominal unverified)",
+    "speed": "21 mph",
+    "range": "21 mi",
+    "load": "264 lb",
+    "tires": "8.5 in pneumatic",
+    "brakes": null,
+    "cert": null
+   }
+  },
+  {
+   "id": "aoniu-m4-direct",
+   "name": "AONIU M4 Electric Scooter, 800W peak, 28 mph, 31-mi range, 330-lb load",
+   "url": "https://www.aoniu.com/products/m4-electric-scooter-10ah",
+   "image": "https://cdn.shopify.com/s/files/1/0882/5339/9337/files/aoniu_M4_product_descripiton.png?v=1784967978",
+   "retailer": "AONIU direct",
+   "brand": "AONIU",
+   "brand_url": "https://www.aoniu.com",
+   "rating": 78.5,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 389.98,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "unverified",
+     "note": "Brand page states 800W peak; nominal wattage not stated — not guessed."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Brand page: 28 mph."
+    },
+    "range": {
+     "status": "unverified",
+     "note": "Brand page: 31 mi (48V 10Ah) — treat skeptically at 220-lb rider weight."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Brand page: 330 lb max load."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Brand page: 10-in deep-tread pneumatic."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Brand page: disc brake."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Brand page: SGS-certified UL 2272."
+    }
+   },
+   "specs": {
+    "motor": "800W peak (nominal unstated)",
+    "speed": "28 mph",
+    "range": "31 mi",
+    "load": "330 lb",
+    "tires": "10 in deep-tread pneumatic",
+    "brakes": "disc",
+    "cert": "UL 2272 (SGS)"
+   }
+  },
+  {
+   "id": "hover1-helios-direct",
+   "name": "Hover-1 Helios Electric Scooter, 500W, 18 mph, 24-mi range, 264-lb load",
+   "url": "https://www.macys.com/shop/product/hover-1-helios-electric-scooter-with-500w-motor-18-mph-max-speed-24-miles-max-range?ID=17123156",
+   "image": null,
+   "retailer": "Hover-1 direct",
+   "brand": "Hover-1",
+   "brand_url": "https://www.hover-1.com",
+   "rating": 80.5,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 299.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "hover-1.com lists Helios: 500W."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "hover-1.com: 18 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "hover-1.com: 24 mi (42V 10Ah removable)."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Wellbots spec listing: 264 lb (hover-1.com silent on load)."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "10-in pneumatic per brand listing."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Front drum + rear disc per brand listing."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL certification not confirmed on brand page."
+    }
+   },
+   "specs": {
+    "motor": "500W",
+    "speed": "18 mph",
+    "range": "24 mi",
+    "load": "264 lb",
+    "tires": "10 in pneumatic",
+    "brakes": "front drum + rear disc",
+    "cert": null
+   }
+  },
+  {
+   "id": "gotrax-xr-pro-direct",
+   "name": "Gotrax XR Pro Electric Scooter, 300W, 18 mph, 18-mi range, 220-lb load",
+   "url": "https://gotrax.com/products/xr-pro-electric-scooter",
+   "image": "https://cdn.shopify.com/s/files/1/0071/0406/9747/files/xr-pro-electric-scooter-410469.jpg?v=1750972413",
+   "retailer": "GOTRAX direct",
+   "brand": "GOTRAX",
+   "brand_url": "https://gotrax.com",
+   "rating": 53.5,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 350.0,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Brand page: 300W avg."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Brand page: 18 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Brand page: 18 mi."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Brand page: 220 lb payload."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Brand page: 10-in tires."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Brake type not stated on the brand page."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Brand page: UL 2272."
+    }
+   },
+   "specs": {
+    "motor": "300W avg",
+    "speed": "18 mph",
+    "range": "18 mi",
+    "load": "220 lb",
+    "tires": "10 in",
+    "brakes": null,
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "hiboy-s2-pro-direct",
+   "name": "Hiboy S2 Pro Electric Scooter, 500W rated (600W peak), 19 mph, 25-mi range (brand-direct)",
+   "url": "https://www.hiboy.com/products/hiboy-s2pro-electric-scooter-for-daily-commuting",
+   "image": null,
+   "retailer": "Hiboy direct",
+   "brand": "Hiboy",
+   "brand_url": "https://www.hiboy.com",
+   "rating": 71.5,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 472.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Brand page: 500W rated / 600W peak."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Brand page: 19 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Brand page: 25 mi."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Brand page: 220 lb."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Brand page: 10-in honeycomb solid."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Brake type not stated on the brand page."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL certification not confirmed on brand page."
+    }
+   },
+   "specs": {
+    "motor": "500W rated / 600W peak",
+    "speed": "19 mph",
+    "range": "25 mi",
+    "load": "220 lb",
+    "tires": "10 in honeycomb solid",
+    "brakes": null,
+    "cert": null
+   }
+  },
+  {
+   "id": "hiboy-s2-max-direct",
+   "name": "Hiboy S2 Max Electric Scooter, 500W rated (650W peak), 19 mph, 40-mi range (brand-direct)",
+   "url": "https://www.hiboy.com/products/hiboy-s2-max-electric-scooter",
+   "image": null,
+   "retailer": "Hiboy direct",
+   "brand": "Hiboy",
+   "brand_url": "https://www.hiboy.com",
+   "rating": 71.5,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 489.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Brand page: 500W rated / 650W peak."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Brand page: 19 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Brand page: 40 mi."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Brand page: 220 lb."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Brand page: 10-in pneumatic self-healing."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Brake type not stated on the brand page."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL certification not confirmed on brand page."
+    }
+   },
+   "specs": {
+    "motor": "500W rated / 650W peak",
+    "speed": "19 mph",
+    "range": "40 mi",
+    "load": "220 lb",
+    "tires": "10 in pneumatic (self-healing)",
+    "brakes": null,
+    "cert": null
+   }
+  },
+  {
+   "id": "hiboy-ks4-pro-direct",
+   "name": "Hiboy KS4 Pro Electric Scooter, 500W rated (750W peak), 19 mph, 25-mi range (brand-direct)",
+   "url": "https://www.hiboy.com/products/hiboy-ks4-pro-advanced-commuter-electric-scooter",
+   "image": null,
+   "retailer": "Hiboy direct",
+   "brand": "Hiboy",
+   "brand_url": "https://www.hiboy.com",
+   "rating": 71.5,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 399.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Brand page: 500W rated / 750W peak."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Brand page: 19 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Brand page: 25 mi."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Brand page: 220 lb."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Brand page: 10-in honeycomb solid."
+    },
+    "brakes": {
+     "status": "unverified",
+     "note": "Brake type not stated on the brand page."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL certification not confirmed on brand page."
+    }
+   },
+   "specs": {
+    "motor": "500W rated / 750W peak",
+    "speed": "19 mph",
+    "range": "25 mi",
+    "load": "220 lb",
+    "tires": "10 in honeycomb solid",
+    "brakes": null,
+    "cert": null
+   }
+  },
+  {
+   "id": "hiboy-s2r-plus-direct",
+   "name": "Hiboy S2R Plus Electric Scooter, 350W (500W peak), 19 mph, 22-mi range, removable battery",
+   "url": "https://www.hiboy.com/products/hiboy-s2r-plus-electric-scooter",
+   "image": null,
+   "retailer": "Hiboy direct",
+   "brand": "Hiboy",
+   "brand_url": "https://www.hiboy.com",
+   "rating": 58.5,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 399.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Brand page: 350W / 500W peak."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Brand page: 19 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Brand page: 22 mi (36V 8.7Ah)."
+    },
+    "load": {
+     "status": "unverified",
+     "note": "220 lb from third-party tables; not stated on the brand page."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Brand page: 9-in pneumatic."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Brand page: e-brake + disc."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL certification not confirmed on brand page."
+    }
+   },
+   "specs": {
+    "motor": "350W (500W peak)",
+    "speed": "19 mph",
+    "range": "22 mi",
+    "load": "220 lb",
+    "tires": "9 in pneumatic",
+    "brakes": "e-brake + disc",
+    "cert": null
+   }
+  },
+  {
+   "id": "hiboy-s2-nova-direct",
+   "name": "Hiboy S2 Nova Electric Scooter, 350W rated (420W peak), 19 mph, 20-mi range",
+   "url": "https://www.hiboy.com/en-ca/products/hiboy-s2-nova-electric-scooter",
+   "image": "https://www.hiboy.com/cdn/shop/files/1600x1600-1_2a128426-6c3d-4cc3-b018-0faa21276543.jpg?v=1762428317&width=1600",
+   "retailer": "Hiboy direct",
+   "brand": "Hiboy",
+   "brand_url": "https://www.hiboy.com",
+   "rating": 60.5,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 314.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Brand page: 350W rated / 420W peak."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Brand page: 19 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Brand page: 20 mi."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Brand page: 220 lb."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Brand page: 8.5-in hybrid (solid front + pneumatic rear)."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Brand page: e-brake + rear drum w/ eABS."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "'UL Certified' badge image on page; standard unstated."
+    }
+   },
+   "specs": {
+    "motor": "350W rated / 420W peak",
+    "speed": "19 mph",
+    "range": "20 mi",
+    "load": "220 lb",
+    "tires": "8.5 in hybrid (solid front + pneumatic rear)",
+    "brakes": "e-brake + rear drum w/ eABS",
+    "cert": null
+   }
+  },
+  {
+   "id": "niu-kqi-200p-direct",
+   "name": "NIU KQi 200P Electric Kick Scooter, 350W rated (700W max), 20 mph, 33.6-mi range (brand-direct)",
+   "url": "https://shop.niu.com/collections/electric-scooter/products/niu-kqi-200p-electric-scooter-with-front-suspension",
+   "image": "https://shop.niu.com/cdn/shop/files/KQi_200P_Spec.webp?v=1762506358&width=3840",
+   "retailer": "NIU direct",
+   "brand": "NIU",
+   "brand_url": "https://shop.niu.com",
+   "rating": 75.5,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 419.0,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Brand page: 350W rated / 700W max."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Brand page: 20 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Brand page: 33.6 mi."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Brand page: 265 lb."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Brand page: 10-in tubeless pneumatic."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Brand page: front drum + regenerative."
+    },
+    "cert": {
+     "status": "verified",
+     "note": "Brand page: UL 2272."
+    }
+   },
+   "specs": {
+    "motor": "350W rated / 700W max",
+    "speed": "20 mph",
+    "range": "33.6 mi",
+    "load": "265 lb",
+    "tires": "10 in tubeless pneumatic",
+    "brakes": "front drum + regen",
+    "cert": "UL 2272"
+   }
+  },
+  {
+   "id": "navee-gt3-direct",
+   "name": "NAVEE GT3 Electric Scooter, 350W rated (700W max), 20 mph, 31-mi range, 242-lb load",
+   "url": "https://naveetech.us/products/navee-gt3",
+   "image": null,
+   "retailer": "NAVEE direct",
+   "brand": "NAVEE",
+   "brand_url": "https://naveetech.us",
+   "rating": 63.5,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 399.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "NAVEE: 350W rated / 700W max."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "NAVEE: 20 mph (US)."
+    },
+    "range": {
+     "status": "verified",
+     "note": "NAVEE: 31 mi."
+    },
+    "load": {
+     "status": "verified",
+     "note": "NAVEE: 110 kg (242 lb)."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "NAVEE: 10-in tubeless."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "NAVEE: front drum + rear EABS."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL certification not confirmed on brand page."
+    }
+   },
+   "specs": {
+    "motor": "350W rated / 700W max",
+    "speed": "20 mph",
+    "range": "31 mi",
+    "load": "242 lb",
+    "tires": "10 in tubeless",
+    "brakes": "front drum + rear EABS",
+    "cert": null
+   }
+  },
+  {
+   "id": "navee-gt3-pro-direct",
+   "name": "NAVEE GT3 Pro Electric Scooter, 400W rated (1000W max), 20 mph, 37.3-mi range, 264-lb load",
+   "url": "https://naveetech.us/products/navee-gt3-pro",
+   "image": null,
+   "retailer": "NAVEE direct",
+   "brand": "NAVEE",
+   "brand_url": "https://naveetech.us",
+   "rating": 77.5,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 489.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "NAVEE: 400W rated / 1000W max."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "NAVEE: 20 mph (US)."
+    },
+    "range": {
+     "status": "verified",
+     "note": "NAVEE: 37.3 mi."
+    },
+    "load": {
+     "status": "verified",
+     "note": "NAVEE: 120 kg (264 lb)."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "NAVEE: 10-in tubeless."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "NAVEE: front drum + rear EABS."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL certification not confirmed on brand page."
+    }
+   },
+   "specs": {
+    "motor": "400W rated / 1000W max",
+    "speed": "20 mph",
+    "range": "37.3 mi",
+    "load": "264 lb",
+    "tires": "10 in tubeless",
+    "brakes": "front drum + rear EABS",
+    "cert": null
+   }
+  },
+  {
+   "id": "navee-gt3-max-direct",
+   "name": "NAVEE GT3 Max Electric Scooter, 400W rated (1000W max), 20 mph, 46.6-mi range, 264-lb load",
+   "url": "https://naveetech.us/products/navee-gt3-max",
+   "image": null,
+   "retailer": "NAVEE direct",
+   "brand": "NAVEE",
+   "brand_url": "https://naveetech.us",
+   "rating": 75.5,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 499.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "NAVEE: 400W rated / 1000W max."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "NAVEE: 20 mph (US)."
+    },
+    "range": {
+     "status": "unverified",
+     "note": "NAVEE: 46.6 mi claim — treat skeptically at 220-lb rider weight."
+    },
+    "load": {
+     "status": "verified",
+     "note": "NAVEE: 120 kg (264 lb)."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "NAVEE: 10-in tubeless."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "NAVEE: front drum + rear EABS."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL certification not confirmed on brand page."
+    }
+   },
+   "specs": {
+    "motor": "400W rated / 1000W max",
+    "speed": "20 mph",
+    "range": "46.6 mi",
+    "load": "264 lb",
+    "tires": "10 in tubeless",
+    "brakes": "front drum + rear EABS",
+    "cert": null
+   }
+  },
+  {
+   "id": "navee-v25-pro-direct",
+   "name": "NAVEE V25 Pro Electric Scooter, 600W max (300W rated), 20 mph, 15.5-mi range, 220-lb load",
+   "url": "https://naveetech.us/products/navee-v25pro",
+   "image": null,
+   "retailer": "NAVEE direct",
+   "brand": "NAVEE",
+   "brand_url": "https://naveetech.us",
+   "rating": 66.5,
+   "ruled_out": false,
+   "price": null,
+   "baseline": 449.99,
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
+   "category": "commuter",
+   "spec_verification": {
+    "motor": {
+     "status": "verified",
+     "note": "Brand page + NAVEE blog: 600W max / 300W rated."
+    },
+    "speed": {
+     "status": "verified",
+     "note": "Brand page: 20 mph."
+    },
+    "range": {
+     "status": "verified",
+     "note": "Brand page: 15.5 mi."
+    },
+    "load": {
+     "status": "verified",
+     "note": "Brand page: 220 lb."
+    },
+    "tires": {
+     "status": "verified",
+     "note": "Brand page: 10-in pneumatic."
+    },
+    "brakes": {
+     "status": "verified",
+     "note": "Brand page: front E-ABS + rear disc."
+    },
+    "cert": {
+     "status": "unverified",
+     "note": "UL certification not confirmed on brand page."
+    }
+   },
+   "specs": {
+    "motor": "600W max / 300W rated",
+    "speed": "20 mph",
+    "range": "15.5 mi",
+    "load": "220 lb",
+    "tires": "10 in pneumatic",
+    "brakes": "front E-ABS + rear disc",
     "cert": null
    }
   }
