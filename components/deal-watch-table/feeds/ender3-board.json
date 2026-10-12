@@ -1,0 +1,87 @@
+{
+  "cert_links": {},
+  "generated": "2026-10-12T20:55:49.245699+00:00",
+  "hunt": "ender3-board",
+  "items": [
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "BTT",
+      "brand_url": null,
+      "category": null,
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-board-2",
+      "image": "https://biqu.equipment/cdn/shop/products/1_a64655c5-0e4f-4d1e-91f7-deae5fc2a0c9.jpg?v=1757557285",
+      "in_stock": true,
+      "name": "BIGTREETECH SKR Mini E3 V3.0 32-bit Control Board for Ender 3",
+      "price": 49.85,
+      "rating": 88.0,
+      "retailer": "BIQU",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "BTT",
+        "in_stock": true,
+        "mfr_compatibility": "Ender 3, Ender 3 Pro, Ender 5, Ender 5 Plus, CR-10; works with Ender 3 original screen; OctoPrint supported",
+        "mfr_drivers": "on-board TMC2209 in UART mode (4 drivers integrated)",
+        "mfr_firmware_support": "Marlin & Klipper; BTT provides compiled Marlin firmware for Ender 3 and Ender 5",
+        "mfr_mcu": "ARM Cortex-M0+ STM32G0B1RET6 / STM32G0BORET6",
+        "mfr_model_note": "URL slug says v2.0 but page title, images, specs, and SKU are all V3.0",
+        "mfr_official_price": 49.85,
+        "mfr_official_price_note": "sale, was $52.99; with-cable variant sold out, without-cable in stock",
+        "mfr_source": "official BIQU product page",
+        "mfr_url": "http://biqu.equipment/products/bigtreetech-skr-mini-e3-v2-0-32-bit-control-board-for-ender-3",
+        "mfr_voltage": "DC 12/24V input, 3.3V logic",
+        "model": "SKR Mini E3 V3.0",
+        "note": "URL slug says v2-0 but page heading/SKU/driver spec are V3.0; on sale from $52.99; cable variant ($51.59) out of stock, base $49.85 variant available",
+        "sku": "1060000511"
+      },
+      "url": "http://biqu.equipment/products/bigtreetech-skr-mini-e3-v2-0-32-bit-control-board-for-ender-3?srsltid=afmboorvm2wsmmweq-figu-lp_y4hfykwjrp-ye1mdhmx_n-7fiaj__f",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "BTT",
+      "brand_url": null,
+      "category": null,
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-board-1",
+      "image": null,
+      "in_stock": null,
+      "name": "BIGTREETECH Upgrade SKR Mini E3 V3.0 Control - Micro Center",
+      "price": null,
+      "rating": 80.0,
+      "retailer": "Micro Center",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "BTT",
+        "in_stock": null,
+        "mfr_compatibility": "Ender 3, Ender 3 Pro, Ender 5, Ender 5 Plus, CR-10; works with Ender 3 original screen; OctoPrint supported",
+        "mfr_drivers": "on-board TMC2209 in UART mode (4 drivers integrated)",
+        "mfr_firmware_support": "Marlin & Klipper; BTT provides compiled Marlin firmware for Ender 3 and Ender 5",
+        "mfr_mcu": "ARM Cortex-M0+ STM32G0B1RET6 / STM32G0BORET6",
+        "mfr_model_note": "URL slug says v2.0 but page title, images, specs, and SKU are all V3.0",
+        "mfr_official_price": 49.85,
+        "mfr_official_price_note": "sale, was $52.99; with-cable variant sold out, without-cable in stock",
+        "mfr_source": "official BIQU product page",
+        "mfr_url": "http://biqu.equipment/products/bigtreetech-skr-mini-e3-v2-0-32-bit-control-board-for-ender-3",
+        "mfr_voltage": "DC 12/24V input, 3.3V logic",
+        "model": "SKR Mini E3 V3.0",
+        "note": "live price/stock not visible in fetched page text (curl returned no price markers; no captcha hit); search.json value_pick $39.99 verified in stock 2026-10-10",
+        "sku": "363515"
+      },
+      "url": "https://www.microcenter.com/quickView/645749/bigtreetech-upgrade-skr-mini-e3-v30-control-board-32bit-for-ender-3-motherboard-silent-board-with-tmc2209-uart-stepper-driver-3d-printer-parts-for-cre",
+      "was": null
+    }
+  ],
+  "spec_columns": [],
+  "title": "Ender 3 Controller Board Search"
+}
