@@ -1,7 +1,7 @@
 {
  "hunt": "scooter",
  "title": "Electric Scooter Hunt",
- "generated": "2026-10-12T13:47:35.960283+00:00",
+ "generated": "2026-10-12T14:47:52.713461+00:00",
  "spec_columns": [
   {
    "key": "motor",
@@ -860,13 +860,13 @@
    "brand_url": "https://ecoroad.com",
    "rating": 94.5,
    "ruled_out": false,
-   "price": null,
-   "baseline": 499.99,
-   "was": null,
-   "change": null,
-   "in_stock": null,
+   "price": 459.99,
+   "baseline": 459.99,
+   "was": 499.99,
+   "change": 0.0,
+   "in_stock": true,
    "badges": [],
-   "confidence": null,
+   "confidence": "verified-manual",
    "category": "off-road",
    "spec_verification": {
     "motor": {
