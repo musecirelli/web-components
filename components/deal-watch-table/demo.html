@@ -52,11 +52,29 @@
     var app = document.getElementById('app');
     var picker = document.getElementById('hunt');
     var values = Array.prototype.map.call(picker.options, function (o) { return o.value; });
-    var saved = null;
-    try { saved = localStorage.getItem(HUNT_KEY); } catch (e) {}
-    if (saved && values.indexOf(saved) !== -1) {
-      picker.value = saved;
-      app.setAttribute('src', saved);
+    // Hunt ids are the feed file slugs: "./feeds/ender3-board.json" -> "ender3-board".
+    var byId = {};
+    values.forEach(function (v) {
+      byId[v.replace(/^\.\/feeds\//, '').replace(/\.json$/, '')] = v;
+    });
+    var chosen = null;
+    // 1. ?hunt=<id> query param wins over everything.
+    var requested = null;
+    try { requested = new URLSearchParams(window.location.search).get('hunt'); } catch (e) {}
+    if (requested && byId[requested]) {
+      chosen = byId[requested];
+    } else {
+      // 2. Otherwise the saved hunt, if still valid.
+      var saved = null;
+      try { saved = localStorage.getItem(HUNT_KEY); } catch (e) {}
+      if (saved && values.indexOf(saved) !== -1) {
+        chosen = saved;
+      }
+    }
+    if (chosen) {
+      picker.value = chosen;
+      app.setAttribute('src', chosen);
+      try { localStorage.setItem(HUNT_KEY, chosen); } catch (e) {}
     } else {
       // Unknown or missing saved hunt: clear storage, default to the first.
       try { localStorage.removeItem(HUNT_KEY); } catch (e) {}
