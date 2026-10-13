@@ -1,6 +1,6 @@
 {
   "cert_links": {},
-  "generated": "2026-10-12T23:44:16.594600+00:00",
+  "generated": "2026-10-13T20:58:00+00:00",
   "hunt": "ender3-board",
   "items": [
     {
@@ -36,7 +36,7 @@
         "mfr_url": "http://biqu.equipment/products/bigtreetech-skr-mini-e3-v2-0-32-bit-control-board-for-ender-3",
         "mfr_voltage": "DC 12/24V input, 3.3V logic",
         "model": "SKR Mini E3 V3.0",
-        "note": "$39.99 live-verified 2026-10-12 via browser (user cleared Cloudflare challenge); orderable for shipment \u2014 usually ships in 5-7 business days, fastest delivery Oct 18; NOT available for in-store 18-min pickup",
+        "note": "$39.99 live-verified 2026-10-12 via browser (user cleared Cloudflare challenge); orderable for shipment \u2014 usually ships in 5-7 business days, fastest delivery Oct 18; NOT available for in-store 18-min pickup; $13 shipping to 23832 (verified 2026-10-10) → $52.99 all-in",
         "product_url": "https://www.microcenter.com/product/645749/bigtreetech-upgrade-skr-mini-e3-v30-control-board-32bit-for-ender-3-motherboard-silent-board-with-tmc2209-uart-stepper-driver-3d-printer-parts-for-cre",
         "sku": "363515"
       },
@@ -76,10 +76,50 @@
         "mfr_url": "http://biqu.equipment/products/bigtreetech-skr-mini-e3-v2-0-32-bit-control-board-for-ender-3",
         "mfr_voltage": "DC 12/24V input, 3.3V logic",
         "model": "SKR Mini E3 V3.0",
-        "note": "URL slug says v2-0 but page heading/SKU/driver spec are V3.0; on sale from $52.99; cable variant ($51.59) out of stock, base $49.85 variant available",
+        "note": "URL slug says v2-0 but page heading/SKU/driver spec are V3.0; on sale from $52.99; cable variant ($51.59) out of stock, base $49.85 variant available; $5.99 shipping to 23832 (verified 2026-10-10) → $55.84 all-in; cart auto-adds $1.28 'Worry-Free Purchase' add-on (removable)",
         "sku": "1060000511"
       },
       "url": "http://biqu.equipment/products/bigtreetech-skr-mini-e3-v2-0-32-bit-control-board-for-ender-3?srsltid=afmboorvm2wsmmweq-figu-lp_y4hfykwjrp-ye1mdhmx_n-7fiaj__f",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "BTT",
+      "brand_url": null,
+      "category": null,
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-board-3",
+      "image": "https://m.media-amazon.com/images/I/71drcpezIwL._SL1500_.jpg",
+      "in_stock": true,
+      "name": "BIGTREETECH SKR Mini E3 V3.0 Integrated 32 Bit Board Marlin/Klipper | TMC2209 UART Stepper Driver Compatible with Ender 3/Ender 3 Pro/Ender 3 V2/Ender 5 3D Printer Motherboard",
+      "price": 43.99,
+      "rating": 90.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "BTT",
+        "in_stock": true,
+        "mfr_compatibility": "Ender 3, Ender 3 Pro, Ender 5, Ender 5 Plus, CR-10; works with Ender 3 original screen; OctoPrint supported",
+        "mfr_drivers": "on-board TMC2209 in UART mode (4 drivers integrated)",
+        "mfr_firmware_support": "Marlin & Klipper; BTT provides compiled Marlin firmware for Ender 3 and Ender 5",
+        "mfr_mcu": "ARM Cortex-M0+ STM32G0B1RET6 / STM32G0BORET6",
+        "mfr_model_note": "URL slug says v2.0 but page title, images, specs, and SKU are all V3.0",
+        "mfr_official_price": 49.85,
+        "mfr_official_price_note": "sale, was $52.99; with-cable variant sold out, without-cable in stock",
+        "mfr_source": "official BIQU product page",
+        "mfr_url": "http://biqu.equipment/products/bigtreetech-skr-mini-e3-v2-0-32-bit-control-board-for-ender-3",
+        "mfr_voltage": "DC 12/24V input, 3.3V logic",
+        "model": "SKR Mini E3 V3.0",
+        "note": "$43.99 live-verified 2026-10-10 via residential-proxy checker (Amazon's own price selector, high confidence); sold by BIGTREETECH Direct store, in stock; shipping cost not captured on anonymous check (Steve has no Prime; his mother does)",
+        "product_url": "https://www.amazon.com/dp/B09LH727MT",
+        "sku": "B09LH727MT"
+      },
+      "url": "https://www.amazon.com/dp/B09LH727MT",
       "was": null
     }
   ],
