@@ -1,6 +1,16 @@
 {
  "archived": [
   {
+   "id": "QR+M4+iqHou8DloqKKSADw==",
+   "number": "2065",
+   "title": "Estate Auction: : Maidens VA 23102 (Home Matters of VA)",
+   "ends": "2026-10-13",
+   "closed": "2026-10-14",
+   "lots": 91,
+   "file": "archive/auction-2065-cac3cc16.json.gz",
+   "archived_at": "2026-10-14T12:17:10+00:00"
+  },
+  {
    "id": "QnGT3BhftWOEo8RNlRZKwA==",
    "number": "2066",
    "title": "Multi Seller Auction: 7700 Advantage Storage Dr: Chester VA 23831 (DIY Seller)",
