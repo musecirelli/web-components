@@ -1,0 +1,390 @@
+{
+ "hunt": "ender3-abl",
+ "title": "Ender 3 auto bed leveling",
+ "generated": "2026-10-14T18:28:20.136315+00:00",
+ "items": [
+  {
+   "badges": [
+    "enriched"
+   ],
+   "baseline": null,
+   "brand": "wl-3pcs",
+   "brand_url": null,
+   "category": null,
+   "change": 0.0,
+   "confidence": "high",
+   "id": "ender3-hotend-284",
+   "image": "https://m.media-amazon.com/images/I/71NuARsPNBL._AC_UY218_.jpg",
+   "in_stock": null,
+   "name": "3PCS 3M Temperature Sensor Probe 10K, B3950 NTC Thermistor Sensor Probe, High Sensitivity Nickel-Plated Copper Housing, ",
+   "price": 6.99,
+   "rating": 58.0,
+   "retailer": "Amazon",
+   "ruled_out": false,
+   "spec_verification": {},
+   "specs": {
+    "asin": "B0FT7KYJSK",
+    "mfr_brand": "wl-3pcs",
+    "mfr_category": "auto_bed_leveling",
+    "mfr_ground_truth": "listing-only",
+    "mfr_listing_extract": {
+     "bracket_in_title": false,
+     "complete_kit_markers": [],
+     "printed_parts_required": false,
+     "thermistor_type": "unstated in listing",
+     "voltage": null,
+     "wiring_in_title": false
+    },
+    "mfr_listing_price": 6.99,
+    "mfr_manufacturer_verifiable": false,
+    "mfr_model": "auto bed leveling 3950",
+    "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+    "source_query": "Ender 3 thermistor 100K",
+    "sponsored": false
+   },
+   "url": "https://www.amazon.com/dp/B0FT7KYJSK",
+   "was": null
+  },
+  {
+   "badges": [
+    "enriched"
+   ],
+   "baseline": null,
+   "brand": "wl-10k",
+   "brand_url": null,
+   "category": null,
+   "change": 0.0,
+   "confidence": "high",
+   "id": "ender3-hotend-302",
+   "image": "https://m.media-amazon.com/images/I/51tXtmm9ItL._AC_UY218_.jpg",
+   "in_stock": null,
+   "name": "10K Ohm NTC Thermistor Temperature Sensor Probe, 19.6\" Waterproof, 3 Pack",
+   "price": 6.99,
+   "rating": 58.0,
+   "retailer": "Amazon",
+   "ruled_out": false,
+   "spec_verification": {},
+   "specs": {
+    "asin": "B0F4P1KYVK",
+    "mfr_brand": "wl-10k",
+    "mfr_category": "auto_bed_leveling",
+    "mfr_ground_truth": "listing-only",
+    "mfr_listing_extract": {
+     "bracket_in_title": false,
+     "complete_kit_markers": [],
+     "printed_parts_required": false,
+     "thermistor_type": "unstated in listing",
+     "voltage": null,
+     "wiring_in_title": false
+    },
+    "mfr_listing_price": 6.99,
+    "mfr_manufacturer_verifiable": false,
+    "mfr_model": "auto bed leveling",
+    "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+    "source_query": "Ender 3 thermistor 100K",
+    "sponsored": false
+   },
+   "url": "https://www.amazon.com/dp/B0F4P1KYVK",
+   "was": null
+  },
+  {
+   "badges": [
+    "enriched"
+   ],
+   "baseline": null,
+   "brand": "wl-drok",
+   "brand_url": null,
+   "category": null,
+   "change": 0.0,
+   "confidence": "high",
+   "id": "ender3-hotend-339",
+   "image": "https://m.media-amazon.com/images/I/71HdYGKSH2L._AC_UY218_.jpg",
+   "in_stock": null,
+   "name": "DROK 5Pcs 10k B3950 Temperature Probe, -25 to 125 Degree Celsius Temp Sensor, 3 Meters 9.8 Feet Sensitive Stainless Stee",
+   "price": 9.99,
+   "rating": 58.0,
+   "retailer": "Amazon",
+   "ruled_out": false,
+   "spec_verification": {},
+   "specs": {
+    "asin": "B01MZ6Y336",
+    "mfr_brand": "wl-drok",
+    "mfr_category": "auto_bed_leveling",
+    "mfr_ground_truth": "listing-only",
+    "mfr_listing_extract": {
+     "bracket_in_title": false,
+     "complete_kit_markers": [],
+     "printed_parts_required": false,
+     "voltage": null,
+     "wiring_in_title": false
+    },
+    "mfr_listing_price": 9.99,
+    "mfr_manufacturer_verifiable": false,
+    "mfr_model": "auto bed leveling 3950",
+    "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+    "source_query": "Ender 3 thermistor 100K",
+    "sponsored": false
+   },
+   "url": "https://www.amazon.com/dp/B01MZ6Y336",
+   "was": null
+  },
+  {
+   "badges": [
+    "enriched"
+   ],
+   "baseline": null,
+   "brand": "wl-10k",
+   "brand_url": null,
+   "category": null,
+   "change": 0.0,
+   "confidence": "high",
+   "id": "ender3-hotend-340",
+   "image": "https://m.media-amazon.com/images/I/81Yro5ZrdgL._AC_UY218_.jpg",
+   "in_stock": null,
+   "name": "10K Temperature Sensor Temp Probe, 3950 NTC Thermistor Accuracy 1% 1M 5pcs",
+   "price": 7.99,
+   "rating": 58.0,
+   "retailer": "Amazon",
+   "ruled_out": false,
+   "spec_verification": {},
+   "specs": {
+    "asin": "B0FSQZXTYQ",
+    "mfr_brand": "wl-10k",
+    "mfr_category": "auto_bed_leveling",
+    "mfr_ground_truth": "listing-only",
+    "mfr_listing_extract": {
+     "bracket_in_title": false,
+     "complete_kit_markers": [],
+     "printed_parts_required": false,
+     "thermistor_type": "unstated in listing",
+     "voltage": null,
+     "wiring_in_title": false
+    },
+    "mfr_listing_price": 7.99,
+    "mfr_manufacturer_verifiable": false,
+    "mfr_model": "auto bed leveling 3950",
+    "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+    "source_query": "Ender 3 thermistor 100K",
+    "sponsored": false
+   },
+   "url": "https://www.amazon.com/dp/B0FSQZXTYQ",
+   "was": null
+  },
+  {
+   "badges": [
+    "enriched"
+   ],
+   "baseline": null,
+   "brand": "wl-uxcell",
+   "brand_url": null,
+   "category": null,
+   "change": 0.0,
+   "confidence": "high",
+   "id": "ender3-hotend-417",
+   "image": "https://m.media-amazon.com/images/I/51Y7mI7jAWL._AC_UY218_.jpg",
+   "in_stock": null,
+   "name": "uxcell 2 Pcs 10K NTC Thermistor Probe 15.7 Inch Epoxy Sensitive Temperature Temp Sensor for Air Conditioner",
+   "price": 6.79,
+   "rating": 58.0,
+   "retailer": "Amazon",
+   "ruled_out": false,
+   "spec_verification": {},
+   "specs": {
+    "asin": "B07LGMXTKK",
+    "mfr_brand": "wl-uxcell",
+    "mfr_category": "auto_bed_leveling",
+    "mfr_ground_truth": "listing-only",
+    "mfr_listing_extract": {
+     "bracket_in_title": false,
+     "complete_kit_markers": [],
+     "printed_parts_required": false,
+     "thermistor_type": "unstated in listing",
+     "voltage": null,
+     "wiring_in_title": false
+    },
+    "mfr_listing_price": 6.79,
+    "mfr_manufacturer_verifiable": false,
+    "mfr_model": "auto bed leveling",
+    "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+    "source_query": "Ender 3 thermistor 100K",
+    "sponsored": false
+   },
+   "url": "https://www.amazon.com/dp/B07LGMXTKK",
+   "was": null
+  },
+  {
+   "badges": [
+    "enriched"
+   ],
+   "baseline": null,
+   "brand": "wl-4pcs",
+   "brand_url": null,
+   "category": null,
+   "change": 0.0,
+   "confidence": "high",
+   "id": "ender3-hotend-432",
+   "image": "https://m.media-amazon.com/images/I/71SW86FyzYL._AC_UY218_.jpg",
+   "in_stock": null,
+   "name": "4pcs 10K Thermistor 3 M, 3950 NTC 10K Thermistor Temperature Sensor Probe, Stainless Steel NTC 10K Temp Sensor Probe use",
+   "price": 10.99,
+   "rating": 58.0,
+   "retailer": "Amazon",
+   "ruled_out": false,
+   "spec_verification": {},
+   "specs": {
+    "asin": "B0FD3PB9B4",
+    "mfr_brand": "wl-4pcs",
+    "mfr_category": "auto_bed_leveling",
+    "mfr_ground_truth": "listing-only",
+    "mfr_listing_extract": {
+     "bracket_in_title": false,
+     "complete_kit_markers": [],
+     "printed_parts_required": false,
+     "thermistor_type": "unstated in listing",
+     "voltage": null,
+     "wiring_in_title": false
+    },
+    "mfr_listing_price": 10.99,
+    "mfr_manufacturer_verifiable": false,
+    "mfr_model": "auto bed leveling 3950",
+    "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+    "source_query": "Ender 3 thermistor 100K",
+    "sponsored": false
+   },
+   "url": "https://www.amazon.com/dp/B0FD3PB9B4",
+   "was": null
+  },
+  {
+   "badges": [
+    "enriched"
+   ],
+   "baseline": null,
+   "brand": "wl-bltouch",
+   "brand_url": null,
+   "category": null,
+   "change": 0.0,
+   "confidence": "high",
+   "id": "ender3-hotend-1549",
+   "image": "https://biqu.equipment/cdn/shop/products/2_eb0bb5ea-212a-4977-a0a3-8213f8f7db3c.jpg?v=1663301942&width=20",
+   "in_stock": null,
+   "name": "BLTouch Sensor Expansion Module Pin 27 Upgrade Adapter Sensor",
+   "price": 5.59,
+   "rating": 58.0,
+   "retailer": "BIQU",
+   "ruled_out": false,
+   "spec_verification": {},
+   "specs": {
+    "bracket_included": false,
+    "complete_kit_likely": false,
+    "mfr_brand": "wl-bltouch",
+    "mfr_category": "auto_bed_leveling",
+    "mfr_ground_truth": "listing-only",
+    "mfr_listing_extract": {
+     "bracket_in_title": false,
+     "complete_kit_markers": [],
+     "printed_parts_required": false,
+     "voltage": null,
+     "wiring_in_title": true
+    },
+    "mfr_listing_price": 46.99,
+    "mfr_manufacturer_verifiable": false,
+    "mfr_model": "auto bed leveling",
+    "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+    "probe_type": "genuine BLTouch",
+    "source_query": "CR Touch",
+    "wiring_included": false
+   },
+   "url": "https://biqu.equipment/products/3d-printer-parts-pin-27",
+   "was": null
+  },
+  {
+   "badges": [
+    "enriched"
+   ],
+   "baseline": null,
+   "brand": "wl-3pcs",
+   "brand_url": null,
+   "category": null,
+   "change": 0.0,
+   "confidence": "high",
+   "id": "ender3-hotend-220",
+   "image": "https://m.media-amazon.com/images/I/61-GcDOZTmL._AC_UY218_.jpg",
+   "in_stock": null,
+   "name": "3PCS 3D Printer Thermistor NTC 100K 3950 Thermistor Probe Compatible with Ender 3 3-V2 3 Pro 3 Max 5 Pro",
+   "price": null,
+   "rating": 43.0,
+   "retailer": "Amazon",
+   "ruled_out": false,
+   "spec_verification": {},
+   "specs": {
+    "asin": "B0F83KYDD2",
+    "mfr_brand": "wl-3pcs",
+    "mfr_category": "auto_bed_leveling",
+    "mfr_ground_truth": "listing-only",
+    "mfr_listing_extract": {
+     "bracket_in_title": false,
+     "complete_kit_markers": [],
+     "printed_parts_required": false,
+     "thermistor_type": "100K NTC 3950 (per listing)",
+     "voltage": null,
+     "wiring_in_title": false
+    },
+    "mfr_listing_price": null,
+    "mfr_manufacturer_verifiable": false,
+    "mfr_model": "auto bed leveling 100k 3950",
+    "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+    "source_query": "Ender 3 thermistor 100K",
+    "sponsored": false
+   },
+   "url": "https://www.amazon.com/dp/B0F83KYDD2",
+   "was": null
+  }
+ ],
+ "alerts": [],
+ "coverage": [
+  {
+   "detail": "1470 unique Amazon items from 10 queries, 136 result pages walked. Q1 'Ender 3 hotend kit': 188 items/12p (p13 load failed x2: net::ERR_FAILED); Q2 'Ender 3 thermistor 100K': 279/20p; Q3 'Micro Swiss Ender 3 hotend': 200/14p; Q4 'Ender 3 thermistor heater cartridge kit': 285/21p; Q5 '5015 blower fan 24V': 201/13p (p14 failed x2: net::ERR_FAILED); Q6 'Winsinn 5015 fan': 64/4p (p5 failed x2: net::ERR_FAILED); Q7 'dual gear extruder Ender 3': 96/6p (p7 failed x2: net::ERR_FAILED); Q8 'BLTouch Ender 3 kit': 174/11p (p12 failed x2: net::ERR_FAILED); Q9 'CR Touch Ender 3': 283/21p; Q10 'Creality CR Touch auto bed leveling kit': 202/14p. No captchas served; no 429/bot-wall; page-N failures were transient net::ERR_FAILED (network blip class), each retried twice per protocol. Bed-leveling items carry title-derived (unverified) probe signals: 71 genuine BLTouch / 143 genuine CR Touch / 39 clone / 249 unknown; phase 3 decides kit completeness.",
+   "phase": "phase-1",
+   "retailer": "Amazon",
+   "status": "ok",
+   "updated_at": "2026-10-14T17:39:38.594196+00:00"
+  },
+  {
+   "detail": "53 unique items (2 auto_bed_leveling), 5 queries, browser route via residential proxy",
+   "phase": "phase-1",
+   "retailer": "BIQU",
+   "status": "ok",
+   "updated_at": "2026-10-14T18:10:03.131136+00:00"
+  },
+  {
+   "detail": "briefed domain gulfcoastrobotics.com is GoDaddy-parked (forsale.godaddy.com, verified in browser); real domain gulfcoast-robotics.com closes connections without response on 7 attempts (4x Playwright ERR_EMPTY_RESPONSE + 3x raw RemoteDisconnected via residential proxy chain, 2026-10-14 ~17:50-18:00 UTC); other retailers worked in the same window, so not chain-wide; 0 items collected",
+   "phase": "phase-1",
+   "retailer": "Gulfcoast Robotics",
+   "status": "blocked",
+   "updated_at": "2026-10-14T18:08:13.081498+00:00"
+  },
+  {
+   "detail": "2 unique items (0 auto_bed_leveling), 5 queries, browser route via residential proxy; BLTouch/CR Touch/5015-blower queries re-run to rule out timeouts - genuinely thin",
+   "phase": "phase-1",
+   "retailer": "MatterHackers",
+   "status": "ok",
+   "updated_at": "2026-10-14T18:10:03.305041+00:00"
+  },
+  {
+   "detail": "Cloudflare challenge on https://www.microcenter.com/search/search_results.aspx?Ntt=Ender+3+hotend (HTTP 403; challenge text present); Steve manual clear is the tiebreaker",
+   "phase": "phase-1",
+   "retailer": "Micro Center",
+   "status": "blocked-captcha",
+   "updated_at": "2026-10-14T17:53:38.966293+00:00"
+  },
+  {
+   "detail": "56 unique items (0 auto_bed_leveling), 5 queries, browser route via residential proxy",
+   "phase": "phase-1",
+   "retailer": "Printed Solid",
+   "status": "ok",
+   "updated_at": "2026-10-14T18:10:03.212997+00:00"
+  }
+ ],
+ "cert_links": {},
+ "spec_columns": []
+}
