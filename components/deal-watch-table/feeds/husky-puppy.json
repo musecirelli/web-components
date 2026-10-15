@@ -1,0 +1,60 @@
+{
+  "alerts": [],
+  "cert_links": {},
+  "coverage": [
+    {
+      "detail": "18 husky listings + Malamute search (0 results); all reviewed 2026-10-15",
+      "phase": "gather",
+      "retailer": "Adopt-a-Pet",
+      "status": "ok",
+      "updated_at": "2026-10-15T14:11:17.860262+00:00"
+    },
+    {
+      "detail": "Siberian Husky puppy (1 result), Husky puppy (24 results), Malamute puppy (0); all reviewed 2026-10-15",
+      "phase": "gather",
+      "retailer": "Petfinder",
+      "status": "ok",
+      "updated_at": "2026-10-15T14:11:17.935926+00:00"
+    },
+    {
+      "detail": "adoptable-pets widget reviewed; husky/malamute-labeled dogs all adult or mixed",
+      "phase": "gather",
+      "retailer": "RACC",
+      "status": "ok",
+      "updated_at": "2026-10-15T14:11:18.081123+00:00"
+    },
+    {
+      "detail": "46 adoptable dogs reviewed; only one under 1 yr (Jeepers, excluded: not visibly husky)",
+      "phase": "gather",
+      "retailer": "Richmond SPCA",
+      "status": "ok",
+      "updated_at": "2026-10-15T14:11:18.009017+00:00"
+    }
+  ],
+  "generated": "2026-10-15T14:11:18.227187+00:00",
+  "hunt": "husky-puppy",
+  "items": [],
+  "spec_columns": [
+    {
+      "key": "age",
+      "label": "Age"
+    },
+    {
+      "key": "sex",
+      "label": "Sex"
+    },
+    {
+      "key": "breed",
+      "label": "Breed"
+    },
+    {
+      "key": "shelter",
+      "label": "Shelter"
+    },
+    {
+      "key": "fee",
+      "label": "Fee"
+    }
+  ],
+  "title": "Husky puppy hunt"
+}
