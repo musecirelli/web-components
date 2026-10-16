@@ -45,7 +45,7 @@
       "updated_at": "2026-10-14T18:10:03.212997+00:00"
     }
   ],
-  "generated": "2026-10-15T17:16:11.925625+00:00",
+  "generated": "2026-10-16T00:43:47.967869+00:00",
   "hunt": "ender3-hotend",
   "items": [
     {
@@ -194,6 +194,108 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0BDLQ92T6",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Creality",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-64",
+      "image": "https://m.media-amazon.com/images/I/61pLDyGzXbL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Creality Ender 3 S1 Heating Block Kit Sprite Extruder Hotend Kit",
+      "price": 9.49,
+      "rating": 96.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0B4SNCLLR",
+        "mfr_abl_conflict": "One reseller listing states this kit CANNOT be used with 3D-Touch/BL-Touch/CR-Touch \u2014 probe mounting may conflict; verify before buying an ABL probe alongside.",
+        "mfr_bolt_on": true,
+        "mfr_brand": "Creality",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_fits": "Ender 3 / Pro / V2 / Max (official compatibility list)",
+        "mfr_genuine": true,
+        "mfr_ground_truth": "manufacturer",
+        "mfr_kit_contents": [
+          "Sprite Extruder Pro (all-metal, titanium heatbreak)",
+          "metal mounting bracket for 20mm extrusion",
+          "flat cable",
+          "screws"
+        ],
+        "mfr_model": "Sprite Extruder Pro Kit",
+        "mfr_printed_parts_required": false,
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "mfr_source": "manufacturer official page / brand spec sheet, verified 2026-10-14",
+        "mfr_specs": {
+          "drive": "dual-gear 3.5:1",
+          "filament": "1.75mm",
+          "force_N": 80,
+          "max_temp_C": 300,
+          "weight_g": 334
+        },
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0B4SNCLLR",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Creality",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-87",
+      "image": "https://m.media-amazon.com/images/I/61q8BBF31aL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Creality Official Sprite Extruder Standard Heater Block Kit High Temperature 260\u2103 Titanium Heatbreak Plated Copper Nozzl",
+      "price": 15.99,
+      "rating": 96.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0B2DQBRK9",
+        "mfr_abl_conflict": "One reseller listing states this kit CANNOT be used with 3D-Touch/BL-Touch/CR-Touch \u2014 probe mounting may conflict; verify before buying an ABL probe alongside.",
+        "mfr_bolt_on": true,
+        "mfr_brand": "Creality",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_fits": "Ender 3 / Pro / V2 / Max (official compatibility list)",
+        "mfr_genuine": true,
+        "mfr_ground_truth": "manufacturer",
+        "mfr_kit_contents": [
+          "Sprite Extruder Pro (all-metal, titanium heatbreak)",
+          "metal mounting bracket for 20mm extrusion",
+          "flat cable",
+          "screws"
+        ],
+        "mfr_model": "Sprite Extruder Pro Kit",
+        "mfr_printed_parts_required": false,
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "mfr_source": "manufacturer official page / brand spec sheet, verified 2026-10-14",
+        "mfr_specs": {
+          "drive": "dual-gear 3.5:1",
+          "filament": "1.75mm",
+          "force_N": 80,
+          "max_temp_C": 300,
+          "weight_g": 334
+        },
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0B2DQBRK9",
       "was": null
     },
     {
@@ -1064,6 +1166,57 @@
       "category": "stock_hotend_kits",
       "change": 0.0,
       "confidence": "high",
+      "id": "ender3-hotend-123",
+      "image": "https://m.media-amazon.com/images/I/61qz3p+-WoL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Creality Original Sprite Extruder Pro Heating Block Kit, High Temperature 300\u2103 Titanium Heatbreak Plated Copper Nozzle, ",
+      "price": 22.49,
+      "rating": 93.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0BKPK51B8",
+        "mfr_abl_conflict": "One reseller listing states this kit CANNOT be used with 3D-Touch/BL-Touch/CR-Touch \u2014 probe mounting may conflict; verify before buying an ABL probe alongside.",
+        "mfr_bolt_on": true,
+        "mfr_brand": "Creality",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_fits": "Ender 3 / Pro / V2 / Max (official compatibility list)",
+        "mfr_genuine": true,
+        "mfr_ground_truth": "manufacturer",
+        "mfr_kit_contents": [
+          "Sprite Extruder Pro (all-metal, titanium heatbreak)",
+          "metal mounting bracket for 20mm extrusion",
+          "flat cable",
+          "screws"
+        ],
+        "mfr_model": "Sprite Extruder Pro Kit",
+        "mfr_printed_parts_required": false,
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "mfr_source": "manufacturer official page / brand spec sheet, verified 2026-10-14",
+        "mfr_specs": {
+          "drive": "dual-gear 3.5:1",
+          "filament": "1.75mm",
+          "force_N": 80,
+          "max_temp_C": 300,
+          "weight_g": 334
+        },
+        "source_query": "Ender 3 hotend kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0BKPK51B8",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Creality",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
       "id": "ender3-hotend-20",
       "image": "https://m.media-amazon.com/images/I/51osnriShXL._AC_UY218_.jpg",
       "in_stock": null,
@@ -1253,6 +1406,57 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0C8HP6TRK",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Creality",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-513",
+      "image": "https://m.media-amazon.com/images/I/61c7Gj3A9VL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Creality Ender 3 S1 Heating Block Kit High Temperature Pro 300\u00b0C, 3D Printer Sprite Extruder Hotend Chrome Copper+ TC4 H",
+      "price": 25.99,
+      "rating": 90.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0B8SP49W3",
+        "mfr_abl_conflict": "One reseller listing states this kit CANNOT be used with 3D-Touch/BL-Touch/CR-Touch \u2014 probe mounting may conflict; verify before buying an ABL probe alongside.",
+        "mfr_bolt_on": true,
+        "mfr_brand": "Creality",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_fits": "Ender 3 / Pro / V2 / Max (official compatibility list)",
+        "mfr_genuine": true,
+        "mfr_ground_truth": "manufacturer",
+        "mfr_kit_contents": [
+          "Sprite Extruder Pro (all-metal, titanium heatbreak)",
+          "metal mounting bracket for 20mm extrusion",
+          "flat cable",
+          "screws"
+        ],
+        "mfr_model": "Sprite Extruder Pro Kit",
+        "mfr_printed_parts_required": false,
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "mfr_source": "manufacturer official page / brand spec sheet, verified 2026-10-14",
+        "mfr_specs": {
+          "drive": "dual-gear 3.5:1",
+          "filament": "1.75mm",
+          "force_N": 80,
+          "max_temp_C": 300,
+          "weight_g": 334
+        },
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0B8SP49W3",
       "was": null
     },
     {
@@ -1548,6 +1752,57 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0G47LHTWK",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Creality",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-57",
+      "image": "https://m.media-amazon.com/images/I/61DAu5xzyhL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Creality Official High-Temperature Heating Block Kit, Sprite Extruder Upgrade Hotend with 300\u2103 Titanium Heatbreak Plated",
+      "price": 28.99,
+      "rating": 87.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0H99LNKPC",
+        "mfr_abl_conflict": "One reseller listing states this kit CANNOT be used with 3D-Touch/BL-Touch/CR-Touch \u2014 probe mounting may conflict; verify before buying an ABL probe alongside.",
+        "mfr_bolt_on": true,
+        "mfr_brand": "Creality",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_fits": "Ender 3 / Pro / V2 / Max (official compatibility list)",
+        "mfr_genuine": true,
+        "mfr_ground_truth": "manufacturer",
+        "mfr_kit_contents": [
+          "Sprite Extruder Pro (all-metal, titanium heatbreak)",
+          "metal mounting bracket for 20mm extrusion",
+          "flat cable",
+          "screws"
+        ],
+        "mfr_model": "Sprite Extruder Pro Kit",
+        "mfr_printed_parts_required": false,
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "mfr_source": "manufacturer official page / brand spec sheet, verified 2026-10-14",
+        "mfr_specs": {
+          "drive": "dual-gear 3.5:1",
+          "filament": "1.75mm",
+          "force_N": 80,
+          "max_temp_C": 300,
+          "weight_g": 334
+        },
+        "source_query": "Ender 3 hotend kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0H99LNKPC",
       "was": null
     },
     {
@@ -2353,6 +2608,150 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-ender",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-11",
+      "image": "https://m.media-amazon.com/images/I/71IYfV8BxcL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Ender 3 Hotend Upgrade, Assembled mk8 Extruder 3D Printer Hotend kit 24V 40W Compatible for Creality Ender 3/ Ender 3 V2",
+      "price": 15.0,
+      "rating": 74.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0FBM3XN8V",
+        "mfr_brand": "wl-ender",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_claims_compat": [
+          "creality",
+          "ender 3",
+          "mk8"
+        ],
+        "mfr_extract": {
+          "kit_markers": [
+            "assembled",
+            "kit"
+          ],
+          "thermistor_100k_3950": false,
+          "voltage": "24V"
+        },
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 15.0,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 24v 40w",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0FBM3XN8V",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-ender",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-34",
+      "image": "https://m.media-amazon.com/images/I/71hIcGPIULL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Ender 3 v2 Hotend Upgrade, Assembled Extruder MK8 HotEnd Kit 3D Printer Hot end Kit 24V 40W Compatible for Creality Ende",
+      "price": 14.3,
+      "rating": 74.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0FBM1MP4S",
+        "bracket_in_title": false,
+        "category": "auto_bed_leveling",
+        "mfr_brand": "wl-ender",
+        "mfr_claims_compat": [
+          "creality",
+          "ender 3",
+          "mk8"
+        ],
+        "mfr_extract": {
+          "kit_markers": [
+            "assembled",
+            "kit"
+          ],
+          "thermistor_100k_3950": false,
+          "voltage": "24V"
+        },
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 15.0,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 24v 40w",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "probe_type_guess": "unknown",
+        "source_query": "BLTouch Ender 3 kit",
+        "sponsored": false,
+        "voltage_in_title": "24v",
+        "wiring_in_title": false
+      },
+      "url": "https://www.amazon.com/dp/B0FBM1MP4S",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-elves",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-41",
+      "image": "https://m.media-amazon.com/images/I/51x-LfnceEL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Elves Upgrade Ender 3 V2 Neo Extruder Hotend Kit All Metal Hot End Assembly Replacement, with Capricorn Bowden PTFE Tubi",
+      "price": 15.97,
+      "rating": 74.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CNSRGVMS",
+        "mfr_brand": "wl-elves",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_claims_compat": [
+          "ender 3"
+        ],
+        "mfr_extract": {
+          "kit_markers": [
+            "kit",
+            "ptfe",
+            "capricorn"
+          ],
+          "thermistor_100k_3950": false,
+          "voltage": null
+        },
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 15.97,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0CNSRGVMS",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-tophomer",
       "brand_url": null,
       "category": "stock_hotend_kits",
@@ -2389,6 +2788,51 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0HJCKB4TL",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-hictop",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-43",
+      "image": "https://m.media-amazon.com/images/I/61MCWTn5RXL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "HICTOP Ender 3 V2 Hotend 24V Full Assembled Ender 3 V2 Hotend Replacement Extruder Kit Accessories with Silicone Cover F",
+      "price": 22.17,
+      "rating": 71.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B09Z6JVLB2",
+        "mfr_brand": "wl-hictop",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_claims_compat": [
+          "ender 3"
+        ],
+        "mfr_extract": {
+          "kit_markers": [
+            "assembled",
+            "kit"
+          ],
+          "thermistor_100k_3950": false,
+          "voltage": "24V"
+        },
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 22.17,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 24v",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 hotend kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B09Z6JVLB2",
       "was": null
     },
     {
@@ -2523,6 +2967,361 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-extruder",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-6",
+      "image": "https://m.media-amazon.com/images/I/717ApLnvLNL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Extruder Heater Hot End Kit for Creality Ender 3, Ender 3 Pro, Ender 3 V2",
+      "price": 12.99,
+      "rating": 66.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0BCJ4C2KZ",
+        "mfr_brand": "wl-extruder",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 14.49,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0BCJ4C2KZ",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-upgrade",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-22",
+      "image": "https://m.media-amazon.com/images/I/61ELur-JpsL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Upgrade Ender 3 Hotend Assembled MK8 Extruder Hotend Kit with 1X Silicone Cover,5X 0.4mm Nozzles for Ender 3 Ender-3 V2 ",
+      "price": 12.99,
+      "rating": 66.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B09H5Q6LMC",
+        "mfr_brand": "wl-upgrade",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit",
+            "nozzles"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 12.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B09H5Q6LMC",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-sprite",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-24",
+      "image": "https://m.media-amazon.com/images/I/61hxkKMckcL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Sprite Extruder Upgrade Heater Block Kit for Creality, Ender 3 S1 Pro Upgrades Hotend with 5 Copper Plated 3D Printer No",
+      "price": 16.99,
+      "rating": 66.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0DNXG96MJ",
+        "mfr_brand": "wl-sprite",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 8.54,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0DNXG96MJ",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-upgrade",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-32",
+      "image": "https://m.media-amazon.com/images/I/61oovfxbdEL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Upgrade Ender 3 V3 SE Hotend Kit 300\u2103 Bimetal Heatbreak Plated Nozzle High Temperature High Speed Extruder Print Head w/",
+      "price": 16.99,
+      "rating": 66.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0D53DBX1M",
+        "mfr_brand": "wl-upgrade",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit",
+            "nozzles"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 12.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0D53DBX1M",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-polisi3d",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-46",
+      "image": "https://m.media-amazon.com/images/I/51NdK7eFgtL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "POLISI3D Ender 3 V2 Neo Hotend Kit Extruder Hot End 0.4mm Nozzle + 1pc Bimetal Heatbreak w/PTFE Tubing, Silicone Cover C",
+      "price": 14.86,
+      "rating": 66.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CC8FJXCP",
+        "mfr_brand": "wl-polisi3d",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit",
+            "ptfe"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 14.86,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0CC8FJXCP",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-sprite",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-51",
+      "image": "https://m.media-amazon.com/images/I/61Agi7bjF3L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Sprite Extruder Upgrade Heater Block Kit with Brass 0.4mm Nozzle,High Temperature Pro 300\u2103 Titanium Heatbreak Plated Cop",
+      "price": 8.54,
+      "rating": 66.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CP3924ZD",
+        "mfr_brand": "wl-sprite",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 8.54,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0CP3924ZD",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-3d",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-58",
+      "image": "https://m.media-amazon.com/images/I/51dCAQzxTrL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "3D Printer Hotend Ender 3 V3 High End Ceramic Hotend Kit, Ender 3 V3 Plus Extruder Hot End Replacement, All-Metal Integr",
+      "price": 12.99,
+      "rating": 66.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0D6W6LBDZ",
+        "mfr_brand": "wl-3d",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 12.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0D6W6LBDZ",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-sprite",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-66",
+      "image": "https://m.media-amazon.com/images/I/613DIRL6MbL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Sprite Extruder Upgrade Heater Block Kit with 0.4mm Nozzle,High Temperature Pro 300\u2103 Titanium Heatbreak Plated Copper No",
+      "price": 8.54,
+      "rating": 66.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CP37Z4HS",
+        "mfr_brand": "wl-sprite",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 8.54,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0CP37Z4HS",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-3d",
       "brand_url": null,
       "category": "stock_hotend_kits",
@@ -2612,6 +3411,50 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-mk8",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-79",
+      "image": "https://m.media-amazon.com/images/I/71uJZsxLhZL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "MK8 HotEnd Extruder Kit, 24V, 0.4mm Nozzle",
+      "price": 15.19,
+      "rating": 66.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0F542B6NQ",
+        "mfr_brand": "wl-mk8",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": "24V",
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 15.19,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 24v",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 hotend kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0F542B6NQ",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-ender",
       "brand_url": null,
       "category": "stock_hotend_kits",
@@ -2648,6 +3491,94 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0G42S2ZZV",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-sprite",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-88",
+      "image": "https://m.media-amazon.com/images/I/61aS7adhwxL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Sprite Extruder Upgrade Heater Block Kit 300\u2103 High Temperature",
+      "price": 13.79,
+      "rating": 66.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0FL21D8BH",
+        "mfr_brand": "wl-sprite",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 8.54,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 hotend kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0FL21D8BH",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-sprite",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-102",
+      "image": "https://m.media-amazon.com/images/I/71L7BWF7l8L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Sprite Extruder Upgrade Heater Block Kit High Temperature Pro 300\u2103 Titanium Heatbreak Plated Copper Nozzle Compatible wi",
+      "price": 14.24,
+      "rating": 66.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CDCM3Q4Z",
+        "mfr_brand": "wl-sprite",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 8.54,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0CDCM3Q4Z",
       "was": null
     },
     {
@@ -2693,6 +3624,48 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0FMNYD485",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-ender",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-136",
+      "image": "https://m.media-amazon.com/images/I/61I7yJJAa-L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Ender 3 S1 / Ender 3 S1 Pro Extruder Hotend Kit",
+      "price": 11.99,
+      "rating": 66.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0DJ2DX3CC",
+        "mfr_brand": "wl-ender",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 5.22,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0DJ2DX3CC",
       "was": null
     },
     {
@@ -2832,6 +3805,50 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-cr",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-219",
+      "image": "https://m.media-amazon.com/images/I/61lrD4ojOhL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "CR Official Sprite Extruder Heater Block Kit with Plated 0.4mm Nozzle High Temperature 300\u2103 Compatible with Ender 3 S1 P",
+      "price": 8.54,
+      "rating": 66.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CP38X7MP",
+        "mfr_brand": "wl-cr",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 89.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0CP38X7MP",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-gototop",
       "brand_url": null,
       "category": "stock_hotend_kits",
@@ -2959,6 +3976,50 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-24v",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-543",
+      "image": "https://m.media-amazon.com/images/I/61qqxAQlrYL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "24V 3D Printer V6 Hotend Extruder Kit Fit for Prusa i3 MK3/MK3S/MK3S+",
+      "price": 12.99,
+      "rating": 66.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0BZS8WYLD",
+        "mfr_brand": "wl-24v",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": "24V",
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 12.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 24v",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0BZS8WYLD",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-elves",
       "brand_url": null,
       "category": "stock_hotend_kits",
@@ -3038,6 +4099,138 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0FKMNXBTG",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-extruder",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-634",
+      "image": "https://m.media-amazon.com/images/I/417-PGa82xL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Extruder Hotend Kit Compatible with Creality Ender 3 S1",
+      "price": 14.99,
+      "rating": 66.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0HJCMBNPX",
+        "mfr_brand": "wl-extruder",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 14.49,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0HJCMBNPX",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-high",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-697",
+      "image": "https://m.media-amazon.com/images/I/61L7qmKJ4UL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "High Performance 3D Printer Hotend Kit with 0.4mm Nozzle and Silicone Cover, Assembled Extruder Replacement Compatible E",
+      "price": 11.89,
+      "rating": 66.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0GK2LKCKB",
+        "mfr_brand": "wl-high",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 11.89,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0GK2LKCKB",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-hotend",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-706",
+      "image": "https://m.media-amazon.com/images/I/61cxONRxdgL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Hotend Set Replacement for Ender 3 V3 SE 260C Heat Pre Assembled Extruder Kit with Aluminum Heat Sink and Enhanced Cooli",
+      "price": 18.4,
+      "rating": 66.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0HC82W8BZ",
+        "mfr_brand": "wl-hotend",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 29.9,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0HC82W8BZ",
       "was": null
     },
     {
@@ -3185,6 +4378,51 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-creativity",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-73",
+      "image": "https://m.media-amazon.com/images/I/51RBSVjBwKL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Creativity CR10 Hotend Assembled MK8 Extruder Kit Full Set (with 0.4MM Nozzles) Upgrade for 3D Printer CR 10/CR 10S/S4/S",
+      "price": 20.99,
+      "rating": 64.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B09ZQFZTB3",
+        "mfr_brand": "wl-creativity",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit",
+            "nozzles"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 20.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 hotend kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B09ZQFZTB3",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-hotend",
       "brand_url": null,
       "category": "stock_hotend_kits",
@@ -3221,6 +4459,50 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0CQX9TDY7",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-3d",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-140",
+      "image": "https://m.media-amazon.com/images/I/51YpMdSJy9L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "3D Printer Extruder Hotend Kit Fit for Ender 5 S1 with Complete Nozzle",
+      "price": 22.39,
+      "rating": 63.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0DLMG5HZD",
+        "mfr_brand": "wl-3d",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 12.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 hotend kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0DLMG5HZD",
       "was": null
     },
     {
@@ -3317,6 +4599,92 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-ender",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-105",
+      "image": "https://m.media-amazon.com/images/I/61uYZ96Iw9L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Ender 3 V3 HeatSink 3D Printer Accessories,Fast Cooling Block for Ender Series Extruder Hotend HeatSink,Aluminum Heat Si",
+      "price": 5.22,
+      "rating": 61.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0F1N3JWTN",
+        "mfr_brand": "wl-ender",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 5.22,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0F1N3JWTN",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-sprite",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-135",
+      "image": "https://m.media-amazon.com/images/I/51ZBNkxYEIL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Sprite Extruder/Pro Heater Block Upgrade Hotend Kit,Ender 3 S1 Bi-Metal Heatbreak,Brass Nozzle 0.4mm for Ender 3 S1,Ende",
+      "price": 23.98,
+      "rating": 61.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CSKP889Z",
+        "mfr_brand": "wl-sprite",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 8.54,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0CSKP889Z",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-upgrade",
       "brand_url": null,
       "category": "stock_hotend_kits",
@@ -3392,6 +4760,90 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0DQYVG518",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-ender",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-276",
+      "image": "https://m.media-amazon.com/images/I/51zizV1Gk1L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Ender 3 Heater Block, Ender 3 v2 Heat Block,Ender 3 Hotend Heater Block and Ender 3 Silicone Sock Use for MK8 Extruder H",
+      "price": 8.99,
+      "rating": 61.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CLD54CYF",
+        "mfr_brand": "wl-ender",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 5.22,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0CLD54CYF",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-aixinong1",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-490",
+      "image": "https://m.media-amazon.com/images/I/61c3ElCV1wL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Aixinong1 for Micro Cr10 Hotend Ender 3 Mk7/Mk8/Mk9 Block Hotend Head Extruder(1Pcs Set 1)",
+      "price": 15.6,
+      "rating": 61.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0HMTVWP7Y",
+        "mfr_brand": "wl-aixinong1",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 15.6,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0HMTVWP7Y",
       "was": null
     },
     {
@@ -3488,6 +4940,137 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-3d",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-547",
+      "image": "https://m.media-amazon.com/images/I/61MK-EU3J0L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "3D Printer Parts & Accessories - Extruder Hotend Replacement for Creality Sprite Extruder - Compatible with Ender-3 S1/ ",
+      "price": 12.73,
+      "rating": 61.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0DGLXFXWW",
+        "mfr_brand": "wl-3d",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 12.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0DGLXFXWW",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-polisi3d",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-557",
+      "image": "https://m.media-amazon.com/images/I/51JycD7NAtL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "POLISI3D Plated Copper Heater Block High Temperature Ender 3 Heat Block Compatible with MK8 Extruder Ender 3 V2 Pro Ende",
+      "price": 12.99,
+      "rating": 61.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0C9T28Q99",
+        "mfr_brand": "wl-polisi3d",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit",
+            "ptfe"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 14.86,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0C9T28Q99",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-ender",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-576",
+      "image": "https://m.media-amazon.com/images/I/71ltKrdJ2WL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Ender 3 V3 Blue HeatSink 3D Printer Accessories,Fast Cooling Block for Ender Series Extruder Hotend HeatSink,Aluminum He",
+      "price": 4.7,
+      "rating": 61.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0F1N46GL5",
+        "mfr_brand": "wl-ender",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 5.22,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0F1N46GL5",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-stainless",
       "brand_url": null,
       "category": "stock_hotend_kits",
@@ -3572,6 +5155,136 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-3d",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-660",
+      "image": "https://m.media-amazon.com/images/I/519gc5K7aCL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "3D Printer Extruder Heater Block with Throat Tube for Ender-3",
+      "price": 12.09,
+      "rating": 61.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0HKQCJVHF",
+        "mfr_brand": "wl-3d",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 12.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0HKQCJVHF",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-aluminum",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-662",
+      "image": "https://m.media-amazon.com/images/I/51utDIPtEdL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Aluminum Extruder Heater Block with Stainless Steel Throat Tube for Ender-3",
+      "price": 12.29,
+      "rating": 61.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0HKDSJSSL",
+        "mfr_brand": "wl-aluminum",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 12.29,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0HKDSJSSL",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-3d",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-686",
+      "image": "https://m.media-amazon.com/images/I/51hdi9RFjEL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "3D Printer Heater Block Stainless Steel Extruder Hot End Replacement",
+      "price": 12.29,
+      "rating": 61.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0HKDT18R8",
+        "mfr_brand": "wl-3d",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 12.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0HKDT18R8",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-unknown",
       "brand_url": null,
       "category": "stock_hotend_kits",
@@ -3606,6 +5319,50 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0HKJVV97W",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-3d",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-698",
+      "image": "https://m.media-amazon.com/images/I/51FEi6MhjtL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "3D Printer Accessories,Fast Cooling Block for Creality Series Extruder Hotend HeatSink,Aluminum Heat Sink Replacement fo",
+      "price": 12.99,
+      "rating": 61.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0DMTFW33G",
+        "mfr_brand": "wl-3d",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 12.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0DMTFW33G",
       "was": null
     },
     {
@@ -5266,6 +7023,50 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-sprite",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-70",
+      "image": "https://m.media-amazon.com/images/I/51GH0UhXrvL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Sprite Extruder Pro Ender 3 S1 Hotend Upgrade Kit,Plated Copper Heater Block,Nozzle 0.4mm,Bi-Metal Heatbreak for Ender 3",
+      "price": 28.98,
+      "rating": 57.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CSH48WWQ",
+        "mfr_brand": "wl-sprite",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 8.54,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0CSH48WWQ",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-srliya",
       "brand_url": null,
       "category": "stock_hotend_kits",
@@ -5339,6 +7140,95 @@
         "source_query": "Ender 3 hotend"
       },
       "url": "https://www.printedsolid.com/products/original-prusa-hotend-heatsink-mini",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-upgrade",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-151",
+      "image": "https://m.media-amazon.com/images/I/51WhCgbZguL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Upgrade Ender 3 S1 Pro Spriite Extruder Hotend - Ceramic Heating Hot End Kit: 80W Assembly Print Head with Heat Sink Blo",
+      "price": 29.99,
+      "rating": 56.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0DN673VGZ",
+        "mfr_brand": "wl-upgrade",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit",
+            "nozzles"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 12.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0DN673VGZ",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-hotend",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-691",
+      "image": "https://m.media-amazon.com/images/I/51ONg2G5dpL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Hotend Extruder Kit, Compatible with CR10 Ender 3, Nozzle Heater",
+      "price": 29.9,
+      "rating": 56.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0H8NC41T8",
+        "mfr_brand": "wl-hotend",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 29.9,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0H8NC41T8",
       "was": null
     },
     {
@@ -5462,6 +7352,93 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0C5JFKF8H",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-for",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-710",
+      "image": "https://m.media-amazon.com/images/I/51CutQSM+hL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "for MK8 Hotend Kit Upgrade All Metal Direct Extruder Special Heat Break for Ender 3 Ender-3 V2 CR-10 3D Printer Parts",
+      "price": 36.99,
+      "rating": 52.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0GD6KD1PS",
+        "mfr_brand": "wl-for",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 82.43,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0GD6KD1PS",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-heated",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-446",
+      "image": "https://m.media-amazon.com/images/I/61CTA3Ua2-L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Heated Block for Micro Swiss Hotend for CR Ender 3 Mk7/Mk8/Mk9 Block J-Head Hotend Head Extruder(10Pcs Set 1)",
+      "price": 49.56,
+      "rating": 51.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0GZM3KLYD",
+        "mfr_brand": "wl-heated",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_claims_compat": [
+          "ender 3",
+          "mk8"
+        ],
+        "mfr_extract": {
+          "kit_markers": [],
+          "thermistor_100k_3950": false,
+          "voltage": null
+        },
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 49.56,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0GZM3KLYD",
       "was": null
     },
     {
@@ -6040,6 +8017,51 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-upgrade",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-111",
+      "image": "https://m.media-amazon.com/images/I/616xWIYPX0L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Upgrade Bimetal Heatbreak High Speed Flow Ender 3 Direct Drive Extruder Dual Hardened Steel Gear Volcano Hotend for Crea",
+      "price": 39.99,
+      "rating": 46.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B09YD82D1R",
+        "mfr_brand": "wl-upgrade",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit",
+            "nozzles"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 12.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "dual gear extruder Ender 3",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B09YD82D1R",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-qidi",
       "brand_url": null,
       "category": "stock_hotend_kits",
@@ -6266,6 +8288,94 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-for",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-639",
+      "image": "https://m.media-amazon.com/images/I/61rl7KSevUL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "For ender 3 V2 Neo Extruder Hotend Kit All Metal Hot End Assembly Replacement, for ender 3 V2 Neo/for Ender 3 Max Neo/fo",
+      "price": 82.43,
+      "rating": 43.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0H2TGQ8QY",
+        "mfr_brand": "wl-for",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 82.43,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0H2TGQ8QY",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-for",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-671",
+      "image": "https://m.media-amazon.com/images/I/61rl7KSevUL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "For ender 3 V2 Neo Extruder Hotend Kit All Metal Hot End Assembly Replacement, for ender 3 V2 Neo/for Ender 3 Max Neo/fo",
+      "price": 87.58,
+      "rating": 43.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0H2GHQBV2",
+        "mfr_brand": "wl-for",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 82.43,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0H2GHQBV2",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-original",
       "brand_url": null,
       "category": "stock_hotend_kits",
@@ -6298,6 +8408,118 @@
         "source_query": "Ender 3 hotend"
       },
       "url": "https://www.printedsolid.com/products/original-prusa-hotend-heatsink-loadcell-xl-mk4",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "creality",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-12",
+      "image": "https://m.media-amazon.com/images/I/61MjEYbLtgL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Creality Ender 3 V3 SE Hotend Kit 250mm/s High-Speed Assembled Extruder",
+      "price": 15.99,
+      "rating": 40.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CKXNZCP4",
+        "bracket_in_title": false,
+        "category": "auto_bed_leveling",
+        "mfr_brand": "creality",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 15.99,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for ender 3 v3, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "probe_type_guess": "unknown",
+        "source_query": "CR Touch Ender 3",
+        "sponsored": false,
+        "voltage_in_title": null,
+        "wiring_in_title": false
+      },
+      "url": "https://www.amazon.com/dp/B0CKXNZCP4",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "creality",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-13",
+      "image": "https://m.media-amazon.com/images/I/51-hgJsQJbL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Creality Official Ender 3 V3 KE Hotend Kit, Upgrades Ceramic Heating Block Kit, 3D Printer Nozzle, High Flow Extruder He",
+      "price": 19.99,
+      "rating": 40.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CP2K68P3",
+        "mfr_brand": "creality",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 19.99,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for ender 3 v3, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0CP2K68P3",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "creality",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-16",
+      "image": "https://m.media-amazon.com/images/I/61a1lf4sb-L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Creality Official Ender 3 V3 SE Hotend Kit, Assembled Extruder Hot End Kit 24V with Capricorn Bowden PTFE Tubing for End",
+      "price": 16.99,
+      "rating": 40.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CM5J34LX",
+        "mfr_brand": "creality",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 16.99,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for ender 3 v3, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 hotend kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0CM5J34LX",
       "was": null
     },
     {
@@ -6592,6 +8814,199 @@
         "wiring_in_title": false
       },
       "url": "https://www.amazon.com/dp/B0FYMB7PSJ",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-for",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-1183",
+      "image": "https://m.media-amazon.com/images/I/61vlRQShNNL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "for Neo Series for CR-Touch Complete Extruder Hotend Kit for Ender-3 V2 Neo/for Ender-3 Max Neo/for Ender-3 Neo 3D Print",
+      "price": 139.67,
+      "rating": 40.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0F48F93GC",
+        "bracket_in_title": false,
+        "category": "auto_bed_leveling",
+        "mfr_brand": "wl-for",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 82.43,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "probe_type_guess": "unknown",
+        "source_query": "CR Touch Ender 3",
+        "sponsored": false,
+        "voltage_in_title": null,
+        "wiring_in_title": false
+      },
+      "url": "https://www.amazon.com/dp/B0F48F93GC",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-cr-touch",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-1251",
+      "image": "https://m.media-amazon.com/images/I/51EETIbtkmL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "CR-Touch Complete Extruder Hotend Kit Compatible with Ender-3 V2 Neo",
+      "price": 151.61,
+      "rating": 40.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0HL6YCZZK",
+        "bracket_in_title": false,
+        "category": "auto_bed_leveling",
+        "mfr_brand": "wl-cr-touch",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit",
+            "complete"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 151.61,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "probe_type_guess": "unknown",
+        "source_query": "CR Touch Ender 3",
+        "sponsored": false,
+        "voltage_in_title": null,
+        "wiring_in_title": false
+      },
+      "url": "https://www.amazon.com/dp/B0HL6YCZZK",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-for",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-1256",
+      "image": "https://m.media-amazon.com/images/I/610I0F80wgL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "For Neo Series for CR-Touch Complete Extruder Hotend Kit For Ender-3 V2 Neo/For Ender-3 Max Neo/For Ender-3 Neo 3D Print",
+      "price": 254.15,
+      "rating": 38.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0G8CT21B8",
+        "bracket_in_title": false,
+        "category": "auto_bed_leveling",
+        "mfr_brand": "wl-for",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 82.43,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "probe_type_guess": "unknown",
+        "source_query": "CR Touch Ender 3",
+        "sponsored": false,
+        "voltage_in_title": null,
+        "wiring_in_title": false
+      },
+      "url": "https://www.amazon.com/dp/B0G8CT21B8",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-for",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-1261",
+      "image": "https://m.media-amazon.com/images/I/61KwouRNxhL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "For Neo Series For CR-Touch Complete Extruder Hotend Kit For Ender-3 V2 Neo/For Ender-3 Max Neo/For Ender-3 Neo 3D Print",
+      "price": 254.15,
+      "rating": 38.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0GDKST5M4",
+        "bracket_in_title": false,
+        "category": "auto_bed_leveling",
+        "mfr_brand": "wl-for",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 82.43,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "probe_type_guess": "unknown",
+        "source_query": "CR Touch Ender 3",
+        "sponsored": false,
+        "voltage_in_title": null,
+        "wiring_in_title": false
+      },
+      "url": "https://www.amazon.com/dp/B0GDKST5M4",
       "was": null
     },
     {
@@ -7102,6 +9517,42 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "e3d",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-539",
+      "image": "https://m.media-amazon.com/images/I/61q3s1yHUSL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "E3D V6 Hot End Full Kit 1.75mm 12V Bowden/RepRap 3D Printer Extruder Parts Accessories 0.4mm Nozzle",
+      "price": 13.99,
+      "rating": 37.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B06XBXDJY3",
+        "mfr_brand": "e3d",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 13.99,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "E3D V6 needs printed adapter mount (ruled out: printer down)"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B06XBXDJY3",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-original",
       "brand_url": null,
       "category": "stock_hotend_kits",
@@ -7207,6 +9658,42 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-24v",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-30",
+      "image": "https://m.media-amazon.com/images/I/51kCXV-zjGL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "24V 40W Assembled Extruder Hotend Kit: Upgraded Replacement for Creality Ender 3 V2 Neo/Ender 3 Max Neo/Ender 3 Neo 3D P",
+      "price": 19.99,
+      "rating": 36.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0DBP4WJP4",
+        "mfr_brand": "wl-24v",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 19.99,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for ender 3 max, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0DBP4WJP4",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-fit",
       "brand_url": null,
       "category": "stock_hotend_kits",
@@ -7239,6 +9726,42 @@
         "wiring_in_title": false
       },
       "url": "https://www.amazon.com/dp/B0DBY1HJYB",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-24v",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-54",
+      "image": "https://m.media-amazon.com/images/I/41mvX8SReZL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "24V 40W Hotend Kit for Ender 3 V3 SE High Temperature Print Head Heater Block for Creality Ender3-V3-SE Extruder",
+      "price": 8.99,
+      "rating": 36.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CQT2H3ZL",
+        "mfr_brand": "wl-24v",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 8.99,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for ender 3 v3, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0CQT2H3ZL",
       "was": null
     },
     {
@@ -7351,6 +9874,42 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-hotend",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-120",
+      "image": "https://m.media-amazon.com/images/I/61-k1a-REDL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Hotend Kit for Elegoo Neptune 3 Pro/Plus/Max, 3D Printer Print Head Extruder Hot End Kit Heating Block Kit with 5PCS Ext",
+      "price": 15.99,
+      "rating": 36.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0DCBP23GB",
+        "mfr_brand": "wl-hotend",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 15.99,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for neptune, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 hotend kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0DCBP23GB",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-unknown",
       "brand_url": null,
       "category": "all_metal_upgrade",
@@ -7456,6 +10015,42 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-ender",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-160",
+      "image": "https://m.media-amazon.com/images/I/61taFxY6UqL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Ender 3 s1 Pro Hotend Sprite Extruder Upgrade Heater Block Hotend Kit for Creality Ender-3 S1/Ender-3 S1 Plus/CR-10 Smar",
+      "price": 18.99,
+      "rating": 36.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0DYYFRX2X",
+        "mfr_brand": "wl-ender",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 18.99,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for cr-10, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0DYYFRX2X",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-ceramic",
       "brand_url": null,
       "category": "stock_hotend_kits",
@@ -7484,6 +10079,42 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0G33VCD5Z",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-updated",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-175",
+      "image": "https://m.media-amazon.com/images/I/516BvCMKGlL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Updated High Temperature CR-10 Plated Copper Heater Block for MK8 Extruder Creality All Metal Hotend Ender3 V2 Ender 3 p",
+      "price": 9.49,
+      "rating": 36.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B08NVTJM4S",
+        "mfr_brand": "wl-updated",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 9.49,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for cr-10, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B08NVTJM4S",
       "was": null
     },
     {
@@ -7771,6 +10402,42 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-premium",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-499",
+      "image": "https://m.media-amazon.com/images/I/516kSF-XR6L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Premium CR10 Heater Block MK8 Silicone Sock Compatible with Micro Swiss CR10 Hotend Ender 3 MK7/MK8/MK9 J-Head Extruder ",
+      "price": 14.58,
+      "rating": 36.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CMLWK1LJ",
+        "mfr_brand": "wl-premium",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 14.58,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for cr10, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0CMLWK1LJ",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-for",
       "brand_url": null,
       "category": "all_metal_upgrade",
@@ -7869,6 +10536,150 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B08CGW4X3M",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-premium",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-516",
+      "image": "https://m.media-amazon.com/images/I/51l+9aw5IUL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Premium CR10 Heater Block MK8 Silicone Sock Compatible with Micro Swiss CR10 Hotend Ender 3 MK7/MK8/MK9 J-Head Extruder ",
+      "price": 14.24,
+      "rating": 36.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CMLWZQ6H",
+        "mfr_brand": "wl-premium",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 14.24,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for cr10, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0CMLWZQ6H",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-premium",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-517",
+      "image": "https://m.media-amazon.com/images/I/51l+9aw5IUL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Premium CR10 Heater Block MK8 Silicone Sock Compatible with Micro Swiss CR10 Hotend Ender 3 MK7/MK8/MK9 J-Head Extruder ",
+      "price": 15.1,
+      "rating": 36.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CMLVL5YY",
+        "mfr_brand": "wl-premium",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 15.1,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for cr10, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0CMLVL5YY",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-cr10",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-518",
+      "image": "https://m.media-amazon.com/images/I/61csa-Ch8-L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "CR10 Heater Block MK8 Silicone Sock Compatible with Micro Swiss Cr10 Hotend Ender 3 Mk7/Mk8/Mk9 J-Head Extruder Heat Blo",
+      "price": 16.42,
+      "rating": 36.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0D3BS122S",
+        "mfr_brand": "wl-cr10",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 16.42,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for cr10, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0D3BS122S",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-premium",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-519",
+      "image": "https://m.media-amazon.com/images/I/516kSF-XR6L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Premium CR10 Heater Block MK8 Silicone Sock Compatible with Micro Swiss CR10 Hotend Ender 3 MK7/MK8/MK9 J-Head Extruder ",
+      "price": 15.79,
+      "rating": 36.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CMLSFPRQ",
+        "mfr_brand": "wl-premium",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 15.79,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for cr10, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0CMLSFPRQ",
       "was": null
     },
     {
@@ -8258,6 +11069,42 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-sprite",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-44",
+      "image": "https://m.media-amazon.com/images/I/61taFxY6UqL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Sprite Extruder Upgrade Heater Block Hotend Kit for Creality Ender-3 S1/Ender-3 S1 Pro/Ender-3 S1 Plus/CR-10 Smart Pro/S",
+      "price": 23.0,
+      "rating": 32.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0DHTKGJMH",
+        "mfr_brand": "wl-sprite",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 23.0,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for cr-10, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0DHTKGJMH",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-original",
       "brand_url": null,
       "category": "stock_hotend_kits",
@@ -8352,6 +11199,42 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0D9BX8TXN",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-cr10",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-450",
+      "image": "https://m.media-amazon.com/images/I/61VJDMkxJZL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Cr10 Heated Block for Micro Swiss Cr10 Hotend for Creality Ender 3 Mk7/Mk8/Mk9 Block J-Head Hotend Head Extruder Importa",
+      "price": 24.56,
+      "rating": 30.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0GCYR7FGF",
+        "mfr_brand": "wl-cr10",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 24.56,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for cr10, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0GCYR7FGF",
       "was": null
     },
     {
@@ -8560,6 +11443,42 @@
         "source_query": "hotend"
       },
       "url": "https://biqu.equipment/products/biqu-panda-juicer-hotend-high-flow",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "creality",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-180",
+      "image": "https://m.media-amazon.com/images/I/612mNkkLYxL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Creality Official Ender 5 S1 Hotend Kit, High Speed High Temperature Assembled Extruder 3D Printer Hotend with Silicone ",
+      "price": 31.99,
+      "rating": 29.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0H94VCLJ8",
+        "mfr_brand": "creality",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 31.99,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for ender 5, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 hotend kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0H94VCLJ8",
       "was": null
     },
     {
@@ -8816,6 +11735,42 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "creality",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-114",
+      "image": "https://m.media-amazon.com/images/I/61UWHauLGAL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Creality Ender 5 Plus Full Hotend Kit, Original Fully Assembled Extruder MK8 Hot End Kit with Aluminum Heating Block 0.4",
+      "price": 40.99,
+      "rating": 25.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B094RH38WK",
+        "mfr_brand": "creality",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 40.99,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for ender 5, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B094RH38WK",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-new",
       "brand_url": null,
       "category": "stock_hotend_kits",
@@ -8844,6 +11799,78 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B07RXW1Q2Q",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-mellow",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-508",
+      "image": "https://m.media-amazon.com/images/I/61Ktu1sy-ZL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Mellow All Metal CR10 Hotend Extruder Kit Flexible Titanium Heat Break for Creality CR-10 CR-10S Micro Swiss 3D Printer(",
+      "price": 36.99,
+      "rating": 22.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0GCZH5RHH",
+        "mfr_brand": "wl-mellow",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 36.99,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for cr10, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0GCZH5RHH",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "fysetc",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-613",
+      "image": "https://m.media-amazon.com/images/I/61xS4TWV5ML._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "FYSETC 3D Printer Accessories K2 Plus Print Head Kit: Assembly Extruder Hotend Set Include Heat Break Heating Block Sili",
+      "price": 38.99,
+      "rating": 22.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0F37F81M1",
+        "mfr_brand": "fysetc",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 38.99,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for k2 plus, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (hotend part (block/heatsink/heatbreak), not an extruder); moved by pipeline",
+        "source_query": "Ender 3 thermistor heater cartridge kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0F37F81M1",
       "was": null
     },
     {
@@ -9084,6 +12111,42 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-3d",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-447",
+      "image": "https://m.media-amazon.com/images/I/611EXyc4zHL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "3D Printer/Fit for NF Zone-CR10 Hotend Extruder Kit/Fit for Creality/Fit for Ender 3 Micro Swiss MK8 Nozzle(Set 1,None)",
+      "price": 105.33,
+      "rating": 12.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0DM5YWRN1",
+        "mfr_brand": "wl-3d",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 105.33,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for cr10, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0DM5YWRN1",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "e3d",
       "brand_url": null,
       "category": "stock_hotend_kits",
@@ -9143,6 +12206,114 @@
         "source_query": "hotend"
       },
       "url": "https://biqu.equipment/products/bigtreetech-e3d-revo-voron-series-3d-printer-hotend-12v-24v-use-revo-nozzle-max-300-c-for-voron-2-4-trident-stealthburner",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-3d",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-500",
+      "image": "https://m.media-amazon.com/images/I/611EXyc4zHL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "3D Printer/Fit for NF Zone-CR10 Hotend Extruder Kit/Fit for Creality/Fit for Ender 3 Micro Swiss MK8 Nozzle(Set 1,24V)",
+      "price": 111.94,
+      "rating": 11.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0DM5YPC48",
+        "mfr_brand": "wl-3d",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 111.94,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for cr10, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0DM5YPC48",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-3d",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-448",
+      "image": "https://m.media-amazon.com/images/I/61AHDoPuk2L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "3D Printer/Fit for NF Zone-CR10 Hotend Extruder Kit/Fit for Creality/Fit for Ender 3 Micro Swiss MK8 Nozzle(Set 2,None)",
+      "price": 144.96,
+      "rating": 10.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0DM5Z3V26",
+        "mfr_brand": "wl-3d",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 144.96,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for cr10, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0DM5Z3V26",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-3d",
+      "brand_url": null,
+      "category": "stock_hotend_kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-hotend-449",
+      "image": "https://m.media-amazon.com/images/I/61evRJTzPLL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "3D Printer/Fit for NF Zone-CR10 Hotend Extruder Kit/Fit for Creality/Fit for Ender 3 Micro Swiss MK8 Nozzle(Set 3,None)",
+      "price": 144.96,
+      "rating": 10.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0DM61V5FL",
+        "mfr_brand": "wl-3d",
+        "mfr_category": "stock_hotend_kits",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 144.96,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for cr10, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (assembled hotend kit, not an extruder); moved by pipeline",
+        "source_query": "Micro Swiss Ender 3 hotend",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0DM61V5FL",
       "was": null
     }
   ],

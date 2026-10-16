@@ -45,9 +45,60 @@
       "updated_at": "2026-10-14T18:10:03.212997+00:00"
     }
   ],
-  "generated": "2026-10-15T17:16:12.426402+00:00",
+  "generated": "2026-10-16T00:43:48.546844+00:00",
   "hunt": "ender3-parts-misc",
   "items": [
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Creality",
+      "brand_url": null,
+      "category": "unclassified",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-parts-misc-119",
+      "image": "https://m.media-amazon.com/images/I/51ONhkR0FmL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Creality Official Ender 3 Linear Rail Kit X-axis Rail Guide MGN12C 12.6\" Length with Mount Bracket Support Sprite Pro ki",
+      "price": 26.59,
+      "rating": 61.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0C7QJMMBW",
+        "mfr_abl_conflict": "One reseller listing states this kit CANNOT be used with 3D-Touch/BL-Touch/CR-Touch \u2014 probe mounting may conflict; verify before buying an ABL probe alongside.",
+        "mfr_bolt_on": true,
+        "mfr_brand": "Creality",
+        "mfr_category": "unclassified",
+        "mfr_fits": "Ender 3 / Pro / V2 / Max (official compatibility list)",
+        "mfr_genuine": true,
+        "mfr_ground_truth": "manufacturer",
+        "mfr_kit_contents": [
+          "Sprite Extruder Pro (all-metal, titanium heatbreak)",
+          "metal mounting bracket for 20mm extrusion",
+          "flat cable",
+          "screws"
+        ],
+        "mfr_model": "Sprite Extruder Pro Kit",
+        "mfr_printed_parts_required": false,
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (linear rail motion part, not an extruder); moved by pipeline",
+        "mfr_source": "manufacturer official page / brand spec sheet, verified 2026-10-14",
+        "mfr_specs": {
+          "drive": "dual-gear 3.5:1",
+          "filament": "1.75mm",
+          "force_N": 80,
+          "max_temp_C": 300,
+          "weight_g": 334
+        },
+        "source_query": "Ender 3 hotend kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0C7QJMMBW",
+      "was": null
+    },
     {
       "badges": [
         "enriched"
@@ -90,6 +141,48 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0HCSY8WMP",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-original",
+      "brand_url": null,
+      "category": "unclassified",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-parts-misc-93",
+      "image": "https://m.media-amazon.com/images/I/41J8WszVbGL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Original Sprite Extruder Hotend Adapter Board PCBA Breakout Module Compatible with Creality Ender 3 S1, Ender3 S1 Pro/Pl",
+      "price": 8.88,
+      "rating": 48.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CL9W5KLJ",
+        "mfr_brand": "wl-original",
+        "mfr_category": "unclassified",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 74.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (electronics adapter, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 hotend kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0CL9W5KLJ",
       "was": null
     },
     {
@@ -264,6 +357,48 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0F8J8D1BR",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-ender",
+      "brand_url": null,
+      "category": "unclassified",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-parts-misc-142",
+      "image": "https://m.media-amazon.com/images/I/71arChUDg-L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Ender 3 Hotend Upgrade Extruder, Capricorn PTFE Tubing",
+      "price": 15.79,
+      "rating": 48.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0F541YL3X",
+        "mfr_brand": "wl-ender",
+        "mfr_category": "unclassified",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 5.22,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (PTFE tubing, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 hotend kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0F541YL3X",
       "was": null
     },
     {
@@ -1902,6 +2037,46 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-original",
+      "brand_url": null,
+      "category": "unclassified",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-parts-misc-1578",
+      "image": "https://www.printedsolid.com/cdn/shop/files/Nextrudersock.jpg?v=1739287942&width=450",
+      "in_stock": null,
+      "name": "Original Prusa Nextruder Silicone sock - set",
+      "price": 7.9,
+      "rating": 48.0,
+      "retailer": "Printed Solid",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "mfr_brand": "wl-original",
+        "mfr_category": "unclassified",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 74.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (silicone sock set, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 hotend"
+      },
+      "url": "https://www.printedsolid.com/products/original-prusa-nextruder-silicone-sock-set",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-3d",
       "brand_url": null,
       "category": "unclassified",
@@ -2846,6 +3021,42 @@
         "wiring_in_title": false
       },
       "url": "https://www.amazon.com/dp/B0C77PZJMJ",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "creality",
+      "brand_url": null,
+      "category": "unclassified",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-parts-misc-144",
+      "image": "https://m.media-amazon.com/images/I/51n0DNDKBhL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Creality Official MK8 Ender 3 Nozzles 24 pcs 3D Printer Brass Nozzles Extruder for Ender 3 Series and Creality CR-10 0.2",
+      "price": 10.99,
+      "rating": 40.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B093SKXHL3",
+        "mfr_brand": "creality",
+        "mfr_category": "unclassified",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 10.99,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for cr-10, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (nozzle pack, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 hotend kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B093SKXHL3",
       "was": null
     },
     {
@@ -9763,6 +9974,74 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "biqu",
+      "brand_url": null,
+      "category": "unclassified",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-parts-misc-1527",
+      "image": "https://biqu.equipment/cdn/shop/files/Panda_Jetpack_V2-1.png?v=1757866487&width=298",
+      "in_stock": null,
+      "name": "BIQU Panda Jetpack Lightweight Hollow Design Bambu Extruder Front Cover Integrated with Panda Jet Cooling Fan Duct for Bambu Lab P1/X1",
+      "price": 49.99,
+      "rating": 22.0,
+      "retailer": "BIQU",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "mfr_brand": "biqu",
+        "mfr_category": "unclassified",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 49.99,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for bambu, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (front cover/housing, not extruder hardware); moved by pipeline",
+        "source_query": "hotend"
+      },
+      "url": "https://biqu.equipment/products/biqu-panda-jetpack-lightweight",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "biqu",
+      "brand_url": null,
+      "category": "unclassified",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-parts-misc-1538",
+      "image": "https://biqu.equipment/cdn/shop/files/1060000728-PandaExtruder_800_7.jpg?v=1753437670&width=20",
+      "in_stock": null,
+      "name": "BIQU Panda Extruder CNC Hollow Carving Lightweight Extruder Housing for Bambu Lab P1/X1 Printers",
+      "price": 50.99,
+      "rating": 22.0,
+      "retailer": "BIQU",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "mfr_brand": "biqu",
+        "mfr_category": "unclassified",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_price": 50.99,
+        "mfr_note": "phase-1 recall noise; not a stock-Ender-3 hotend/extruder/thermistor/fan/ABL part",
+        "mfr_out_of_scope": [
+          "made for bambu, not stock Ender 3"
+        ],
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (front cover/housing, not extruder hardware); moved by pipeline",
+        "source_query": "hotend"
+      },
+      "url": "https://biqu.equipment/products/biqu-panda-extruder",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-capricorn",
       "brand_url": null,
       "category": "unclassified",
@@ -10077,6 +10356,52 @@
         "wiring_in_title": false
       },
       "url": "https://www.amazon.com/dp/B0CJFBMLYF",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-ender-3",
+      "brand_url": null,
+      "category": "unclassified",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-parts-misc-1214",
+      "image": "https://m.media-amazon.com/images/I/61WA+lhztfL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Ender-3 Plus Desk Printer FDM Printing with Sprite All Metal Extruder 300x300x300/11.8x11.8x11.8in Build Size PC Spring ",
+      "price": 937.85,
+      "rating": 20.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0CWRBG46W",
+        "bracket_in_title": false,
+        "category": "auto_bed_leveling",
+        "mfr_brand": "wl-ender-3",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 937.85,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (whole printer listing, not an extruder upgrade); moved by pipeline",
+        "probe_type_guess": "unknown",
+        "source_query": "CR Touch Ender 3",
+        "sponsored": false,
+        "voltage_in_title": null,
+        "wiring_in_title": false
+      },
+      "url": "https://www.amazon.com/dp/B0CWRBG46W",
       "was": null
     },
     {

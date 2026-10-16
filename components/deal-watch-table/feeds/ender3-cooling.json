@@ -45,7 +45,7 @@
       "updated_at": "2026-10-14T18:10:03.212997+00:00"
     }
   ],
-  "generated": "2026-10-15T17:16:12.233499+00:00",
+  "generated": "2026-10-16T00:43:48.340183+00:00",
   "hunt": "ender3-cooling",
   "items": [
     {
@@ -165,6 +165,48 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B07L2WTH7H",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-creativity",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-cooling-157",
+      "image": "https://m.media-amazon.com/images/I/516vz5N0z9L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Creativity Ender 3 Fan Upgrade 4010 Fans 40x40x10MM DC 24V Extruder Hot End Fan and DC 24V Turbo Fan for Ender 3 / Ender",
+      "price": 8.96,
+      "rating": 58.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0BXLC2TYR",
+        "mfr_brand": "wl-creativity",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": "24V",
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 8.96,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 24v 4010",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "Ender 3 hotend kit",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0BXLC2TYR",
       "was": null
     },
     {
@@ -617,6 +659,48 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-3d",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-cooling-733",
+      "image": "https://m.media-amazon.com/images/I/31G7HPrSaoL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "3D Printer DC24V Extruder Hotend Cooling Fan 5015 for Lab X1/X1C, 50x50x15mm with Dual Ball Bearing 0.22A, Cooling Fan w",
+      "price": 11.97,
+      "rating": 58.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0FRM7PDF5",
+        "mfr_brand": "wl-3d",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": "24V",
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 11.97,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 24v 5015",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "5015 blower fan 24V",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0FRM7PDF5",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-aceirmc",
       "brand_url": null,
       "category": "part_cooling",
@@ -779,6 +863,48 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-5015",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-cooling-739",
+      "image": "https://m.media-amazon.com/images/I/61wMRdOMr2L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "5015 24Vp1 Fan Dual Ball Bearing Cooling Blower Fan for Lab P1P P1S 3D Printer Quiet Turbo Fan,3D Printer DC24V Extruder",
+      "price": 8.49,
+      "rating": 58.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0GCYF7XJB",
+        "mfr_brand": "wl-5015",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": "24V",
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 8.49,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 24v 5015",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "5015 blower fan 24V",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0GCYF7XJB",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-hi",
       "brand_url": null,
       "category": "part_cooling",
@@ -893,6 +1019,48 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0DJQTW1SY",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-3d",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-cooling-751",
+      "image": "https://m.media-amazon.com/images/I/4177LD-1+PL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "3D Printer P1P/P1S 24V 5015 Extruder Hotend Cooling Fan 4.08W 0.22A",
+      "price": 9.19,
+      "rating": 58.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0FP9ZZKL6",
+        "mfr_brand": "wl-3d",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": "24V",
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 11.97,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 24v 5015",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "5015 blower fan 24V",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0FP9ZZKL6",
       "was": null
     },
     {
@@ -1016,6 +1184,48 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0FXN9DYBZ",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-3d",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-cooling-764",
+      "image": "https://m.media-amazon.com/images/I/41XXCQ6DGXL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "3D Printer DC24V Extruder Hotend Cooling Fan 5015 for Lab P1P/P1S, 50x50x15mm with Dual Ball Bearing 0.22A, Cooling Fan ",
+      "price": 11.97,
+      "rating": 58.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0FRLBGFHT",
+        "mfr_brand": "wl-3d",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": "24V",
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 11.97,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 24v 5015",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "5015 blower fan 24V",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0FRLBGFHT",
       "was": null
     },
     {
@@ -1178,6 +1388,132 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0B7HQ3Z4T",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-50mm",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-cooling-773",
+      "image": "https://m.media-amazon.com/images/I/51oqyCkt1DS._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "50mm Blower Fan 24v 5015 Hydraulic Bearing 50mm x 15mm DC Brushless Cooling Turbo Fan for 3D Printer extruder humidifier",
+      "price": 11.39,
+      "rating": 58.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B095CHFXDW",
+        "mfr_brand": "wl-50mm",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": "24V",
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 11.39,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 24v 5015",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "Winsinn 5015 fan",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B095CHFXDW",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-5015",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-cooling-782",
+      "image": "https://m.media-amazon.com/images/I/517MBILGFZL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "5015 5/12/24V Cooling Fan Brushless Printer Part 2Pin for Extruder Blower XH2.54 Connector Computer Case Cooling",
+      "price": 7.98,
+      "rating": 58.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0GF78QPMP",
+        "mfr_brand": "wl-5015",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": "24V",
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 8.49,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 24v 5015",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "5015 blower fan 24V",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0GF78QPMP",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-5015",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-cooling-783",
+      "image": "https://m.media-amazon.com/images/I/51F53xvdppL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "5015 5/12/24V Cooling Fan Brushless Printer Part 2Pin for Extruder Cooling Blower XH2.54 Connector Blower for Electronic",
+      "price": 10.59,
+      "rating": 58.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0G4VKYGLP",
+        "mfr_brand": "wl-5015",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": "24V",
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 8.49,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 24v 5015",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "5015 blower fan 24V",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0G4VKYGLP",
       "was": null
     },
     {
@@ -1988,6 +2324,50 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0D317TY6S",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-3d",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-cooling-835",
+      "image": "https://m.media-amazon.com/images/I/61eKDJC+SfL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "3D Printer Cooling Fan, 40mm x 40mm x 10mm Blower Cooling Fan with 2 Pin Terminal for Hotend Extruder Heatsinks Makerbot",
+      "price": 8.69,
+      "rating": 58.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B07Q5R9HF4",
+        "mfr_brand": "wl-3d",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 12.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "5015 blower fan 24V",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B07Q5R9HF4",
       "was": null
     },
     {
@@ -2936,6 +3316,48 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-5015",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-cooling-878",
+      "image": "https://m.media-amazon.com/images/I/51qwrvXb33L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "5015/4010/4020 12V&24V Cooling Turbo Fan Brushless 3D Printer Parts 2Pin Compatible with Extruder DC Cooler Blower Part ",
+      "price": 10.22,
+      "rating": 58.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0D4JQX4C1",
+        "mfr_brand": "wl-5015",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": "12V",
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 10.22,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 12v 5015",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "5015 blower fan 24V",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0D4JQX4C1",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-ef50152b1-1c01c-a99",
       "brand_url": null,
       "category": "part_cooling",
@@ -3216,6 +3638,48 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0HM386237",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-4pcs",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-cooling-894",
+      "image": "https://m.media-amazon.com/images/I/71NUG6oD33L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "4Pcs 60mm Brushless Cooling Fan 6015 DC 24V 2.36in 60mm x 60mm x15mm 2 Pin Fan for 3D Printer Extruder DIY Computer CPU ",
+      "price": 7.99,
+      "rating": 58.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0DKSYS9Y6",
+        "mfr_brand": "wl-4pcs",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": "24V",
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 7.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 24v",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "5015 blower fan 24V",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0DKSYS9Y6",
       "was": null
     },
     {
@@ -4042,6 +4506,48 @@
       "category": "part_cooling",
       "change": 0.0,
       "confidence": "high",
+      "id": "ender3-cooling-753",
+      "image": "https://m.media-amazon.com/images/I/516cgkR50ML._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "3D Printer X1/X1C/X1E Extruder Hotend Cooling Fan 5015 DC24V",
+      "price": 12.2,
+      "rating": 57.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0FXV26NWN",
+        "mfr_brand": "wl-3d",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": "24V",
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 11.97,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 24v 5015",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "5015 blower fan 24V",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0FXV26NWN",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-3d",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
       "id": "ender3-cooling-768",
       "image": "https://m.media-amazon.com/images/I/51MjvkiJeAL._AC_UY218_.jpg",
       "in_stock": null,
@@ -4834,6 +5340,48 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-3d",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-cooling-767",
+      "image": "https://m.media-amazon.com/images/I/61ll6hiasOL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "3D Printer DC24V Extruder Hotend Cooling Fan 5015 for Snapmaker U1",
+      "price": 13.99,
+      "rating": 54.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0GXR7SBFV",
+        "mfr_brand": "wl-3d",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": "24V",
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 11.97,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 24v 5015",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "5015 blower fan 24V",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0GXR7SBFV",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-wathai",
       "brand_url": null,
       "category": "part_cooling",
@@ -5076,6 +5624,132 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "wl-3d",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-cooling-762",
+      "image": "https://m.media-amazon.com/images/I/41Wqczd6g-L._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "3D Printer DC24V Extruder Hotend Cooling Fan 5015 for Lab A1/A1 Mini, 50x50x15mm with Dual Ball Bearing 5.2W 0.22A, Cool",
+      "price": 14.97,
+      "rating": 52.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0FX98NT8J",
+        "mfr_brand": "wl-3d",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": "24V",
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 11.97,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 24v 5015",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "5015 blower fan 24V",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0FX98NT8J",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-2-pack",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-cooling-777",
+      "image": "https://m.media-amazon.com/images/I/41SXOZUzwbL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "2-Pack Long Lifetime 3wires 50x50x15mm DC Fans DC 5V Cool Blower Fan 5015 Extruder Hotend Cooler Front Hotend Fan for Pr",
+      "price": 14.83,
+      "rating": 52.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B07WWXT2MD",
+        "mfr_brand": "wl-2-pack",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 14.83,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 5015",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "5015 blower fan 24V",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B07WWXT2MD",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-5015",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-cooling-815",
+      "image": "https://m.media-amazon.com/images/I/61lnTgGQbPL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "5015 Part Cooling Fan for Bambu Lab A1 & A1 Mini, 24V DC Low Noise, Dual Ball Bearing Extruder Hotend Fan Replacement wi",
+      "price": 14.99,
+      "rating": 52.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0GZWWY1MW",
+        "mfr_brand": "wl-5015",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": "24V",
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 8.49,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 24v 5015",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "5015 blower fan 24V",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0GZWWY1MW",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "wl-wathai",
       "brand_url": null,
       "category": "part_cooling",
@@ -5110,6 +5784,48 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B0FK1XZ4GX",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-2pcs",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-cooling-875",
+      "image": "https://m.media-amazon.com/images/I/51BqjemAohL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "2pcs 4020 5015 Blower Fan 12V 24V Turbo Cooling Fan 5cm 50x50x15mm 12v/24v Black Plastic Fans for Extruder Printer Parts",
+      "price": 15.14,
+      "rating": 52.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0HF6WZVMS",
+        "mfr_brand": "wl-2pcs",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [],
+          "printed_parts_required": false,
+          "voltage": "12V",
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 15.14,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 12v 5015",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "5015 blower fan 24V",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0HF6WZVMS",
       "was": null
     },
     {
@@ -5795,6 +6511,94 @@
         "sponsored": false
       },
       "url": "https://www.amazon.com/dp/B07NXR1MLB",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-fan",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-cooling-754",
+      "image": "https://m.media-amazon.com/images/I/6192YvQynzL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Fan Kit for AD5M, 5015 Extruder Hotend Turbo & 3010 Nozzle Cooling Blower",
+      "price": 18.99,
+      "rating": 47.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0HB8YF7WN",
+        "mfr_brand": "wl-fan",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 18.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 5015",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "5015 blower fan 24V",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0HB8YF7WN",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "wl-fan",
+      "brand_url": null,
+      "category": "part_cooling",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "ender3-cooling-776",
+      "image": "https://m.media-amazon.com/images/I/61vuSj0nczL._AC_UY218_.jpg",
+      "in_stock": null,
+      "name": "Fan Kit for AD5X, 5015 Extruder Hotend Turbo & 2510 Nozzle Cooling Blower",
+      "price": 18.99,
+      "rating": 47.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "asin": "B0H6G6JCYG",
+        "mfr_brand": "wl-fan",
+        "mfr_category": "part_cooling",
+        "mfr_ground_truth": "listing-only",
+        "mfr_listing_extract": {
+          "bracket_in_title": false,
+          "complete_kit_markers": [
+            "kit"
+          ],
+          "printed_parts_required": false,
+          "voltage": null,
+          "wiring_in_title": false
+        },
+        "mfr_listing_price": 18.99,
+        "mfr_manufacturer_verifiable": false,
+        "mfr_model": "extruder upgrade 5015",
+        "mfr_note": "white-label/no-name brand; no official manufacturer page exists; specs per listing only",
+        "mfr_recategorized": "2026-10-15: phase-2 misfiled as extruder_upgrade (cooling fan, not an extruder); moved by pipeline",
+        "source_query": "5015 blower fan 24V",
+        "sponsored": false
+      },
+      "url": "https://www.amazon.com/dp/B0H6G6JCYG",
       "was": null
     },
     {
