@@ -197,6 +197,7 @@ export const BANK_RULES = [
   ["FIDELITY FSA", "Fidelity FSA", "Health & Fitness", "FSA"],
   ["PRIMROSE", "Primrose School", "Kids & Family", "Daycare"],
   ["VERIZON", "Verizon", "Bills & Utilities", "Phone"],
+  ["ZELLE MONEY SENT TO VERONICA MUMM", "Veronica Mumm", "Education", "Music Lessons"],
   ["^ZELLE MONEY SENT TO (.+)", "Zelle", "Other", "Zelle Payments"],
   ["^CHECK #\\d+ CASHED", "Check (paper)", "Other", "Checks"],
   ["DAYCARE.*CHECK DEPOSIT|CHECK DEPOSIT.*DAYCARE", "Daycare (deposit)", "Income", "Reimbursements"],
