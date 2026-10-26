@@ -25,6 +25,8 @@ export class SpendOverview extends WebComponent {
     const cards = s ? [
       { label: 'Total spent', value: fmtUSD(s.total),
         sub: s.deltaPct != null ? `${s.deltaPct >= 0 ? '▲' : '▼'} ${Math.abs(s.deltaPct).toFixed(1)}% vs prior ${s.periodMonths} mo` : `${s.periodMonths} mo in view` },
+      ...(s.incomeTotal > 0 ? [{ label: 'Income', value: fmtUSD(s.incomeTotal),
+        sub: `net ${s.netCashFlow >= 0 ? '+' : '−'}${fmtUSD(Math.abs(s.netCashFlow))} in view` }] : []),
       { label: 'Transactions', value: String(s.count),
         sub: `${fmtUSD(s.avgPerDay)} / day avg` },
       { label: 'Top category', value: s.topCategory?.category || '—',

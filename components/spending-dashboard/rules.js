@@ -181,6 +181,34 @@ export const CATEGORY_RULES = [
   ["FIREWORKS", "Entertainment", "Seasonal"],
   ["COSTCO ANNUAL", "Shopping", "Memberships"]
 ];
+export const BANK_RULES = [
+  ["PAYROLL|REG\\.SALARY", "Capital One Payroll", "Income", "Paycheck"],
+  ["IRS  TREAS 310|IRS TREAS", "IRS", "Income", "Tax Refund"],
+  ["VA DEPT TAXATION", "VA Dept of Taxation", "Income", "Tax Refund"],
+  ["SCHWAB BROKERAGE", "Schwab Brokerage", "Transfers", "Investments"],
+  ["CITI CARDS|CHASE CREDIT CARDS", "Credit Card Payment", "Transfers", "Card Payments"],
+  ["360 CHECKING", "Capital One 360 Checking", "Transfers", "Internal Transfers"],
+  ["CHECK DEPOSIT \\(MOBILE\\) REVERSAL", "Check Deposit Reversal", "Transfers", "Adjustments"],
+  ["NATIONSTAR|MR\\. COOPER", "Nationstar (Mr. Cooper)", "Home", "Mortgage"],
+  ["VIRGINIA FARM BUREAU FIRE", "VA Farm Bureau Fire & Casualty", "Home", "Insurance"],
+  ["DOMINION ENERGY", "Dominion Energy Virginia", "Bills & Utilities", "Electric"],
+  ["CHESTERFIELD COUNTY UTILITIES", "Chesterfield County Utilities", "Bills & Utilities", "Water"],
+  ["CHESTERFIELD TREASURER", "Chesterfield Treasurer's Office", "Financial", "Taxes"],
+  ["FIDELITY FSA", "Fidelity FSA", "Health & Fitness", "FSA"],
+  ["PRIMROSE", "Primrose School", "Kids & Family", "Daycare"],
+  ["VERIZON", "Verizon", "Bills & Utilities", "Phone"],
+  ["^ZELLE MONEY SENT TO (.+)", "Zelle", "Other", "Zelle Payments"],
+  ["^CHECK #\\d+ CASHED", "Check (paper)", "Other", "Checks"],
+  ["DAYCARE.*CHECK DEPOSIT|CHECK DEPOSIT.*DAYCARE", "Daycare (deposit)", "Income", "Reimbursements"],
+  ["DENTIST REFUND", "Dentist (refund)", "Income", "Reimbursements"],
+  ["TUITION REFUND", "Tuition (refund)", "Income", "Reimbursements"],
+  ["DEPENDANT CARE|DEPENDENT CARE", "Dependent Care (deposit)", "Income", "Reimbursements"],
+  ["FIDELITY - CHECK DEPOSIT", "Fidelity (deposit)", "Income", "Reimbursements"],
+  ["AL PAYBACK", "Al Payback", "Income", "Other Income"],
+  ["CHECK DEPOSIT \\(MOBILE\\)", "Check Deposit", "Income", "Other Deposits"],
+  ["TRANSFER F", "Incoming Transfer", "Income", "Other Deposits"],
+  ["ATM CASH DEPOSIT", "ATM Cash Deposit", "Income", "Other Deposits"]
+];
 
 const _rx = s => new RegExp(s);
 
@@ -223,4 +251,32 @@ export function categorizeTransaction(merchant, raw) {
   const text = merchant.toUpperCase() + ' | ' + cleanMerchant(raw) + ' | ' + String(raw || '').toUpperCase();
   const hit = _firstMatch(text, CATEGORY_RULES);
   return hit ? { category: hit[0], subcategory: hit[1] } : { category: 'Uncategorized', subcategory: '' };
+}
+
+const BANK_PREFIXES = [
+  /^ELECTRONIC PAYMENT TO /, /^PAPER PAYMENT TO /, /^DIGITAL CARD PURCHASE - /,
+  /^DEPOSIT FROM /, /^WITHDRAWAL (FROM|TO) /, /^ATM CASH DEPOSIT - /,
+];
+
+export function stripBankPrefix(raw) {
+  let t = String(raw || '').toUpperCase().trim();
+  for (const p of BANK_PREFIXES) t = t.replace(p, '');
+  return t.trim();
+}
+
+export function categorizeBank(raw) {
+  const t = String(raw || '').toUpperCase();
+  for (const [pat, merchant, category, subcategory] of BANK_RULES) {
+    const m = t.match(_rx(pat));
+    if (m) {
+      const name = pat.startsWith('^ZELLE') && m[1]
+        ? 'Zelle to ' + m[1].toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase())
+        : merchant;
+      return { merchant: name, category, subcategory };
+    }
+  }
+  const stripped = stripBankPrefix(raw);
+  const merchant = normalizeMerchant(stripped);
+  const { category, subcategory } = categorizeTransaction(merchant, stripped);
+  return { merchant, category, subcategory };
 }

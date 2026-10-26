@@ -9,7 +9,7 @@
  * (Chase-style exports), or Date, Description, Amount.
  */
 import { WebComponent } from '../../shared/component-base.js';
-import { normalizeMerchant, categorizeTransaction } from './rules.js';
+import { normalizeMerchant, categorizeTransaction, categorizeBank } from './rules.js';
 import { CARD_CSS } from './spend-utils.js';
 
 function parseCSV(text) {
@@ -140,6 +140,10 @@ export class SpendCsvImport extends WebComponent {
     const rows = parseCSV(text.replace(/^\uFEFF/, ''));
     if (rows.length < 2) throw new Error('empty csv');
     const header = rows[0].map((h) => h.trim().toLowerCase());
+    // bank statements (Capital One checking): Transaction Description / Type / Amount
+    if (header.some((h) => h.includes('transaction description'))) {
+      return this.#ingestBank(rows, header);
+    }
     const col = (names) => {
       for (const n of names) {
         const i = header.findIndex((h) => h === n || h.includes(n));
@@ -172,7 +176,39 @@ export class SpendCsvImport extends WebComponent {
       const { category, subcategory } = categorizeTransaction(merchant, desc);
       txns.push({ id, date, merchant_raw: desc, merchant, amount,
                   debit, credit: creditSigned, category, subcategory,
-                  status: 'Cleared', member: '', sources: ['user-upload'] });
+                  status: 'Cleared', member: '', account: 'card', sources: ['user-upload'] });
+    }
+    return { txns, dupes };
+  }
+
+  #ingestBank(rows, header) {
+    const find = (name) => header.findIndex((h) => h.includes(name));
+    const iDate = find('transaction date'), iDesc = find('transaction description');
+    const iType = find('transaction type'), iAmt = find('transaction amount');
+    const iAcct = find('account number');
+    if (iDate === -1 || iDesc === -1 || iType === -1 || iAmt === -1) {
+      throw new Error('unrecognized bank columns');
+    }
+    const txns = [];
+    let dupes = 0;
+    for (const r of rows.slice(1)) {
+      const date = toISO(r[iDate]);
+      const desc = (r[iDesc] || '').trim();
+      if (!date || !desc) continue;
+      const isDebit = String(r[iType]).trim().toLowerCase() === 'debit';
+      const amt = num(r[iAmt]);
+      const debit = isDebit ? amt : 0;
+      const credit = isDebit ? 0 : -amt;
+      const amount = Math.round((debit + credit) * 100) / 100;
+      const id = fingerprint(`checking|${r[iDate]}`, desc, debit, credit);
+      if (this.#existingIds.has(id)) { dupes++; continue; }
+      this.#existingIds.add(id);
+      const { merchant, category, subcategory } = categorizeBank(desc);
+      txns.push({ id, date, merchant_raw: desc, merchant, amount,
+                  debit, credit, category, subcategory,
+                  status: 'Cleared',
+                  member: iAcct === -1 ? '' : `acct ${String(r[iAcct]).trim()}`,
+                  account: 'checking', sources: ['user-upload'] });
     }
     return { txns, dupes };
   }

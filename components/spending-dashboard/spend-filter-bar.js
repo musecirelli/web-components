@@ -9,9 +9,10 @@ import { monthLabel, monthRange, debounce } from './spend-utils.js';
 export class SpendFilterBar extends WebComponent {
   static get observedAttributes() { return []; }
 
-  #filter = { from: null, to: null, q: '', category: '', includeTransfers: false };
+  #filter = { from: null, to: null, q: '', category: '', includeTransfers: false, account: '' };
   #months = [];
   #categories = [];
+  #accounts = [];
 
   constructor() {
     super();
@@ -27,11 +28,14 @@ export class SpendFilterBar extends WebComponent {
     const { stats, filter } = detail;
     const months = stats?.months || [];
     const cats = (stats?.categories || []).map((c) => c.category);
+    const accts = stats?.accounts || [];
     const structChanged =
       JSON.stringify(months) !== JSON.stringify(this.#months) ||
-      JSON.stringify(cats) !== JSON.stringify(this.#categories);
+      JSON.stringify(cats) !== JSON.stringify(this.#categories) ||
+      JSON.stringify(accts) !== JSON.stringify(this.#accounts);
     this.#months = months;
     this.#categories = cats;
+    this.#accounts = accts;
     // adopt the dashboard's canonical filter (drill-downs from charts land here)
     if (filter) this.#filter = { ...filter };
     if (structChanged || !this.shadowRoot.querySelector('.bar')) this.#render();
@@ -42,7 +46,7 @@ export class SpendFilterBar extends WebComponent {
   #syncControls() {
     const root = this.shadowRoot;
     const f = this.#filter;
-    for (const k of ['from', 'to', 'category']) {
+    for (const k of ['from', 'to', 'category', 'account']) {
       const el = root.querySelector(`select[data-k="${k}"]`);
       if (el && el.value !== (f[k] || '')) el.value = f[k] || '';
     }
@@ -64,6 +68,15 @@ export class SpendFilterBar extends WebComponent {
     const catOpts = [`<option value="">All categories</option>`]
       .concat(this.#categories.map((c) => `<option value="${c}" ${c === f.category ? 'selected' : ''}>${c}</option>`))
       .join('');
+    const acctNames = { card: 'Credit card', checking: 'Checking' };
+    const acctOpts = this.#accounts.length > 1
+      ? `<label>Account
+          <select data-k="account">
+            <option value="">All accounts</option>
+            ${this.#accounts.map((a) => `<option value="${a}" ${a === f.account ? 'selected' : ''}>${acctNames[a] || a}</option>`).join('')}
+          </select>
+        </label>`
+      : '';
 
     this.shadowRoot.innerHTML = `
       <style>
@@ -101,10 +114,11 @@ export class SpendFilterBar extends WebComponent {
         <label>Category
           <select data-k="category">${catOpts}</select>
         </label>
+        ${acctOpts}
         <label>Search
           <input type="search" data-k="q" placeholder="merchant, category…" value="${(f.q || '').replace(/"/g, '&quot;')}">
         </label>
-        <label class="check"><input type="checkbox" data-k="includeTransfers" ${f.includeTransfers ? 'checked' : ''}> card payments</label>
+        <label class="check"><input type="checkbox" data-k="includeTransfers" ${f.includeTransfers ? 'checked' : ''}> payments &amp; income</label>
         <button data-k="reset" type="button">Reset</button>
       </div>`;
 
@@ -129,7 +143,7 @@ export class SpendFilterBar extends WebComponent {
       this.#filter = {
         from: this.#months[0] || null,
         to: this.#months[this.#months.length - 1] || null,
-        q: '', category: '', includeTransfers: false,
+        q: '', category: '', includeTransfers: false, account: '',
       };
       this.#render();
       this.#emit();

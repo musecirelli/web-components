@@ -1,10 +1,16 @@
 # spending-dashboard
 
-Vanilla web-components spending analyzer: stat cards, a monthly/cumulative
-timeline chart (canvas), a category donut (canvas), top merchants, auto
-insights (biggest month, recurring-charge detection, trends), per-category
-monthly budget targets, a sortable transaction table, and a client-side CSV
-statement importer with duplicate detection.
+Vanilla web-components spending analyzer: stat cards (incl. income and net
+cash flow when bank data is present), a monthly/cumulative timeline chart
+(canvas), a category donut (canvas), a Sankey flow diagram, top merchants,
+auto insights (biggest month, recurring-charge detection, trends),
+per-category monthly budget targets, a sortable transaction table, and a
+client-side CSV statement importer with duplicate detection. Handles both
+credit-card statement CSVs and bank (checking) statement CSVs; transactions
+carry an `account` field (`card` / `checking`) and the filter bar gains an
+account picker when more than one account is present. `Income` and
+`Transfers` categories are excluded from spending rollups — card payments
+made from checking land in Transfers, so nothing double-counts.
 
 No frameworks, no chart libraries — charts are hand-drawn on `<canvas>`.
 Real transaction data never leaves the browser: the importer parses CSVs
@@ -24,7 +30,7 @@ locally and persists them to `localStorage`.
 | `<spend-insights>` | Auto observations: biggest month, concentration, recurring charges, trends. |
 | `<spend-budget-tracker>` | Editable per-category monthly targets with actual-vs-target bars. Targets persist to localStorage; `window.__SPENDING_BUDGETS__` seeds suggested defaults (marked "suggested" until edited). |
 | `<spend-transaction-table>` | Sortable, paginated table of the filtered transactions. |
-| `<spend-csv-import>` | Drag-and-drop statement CSVs → `spend:imported`. Same rules as the Python pipeline. |
+| `<spend-csv-import>` | Drag-and-drop statement CSVs (card or bank format, auto-detected) → `spend:imported`. Same rules as the Python pipeline. |
 
 ## Events
 

@@ -94,7 +94,7 @@ export class SpendTransactionTable extends WebComponent {
       return `<tr title="${t.merchant_raw.replace(/"/g, '&quot;')}">
         <td class="date">${dayLabel(t.date)}</td>
         <td>${t.merchant}</td>
-        <td><span class="cat">${cat}</span>${t.category === 'Transfers' ? ' <span class="tag">payment</span>' : ''}</td>
+        <td><span class="cat">${cat}</span>${t.category === 'Transfers' ? ' <span class="tag">payment</span>' : ''}${t.category === 'Income' ? ' <span class="tag">income</span>' : ''}</td>
         <td class="num ${neg ? 'refund' : ''}">${neg ? '−' : ''}${fmtUSD(Math.abs(t.amount))}</td>
       </tr>`;
     }).join('');

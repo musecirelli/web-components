@@ -43,7 +43,7 @@ function saveStored(txns) {
 
 export class SpendingDashboard extends WebComponent {
   #all = [];
-  #filter = { from: null, to: null, q: '', category: '', includeTransfers: false };
+  #filter = { from: null, to: null, q: '', category: '', includeTransfers: false, account: '' };
   #ready = false;
 
   constructor() {
@@ -167,6 +167,7 @@ export class SpendingDashboard extends WebComponent {
     const ym = t.date.slice(0, 7);
     if (f.from && ym < f.from) return false;
     if (f.to && ym > f.to) return false;
+    if (f.account && (t.account || 'card') !== f.account) return false;
     if (f.category && t.category !== f.category) return false;
     if (f.q) {
       const q = f.q.toLowerCase();
@@ -180,7 +181,11 @@ export class SpendingDashboard extends WebComponent {
     if (!this.#ready && !this.#all.length) return;
     const f = this.#filter;
     const inScope = this.#all.filter((t) => this.#matches(t, f));
-    const spend = f.includeTransfers ? inScope : inScope.filter((t) => t.category !== 'Transfers');
+    // 'Transfers' (own-account moves, card payments) and 'Income' are never
+    // spending; the toggle surfaces them in the table only.
+    const spend = f.includeTransfers
+      ? inScope
+      : inScope.filter((t) => t.category !== 'Transfers' && t.category !== 'Income');
     const stats = this.#computeStats(spend, inScope, f);
     const sub = this.shadowRoot.querySelector('.subtitle');
     if (sub && this.#all.length) {
@@ -231,7 +236,7 @@ export class SpendingDashboard extends WebComponent {
       const prevTxns = this.#all.filter((t) => {
         const ym = t.date.slice(0, 7);
         return ym >= pFrom && ym <= pTo && this.#matches(t, { ...f, from: pFrom, to: pTo });
-      }).filter((t) => f.includeTransfers || t.category !== 'Transfers');
+      }).filter((t) => f.includeTransfers || (t.category !== 'Transfers' && t.category !== 'Income'));
       if (prevTxns.length) {
         const prev = prevTxns.reduce((a, t) => a + t.amount, 0);
         prevTotal = prev;
@@ -242,6 +247,11 @@ export class SpendingDashboard extends WebComponent {
     const transfersTotal = inScope
       .filter((t) => t.category === 'Transfers')
       .reduce((a, t) => a + t.amount, 0);
+    // income is stored as negative amounts in the 'Income' category
+    const incomeTotal = -inScope
+      .filter((t) => t.category === 'Income')
+      .reduce((a, t) => a + t.amount, 0);
+    const accounts = [...new Set(this.#all.map((t) => t.account || 'card'))].sort();
 
     return {
       total, count, months, byMonth, byCategoryMonth,
@@ -252,6 +262,9 @@ export class SpendingDashboard extends WebComponent {
       periodMonths: months.length,
       prevTotal, deltaPct,
       transfersTotal,
+      incomeTotal,
+      netCashFlow: incomeTotal - total,
+      accounts,
       activeDays: days,
     };
   }

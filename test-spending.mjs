@@ -146,5 +146,47 @@ console.log('Test 6: budget tracker renders latest month with editable targets')
   assert(Object.values(stored).includes(500), 'budget target persisted to localStorage');
 }
 
+console.log('Test 7: checking-account data — income excluded from spend, account filter works');
+{
+  document.body.innerHTML = '';
+  const dash = document.createElement('spending-dashboard');
+  document.body.appendChild(dash);
+  const mixed = [
+    { id: 'c1', date: '2026-09-05', merchant: 'Corner Market', merchant_raw: 'CORNER MARKET',
+      amount: 100, debit: 100, credit: 0, category: 'Food & Dining', subcategory: 'Groceries',
+      status: 'Cleared', member: '', account: 'card', sources: ['test'] },
+    { id: 'b1', date: '2026-09-01', merchant: 'Capital One Payroll', merchant_raw: 'Deposit from CAPITAL ONE SERV PAYROLL',
+      amount: -5000, debit: 0, credit: -5000, category: 'Income', subcategory: 'Paycheck',
+      status: 'Cleared', member: 'acct 1279', account: 'checking', sources: ['test'] },
+    { id: 'b2', date: '2026-09-03', merchant: 'Nationstar (Mr. Cooper)', merchant_raw: 'Electronic Payment to Nationstar, dba Mr. Cooper',
+      amount: 2700, debit: 2700, credit: 0, category: 'Home', subcategory: 'Mortgage',
+      status: 'Cleared', member: 'acct 1279', account: 'checking', sources: ['test'] },
+    { id: 'b3', date: '2026-09-08', merchant: 'Credit Card Payment', merchant_raw: 'Electronic Payment to Citi Cards',
+      amount: 1500, debit: 1500, credit: 0, category: 'Transfers', subcategory: 'Card Payments',
+      status: 'Cleared', member: 'acct 1279', account: 'checking', sources: ['test'] },
+  ];
+  dash.data = mixed;
+
+  const stats = qa(q(dash, 'spend-overview'), '.stat');
+  assert(stats.length === 5, `income card added (got ${stats.length} stat cards)`);
+  assert(stats[0].querySelector('.value').textContent === '$2,800.00',
+    `total spent excludes income + card payment ("${stats[0].querySelector('.value').textContent}")`);
+  const incomeCard = stats.find((el) => el.querySelector('.label').textContent === 'Income');
+  assert(!!incomeCard && incomeCard.querySelector('.value').textContent === '$5,000.00',
+    'income card shows $5,000.00');
+
+  // account filter: checking only -> only the mortgage row is spend
+  q(dash, 'spend-filter-bar').emit('spend:filter', { account: 'checking' });
+  const rows = qa(q(dash, 'spend-transaction-table'), 'tbody tr');
+  assert(rows.length === 1 && /Nationstar/.test(rows[0].querySelectorAll('td')[1].textContent),
+    `checking filter leaves mortgage row (got ${rows.length})`);
+
+  const bank = rules.categorizeBank('Electronic Payment to Nationstar, dba Mr. Cooper');
+  assert(bank.category === 'Home' && bank.subcategory === 'Mortgage',
+    `bank rules categorize mortgage (${bank.category}/${bank.subcategory})`);
+  const pay = rules.categorizeBank('Deposit from CAPITAL ONE SERV PAYROLL');
+  assert(pay.category === 'Income', `bank rules categorize payroll (${pay.category})`);
+}
+
 console.log(failures === 0 ? '\nALL TESTS PASSED' : `\n${failures} FAILURES`);
 process.exit(failures === 0 ? 0 : 1);
