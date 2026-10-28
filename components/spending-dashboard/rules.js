@@ -141,7 +141,7 @@ export const CATEGORY_RULES = [
   ["BRUSTER|CHAP'S ICE CREAM|JEREMIAH ITALIAN ICE|MO'S SOFT SERVE", "Food & Dining", "Dessert"],
   ["KIDS EMPIRE|SKATE-AWAY|URBAN AIR|SWIMRVA|SURGE ENTERTAINMENT|SCHOLASTIC BOOK|RICHMONDOLYMPIAD|JRES PTA|SCIENCE MUSEUM", "Kids & Family", "Activities"],
   ["MATHNASIUM", "Education", "Tutoring"],
-  ["STEWARD SCHOOL", "Education", "Tuition & School"],
+  ["STEWARD SCHOOL", "Kids & Family", "Summer Camps"],
   ["MUSIC & ARTS", "Education", "Music Lessons"],
   ["KINGS DOMINION|BUSCH GARDENS|PIRATES VOYAGE|ANAKEESTA|THE TRACK|PIGEON FORGE SNOW|COOL RIVER TUBING", "Entertainment", "Amusement & Attractions"],
   ["REGAL AVALON|MANAHAWKIN 10", "Entertainment", "Movies"],
