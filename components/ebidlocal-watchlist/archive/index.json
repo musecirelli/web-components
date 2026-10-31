@@ -1,6 +1,16 @@
 {
  "archived": [
   {
+   "id": "frIgRjGiYbwZRDJFJzKf9w==",
+   "number": "2060",
+   "title": "Estate Auction: : Manakin-Sabot VA 23103 (Home Matters of VA)",
+   "ends": "2026-10-29",
+   "closed": "2026-10-30",
+   "lots": 165,
+   "file": "archive/auction-2060-721ea9fc.json.gz",
+   "archived_at": "2026-10-30T12:17:06+00:00"
+  },
+  {
    "id": "KyW58xKPeQDjQiu3OJVegw==",
    "number": "2063",
    "title": "Estate Auction: : Richmond VA 23235 (Appraise Sell LLC)",
