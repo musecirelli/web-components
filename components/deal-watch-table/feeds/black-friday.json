@@ -3,6 +3,13 @@
   "cert_links": {},
   "coverage": [
     {
+      "detail": "MP4 Switch 2 $44.99 verified (selector read, coupon+sale badges, in stock); variant text not recorded - eyeball before buying",
+      "phase": "live-verify-2026-11-12",
+      "retailer": "Amazon",
+      "status": "ok",
+      "updated_at": "2026-11-12T14:30:02.091127+00:00"
+    },
+    {
       "detail": "not yet checked; queued for Black Friday phase-1 sweep",
       "phase": "seed-2026-11-12",
       "retailer": "Amazon",
@@ -38,6 +45,13 @@
       "updated_at": "2026-11-12T13:39:04.195668+00:00"
     },
     {
+      "detail": "MP4: price hidden behind 'See price in cart', unverified after 60s [itemprop] poll; Belmont Midnight $39.99 verified (seller EvoMicro)",
+      "phase": "live-verify-2026-11-12",
+      "retailer": "Walmart",
+      "status": "ok",
+      "updated_at": "2026-11-12T14:30:01.996093+00:00"
+    },
+    {
       "detail": "Metroid Prime 4 Switch 2 at $48.89 per Koupon Nov 5 / DealTikka / 9to5Toys Nov 6 ($49); Walmart product page not directly verified",
       "phase": "seed-2026-11-12",
       "retailer": "Walmart",
@@ -59,9 +73,41 @@
       "updated_at": "2026-11-12T13:39:04.366433+00:00"
     }
   ],
-  "generated": "2026-11-12T13:39:04.854236+00:00",
+  "generated": "2026-11-12T14:30:02.236227+00:00",
   "hunt": "black-friday",
   "items": [
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Nintendo",
+      "brand_url": null,
+      "category": "Games",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-12",
+      "image": "https://m.media-amazon.com/images/I/81D8Cy37+ZL._SL1500_.jpg",
+      "in_stock": true,
+      "name": "Metroid Prime 4: Beyond \u2014 Nintendo Switch 2 Edition (Physical) \u2014 Amazon",
+      "price": 44.99,
+      "rating": 90.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Nintendo",
+        "edition": "Switch 2 Edition",
+        "format": "Physical",
+        "in_stock": true,
+        "mfr_category": "Games",
+        "mfr_source": "live checker price_check.py 2026-11-12 (walmart-verify-last-check.json)",
+        "note": "LIVE-VERIFIED 2026-11-12 09:27 EST via checker: $44.99 (high confidence, #corePriceDisplay selector), in stock, coupon + sale badges \u2014 $25.00 below the $69.99 MSRP. Caveat: price_check.py does not record variant text, so eyeball that the selected variant reads 'Switch 2 Edition' before buying (Amazon multi-variant lesson).",
+        "platform": "Nintendo Switch 2"
+      },
+      "url": "https://www.amazon.com/dp/B0FQXR2NPH",
+      "was": null
+    },
     {
       "badges": [
         "enriched"
@@ -227,6 +273,38 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "Nintendo",
+      "brand_url": null,
+      "category": "Games",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-11",
+      "image": null,
+      "in_stock": true,
+      "name": "Metroid Prime 4: Beyond \u2014 Nintendo Switch 2 Edition (Physical) \u2014 Walmart Black Friday price",
+      "price": null,
+      "rating": 50.0,
+      "retailer": "Walmart",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Nintendo",
+        "edition": "Switch 2 Edition",
+        "format": "Physical",
+        "in_stock": true,
+        "mfr_category": "Games",
+        "mfr_source": "live checker 2026-11-12 (strict [itemprop] poll + screenshot verify-mp4-walmart.png)",
+        "note": "LIVE-CHECKED 2026-11-12 09:24 EST: product page hides the price behind 'See price in cart' \u2014 [itemprop='price'] stayed empty through a 60s poll, so NO verified price. Walmart's own search card showed $46.45 (was $69.00, options $46.45-$51.49) \u2014 search-card indication only, not verified. Tracker claims $48.89 / $46.45 both unconfirmed. In stock, sold/shipped by Walmart.com, '50+ bought since yesterday', free shipping, free holiday returns until Jan 31. Do not buy on a tracker number.",
+        "platform": "Nintendo Switch 2"
+      },
+      "url": "https://www.walmart.com/ip/Metroid-Prime-4-Beyond-Nintendo-Switch-2-Edition/17858804489",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "Konami",
       "brand_url": null,
       "category": "Games",
@@ -252,6 +330,38 @@
         "platform": "Nintendo Switch"
       },
       "url": "https://www.bestbuy.com/product/castlevania-belmonts-curse-nintendo-switch/J76T5H3L52",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Konami",
+      "brand_url": null,
+      "category": "Games",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-13",
+      "image": null,
+      "in_stock": true,
+      "name": "Castlevania: Belmont's Curse \u2014 Midnight Edition (Nintendo Switch, Physical) \u2014 Walmart",
+      "price": 39.99,
+      "rating": 45.0,
+      "retailer": "Walmart",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Konami",
+        "edition": "Midnight Edition",
+        "format": "Physical cartridge",
+        "in_stock": true,
+        "mfr_category": "Games",
+        "mfr_source": "live checker 2026-11-12 (strict [itemprop] poll + screenshot verify-belmont-walmart.png)",
+        "note": "LIVE-VERIFIED 2026-11-12 09:24 EST via checker: $39.99 ([itemprop='price'], high confidence). Full MSRP, no discount. Caveat: seller is EvoMicro (marketplace), not Walmart.com. In stock; delivery as soon as 19 mins / pickup available (profile location Richmond 23236, not 23832); free shipping.",
+        "platform": "Nintendo Switch"
+      },
+      "url": "https://www.walmart.com/ip/CASTLEVANIA-BELMONT-S-CURSE-Nintendo-Switch-Game/19632206271",
       "was": null
     },
     {
