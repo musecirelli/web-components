@@ -3,11 +3,11 @@
   "cert_links": {},
   "coverage": [
     {
-      "detail": "239 unique ASINs across 4 queries; 145 kept, 30 visited; 115 inserted, 30 excluded (22 AMS Lite spool enclosures/dryer boxes/housings, 8 accessories: silicone socks, smoke vent kit, vent system, Panda Shelter vent kit, enclosure camera, hygrometer kit, exhaust/filter kit, laser engraver cover). Visited prices are first-$ grabs, search-card prices otherwise \u2014 ALL unverified, phase 2 must re-verify selected variant.",
+      "detail": "BF re-scan 2026-11-12: 242 ASINs across 4 queries, 141 relevant; 115/116 known listings re-priced via raw chain (16 changes, 99 unchanged); 9 new keeper items; 1 item (B0FVWT1GHX Crafit cabinet) hit a captcha/robot-check page on the last fetch and keeps its Nov 10 price $249.99 unverified.",
       "phase": "phase-1",
       "retailer": "Amazon",
       "status": "done",
-      "updated_at": "2026-11-10T02:57:54.888700+00:00"
+      "updated_at": "2026-11-12T14:28:30.018012+00:00"
     },
     {
       "detail": "202/202 items enriched; 86/116 Amazon dims found; 0 Amazon blocks across 100 raw page fetches",
@@ -17,11 +17,11 @@
       "updated_at": "2026-11-10T04:37:25.570088+00:00"
     },
     {
-      "detail": "Store catalog (products.json) lists 239 products; 1 enclosure: Panda Shelter. Browser search title-capture failed (32 links, 0 relevant) \u2014 recovered via products.json. Seed price corrected: $35.99 was the Ventilation Kit alone; Shelter base $99.99, Shelter+Vent Kit $125.99, Vent Kit alone $35.99. Dims not in product JSON; phase 2 to verify.",
+      "detail": "BF re-scan 2026-11-12 (PARTIAL): search pages loaded (34 links, 0 relevant by title capture, same as Nov 10); products.json timed out via browser twice \u2014 direct BIQU prices unverified this run. Amazon Panda Shelter listings re-priced via raw chain instead.",
       "phase": "phase-1",
       "retailer": "BIQU",
       "status": "done",
-      "updated_at": "2026-11-10T02:57:39.081970+00:00"
+      "updated_at": "2026-11-12T14:28:30.310117+00:00"
     },
     {
       "detail": "biqu.equipment timed out via browser; Panda Shelter dims 840x580x580 verified via Amazon listing + web search",
@@ -31,18 +31,18 @@
       "updated_at": "2026-11-10T04:37:25.810135+00:00"
     },
     {
-      "detail": "Excluded per Steve's 2026-11-09 decision (Best Buy timeout report); removed from hunt spec.",
+      "detail": "Excluded per Steve's 2026-11-09 decision; not scanned in BF re-scan.",
       "phase": "phase-1",
       "retailer": "Best Buy",
       "status": "skipped",
-      "updated_at": "2026-11-10T02:57:39.231707+00:00"
+      "updated_at": "2026-11-12T14:28:30.761299+00:00"
     },
     {
-      "detail": "swept via products.json (503 products): A1 mini starter kit (seed), A1 kit $369, A1 entry-level $189.89, A1 Safety Certified $1232; 2 Easify option-placeholder products excluded, not real listings",
+      "detail": "BF re-scan 2026-11-12: products.json pp.1-2 (500 products) checked; A1 mini entry-level kit $189.89 unchanged; A1 kit $369, Safety Certified $1232 unchanged; no new A1 mini products (one $0.00 placeholder 'A1 Mini Enclosure version' excluded).",
       "phase": "phase-1",
       "retailer": "Clearview Plastics",
       "status": "done",
-      "updated_at": "2026-11-10T01:57:29.405464+00:00"
+      "updated_at": "2026-11-12T14:28:30.496646+00:00"
     },
     {
       "detail": "manufacturer pages 429 (raw) / timeout (browser); 1/4 dims found (A1 kit, two sets on page, smaller used as interior proxy)",
@@ -52,25 +52,25 @@
       "updated_at": "2026-11-10T04:37:25.956848+00:00"
     },
     {
-      "detail": "No A1 mini enclosure product found. Browser goto https://www.matterhackers.com/store timed out (net::ERR_TIMED_OUT, 90s); curl returns a 16KB JS shell only. Two site-scoped web searches surfaced no A1-mini enclosure (only printer-specific kits: CraftBot Flow, Modix); their A1 mini page states enclosing is NOT recommended. Store search itself could not be executed \u2014 caveat, not a proof-grade negative.",
+      "detail": "BF re-scan 2026-11-12: /store timed out via browser (net::ERR_TIMED_OUT, 90s), same as Nov 10. Store search could not be executed \u2014 not a proof-grade negative; no A1 mini enclosure expected there.",
       "phase": "phase-1",
       "retailer": "MatterHackers",
-      "status": "no-listing",
-      "updated_at": "2026-11-10T02:57:39.161271+00:00"
+      "status": "failed",
+      "updated_at": "2026-11-12T14:28:30.588643+00:00"
     },
     {
-      "detail": "Excluded per Steve's 2026-11-09 decision (Cloudflare 'Verify you are human' blocker); removed from hunt spec. Per his standing rule, the hunt chat should offer to set up a live-browser bypass if he wants that coverage.",
+      "detail": "Excluded per Steve's 2026-11-09 decision (Cloudflare blocker); not scanned in BF re-scan.",
       "phase": "phase-1",
       "retailer": "Micro Center",
       "status": "skipped",
-      "updated_at": "2026-11-10T02:57:39.302053+00:00"
+      "updated_at": "2026-11-12T14:28:30.850625+00:00"
     },
     {
-      "detail": "Store catalog (products.json) lists 1 product total: the seeded A1 mini 460x460x550 tent $45.99. Browser search: 1st query timed out (net::ERR_TIMED_OUT), remaining queries found only that 1 link. Combo/acrylic TOPCUBE variants exist on Amazon only, not on topcube.co.",
+      "detail": "BF re-scan 2026-11-12: store search still lists only the seeded A1 mini 460x460x550 tent; first search query timed out (same as Nov 10). topcube.co price unverified this run; Amazon TOPCUBE tent listing B0DDWVP16J re-priced None -> $39.89.",
       "phase": "phase-1",
       "retailer": "TOPCUBE",
       "status": "done",
-      "updated_at": "2026-11-10T02:57:39.005613+00:00"
+      "updated_at": "2026-11-12T14:28:30.221705+00:00"
     },
     {
       "detail": "store page timed out via browser AND 429 via raw (Shopify); dims from listing/title (460x460x550)",
@@ -80,11 +80,11 @@
       "updated_at": "2026-11-10T04:37:25.729495+00:00"
     },
     {
-      "detail": "swept via curl: TF A1 mini + TF A1 found; site sitemap confirms no other enclosures (only TF A1/A1 mini + Prusa TF)",
+      "detail": "BF re-scan 2026-11-12: TF A1 mini EUR 192 incl VAT (price newly captured, was null); TF A1 EUR 217 unchanged. No new TUKKARI enclosures (sitemap index lastmod 2026-11-12).",
       "phase": "phase-1",
       "retailer": "TUKKARI",
       "status": "done",
-      "updated_at": "2026-11-10T01:57:29.361926+00:00"
+      "updated_at": "2026-11-12T14:28:30.408947+00:00"
     },
     {
       "detail": "both pages fetched raw 200; inner/outer dims from manufacturer page + seeds",
@@ -94,11 +94,11 @@
       "updated_at": "2026-11-10T04:37:25.884283+00:00"
     },
     {
-      "detail": "139 product links across 3 queries; 81 kept, 12 visited; 76 inserted, 5 excluded (2 exhaust-fan-interface accessories, 1 temp/humidity bracket, 1 USB exhaust fan, 1 parts listing). Visited prices not captured (skeleton $0.00); prices taken from search-card title text where present \u2014 ALL unverified, phase 2 must re-verify. First query transient load failure in run 2, loaded fine in run 4.",
+      "detail": "BF re-scan 2026-11-12 (PARTIAL): 89 links, 69 relevant; query 1 timed out, robot-or-human wall on 2 of 3 queries; 3 new keeper items. Prices NOT re-verified this run (page skeleton $0.00; search cards carry no price) \u2014 Walmart prices remain Nov 9/10 values.",
       "phase": "phase-1",
       "retailer": "Walmart",
       "status": "done",
-      "updated_at": "2026-11-10T02:57:38.934307+00:00"
+      "updated_at": "2026-11-12T14:28:30.117503+00:00"
     },
     {
       "detail": "50/77 dims found via browser route; 2 /blocked bot walls (ids 174,197); raw fetch 307s to /blocked",
@@ -108,11 +108,11 @@
       "updated_at": "2026-11-10T04:37:25.656998+00:00"
     },
     {
-      "detail": "seed item ingested",
+      "detail": "BF re-scan 2026-11-12: Panda Shelter + Ventilation Kit sale $59.99 (regular $79.99), unchanged vs Nov 9/10 seed; browser-verified price element.",
       "phase": "phase-1",
       "retailer": "West3D",
-      "status": "seeded",
-      "updated_at": "2026-11-10T01:53:15.625905+00:00"
+      "status": "done",
+      "updated_at": "2026-11-12T14:28:30.677170+00:00"
     },
     {
       "detail": "reseller page timed out via browser; BIQU dims shared from Panda Shelter group lookup",
@@ -122,7 +122,7 @@
       "updated_at": "2026-11-10T04:37:26.039420+00:00"
     }
   ],
-  "generated": "2026-11-10T05:22:04.389093+00:00",
+  "generated": "2026-11-12T14:58:49.651087+00:00",
   "hunt": "a1mini-enclosure",
   "items": [
     {
@@ -146,6 +146,18 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 26.38&#34;D x 26.38&#34;W x 26.38&#34;H"
+          ],
+          "price": 66.58,
+          "selected_variant": null,
+          "triples": [
+            "26.38&#34;D x 26.38&#34;W x 26.38&#34;H",
+            "Designed for Bamb\r\n68d7\r\nu Lab A1 Combo: Specifically designed with AMS Lite for Bambu Lab A1 users. The enclosure size is 580X670X670MM (22.83x26.37x26.37&#39;&#39;). Please verify the dimensions carefully when purchasing for other printer models."
+          ]
+        },
         "brand_guess": "TOPCUBE",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -248,6 +260,26 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 25.59&#34;D x 21.7&#34;W x 30.7&#34;H"
+          ],
+          "price": 62.99,
+          "selected_variant": "9-Medium with Ventilation Kit&LED",
+          "triples": [
+            "9-Medium with Ventilation Kit&LED",
+            "1-Medium with LED",
+            "2-Large with LED",
+            "3-Medium with Ventilation Kit",
+            "4-For Kobra3",
+            "5-For Hi Combo",
+            "6-For AD5X/AD5M",
+            "7-For AD5M",
+            "8-For AD5X with Ventilation Kit",
+            "25.59&#34;D x 21.7&#34;W x 30.7&#34;H"
+          ]
+        },
         "brand_guess": "YOOPAI",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -342,6 +374,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "fits inside (combo width class >=740mm)",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 20.47&#34;D x 20.47&#34;W x 27.56&#34;H",
+            "Package Dimensions: 17.01 x 9.69 x 5.16 inches"
+          ],
+          "price": 52.33,
+          "selected_variant": null,
+          "triples": [
+            "20.47&#34;D x 20.47&#34;W x 27.56&#34;H",
+            "17.01 x 9.69 x 5.16 inches"
+          ]
+        },
         "brand_guess": "Upgrade",
         "class": "combo_ams_inside",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -477,13 +522,27 @@
       "image": null,
       "in_stock": null,
       "name": "Upgrade 3D Printer Enclosure for Bambu Lab A1,A1 Mini with LED Light,Iron Frame,Fan Extraction Kit,Thermo-Hygrometer, Fireproof Dustproof Tent Constant Temperat",
-      "price": 69.99,
+      "price": 55.99,
       "rating": 85.0,
       "retailer": "Amazon",
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 33.46&#34;D x 22.83&#34;W x 33.46&#34;H"
+          ],
+          "price": 55.99,
+          "selected_variant": "A1 Mini Enclosure 730*490*490MM",
+          "triples": [
+            "A1 Mini Enclosure 730*490*490MM",
+            "A1 Enclosure 580 * 580 * 850MM with Iron Frame",
+            "A1 Enclosure 580 * 580 * 850MM with Led",
+            "33.46&#34;D x 22.83&#34;W x 33.46&#34;H"
+          ]
+        },
         "brand_guess": "Upgrade",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; demoted from combo: listing sells multiple sizes and the selected variant dims are not >=740mm wide; phase 2 must pin the selected variant",
@@ -628,6 +687,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "fits inside (combo width class >=740mm)",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 26.38&#34;D x 22.83&#34;W x 26.38&#34;H",
+            "Item Dimensions: 26.38&#34;D x 22.83&#34;W x 26.38&#34;H"
+          ],
+          "price": 55.59,
+          "selected_variant": null,
+          "triples": [
+            "26.38&#34;D x 22.83&#34;W x 26.38&#34;H",
+            "26.38&#34;D x 22.83&#34;W x 26.38&#34;H"
+          ]
+        },
         "brand_guess": "YOOPAI",
         "class": "combo_ams_inside",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -745,6 +817,24 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 33 x 19.49 x 23 inches"
+          ],
+          "price": 72.19,
+          "selected_variant": "A1 Combo (Pack of 5)",
+          "triples": [
+            "A1 Combo (Pack of 5)",
+            "A1 AMS Lite Top-Mount",
+            "A1 Combo",
+            "A1 Combo + Exhaust",
+            "A1 mini Combo",
+            "A1 mini Combo + Exhaust",
+            "A1 AMS Lite Top-Mount (Pack of 5)",
+            "33 x 19.49 x 23 inches"
+          ]
+        },
         "brand_guess": "TOPCUBE",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -839,6 +929,13 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "fits inside (combo width class >=740mm)",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [],
+          "price": 86.43,
+          "selected_variant": null,
+          "triples": []
+        },
         "brand_guess": "TOPCUBE",
         "class": "combo_ams_inside",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -960,17 +1057,151 @@
       "category": "uncategorized",
       "change": 0.0,
       "confidence": "high",
-      "id": "a1mini-enclosure-39",
+      "id": "a1mini-enclosure-36",
       "image": null,
       "in_stock": null,
-      "name": "3D Printer Tent\uff0cMultifunctional 3D Printer Enclosure\uff0c3D Printer Enclosure with Ventilation & LED Lighting\uff0cCompatible Bambu Lab P1/Creality Ender 3/Neptune 3 Pro",
-      "price": 74.22,
+      "name": "3D Printer Enclosure for Bambu Lab A1 Mini/A1 Mini Combo with Exhaust Kit",
+      "price": 50.99,
       "rating": 81.0,
       "retailer": "Amazon",
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: 15.28 x 11.22 x 5.83 inches"
+          ],
+          "price": 50.99,
+          "selected_variant": "A1 Mini Enclosure 730*490*490MM",
+          "triples": [
+            "A1 Mini Enclosure 730*490*490MM",
+            "A1 Enclosure 580 * 580 * 850MM with Iron Frame",
+            "A1 Enclosure 580 * 580 * 850MM with Led",
+            "15.28 x 11.22 x 5.83 inches"
+          ]
+        },
+        "brand_guess": "3D",
+        "class": "printer_only",
+        "class_note": "tentative phase-1 classification; phase 2 verifies",
+        "dim_lines": [],
+        "dims": [],
+        "max_dim_mm": null,
+        "mfr_ams_lite_inside_claim": true,
+        "mfr_asin": "B0HJ1HG37F",
+        "mfr_brand": "",
+        "mfr_bullets_from_page": [
+          "Industrial &amp; Scientific",
+          "Additive Manufacturing Products",
+          "3D Printer Parts &amp; Accessories",
+          "3D Printer Accessories",
+          "Image Unavailable  Image not available forColor:",
+          "Go to your orders and start the return",
+          "Select your preferred free shipping option",
+          "A1 Enclosure 580 * 580 * 850MM with Iron Frame"
+        ],
+        "mfr_class_guess": "printer_only",
+        "mfr_combo_claim_in_title": true,
+        "mfr_conflict_combo_claim_vs_dims": "title claims Combo/AMS-lite but dims fail 740mm-width fit",
+        "mfr_dims_candidates": [
+          {
+            "mm": [
+              730,
+              490,
+              490
+            ],
+            "origin": "selected variant (fresh fetch)"
+          },
+          {
+            "mm": [
+              850,
+              580,
+              580
+            ],
+            "origin": "fresh Amazon listing fetch (raw chain)"
+          }
+        ],
+        "mfr_dims_excluded_package": [
+          [
+            388,
+            285,
+            148
+          ]
+        ],
+        "mfr_dims_mm_sorted_desc": [
+          730,
+          490,
+          490
+        ],
+        "mfr_dims_orientation": "as listed; order unverified (sorted desc for fit check)",
+        "mfr_dims_source": "selected variant (fresh fetch)",
+        "mfr_dims_status": "found",
+        "mfr_features_from_title": [
+          "ventilation/exhaust"
+        ],
+        "mfr_fit_combo_ams_inside": false,
+        "mfr_fit_envelope": "depth>=390,width>=360,height>=460 (orientation-agnostic sorted check)",
+        "mfr_fit_printer_only": true,
+        "mfr_group_retailers": [
+          "Amazon"
+        ],
+        "mfr_group_urls": [
+          "https://www.amazon.com/dp/B0HJ1HG37F"
+        ],
+        "mfr_item_id": 36,
+        "mfr_item_price": 59.99,
+        "mfr_item_retailer": "Amazon",
+        "mfr_listing_price": 59.99,
+        "mfr_listing_url": "https://www.amazon.com/dp/B0HJ1HG37F",
+        "mfr_listings_in_group": 1,
+        "mfr_manufacturer_page_fetched": false,
+        "mfr_model": "combo exhaust",
+        "mfr_model_key": "|combo exhaust",
+        "mfr_price_from_page": 59.99,
+        "mfr_requires_printed_parts": false,
+        "mfr_retailer": "Amazon",
+        "mfr_selected_variant": "A1 Mini Enclosure 730*490*490MM",
+        "mfr_source_detail": [],
+        "price_note": "search-card price \u2014 UNVERIFIED, phase 2 must re-verify selected variant",
+        "source": "phase-1 browser sweep 2026-11-10",
+        "visited": false
+      },
+      "url": "https://www.amazon.com/dp/B0HJ1HG37F",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "",
+      "brand_url": null,
+      "category": "uncategorized",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "a1mini-enclosure-39",
+      "image": null,
+      "in_stock": null,
+      "name": "3D Printer Tent\uff0cMultifunctional 3D Printer Enclosure\uff0c3D Printer Enclosure with Ventilation & LED Lighting\uff0cCompatible Bambu Lab P1/Creality Ender 3/Neptune 3 Pro",
+      "price": 74.54,
+      "rating": 81.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 21.65&#34;D x 25.59&#34;W x 29.52&#34;H"
+          ],
+          "price": 74.54,
+          "selected_variant": null,
+          "triples": [
+            "21.65&#34;D x 25.59&#34;W x 29.52&#34;H"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -1070,6 +1301,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 21.65&#34;D x 25.59&#34;W x 29.52&#34;H"
+          ],
+          "price": 68.66,
+          "selected_variant": null,
+          "triples": [
+            "21.65&#34;D x 25.59&#34;W x 29.52&#34;H"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -1164,6 +1406,13 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [],
+          "price": 96.1,
+          "selected_variant": null,
+          "triples": []
+        },
         "brand_guess": "TOPCUBE",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -1262,6 +1511,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 29.5&#34;D x 25&#34;W x 29.5&#34;H"
+          ],
+          "price": 53.99,
+          "selected_variant": null,
+          "triples": [
+            "Grey",
+            "Cream White",
+            "29.5&#34;D x 25&#34;W x 29.5&#34;H"
+          ]
+        },
         "brand_guess": "Resin",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -1355,6 +1617,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 21.6&#34;D x 31.5&#34;W x 28.7&#34;H"
+          ],
+          "price": 54.99,
+          "selected_variant": "Gray Enclosure with Metal Support Rods",
+          "triples": [
+            "Gray Enclosure with Metal Support Rods",
+            "Black Enclosure with Plastic Support Rods",
+            "21.6&#34;D x 31.5&#34;W x 28.7&#34;H"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -1449,6 +1724,20 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 22&#34;D x 31.5&#34;W x 29.5&#34;H"
+          ],
+          "price": 69.99,
+          "selected_variant": "Single Space w/ Tool kit",
+          "triples": [
+            "Single Space w/ Tool kit",
+            "Double Space",
+            "Single Space",
+            "22&#34;D x 31.5&#34;W x 29.5&#34;H"
+          ]
+        },
         "brand_guess": "Double",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -1544,6 +1833,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 25.2&#34;D x 21.3&#34;W x 29.5&#34;H"
+          ],
+          "price": 59.99,
+          "selected_variant": "700-750-900mm",
+          "triples": [
+            "700-750-900mm",
+            "540-640-750mm",
+            "25.2&#34;D x 21.3&#34;W x 29.5&#34;H"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -1631,52 +1933,37 @@
         "enriched"
       ],
       "baseline": null,
-      "brand": "",
+      "brand": "skouphy",
       "brand_url": null,
       "category": "uncategorized",
       "change": 0.0,
       "confidence": "high",
-      "id": "a1mini-enclosure-36",
+      "id": "a1mini-enclosure-221",
       "image": null,
       "in_stock": null,
-      "name": "3D Printer Enclosure for Bambu Lab A1 Mini/A1 Mini Combo with Exhaust Kit",
-      "price": 59.99,
-      "rating": 79.0,
+      "name": "3D Printer Enclosure for Bambu Lab A1,A1 Mini with LED Light,Thermo-Hygrometer, Fireproof Dustproof Tent Constant Temperature Protective Cover,850 * 580 * 580mm",
+      "price": 42.99,
+      "rating": 80.0,
       "retailer": "Amazon",
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
-        "ams_lite": "unknown \u2014 phase 2",
-        "brand_guess": "3D",
-        "class": "printer_only",
-        "class_note": "tentative phase-1 classification; phase 2 verifies",
         "dim_lines": [],
         "dims": [],
-        "max_dim_mm": null,
-        "mfr_ams_lite_inside_claim": true,
-        "mfr_asin": "B0HJ1HG37F",
-        "mfr_brand": "",
-        "mfr_bullets_from_page": [
-          "Industrial &amp; Scientific",
-          "Additive Manufacturing Products",
-          "3D Printer Parts &amp; Accessories",
-          "3D Printer Accessories",
-          "Image Unavailable  Image not available forColor:",
-          "Go to your orders and start the return",
-          "Select your preferred free shipping option",
-          "A1 Enclosure 580 * 580 * 850MM with Iron Frame"
-        ],
+        "mfr_ams_lite_inside_claim": false,
+        "mfr_asin": "B0DQTMKBSQ",
+        "mfr_brand": "skouphy",
+        "mfr_brand_from_page": "Skouphy",
         "mfr_class_guess": "printer_only",
-        "mfr_combo_claim_in_title": true,
-        "mfr_conflict_combo_claim_vs_dims": "title claims Combo/AMS-lite but dims fail 740mm-width fit",
+        "mfr_combo_claim_in_title": false,
         "mfr_dims_candidates": [
           {
             "mm": [
-              730,
-              490,
-              490
+              749,
+              678,
+              549
             ],
-            "origin": "selected variant (fresh fetch)"
+            "origin": "fresh Amazon listing fetch (browser): 221 850x580x580 LED tent"
           },
           {
             "mm": [
@@ -1684,55 +1971,83 @@
               580,
               580
             ],
-            "origin": "fresh Amazon listing fetch (raw chain)"
+            "origin": "fresh Amazon listing fetch (browser): 221 850x580x580 LED tent"
+          },
+          {
+            "mm": [
+              826,
+              584,
+              584
+            ],
+            "origin": "fresh Amazon listing fetch (browser): 221 850x580x580 LED tent"
+          },
+          {
+            "mm": [
+              550,
+              550,
+              470
+            ],
+            "origin": "fresh Amazon listing fetch (browser): 221 850x580x580 LED tent"
+          },
+          {
+            "mm": [
+              670,
+              670,
+              580
+            ],
+            "origin": "fresh Amazon listing fetch (browser): 221 850x580x580 LED tent"
+          },
+          {
+            "mm": [
+              735,
+              495,
+              495
+            ],
+            "origin": "fresh Amazon listing fetch (browser): 221 850x580x580 LED tent"
           }
         ],
-        "mfr_dims_excluded_package": [
-          [
-            388,
-            285,
-            148
-          ]
-        ],
+        "mfr_dims_excluded_package": [],
         "mfr_dims_mm_sorted_desc": [
-          730,
-          490,
-          490
+          850,
+          580,
+          580
         ],
         "mfr_dims_orientation": "as listed; order unverified (sorted desc for fit check)",
-        "mfr_dims_source": "selected variant (fresh fetch)",
+        "mfr_dims_orientation_note": "selected variant '580 * 580 * 850MM'; 850 is most plausibly height, so width is 580mm and AMS lite does NOT fit inside despite the orientation-agnostic sorted check passing combo fit",
+        "mfr_dims_source": "title",
         "mfr_dims_status": "found",
         "mfr_features_from_title": [
-          "ventilation/exhaust"
+          "LED",
+          "thermo-hygrometer",
+          "fireproof"
         ],
-        "mfr_fit_combo_ams_inside": false,
+        "mfr_fit_combo_ams_inside": true,
         "mfr_fit_envelope": "depth>=390,width>=360,height>=460 (orientation-agnostic sorted check)",
         "mfr_fit_printer_only": true,
         "mfr_group_retailers": [
           "Amazon"
         ],
         "mfr_group_urls": [
-          "https://www.amazon.com/dp/B0HJ1HG37F"
+          "https://www.amazon.com/dp/B0DQTMKBSQ"
         ],
-        "mfr_item_id": 36,
-        "mfr_item_price": 59.99,
+        "mfr_item_id": 221,
+        "mfr_item_price": 42.99,
         "mfr_item_retailer": "Amazon",
-        "mfr_listing_price": 59.99,
-        "mfr_listing_url": "https://www.amazon.com/dp/B0HJ1HG37F",
+        "mfr_listing_price": 42.99,
+        "mfr_listing_url": "https://www.amazon.com/dp/B0DQTMKBSQ",
         "mfr_listings_in_group": 1,
         "mfr_manufacturer_page_fetched": false,
-        "mfr_model": "combo exhaust",
-        "mfr_model_key": "|combo exhaust",
-        "mfr_price_from_page": 59.99,
+        "mfr_model": "850x580x580",
+        "mfr_model_key": "skouphy|850x580x580",
+        "mfr_price_from_page": 42.99,
         "mfr_requires_printed_parts": false,
         "mfr_retailer": "Amazon",
-        "mfr_selected_variant": "A1 Mini Enclosure 730*490*490MM",
         "mfr_source_detail": [],
-        "price_note": "search-card price \u2014 UNVERIFIED, phase 2 must re-verify selected variant",
-        "source": "phase-1 browser sweep 2026-11-10",
+        "source": "BF re-scan browser sweep 2026-11-12",
+        "visit_error": "not visited (cap reached)",
         "visited": false
       },
-      "url": "https://www.amazon.com/dp/B0HJ1HG37F",
+      "url": "https://www.amazon.com/dp/B0DQTMKBSQ",
       "was": null
     },
     {
@@ -1756,6 +2071,23 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: Item Weight"
+          ],
+          "price": 59.99,
+          "selected_variant": null,
+          "triples": [
+            "Compatible with Bambu Lab A2L",
+            "Black",
+            "Blue",
+            "Green",
+            "Khaki",
+            "Item Weight",
+            "\u3010Spacious Interior\u3011 Sized 23.62x29.53x31.50 inches, this large 3d printer enclosure\u200b offers ample space for Bambu Lab A2L. It is also compatible with ELEGOO Photon Mono, Saturn, Mars, and Halot series LCD, SLA, and DLP 3D printers, as well as smaller FDM 3D printers such as Bambu Lab P1S, P2S, and Kobra X/Photon/K3V2, allowing this 3d printer ventilation kit\u200b to meet the needs of both machine types. Please note: Before ordering, be sure to measure the dimensions of both your printer and curing station! Measure your printer dimensions before ordering to ensure compatibility with this 3d printer cover."
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -1849,6 +2181,25 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 21.65 x 25.59 x 29.53 inches"
+          ],
+          "price": 33.21,
+          "selected_variant": "31.5 x 22.8 x 22.8 inch",
+          "triples": [
+            "31.5 x 22.8 x 22.8 inch",
+            "21.6 x 25.6 x 29.5 inch",
+            "23.6 x 23.6 x 31.5 inch",
+            "27.5 x 29.5 x 35.4 inch",
+            "Black",
+            "Grey with Ventilation",
+            "Gray",
+            "Grey",
+            "21.65 x 25.59 x 29.53 inches"
+          ]
+        },
         "brand_guess": "VEVOR",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -1984,13 +2335,20 @@
       "image": null,
       "in_stock": null,
       "name": "3D Printer Enclosure Set - Multifunctional 3D Printer Tent\uff0c3D Printer Enclosure with Ventilation & LED Lighting\uff0cCompatible Bambu Lab P1/Creality Ender 3/Neptune",
-      "price": 82.91,
+      "price": 84.52,
       "rating": 78.0,
       "retailer": "Amazon",
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [],
+          "price": 84.52,
+          "selected_variant": null,
+          "triples": []
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -2090,6 +2448,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 21.6&#34;D x 29.5&#34;W x 21.6&#34;H"
+          ],
+          "price": 31.99,
+          "selected_variant": null,
+          "triples": [
+            "Black&Orange",
+            "Black",
+            "21.6&#34;D x 29.5&#34;W x 21.6&#34;H"
+          ]
+        },
         "brand_guess": "YOOPAI",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -2417,30 +2788,24 @@
         "enriched"
       ],
       "baseline": null,
-      "brand": "topcube",
+      "brand": "TOPCUBE",
       "brand_url": null,
       "category": "uncategorized",
       "change": 0.0,
       "confidence": "high",
       "id": "a1mini-enclosure-1",
-      "image": "https://cdn.shopify.com/s/files/1/0910/3635/2808/files/TopcubeEnclosureForBambuA1mini_5.jpg?v=1735286392",
+      "image": null,
       "in_stock": null,
-      "name": "TopCube Bambu Lab 3D Printer Enclosure for Bambu Lab A1 Mini, with LED Light 460x460x550MM",
+      "name": "TOPCUBE A1 mini enclosure 460x460x550mm, LED, fireproof tent (printer-only class)",
       "price": 45.99,
       "rating": 76.0,
       "retailer": "TOPCUBE",
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
-        "ams_lite": "unknown \u2014 phase 2",
+        "brand": "TOPCUBE",
         "class": "printer_only",
-        "class_note": "tentative phase-1 classification; phase 2 verifies",
-        "dims": [
-          "460x460x550mm"
-        ],
-        "max_dim_mm": 550,
         "mfr_ams_lite_inside_claim": false,
-        "mfr_brand": "topcube",
         "mfr_class_guess": "printer_only",
         "mfr_combo_claim_in_title": false,
         "mfr_dims_candidates": [
@@ -2484,17 +2849,109 @@
         "mfr_listing_url": "https://www.topcube.co/products/topcube-bambu-lab-3d-printer-enclosure-for-bambu-lab-a1-mini",
         "mfr_listings_in_group": 2,
         "mfr_manufacturer_page_fetched": false,
-        "mfr_model": "460x460x550",
         "mfr_model_key": "topcube|460x460x550",
         "mfr_requires_printed_parts": false,
         "mfr_retailer": "TOPCUBE",
         "mfr_source_detail": [],
-        "note": "TOPCUBE store lists only this one enclosure; Combo/acrylic variants seen on Amazon only",
-        "price_note": "store catalog price, phase 2 verifies",
-        "source": "phase-1 products.json 2026-11-10 (store catalog: 1 product total)",
-        "visited": false
+        "model": "A1 mini 460x460x550",
+        "source": "Meta Catalog, TOPCUBE store listing",
+        "verified": "2026-11-09"
       },
       "url": "https://www.topcube.co/products/topcube-bambu-lab-3d-printer-enclosure-for-bambu-lab-a1-mini",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "TOPCUBE",
+      "brand_url": null,
+      "category": "uncategorized",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "a1mini-enclosure-2",
+      "image": null,
+      "in_stock": null,
+      "name": "TOPCUBE A1 mini enclosure 460x460x550mm (Amazon listing)",
+      "price": 39.89,
+      "rating": 76.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 21.65&#34;D x 18.5&#34;W x 21.65&#34;H"
+          ],
+          "price": 39.89,
+          "selected_variant": "For A1 Mini & A1 Mini Combo",
+          "triples": [
+            "For A1 Mini & A1 Mini Combo",
+            "For A1",
+            "For A1 Mini",
+            "Grey",
+            "Black",
+            "Off White",
+            "21.65&#34;D x 18.5&#34;W x 21.65&#34;H"
+          ]
+        },
+        "brand": "TOPCUBE",
+        "class": "printer_only",
+        "mfr_ams_lite_inside_claim": false,
+        "mfr_class_guess": "printer_only",
+        "mfr_combo_claim_in_title": false,
+        "mfr_dims_candidates": [
+          {
+            "mm": [
+              550,
+              460,
+              460
+            ],
+            "origin": "db specs dims"
+          }
+        ],
+        "mfr_dims_excluded_package": [],
+        "mfr_dims_mm_sorted_desc": [
+          550,
+          460,
+          460
+        ],
+        "mfr_dims_orientation": "as listed; order unverified (sorted desc for fit check)",
+        "mfr_dims_source": "title",
+        "mfr_dims_status": "found",
+        "mfr_features_from_title": [
+          "LED"
+        ],
+        "mfr_fetch_error": "goto: Page.goto: net::ERR_TIMED_OUT at https://www.topcube.co/products/topcube-bambu-lab-3d-printer-enclosure-for-bambu-lab-a1",
+        "mfr_fit_combo_ams_inside": false,
+        "mfr_fit_envelope": "depth>=390,width>=360,height>=460 (orientation-agnostic sorted check)",
+        "mfr_fit_printer_only": true,
+        "mfr_group_retailers": [
+          "Amazon",
+          "TOPCUBE"
+        ],
+        "mfr_group_urls": [
+          "https://www.topcube.co/products/topcube-bambu-lab-3d-printer-enclosure-for-bambu-lab-a1-mini",
+          "https://www.amazon.com/dp/B0DDWVP16J"
+        ],
+        "mfr_item_id": 2,
+        "mfr_item_price": null,
+        "mfr_item_retailer": "Amazon",
+        "mfr_listing_price": 45.99,
+        "mfr_listing_url": "https://www.topcube.co/products/topcube-bambu-lab-3d-printer-enclosure-for-bambu-lab-a1-mini",
+        "mfr_listings_in_group": 2,
+        "mfr_manufacturer_page_fetched": false,
+        "mfr_model_key": "topcube|460x460x550",
+        "mfr_requires_printed_parts": false,
+        "mfr_retailer": "TOPCUBE",
+        "mfr_source_detail": [],
+        "model": "A1 mini 460x460x550",
+        "source": "browser search, Amazon product page",
+        "verified": "2026-11-09"
+      },
+      "url": "https://www.amazon.com/dp/B0DDWVP16J",
       "was": null
     },
     {
@@ -2511,13 +2968,30 @@
       "image": null,
       "in_stock": null,
       "name": "Creality 3D Printer Enclosure with LED Lighting, 520*600*720mm",
-      "price": 50.99,
+      "price": 48.99,
       "rating": 76.0,
       "retailer": "Amazon",
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 48.99,
+          "selected_variant": "700*750*900mm",
+          "triples": [
+            "700*750*900mm",
+            "480*600*720 mm",
+            "520*600*720mm",
+            "550*650*750 mm",
+            "BlackGreen-With LED",
+            "Black",
+            "Item Weight"
+          ]
+        },
         "brand_guess": "Creality",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -2636,6 +3110,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 22&#34;D x 32&#34;W x 29&#34;H"
+          ],
+          "price": 84.99,
+          "selected_variant": "Black Enclosure with Plastic Support Rods",
+          "triples": [
+            "Black Enclosure with Plastic Support Rods",
+            "Gray Enclosure with Metal Support Rods",
+            "22&#34;D x 32&#34;W x 29&#34;H"
+          ]
+        },
         "brand_guess": "Upgraded",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -2730,6 +3217,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 21.7&#34;D x 19.1&#34;W x 17.7&#34;H"
+          ],
+          "price": 119.99,
+          "selected_variant": null,
+          "triples": [
+            "21.7&#34;D x 19.1&#34;W x 17.7&#34;H"
+          ]
+        },
         "brand_guess": "DELACK",
         "class": "rigid_acrylic",
         "class_note": "tentative phase-1 classification; demoted from combo: listing sells multiple sizes and the selected variant dims are not >=740mm wide; phase 2 must pin the selected variant",
@@ -3216,6 +3714,21 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 50.99,
+          "selected_variant": "A2L Enclosure",
+          "triples": [
+            "A2L Enclosure",
+            "A1 Enclosure",
+            "A1 Enclosure with Exhaust kit",
+            "A1 mini",
+            "Item Weight"
+          ]
+        },
         "brand_guess": "Skouphy",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -3278,6 +3791,133 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "BIQU",
+      "brand_url": null,
+      "category": "uncategorized",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "a1mini-enclosure-3",
+      "image": null,
+      "in_stock": null,
+      "name": "BIQU Panda Shelter for A1/A1 mini (transparent enclosure)",
+      "price": 35.99,
+      "rating": 74.0,
+      "retailer": "BIQU",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "BIQU",
+        "class": "printer_only",
+        "mfr_ams_lite_inside_claim": true,
+        "mfr_asin": "B0DTJYCGLG",
+        "mfr_bullets_from_page": [
+          "Industrial &amp; Scientific",
+          "Additive Manufacturing Products",
+          "3D Printer Parts &amp; Accessories",
+          "3D Printer Accessories",
+          "Go to your orders and start the return",
+          "Select your preferred free shipping option",
+          "Image Unavailable  Image not available forColor:",
+          "Go to your orders and start the return"
+        ],
+        "mfr_class_guess": "combo_ams_inside",
+        "mfr_combo_claim_in_title": true,
+        "mfr_dims_candidates": [
+          {
+            "mm": [
+              550,
+              550,
+              470
+            ],
+            "origin": "db specs dims"
+          },
+          {
+            "mm": [
+              670,
+              670,
+              580
+            ],
+            "origin": "db specs dims"
+          },
+          {
+            "mm": [
+              838,
+              588,
+              588
+            ],
+            "origin": "db specs dims"
+          },
+          {
+            "mm": [
+              840,
+              580,
+              580
+            ],
+            "origin": "db specs dims"
+          }
+        ],
+        "mfr_dims_excluded_package": [
+          [
+            398,
+            224,
+            117
+          ]
+        ],
+        "mfr_dims_mm_sorted_desc": [
+          840,
+          580,
+          580
+        ],
+        "mfr_dims_orientation": "as listed; order unverified (sorted desc for fit check)",
+        "mfr_dims_source": "db specs dims",
+        "mfr_dims_status": "found",
+        "mfr_features_from_title": [],
+        "mfr_fit_combo_ams_inside": true,
+        "mfr_fit_envelope": "depth>=390,width>=360,height>=460 (orientation-agnostic sorted check)",
+        "mfr_fit_printer_only": true,
+        "mfr_group_retailers": [
+          "Amazon",
+          "BIQU",
+          "West3D"
+        ],
+        "mfr_group_urls": [
+          "https://biqu.equipment/products/biqu-panda-shelter",
+          "https://west3d.com/products/panda-shelter-3d-printing-enclosure-for-bambu-a1-a1-mini",
+          "https://www.amazon.com/dp/B0DTJYCGLG",
+          "https://www.amazon.com/dp/B0F6LTMY7M",
+          "https://www.amazon.com/dp/B0DTHBQL5Z"
+        ],
+        "mfr_item_id": 3,
+        "mfr_item_price": 99.99,
+        "mfr_item_retailer": "BIQU",
+        "mfr_listing_price": 65.99,
+        "mfr_listing_url": "https://www.amazon.com/dp/B0DTJYCGLG",
+        "mfr_listings_in_group": 5,
+        "mfr_manufacturer_page_fetched": false,
+        "mfr_model_key": "biqu|panda shelter",
+        "mfr_price_from_page": 65.99,
+        "mfr_price_range_across_listings": [
+          59.99,
+          65.99,
+          94.84,
+          99.99
+        ],
+        "mfr_requires_printed_parts": false,
+        "mfr_retailer": "Amazon",
+        "mfr_selected_variant": "Panda Filter Kit",
+        "mfr_source_detail": [],
+        "model": "Panda Shelter",
+        "source": "Meta Catalog, BIQU store listing",
+        "verified": "2026-11-09"
+      },
+      "url": "https://biqu.equipment/products/biqu-panda-shelter",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "TUKKARI",
       "brand_url": null,
       "category": "uncategorized",
@@ -3286,22 +3926,21 @@
       "id": "a1mini-enclosure-6",
       "image": null,
       "in_stock": null,
-      "name": "TUKKARI TF A1 mini enclosure with HEPA/carbon filter",
+      "name": "TUKKARI TF A1 mini enclosure with HEPA/carbon filter, inner 475x480x575mm (W x D x H approx as listed), works with or without AMS lite",
       "price": 192.0,
       "rating": 74.0,
       "retailer": "TUKKARI",
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
-        "ams_lite_inside": false,
-        "ams_note": "works with or without AMS lite (outside, via pass-through)",
+        "bf_rescan_2026-11-12": {
+          "currency": "EUR",
+          "note": "itemprop price incl VAT from manufacturer page, raw fetch 200",
+          "price": 192.0
+        },
         "brand": "TUKKARI",
         "class": "printer_only",
-        "currency": "EUR",
-        "fan": "optional 120mm fan mount",
-        "filtration": "HEPA/carbon combined filter",
-        "inner_dims_mm": "475 x 575 x 480 (W x H x D)",
-        "material": "European Plexiglas, no bottom panel (lift-off)",
+        "filtration": true,
         "mfr_ams_lite_inside_claim": false,
         "mfr_class_guess": "printer_only",
         "mfr_combo_claim_in_title": false,
@@ -3344,6 +3983,7 @@
         "mfr_group_urls": [
           "https://www.tukkari.eu/p/tukkari-tf-bambu-lab-a1-mini-enclosure-with-combined-air-filter"
         ],
+        "mfr_inner_dims_mm": "475 x 575 x 480 (W x H x D)",
         "mfr_item_id": 6,
         "mfr_item_price": 192.0,
         "mfr_item_retailer": "TUKKARI",
@@ -3352,15 +3992,13 @@
         "mfr_listings_in_group": 1,
         "mfr_manufacturer_page_fetched": false,
         "mfr_model_key": "tukkari|tf a1 mini",
+        "mfr_outer_dims_mm": "483 x 579 x 502 (W x H x D)",
         "mfr_requires_printed_parts": false,
         "mfr_retailer": "TUKKARI",
         "mfr_source_detail": [],
         "model": "TF A1 mini",
-        "outer_dims_mm": "483 x 579 x 502 (W x H x D)",
-        "price_excl_vat_eur": 160,
-        "price_incl_vat_eur": 192,
-        "source": "TUKKARI product page, curl fetch 2026-11-09",
-        "stock": "out of stock (2026-11-09)"
+        "source": "browser search, TUKKARI product page",
+        "verified": "2026-11-09"
       },
       "url": "https://www.tukkari.eu/p/tukkari-tf-bambu-lab-a1-mini-enclosure-with-combined-air-filter",
       "was": null
@@ -3386,6 +4024,11 @@
       "spec_verification": {},
       "specs": {
         "ams_lite_inside": false,
+        "bf_rescan_2026-11-12": {
+          "currency": "EUR",
+          "note": "itemprop price incl VAT, unchanged vs Nov 9/10",
+          "price": 217.0
+        },
         "brand": "TUKKARI",
         "class": "printer_only",
         "currency": "EUR",
@@ -3476,6 +4119,21 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 28.34&#34;D x 23.62&#34;W x 28.34&#34;H",
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 59.99,
+          "selected_variant": "2026-Led-L",
+          "triples": [
+            "2026-Led-L",
+            "2026-Led-S",
+            "28.34&#34;D x 23.62&#34;W x 28.34&#34;H",
+            "Item Weight"
+          ]
+        },
         "brand_guess": "Creality",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -3570,6 +4228,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 28.74&#34;D x 30.71&#34;W x 28.35&#34;H"
+          ],
+          "price": 71.99,
+          "selected_variant": null,
+          "triples": [
+            "28.74&#34;D x 30.71&#34;W x 28.35&#34;H"
+          ]
+        },
         "brand_guess": "Longer",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -3663,6 +4332,21 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "fits inside (combo width class >=740mm)",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: Item Weight"
+          ],
+          "price": 45.99,
+          "selected_variant": "A2L Enclosure",
+          "triples": [
+            "A2L Enclosure",
+            "A1 Enclosure",
+            "A1 Enclosure with Exhaust kit",
+            "A1 mini",
+            "Item Weight"
+          ]
+        },
         "brand_guess": "3D",
         "class": "combo_ams_inside",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -3881,6 +4565,11 @@
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
+        "bf_rescan_2026-11-12": {
+          "note": "browser visit: Sale $59.99 / Regular $79.99, unchanged vs Nov 9/10 seed",
+          "price": 59.99,
+          "regular_price": 79.99
+        },
         "brand": "BIQU",
         "class": "printer_only",
         "mfr_ams_lite_inside_claim": true,
@@ -4010,6 +4699,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "fits inside (combo width class >=740mm)",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: 15.67 x 8.82 x 4.61 inches; 4.37 pounds"
+          ],
+          "price": 65.99,
+          "selected_variant": "Panda Filter Kit",
+          "triples": [
+            "Panda Filter Kit",
+            "Panda Shelter",
+            "15.67 x 8.82 x 4.61 inches; 4.37 pounds"
+          ]
+        },
         "brand_guess": "BIQU",
         "class": "combo_ams_inside",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -4153,6 +4855,18 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "fits inside (combo width class >=740mm)",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 22.83&#34;D x 33.07&#34;W x 22.83&#34;H"
+          ],
+          "price": 65.99,
+          "selected_variant": null,
+          "triples": [
+            "22.83&#34;D x 33.07&#34;W x 22.83&#34;H",
+            "\u3010Make Printing Convenient \u3011BIQU Panda Shelter measuring 840 x 580 x 580 mm with a large size and transparent viewing window, you can see the print status clearly.Easily accommodates A1/A1Mini combo printers for excellent printing."
+          ]
+        },
         "brand_guess": "BIQU",
         "class": "combo_ams_inside",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -4295,6 +5009,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 29.53&#34;D x 21.65&#34;W x 29.53&#34;H"
+          ],
+          "price": 54.89,
+          "selected_variant": null,
+          "triples": [
+            "29.53&#34;D x 21.65&#34;W x 29.53&#34;H"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -4470,13 +5195,30 @@
       "image": null,
       "in_stock": null,
       "name": "3D Printer Enclosure for Bambu Lab A1 Mini with LED Light (Off White)",
-      "price": 35.99,
+      "price": 36.09,
       "rating": 71.0,
       "retailer": "Amazon",
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: Item Weight"
+          ],
+          "price": 36.09,
+          "selected_variant": "For A1 Mini & A1 Mini Combo",
+          "triples": [
+            "For A1 Mini & A1 Mini Combo",
+            "For A1",
+            "For A1 Mini",
+            "Off White",
+            "Black",
+            "Grey",
+            "Item Weight"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; demoted from combo: listing sells multiple sizes and the selected variant dims are not >=740mm wide; phase 2 must pin the selected variant",
@@ -4619,6 +5361,18 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 49.69,
+          "selected_variant": null,
+          "triples": [
+            "Item Weight",
+            "[NEED TO CHECK PRINTS WITHOUT LOSING HEAT?] Monitor your printing progress clearly. Equipped with an enlarged 480x350mm transparent observation window. It allows you to visually inspect the model&#39;s first layer and ongoing progress without opening the cover and losing chamber stability."
+          ]
+        },
         "brand_guess": "Fireproof",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; demoted from combo: listing sells multiple sizes and the selected variant dims are not >=740mm wide; phase 2 must pin the selected variant",
@@ -4755,13 +5509,33 @@
       "image": null,
       "in_stock": null,
       "name": "3D Printer Enclosure with LED Lighting Constant Temperature Cover, Medium",
-      "price": 41.99,
+      "price": 39.89,
       "rating": 71.0,
       "retailer": "Amazon",
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 25.6&#34;D x 21.6&#34;W x 28.7&#34;H"
+          ],
+          "price": 39.89,
+          "selected_variant": "9-Medium with Ventilation Kit&LED",
+          "triples": [
+            "9-Medium with Ventilation Kit&LED",
+            "1-Medium with LED",
+            "2-Large with LED",
+            "3-Medium with Ventilation Kit",
+            "4-For Kobra3",
+            "5-For Hi Combo",
+            "6-For AD5X/AD5M",
+            "7-For AD5M",
+            "8-For AD5X with Ventilation Kit",
+            "25.6&#34;D x 21.6&#34;W x 28.7&#34;H"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -4845,144 +5619,6 @@
       "category": "uncategorized",
       "change": 0.0,
       "confidence": "high",
-      "id": "a1mini-enclosure-3",
-      "image": "https://cdn.shopify.com/s/files/1/1619/4791/files/68.png?v=1742908970",
-      "in_stock": null,
-      "name": "BIQU Panda Shelter for Bambu Lab A1/A1 Mini, Transparent Dustproof and Waterproof Enclosure, Constant Temp Protection, Enhanced Print Quality and Stability",
-      "price": 99.99,
-      "rating": 69.0,
-      "retailer": "BIQU",
-      "ruled_out": false,
-      "spec_verification": {},
-      "specs": {
-        "ams_lite": "unknown \u2014 phase 2",
-        "class": "printer_only",
-        "class_note": "tentative phase-1 classification; phase 2 verifies",
-        "dims": [],
-        "max_dim_mm": null,
-        "mfr_ams_lite_inside_claim": true,
-        "mfr_asin": "B0DTJYCGLG",
-        "mfr_brand": "biqu",
-        "mfr_bullets_from_page": [
-          "Industrial &amp; Scientific",
-          "Additive Manufacturing Products",
-          "3D Printer Parts &amp; Accessories",
-          "3D Printer Accessories",
-          "Go to your orders and start the return",
-          "Select your preferred free shipping option",
-          "Image Unavailable  Image not available forColor:",
-          "Go to your orders and start the return"
-        ],
-        "mfr_class_guess": "combo_ams_inside",
-        "mfr_combo_claim_in_title": true,
-        "mfr_dims_candidates": [
-          {
-            "mm": [
-              550,
-              550,
-              470
-            ],
-            "origin": "db specs dims"
-          },
-          {
-            "mm": [
-              670,
-              670,
-              580
-            ],
-            "origin": "db specs dims"
-          },
-          {
-            "mm": [
-              838,
-              588,
-              588
-            ],
-            "origin": "db specs dims"
-          },
-          {
-            "mm": [
-              840,
-              580,
-              580
-            ],
-            "origin": "db specs dims"
-          }
-        ],
-        "mfr_dims_excluded_package": [
-          [
-            398,
-            224,
-            117
-          ]
-        ],
-        "mfr_dims_mm_sorted_desc": [
-          840,
-          580,
-          580
-        ],
-        "mfr_dims_orientation": "as listed; order unverified (sorted desc for fit check)",
-        "mfr_dims_source": "db specs dims",
-        "mfr_dims_status": "found",
-        "mfr_features_from_title": [],
-        "mfr_fit_combo_ams_inside": true,
-        "mfr_fit_envelope": "depth>=390,width>=360,height>=460 (orientation-agnostic sorted check)",
-        "mfr_fit_printer_only": true,
-        "mfr_group_retailers": [
-          "Amazon",
-          "BIQU",
-          "West3D"
-        ],
-        "mfr_group_urls": [
-          "https://biqu.equipment/products/biqu-panda-shelter",
-          "https://west3d.com/products/panda-shelter-3d-printing-enclosure-for-bambu-a1-a1-mini",
-          "https://www.amazon.com/dp/B0DTJYCGLG",
-          "https://www.amazon.com/dp/B0F6LTMY7M",
-          "https://www.amazon.com/dp/B0DTHBQL5Z"
-        ],
-        "mfr_item_id": 3,
-        "mfr_item_price": 99.99,
-        "mfr_item_retailer": "BIQU",
-        "mfr_listing_price": 65.99,
-        "mfr_listing_url": "https://www.amazon.com/dp/B0DTJYCGLG",
-        "mfr_listings_in_group": 5,
-        "mfr_manufacturer_page_fetched": false,
-        "mfr_model": "panda shelter",
-        "mfr_model_key": "biqu|panda shelter",
-        "mfr_price_from_page": 65.99,
-        "mfr_price_range_across_listings": [
-          59.99,
-          65.99,
-          94.84,
-          99.99
-        ],
-        "mfr_requires_printed_parts": false,
-        "mfr_retailer": "Amazon",
-        "mfr_selected_variant": "Panda Filter Kit",
-        "mfr_source_detail": [],
-        "note": "Dims not in product JSON; phase 2 to verify from manufacturer page",
-        "price_note": "store catalog base-variant price; seed $35.99 was the Ventilation Kit alone",
-        "source": "phase-1 products.json 2026-11-10 (seed price corrected)",
-        "variants": {
-          "Panda Shelter": 99.99,
-          "Panda Shelter+Ventilation Kit": 125.99,
-          "Ventilation Kit": 35.99
-        },
-        "visited": false
-      },
-      "url": "https://biqu.equipment/products/biqu-panda-shelter",
-      "was": null
-    },
-    {
-      "badges": [
-        "enriched"
-      ],
-      "baseline": null,
-      "brand": "biqu",
-      "brand_url": null,
-      "category": "uncategorized",
-      "change": 0.0,
-      "confidence": "high",
       "id": "a1mini-enclosure-17",
       "image": null,
       "in_stock": null,
@@ -4994,6 +5630,13 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "fits inside (combo width class >=740mm)",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [],
+          "price": 94.84,
+          "selected_variant": null,
+          "triples": []
+        },
         "brand_guess": "BIQU",
         "class": "combo_ams_inside",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -5127,13 +5770,24 @@
       "image": null,
       "in_stock": null,
       "name": "3D Printer Enclosure for Bambu Lab A1 Combo/A1 Mini Combo with AMS Lite",
-      "price": 42.99,
+      "price": 39.89,
       "rating": 69.0,
       "retailer": "Amazon",
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
         "ams_lite": "fits inside (combo width class >=740mm)",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 22.44&#34;D x 33.07&#34;W x 22.44&#34;H"
+          ],
+          "price": 39.89,
+          "selected_variant": null,
+          "triples": [
+            "22.44&#34;D x 33.07&#34;W x 22.44&#34;H"
+          ]
+        },
         "brand_guess": "3D",
         "class": "combo_ams_inside",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -5284,6 +5938,13 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [],
+          "price": 61.18,
+          "selected_variant": null,
+          "triples": []
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; demoted from combo: listing sells multiple sizes and the selected variant dims are not >=740mm wide; phase 2 must pin the selected variant",
@@ -5421,6 +6082,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 230.31&#34;D x 324.8&#34;W x 230.31&#34;H"
+          ],
+          "price": 57.27,
+          "selected_variant": null,
+          "triples": [
+            "230.31&#34;D x 324.8&#34;W x 230.31&#34;H"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -5497,6 +6169,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item model number"
+          ],
+          "price": 53.99,
+          "selected_variant": null,
+          "triples": [
+            "Cream White",
+            "Grey",
+            "Item model number"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -5571,6 +6256,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 31&#34;D x 31&#34;W x 38&#34;H"
+          ],
+          "price": 59.0,
+          "selected_variant": null,
+          "triples": [
+            "31&#34;D x 31&#34;W x 38&#34;H"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -5664,6 +6360,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 47.2&#34;D x 31.5&#34;W x 39.4&#34;H"
+          ],
+          "price": 249.0,
+          "selected_variant": null,
+          "triples": [
+            "47.2&#34;D x 31.5&#34;W x 39.4&#34;H"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -6114,83 +6821,6 @@
         "enriched"
       ],
       "baseline": null,
-      "brand": "TOPCUBE",
-      "brand_url": null,
-      "category": "uncategorized",
-      "change": 0.0,
-      "confidence": "high",
-      "id": "a1mini-enclosure-2",
-      "image": null,
-      "in_stock": null,
-      "name": "TOPCUBE A1 mini enclosure 460x460x550mm (Amazon listing)",
-      "price": null,
-      "rating": 68.0,
-      "retailer": "Amazon",
-      "ruled_out": false,
-      "spec_verification": {},
-      "specs": {
-        "brand": "TOPCUBE",
-        "class": "printer_only",
-        "mfr_ams_lite_inside_claim": false,
-        "mfr_class_guess": "printer_only",
-        "mfr_combo_claim_in_title": false,
-        "mfr_dims_candidates": [
-          {
-            "mm": [
-              550,
-              460,
-              460
-            ],
-            "origin": "db specs dims"
-          }
-        ],
-        "mfr_dims_excluded_package": [],
-        "mfr_dims_mm_sorted_desc": [
-          550,
-          460,
-          460
-        ],
-        "mfr_dims_orientation": "as listed; order unverified (sorted desc for fit check)",
-        "mfr_dims_source": "title",
-        "mfr_dims_status": "found",
-        "mfr_features_from_title": [
-          "LED"
-        ],
-        "mfr_fetch_error": "goto: Page.goto: net::ERR_TIMED_OUT at https://www.topcube.co/products/topcube-bambu-lab-3d-printer-enclosure-for-bambu-lab-a1",
-        "mfr_fit_combo_ams_inside": false,
-        "mfr_fit_envelope": "depth>=390,width>=360,height>=460 (orientation-agnostic sorted check)",
-        "mfr_fit_printer_only": true,
-        "mfr_group_retailers": [
-          "Amazon",
-          "TOPCUBE"
-        ],
-        "mfr_group_urls": [
-          "https://www.topcube.co/products/topcube-bambu-lab-3d-printer-enclosure-for-bambu-lab-a1-mini",
-          "https://www.amazon.com/dp/B0DDWVP16J"
-        ],
-        "mfr_item_id": 2,
-        "mfr_item_price": null,
-        "mfr_item_retailer": "Amazon",
-        "mfr_listing_price": 45.99,
-        "mfr_listing_url": "https://www.topcube.co/products/topcube-bambu-lab-3d-printer-enclosure-for-bambu-lab-a1-mini",
-        "mfr_listings_in_group": 2,
-        "mfr_manufacturer_page_fetched": false,
-        "mfr_model_key": "topcube|460x460x550",
-        "mfr_requires_printed_parts": false,
-        "mfr_retailer": "TOPCUBE",
-        "mfr_source_detail": [],
-        "model": "A1 mini 460x460x550",
-        "source": "browser search, Amazon product page",
-        "verified": "2026-11-09"
-      },
-      "url": "https://www.amazon.com/dp/B0DDWVP16J",
-      "was": null
-    },
-    {
-      "badges": [
-        "enriched"
-      ],
-      "baseline": null,
       "brand": "",
       "brand_url": null,
       "category": "uncategorized",
@@ -6326,6 +6956,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 27.5&#34;D x 29.5&#34;W x 52&#34;H"
+          ],
+          "price": 99.89,
+          "selected_variant": null,
+          "triples": [
+            "27.5&#34;D x 29.5&#34;W x 52&#34;H"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -6492,6 +7133,13 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [],
+          "price": 89.98,
+          "selected_variant": null,
+          "triples": []
+        },
         "brand_guess": "TOPCUBE",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -6573,6 +7221,18 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: &lrm;12 x 9 x 4 inches"
+          ],
+          "price": 79.99,
+          "selected_variant": null,
+          "triples": [
+            "&lrm;12 x 9 x 4 inches",
+            "COMPATIBLE DESIGN\uff1aSized 23.62x29.53x31.50 inches, this large 3d printer enclosure\u200b offers ample space for Bambu Lab A2L"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -6844,6 +7504,13 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [],
+          "price": 86.99,
+          "selected_variant": null,
+          "triples": []
+        },
         "brand_guess": "Bundle",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -7287,13 +7954,25 @@
       "image": null,
       "in_stock": null,
       "name": "Fafeicy 3D Printer Enclosure, Fireproof, A1 Mini Combo, 84x58x58 cm",
-      "price": 129.7,
+      "price": 129.82,
       "rating": 63.0,
       "retailer": "Amazon",
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
         "ams_lite": "fits inside (combo width class >=740mm)",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 129.82,
+          "selected_variant": null,
+          "triples": [
+            "Item Weight",
+            "[COMPATIBLE FIT] Designed for the A1 Mini Combo this 84 x 58 x 58 cm enclosure includes an AMS Lite cable inlet and four way pneumatic interfaces. Check before using other printers."
+          ]
+        },
         "brand_guess": "Fafeicy",
         "class": "combo_ams_inside",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -7399,6 +8078,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "fits inside (combo width class >=740mm)",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 129.72,
+          "selected_variant": null,
+          "triples": [
+            "Item Weight"
+          ]
+        },
         "brand_guess": "Hyuduo",
         "class": "combo_ams_inside",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -7496,13 +8186,24 @@
       "image": null,
       "in_stock": null,
       "name": "Ejoyous Foldable 3D Printer Enclosure for A1 Mini Combo, 84x58x58cm",
-      "price": 124.39,
+      "price": 134.97,
       "rating": 61.0,
       "retailer": "Amazon",
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
         "ams_lite": "fits inside (combo width class >=740mm)",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 134.97,
+          "selected_variant": null,
+          "triples": [
+            "Item Weight"
+          ]
+        },
         "brand_guess": "Ejoyous",
         "class": "combo_ams_inside",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -7870,6 +8571,13 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [],
+          "price": 169.0,
+          "selected_variant": null,
+          "triples": []
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -7945,6 +8653,13 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [],
+          "price": 205.02,
+          "selected_variant": null,
+          "triples": []
+        },
         "brand_guess": "TOPCUBE",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -8026,6 +8741,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 29.5&#34;D x 25.6&#34;W x 31.5&#34;H",
+            "Item Dimensions: 29.5&#34;D x 25.6&#34;W x 31.5&#34;H"
+          ],
+          "price": 219.99,
+          "selected_variant": null,
+          "triples": [
+            "29.5&#34;D x 25.6&#34;W x 31.5&#34;H",
+            "29.5&#34;D x 25.6&#34;W x 31.5&#34;H"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -8190,6 +8918,115 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "generic",
+      "brand_url": null,
+      "category": "uncategorized",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "a1mini-enclosure-208",
+      "image": null,
+      "in_stock": null,
+      "name": "Compatible for Bambu Lab A1/A1 Mini AMS Lite 3D Printer Enclosure Constant Temperature Cover(A1 Combo T)",
+      "price": 290.27,
+      "rating": 52.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "dim_lines": [
+          "Package Dimensions\t\u200e3.94 x 3.94 x 3.94 inches"
+        ],
+        "dims": [
+          "21.6x26.7x29.5in",
+          "3.94 x 3.94 x 3.94 in",
+          "470x550x550MM",
+          "470x550x550mm",
+          "838x588x588MM"
+        ],
+        "mfr_ams_lite_inside_claim": true,
+        "mfr_asin": "B0GKMRXP8J",
+        "mfr_brand": "generic",
+        "mfr_brand_from_page": "Generic",
+        "mfr_class_guess": "printer_only",
+        "mfr_class_guess_note": "corrected 2026-11-12 BF phase 2: was 'dust_cover_only' (heuristic misfire on 'Cover' in tent title)",
+        "mfr_combo_claim_in_title": true,
+        "mfr_conflict_combo_claim_vs_dims": "title claims Combo/AMS-lite but dims fail 740mm-width fit",
+        "mfr_conflict_dims_ambiguous": "page states multiple sizes with no Product Dimensions cell: 470x550x550mm (chosen, most-repeated), 838x588x588mm, 21.6x26.7x29.5in (549x678x749mm). Combo fit: 470-size fails 740mm width, the other two pass \u2014 combo fit UNRESOLVED",
+        "mfr_dims_candidates": [
+          {
+            "mm": [
+              749,
+              678,
+              549
+            ],
+            "origin": "db specs dims"
+          },
+          {
+            "mm": [
+              550,
+              550,
+              470
+            ],
+            "origin": "db specs dims"
+          },
+          {
+            "mm": [
+              838,
+              588,
+              588
+            ],
+            "origin": "db specs dims"
+          }
+        ],
+        "mfr_dims_excluded_package": [
+          [
+            100,
+            100,
+            100
+          ]
+        ],
+        "mfr_dims_mm_sorted_desc": [
+          550,
+          550,
+          470
+        ],
+        "mfr_dims_orientation": "as listed; order unverified (sorted desc for fit check)",
+        "mfr_dims_source": "db specs dims",
+        "mfr_dims_status": "ambiguous \u2014 multiple sizes on page, no authoritative size",
+        "mfr_features_from_title": [],
+        "mfr_fit_combo_ams_inside": false,
+        "mfr_fit_envelope": "depth>=390,width>=360,height>=460 (orientation-agnostic sorted check)",
+        "mfr_fit_printer_only": true,
+        "mfr_group_retailers": [
+          "Amazon"
+        ],
+        "mfr_group_urls": [
+          "https://www.amazon.com/dp/B0GKMRXP8J"
+        ],
+        "mfr_item_id": 208,
+        "mfr_item_price": 290.27,
+        "mfr_item_retailer": "Amazon",
+        "mfr_listing_price": 290.27,
+        "mfr_listing_url": "https://www.amazon.com/dp/B0GKMRXP8J",
+        "mfr_listings_in_group": 1,
+        "mfr_manufacturer_page_fetched": false,
+        "mfr_model": "549x678x749",
+        "mfr_model_key": "generic|549x678x749",
+        "mfr_price_from_page": 290.27,
+        "mfr_requires_printed_parts": false,
+        "mfr_retailer": "Amazon",
+        "mfr_source_detail": [],
+        "source": "BF re-scan browser sweep 2026-11-12",
+        "visited": true
+      },
+      "url": "https://www.amazon.com/dp/B0GKMRXP8J",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "",
       "brand_url": null,
       "category": "uncategorized",
@@ -8206,6 +9043,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 149.81,
+          "selected_variant": null,
+          "triples": [
+            "Item Weight"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -8280,6 +9128,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 13.9&#34;L x 12.8&#34;W x 18.5&#34;H",
+            "Item Dimensions: 13.9&#34;L x 12.8&#34;W x 18.5&#34;H"
+          ],
+          "price": 23.88,
+          "selected_variant": null,
+          "triples": [
+            "13.9&#34;L x 12.8&#34;W x 18.5&#34;H",
+            "13.9&#34;L x 12.8&#34;W x 18.5&#34;H"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; demoted from combo: listing sells multiple sizes and the selected variant dims are not >=740mm wide; phase 2 must pin the selected variant",
@@ -8409,6 +9270,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 236.89,
+          "selected_variant": null,
+          "triples": [
+            "A1 mini C",
+            "A1 C",
+            "Item Weight"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -8559,6 +9433,64 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "generic",
+      "brand_url": null,
+      "category": "uncategorized",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "a1mini-enclosure-224",
+      "image": null,
+      "in_stock": null,
+      "name": "Compatible For Bambu Lab A1 / A1 Mini, Printer Enclosure Shell",
+      "price": 172.52,
+      "rating": 45.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "dim_lines": [],
+        "dims": [],
+        "mfr_ams_lite_inside_claim": false,
+        "mfr_asin": "B0HQBQ779Z",
+        "mfr_brand": "generic",
+        "mfr_brand_from_page": "Generic",
+        "mfr_class_guess": "printer_only",
+        "mfr_combo_claim_in_title": false,
+        "mfr_dims_candidates": [],
+        "mfr_dims_excluded_package": [],
+        "mfr_dims_status": "not stated on listing (phase-1 visit + title)",
+        "mfr_features_from_title": [],
+        "mfr_group_retailers": [
+          "Amazon"
+        ],
+        "mfr_group_urls": [
+          "https://www.amazon.com/dp/B0HQBQ779Z"
+        ],
+        "mfr_item_id": 224,
+        "mfr_item_price": 172.52,
+        "mfr_item_retailer": "Amazon",
+        "mfr_listing_price": 172.52,
+        "mfr_listing_url": "https://www.amazon.com/dp/B0HQBQ779Z",
+        "mfr_listings_in_group": 1,
+        "mfr_manufacturer_page_fetched": false,
+        "mfr_model": "compatible shell",
+        "mfr_model_key": "generic|compatible shell",
+        "mfr_price_from_page": 172.52,
+        "mfr_requires_printed_parts": false,
+        "mfr_retailer": "Amazon",
+        "mfr_source_detail": [],
+        "source": "BF re-scan browser sweep 2026-11-12",
+        "visit_error": "not visited (cap reached)",
+        "visited": false
+      },
+      "url": "https://www.amazon.com/dp/B0HQBQ779Z",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "topcue",
       "brand_url": null,
       "category": "uncategorized",
@@ -8575,6 +9507,13 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [],
+          "price": 157.48,
+          "selected_variant": null,
+          "triples": []
+        },
         "brand_guess": "TOPCUE",
         "class": "rigid_acrylic",
         "class_note": "tentative phase-1 classification; demoted from combo: listing sells multiple sizes and the selected variant dims are not >=740mm wide; phase 2 must pin the selected variant",
@@ -8644,6 +9583,67 @@
         "visited": true
       },
       "url": "https://www.amazon.com/dp/B0HKV88TBW",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "generic",
+      "brand_url": null,
+      "category": "uncategorized",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "a1mini-enclosure-207",
+      "image": null,
+      "in_stock": null,
+      "name": "Compatible For Bambu Lab A1/A1 Mini, Top\u2011Mount Printer Enclosure",
+      "price": 348.14,
+      "rating": 42.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "dim_lines": [
+          "Package Dimensions\t\u200e0.39 x 0.39 x 0.39 inches"
+        ],
+        "dims": [
+          "0.39 x 0.39 x 0.39 in"
+        ],
+        "mfr_ams_lite_inside_claim": false,
+        "mfr_asin": "B0HQBDCC7S",
+        "mfr_brand": "generic",
+        "mfr_brand_from_page": "Generic",
+        "mfr_class_guess": "printer_only",
+        "mfr_combo_claim_in_title": false,
+        "mfr_dims_candidates": [],
+        "mfr_dims_excluded_package": [],
+        "mfr_dims_status": "not stated on listing (phase-1 visit + title)",
+        "mfr_features_from_title": [],
+        "mfr_group_retailers": [
+          "Amazon"
+        ],
+        "mfr_group_urls": [
+          "https://www.amazon.com/dp/B0HQBDCC7S"
+        ],
+        "mfr_item_id": 207,
+        "mfr_item_price": 348.14,
+        "mfr_item_retailer": "Amazon",
+        "mfr_listing_price": 348.14,
+        "mfr_listing_url": "https://www.amazon.com/dp/B0HQBDCC7S",
+        "mfr_listings_in_group": 1,
+        "mfr_manufacturer_page_fetched": false,
+        "mfr_model": "top-mount enclosure shell",
+        "mfr_model_key": "generic|top mount enclosure shell",
+        "mfr_price_from_page": 348.14,
+        "mfr_requires_printed_parts": false,
+        "mfr_retailer": "Amazon",
+        "mfr_source_detail": [],
+        "source": "BF re-scan browser sweep 2026-11-12",
+        "visited": true
+      },
+      "url": "https://www.amazon.com/dp/B0HQBDCC7S",
       "was": null
     },
     {
@@ -8725,7 +9725,6 @@
       "specs": {
         "brand": "Clearview Plastics",
         "class": "rigid_acrylic",
-        "dims_note": "no dims stated in product page text; phase 2 to verify from kit docs",
         "mfr_ams_lite_inside_claim": false,
         "mfr_class_guess": "rigid_acrylic",
         "mfr_combo_claim_in_title": false,
@@ -8752,7 +9751,8 @@
         "mfr_source_detail": [],
         "model": "A1 mini entry-level kit",
         "requires_printed_parts": true,
-        "source": "Meta Catalog + clearviewplastic.com product page, curl fetch 2026-11-09"
+        "source": "Meta Catalog, Clearview listing",
+        "verified": "2026-11-09"
       },
       "url": "https://clearviewplastic.com/products/bambu-lab-a1-mini-entry-level-enclosure-starter-kit",
       "was": null
@@ -8833,6 +9833,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 13.98&#34;L x 12.8&#34;W x 18.5&#34;H",
+            "Item Dimensions: 13.98&#34;L x 12.8&#34;W x 18.5&#34;H"
+          ],
+          "price": 19.99,
+          "selected_variant": null,
+          "triples": [
+            "13.98&#34;L x 12.8&#34;W x 18.5&#34;H",
+            "13.98&#34;L x 12.8&#34;W x 18.5&#34;H"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; demoted from combo: listing sells multiple sizes and the selected variant dims are not >=740mm wide; phase 2 must pin the selected variant",
@@ -8953,6 +9966,13 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [],
+          "price": 29.99,
+          "selected_variant": null,
+          "triples": []
+        },
         "brand_guess": "3D",
         "class": "dust_cover_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -9044,6 +10064,18 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Color"
+          ],
+          "price": 29.99,
+          "selected_variant": null,
+          "triples": [
+            "Color",
+            "\u3010Wide Compatibility\u3011 Fits for Creality Ender-3 V3 SE/KE, Ender-3/3 Pro/3 V2/V2 Neo/3 S1/3 Neo, Ender-5 Pro/5 S1, ELEGOO Neptune 2S/3 Pro/4/4 Pro, Anycubic Kobra 2 Neo/2 Pro/Kobra 3, AnkerMake M5/M5C. Interior size: 65\u00d756\u00d775 cm (25.6\u00d722\u00d729.5 in). Measure your printer before purchasing."
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -9124,6 +10156,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 28.7&#34;D x 30&#34;W x 28.3&#34;H"
+          ],
+          "price": 89.99,
+          "selected_variant": null,
+          "triples": [
+            "28.7&#34;D x 30&#34;W x 28.3&#34;H"
+          ]
+        },
         "brand_guess": "LONGER",
         "class": "dust_cover_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -9299,6 +10342,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 349.22,
+          "selected_variant": null,
+          "triples": [
+            "Item Weight"
+          ]
+        },
         "brand_guess": "Compatible",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -9386,6 +10440,20 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "fits inside (combo width class >=740mm)",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 285.15,
+          "selected_variant": null,
+          "triples": [
+            "A1 Combo",
+            "A1 Combo T",
+            "A1 mini Combo",
+            "Item Weight"
+          ]
+        },
         "brand_guess": "Compatible",
         "class": "combo_ams_inside",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -9486,6 +10554,20 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 267.37,
+          "selected_variant": null,
+          "triples": [
+            "A1 mini Combo",
+            "A1 Combo",
+            "A1 Combo T",
+            "Item Weight"
+          ]
+        },
         "brand_guess": "Compatible",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; demoted from combo: listing sells multiple sizes and the selected variant dims are not >=740mm wide; phase 2 must pin the selected variant",
@@ -9576,6 +10658,20 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 342.61,
+          "selected_variant": null,
+          "triples": [
+            "A1 mini Combo",
+            "A1 Combo",
+            "A1 Combo T",
+            "Item Weight"
+          ]
+        },
         "brand_guess": "Compatible",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -9663,6 +10759,20 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 365.92,
+          "selected_variant": null,
+          "triples": [
+            "A1 Combo",
+            "A1 Combo T",
+            "A1 mini Combo",
+            "Item Weight"
+          ]
+        },
         "brand_guess": "Compatible",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -9750,6 +10860,20 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 371.67,
+          "selected_variant": null,
+          "triples": [
+            "A1 Combo T",
+            "A1 Combo",
+            "A1 mini Combo",
+            "Item Weight"
+          ]
+        },
         "brand_guess": "Compatible",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -9837,6 +10961,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 29.5&#34;D x 29.5&#34;W x 35.4&#34;H"
+          ],
+          "price": 69.99,
+          "selected_variant": null,
+          "triples": [
+            "29.5&#34;D x 29.5&#34;W x 35.4&#34;H"
+          ]
+        },
         "brand_guess": "Large",
         "class": "dust_cover_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -9930,6 +11065,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 39.37&#34;D x 39.37&#34;W x 39.37&#34;H"
+          ],
+          "price": 95.99,
+          "selected_variant": null,
+          "triples": [
+            "39.37&#34;D x 39.37&#34;W x 39.37&#34;H"
+          ]
+        },
         "brand_guess": "Creality",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -10014,6 +11160,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: 18.5 x 14.1 x 7.1 inches"
+          ],
+          "price": 95.99,
+          "selected_variant": null,
+          "triples": [
+            "18.5 x 14.1 x 7.1 inches"
+          ]
+        },
         "brand_guess": "Creality",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -10098,6 +11255,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 39.37&#34;D x 39.37&#34;W x 39.37&#34;H",
+            "Package Dimensions: 16.77 x 9.96 x 5.39 inches"
+          ],
+          "price": 95.99,
+          "selected_variant": null,
+          "triples": [
+            "39.37&#34;D x 39.37&#34;W x 39.37&#34;H",
+            "16.77 x 9.96 x 5.39 inches"
+          ]
+        },
         "brand_guess": "Creality",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -10182,6 +11352,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 21.65&#34;D x 26.77&#34;W x 29.53&#34;H",
+            "Package Dimensions: 15.24 x 11.69 x 4.25 inches"
+          ],
+          "price": 53.99,
+          "selected_variant": null,
+          "triples": [
+            "21.65&#34;D x 26.77&#34;W x 29.53&#34;H",
+            "15.24 x 11.69 x 4.25 inches"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -10262,6 +11445,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "0000005E",
+          "detail_lines": [
+            "Product Dimensions: 39.4&#34;D x 27.6&#34;W x 35.4&#34;H"
+          ],
+          "price": 315.0,
+          "selected_variant": null,
+          "triples": [
+            "39.4&#34;D x 27.6&#34;W x 35.4&#34;H"
+          ]
+        },
         "brand_guess": "Phrozen",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -10350,6 +11544,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 89.99,
+          "selected_variant": null,
+          "triples": [
+            "Item Weight"
+          ]
+        },
         "brand_guess": "IdeaFormer-3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -10431,6 +11636,20 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 9.5&#34;D x 9.5&#34;W x 16&#34;H"
+          ],
+          "price": 16.89,
+          "selected_variant": "11.8x11.8x18.1inch",
+          "triples": [
+            "11.8x11.8x18.1inch",
+            "9.5x9.5x16inch",
+            "9.5&#34;D x 9.5&#34;W x 16&#34;H",
+            "3D PRINTERS COVER Size:LxWxH:241x241x406mm/9.5x9.5x16inch, Suitable for Creality3D LD-002R/LD-002H, Elegoo Mars/Mars Pro/Mars Pro 2/Mars C,Anycubic Photon / Photon-S, Photon Zero, Photon Mono,and Other LCD 3D Printer,etc Resin Printer.The interior uses pure aluminum film and flame retardant appearance material,which is Fireproof and good noise reduction and perfectly dustproof. Please measure the actual size of your 3D printer before you buy and choose the right 3D printer protector"
+          ]
+        },
         "brand_guess": "3D",
         "class": "dust_cover_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -10504,13 +11723,33 @@
       "image": null,
       "in_stock": null,
       "name": "YOOPAI 3D Printer Enclosure for Creality Ender 3 with LED Light, Large",
-      "price": 59.99,
+      "price": 56.99,
       "rating": 5.0,
       "retailer": "Amazon",
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 29.5&#34;D x 27.5&#34;W x 35.4&#34;H"
+          ],
+          "price": 56.99,
+          "selected_variant": "9-Medium with Ventilation Kit&LED",
+          "triples": [
+            "9-Medium with Ventilation Kit&LED",
+            "1-Medium with LED",
+            "2-Large with LED",
+            "3-Medium with Ventilation Kit",
+            "4-For Kobra3",
+            "5-For Hi Combo",
+            "6-For AD5X/AD5M",
+            "7-For AD5M",
+            "8-For AD5X with Ventilation Kit",
+            "29.5&#34;D x 27.5&#34;W x 35.4&#34;H"
+          ]
+        },
         "brand_guess": "YOOPAI",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -10605,6 +11844,22 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 23.62&#34;D x 18.9&#34;W x 28.35&#34;H"
+          ],
+          "price": 29.99,
+          "selected_variant": "With Fan Interface",
+          "triples": [
+            "With Fan Interface",
+            "Large(27.6*29.5*35.4\\",
+            "Ender",
+            "EnderPlus2 Enclosure",
+            "Small(18.9*23.6*28.4\\",
+            "23.62&#34;D x 18.9&#34;W x 28.35&#34;H"
+          ]
+        },
         "brand_guess": "Creality",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -10699,6 +11954,26 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 22.8&#34;D x 19.7&#34;W x 26&#34;H"
+          ],
+          "price": 39.99,
+          "selected_variant": "9-Medium with Ventilation Kit&LED",
+          "triples": [
+            "9-Medium with Ventilation Kit&LED",
+            "1-Medium with LED",
+            "2-Large with LED",
+            "3-Medium with Ventilation Kit",
+            "4-For Kobra3",
+            "5-For Hi Combo",
+            "6-For AD5X/AD5M",
+            "7-For AD5M",
+            "8-For AD5X with Ventilation Kit",
+            "22.8&#34;D x 19.7&#34;W x 26&#34;H"
+          ]
+        },
         "brand_guess": "YOOPAI",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -10785,13 +12060,27 @@
       "image": null,
       "in_stock": null,
       "name": "YOOPAI Large Resin 3D Printer Enclosure with Ventilation Kit & LED Light",
-      "price": 90.99,
+      "price": 89.99,
       "rating": 5.0,
       "retailer": "Amazon",
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 28.3&#34;D x 30&#34;W x 28.3&#34;H"
+          ],
+          "price": 89.99,
+          "selected_variant": "Single Space",
+          "triples": [
+            "Single Space",
+            "Adjustable Fan",
+            "Dual Device",
+            "28.3&#34;D x 30&#34;W x 28.3&#34;H"
+          ]
+        },
         "brand_guess": "YOOPAI",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -10880,13 +12169,27 @@
       "image": null,
       "in_stock": null,
       "name": "YOOPAI Pro Resin 3D Printer Enclosure with Adjustable Ventilation LED Light",
-      "price": 64.99,
+      "price": 62.99,
       "rating": 5.0,
       "retailer": "Amazon",
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 18.9&#34;D x 18.9&#34;W x 28.3&#34;H"
+          ],
+          "price": 62.99,
+          "selected_variant": "Single Space",
+          "triples": [
+            "Single Space",
+            "Adjustable Fan",
+            "Dual Device",
+            "18.9&#34;D x 18.9&#34;W x 28.3&#34;H"
+          ]
+        },
         "brand_guess": "YOOPAI",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -10982,6 +12285,24 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 69.99,
+          "selected_variant": null,
+          "triples": [
+            "2026 New Enclosure - L",
+            "2026 New Enclosure - S",
+            "Ender 3 Enclosure",
+            "Fan Extraction Kit",
+            "Chamber Heater",
+            "Ender 5 Max Enclosure",
+            "With Fan Interface",
+            "Item Weight"
+          ]
+        },
         "brand_guess": "Creality",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -11077,6 +12398,26 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 27.56&#34;D x 23.62&#34;W x 27.56&#34;H"
+          ],
+          "price": 42.99,
+          "selected_variant": "9-Medium with Ventilation Kit&LED",
+          "triples": [
+            "9-Medium with Ventilation Kit&LED",
+            "1-Medium with LED",
+            "2-Large with LED",
+            "3-Medium with Ventilation Kit",
+            "4-For Kobra3",
+            "5-For Hi Combo",
+            "6-For AD5X/AD5M",
+            "7-For AD5M",
+            "8-For AD5X with Ventilation Kit",
+            "27.56&#34;D x 23.62&#34;W x 27.56&#34;H"
+          ]
+        },
         "brand_guess": "YOOPAI",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -11171,6 +12512,21 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 29.5&#34;L x 25.6&#34;W x 21.6&#34;H",
+            "Item Dimensions: 29.5&#34;L x 25.6&#34;W x 21.6&#34;H"
+          ],
+          "price": 32.99,
+          "selected_variant": null,
+          "triples": [
+            "Black",
+            "Black&Orange",
+            "29.5&#34;L x 25.6&#34;W x 21.6&#34;H",
+            "29.5&#34;L x 25.6&#34;W x 21.6&#34;H"
+          ]
+        },
         "brand_guess": "YOOPAI",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -11262,6 +12618,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 14&#34;D x 1.57&#34;W x 1.57&#34;H"
+          ],
+          "price": 10.99,
+          "selected_variant": null,
+          "triples": [
+            "14&#34;D x 1.57&#34;W x 1.57&#34;H"
+          ]
+        },
         "brand_guess": "YOOPAI",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -11336,6 +12703,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 28.35&#34;D x 28.35&#34;W x 18.9&#34;H"
+          ],
+          "price": 39.99,
+          "selected_variant": null,
+          "triples": [
+            "28.35&#34;D x 28.35&#34;W x 18.9&#34;H"
+          ]
+        },
         "brand_guess": "Creality",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -11429,6 +12807,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 25.2&#34;D x 21.26&#34;W x 29.53&#34;H"
+          ],
+          "price": 62.89,
+          "selected_variant": null,
+          "triples": [
+            "25.2&#34;D x 21.26&#34;W x 29.53&#34;H"
+          ]
+        },
         "brand_guess": "Dual-Placement",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -11522,6 +12911,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 36&#34;L x 29&#34;W x 27&#34;H",
+            "Item Dimensions: 36&#34;L x 29&#34;W x 27&#34;H"
+          ],
+          "price": 36.99,
+          "selected_variant": null,
+          "triples": [
+            "36&#34;L x 29&#34;W x 27&#34;H",
+            "36&#34;L x 29&#34;W x 27&#34;H"
+          ]
+        },
         "brand_guess": "3d",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -11615,6 +13017,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 27.5&#34;D x 29.5&#34;W x 35.4&#34;H"
+          ],
+          "price": 48.99,
+          "selected_variant": "Creality-Large Tent latest",
+          "triples": [
+            "Creality-Large Tent latest",
+            "Creality-Large Tent",
+            "27.5&#34;D x 29.5&#34;W x 35.4&#34;H"
+          ]
+        },
         "brand_guess": "Creality",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -11709,6 +13124,18 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 23.62&#34;D x 28.35&#34;W x 18.9&#34;H"
+          ],
+          "price": 29.99,
+          "selected_variant": "Ender Enclosure",
+          "triples": [
+            "Ender Enclosure",
+            "23.62&#34;D x 28.35&#34;W x 18.9&#34;H"
+          ]
+        },
         "brand_guess": "Creality",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -11803,6 +13230,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 47.99,
+          "selected_variant": "Resin Enclosure-Grey",
+          "triples": [
+            "Resin Enclosure-Grey",
+            "Resin Enclosure-Black",
+            "Item Weight"
+          ]
+        },
         "brand_guess": "Resin",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -11878,6 +13318,18 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: &lrm;8 x 7 x 0.6 inches"
+          ],
+          "price": 39.99,
+          "selected_variant": null,
+          "triples": [
+            "&lrm;8 x 7 x 0.6 inches",
+            "CUSTOM FIT FOR KOBRA 3 MAX: Measuring 900 x 850 x 900 mm (35.4 x 33.4 x 35.4 inches), this oversized enclosure is specifically dimensioned to accommodate the large Anycubic Kobra 3 MAX 3D printer. The widened design provides ample clearance for the printhead, filament spools, and cable movements during operation."
+          ]
+        },
         "brand_guess": "Upgraded",
         "class": "dust_cover_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -11979,6 +13431,13 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [],
+          "price": 59.99,
+          "selected_variant": null,
+          "triples": []
+        },
         "brand_guess": "Upgraded",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -12051,6 +13510,18 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 59.99,
+          "selected_variant": null,
+          "triples": [
+            "Item Weight",
+            "Extra Large 3D Printer Enclosure with ventilation kit- Its dimensions are 84 x 74 x 60 cm (33 x 29 x 23.5 inches), offering sufficient space to house two resin 3D printers at once, or one printer alongside a wash and cure station. The enclosure is compatible with a wide range of models, including Anycubic Photon Mono, Elegoo Saturn/Mars/Neptune 3 Plus/Neptune 4 Plus, Sovol SV06 Plus Ace, Creality Halot Series, Flashforge AD5X, and Bambu Lab A1 Combo. For optimal compatibility, please measure your machine&#39;s size before you confirm your selection."
+          ]
+        },
         "brand_guess": "Extra",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -12152,6 +13623,16 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [],
+          "price": 62.89,
+          "selected_variant": null,
+          "triples": [
+            "Black Edges",
+            "Blue Edges"
+          ]
+        },
         "brand_guess": "Multifunctional",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -12226,6 +13707,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: &lrm;28 x 11 x 6.05 inches"
+          ],
+          "price": 39.89,
+          "selected_variant": null,
+          "triples": [
+            "&lrm;28 x 11 x 6.05 inches"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -12308,6 +13800,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 26.77&#34;D x 19.68&#34;W x 28.34&#34;H"
+          ],
+          "price": 53.99,
+          "selected_variant": null,
+          "triples": [
+            "26.77&#34;D x 19.68&#34;W x 28.34&#34;H"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -12404,6 +13907,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 21&#34;D x 25&#34;W x 29.5&#34;H"
+          ],
+          "price": 72.99,
+          "selected_variant": null,
+          "triples": [
+            "21&#34;D x 25&#34;W x 29.5&#34;H"
+          ]
+        },
         "brand_guess": "3-in-1",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -12504,6 +14018,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 23.62&#34;D x 21.65&#34;W x 27.56&#34;H"
+          ],
+          "price": 50.39,
+          "selected_variant": null,
+          "triples": [
+            "23.62&#34;D x 21.65&#34;W x 27.56&#34;H"
+          ]
+        },
         "brand_guess": "AD5X",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -12599,6 +14124,18 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 56.98,
+          "selected_variant": null,
+          "triples": [
+            "Item Weight",
+            "Ultra-Large Dual-Machine Capacity, Supports Two Printers Dimensions: 84 x 74 x 60 cm (33 x 29 x 23.5 inches). Can accommodate two resin 3D printers at once, or one printer plus one wash and cure station. Compatible with Creality Halot series, ANYCUBIC Photon Mono series, ELEGOO Saturn &amp; Mars series, and other UV 3D printers. Also compatible with Flashforge AD5X / Bambu Lab A1 Combo series. For other models, please measure your printer&#39;s dimensions before ordering."
+          ]
+        },
         "brand_guess": "Large",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -12700,6 +14237,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 29.5&#34;D x 26.7&#34;W x 29.5&#34;H",
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 59.99,
+          "selected_variant": null,
+          "triples": [
+            "29.5&#34;D x 26.7&#34;W x 29.5&#34;H",
+            "Item Weight"
+          ]
+        },
         "brand_guess": "SKOUPHY",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -12794,6 +14344,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 23.62&#34;D x 19.29&#34;W x 28.35&#34;H"
+          ],
+          "price": 64.99,
+          "selected_variant": null,
+          "triples": [
+            "23.62&#34;D x 19.29&#34;W x 28.35&#34;H"
+          ]
+        },
         "brand_guess": "ELEGOO",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -12878,13 +14439,25 @@
       "image": null,
       "in_stock": null,
       "name": "3D Printer Enclosure with Ventilation Kit for Anycubic Kobra 3/3 V2 Combo/Flashforge AD5X 3D Printers,Fireproof & Dustproof Noise Reduction 3D Printer Cover wit",
-      "price": 54.14,
+      "price": 59.99,
       "rating": 5.0,
       "retailer": "Amazon",
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 2&#34;D x 5&#34;W x 4&#34;H"
+          ],
+          "price": 59.99,
+          "selected_variant": "for Anycubic Kobra 3/3 V2 Combo/Flashforge AD5X 3D",
+          "triples": [
+            "for Anycubic Kobra 3/3 V2 Combo/Flashforge AD5X 3D",
+            "2&#34;D x 5&#34;W x 4&#34;H"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -12965,6 +14538,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 23.6&#34;D x 19.6&#34;W x 27.5&#34;H"
+          ],
+          "price": 53.99,
+          "selected_variant": null,
+          "triples": [
+            "23.6&#34;D x 19.6&#34;W x 27.5&#34;H"
+          ]
+        },
         "brand_guess": "SKOUPHY",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -13059,6 +14643,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 29.53&#34;D x 21.06&#34;W x 29.53&#34;H"
+          ],
+          "price": 64.99,
+          "selected_variant": null,
+          "triples": [
+            "29.53&#34;D x 21.06&#34;W x 29.53&#34;H"
+          ]
+        },
         "brand_guess": "Resin",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -13145,13 +14740,24 @@
       "image": null,
       "in_stock": null,
       "name": "ELEGOO Resin 3D Printer Enclosure with Fan & Ventilation Filter",
-      "price": null,
+      "price": 52.99,
       "rating": 5.0,
       "retailer": "Amazon",
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 23.62&#34;D x 19.29&#34;W x 28.35&#34;H"
+          ],
+          "price": 52.99,
+          "selected_variant": null,
+          "triples": [
+            "23.62&#34;D x 19.29&#34;W x 28.35&#34;H"
+          ]
+        },
         "brand_guess": "ELEGOO",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -13245,6 +14851,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 25&#34;D x 21&#34;W x 29.5&#34;H"
+          ],
+          "price": 75.98,
+          "selected_variant": null,
+          "triples": [
+            "25&#34;D x 21&#34;W x 29.5&#34;H"
+          ]
+        },
         "brand_guess": "Multifunctional",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -13339,6 +14956,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 21&#34;D x 25&#34;W x 29.5&#34;H"
+          ],
+          "price": 59.99,
+          "selected_variant": null,
+          "triples": [
+            "21&#34;D x 25&#34;W x 29.5&#34;H"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -13433,6 +15061,15 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [],
+          "price": 49.97,
+          "selected_variant": "T-Middle",
+          "triples": [
+            "T-Middle"
+          ]
+        },
         "brand_guess": "Transparent",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -13508,6 +15145,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 15.35&#34;D x 13.39&#34;W x 2.36&#34;H"
+          ],
+          "price": 39.99,
+          "selected_variant": null,
+          "triples": [
+            "15.35&#34;D x 13.39&#34;W x 2.36&#34;H"
+          ]
+        },
         "brand_guess": "FLASHFORGE",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -13580,6 +15228,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 15.55&#34;D x 13.38&#34;W x 2.36&#34;H"
+          ],
+          "price": 39.99,
+          "selected_variant": null,
+          "triples": [
+            "15.55&#34;D x 13.38&#34;W x 2.36&#34;H"
+          ]
+        },
         "brand_guess": "FLASHFORGE",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -13652,6 +15311,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: 15.55 x 13.46 x 2.52 inches"
+          ],
+          "price": 39.99,
+          "selected_variant": null,
+          "triples": [
+            "15.55 x 13.46 x 2.52 inches"
+          ]
+        },
         "brand_guess": "FLASHFORGE",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -13724,6 +15394,13 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [],
+          "price": 85.99,
+          "selected_variant": null,
+          "triples": []
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -13796,6 +15473,21 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: ",
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 69.99,
+          "selected_variant": "Ventilation kit",
+          "triples": [
+            "Ventilation kit",
+            "Vent Grille kit",
+            "",
+            "Item Weight"
+          ]
+        },
         "brand_guess": "Large",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -13871,6 +15563,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 25&#34;D x 29.53&#34;W x 21.06&#34;H"
+          ],
+          "price": 58.99,
+          "selected_variant": null,
+          "triples": [
+            "25&#34;D x 29.53&#34;W x 21.06&#34;H"
+          ]
+        },
         "brand_guess": "3D",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -13962,6 +15665,20 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: ",
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 63.99,
+          "selected_variant": null,
+          "triples": [
+            "Grey",
+            "",
+            "Item Weight"
+          ]
+        },
         "brand_guess": "Multifunctional",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -14036,6 +15753,17 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Product Dimensions: 15.55&#34;D x 13.39&#34;W x 2.35&#34;H"
+          ],
+          "price": 49.0,
+          "selected_variant": null,
+          "triples": [
+            "15.55&#34;D x 13.39&#34;W x 2.35&#34;H"
+          ]
+        },
         "brand_guess": "FLASHFORGE",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -18371,6 +20099,19 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 45.99,
+          "selected_variant": "B-Resin EnclosureGrey",
+          "triples": [
+            "B-Resin EnclosureGrey",
+            "B-Resin Enclosure-Black",
+            "Item Weight"
+          ]
+        },
         "brand_guess": "Resin",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -18455,6 +20196,20 @@
       "spec_verification": {},
       "specs": {
         "ams_lite": "unknown \u2014 phase 2",
+        "bf_rescan_2026-11-12": {
+          "brand": "",
+          "detail_lines": [
+            "Package Dimensions: Item Weight"
+          ],
+          "price": 49.99,
+          "selected_variant": "Enclosure Black",
+          "triples": [
+            "Enclosure Black",
+            "Enclosure Grey",
+            "Double Space Grey",
+            "Item Weight"
+          ]
+        },
         "brand_guess": "Skouphy",
         "class": "printer_only",
         "class_note": "tentative phase-1 classification; phase 2 verifies",
@@ -18510,8 +20265,670 @@
       },
       "url": "https://www.amazon.com/dp/B0DYV74V5D",
       "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "creality",
+      "brand_url": null,
+      "category": "uncategorized",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "a1mini-enclosure-234",
+      "image": null,
+      "in_stock": null,
+      "name": "Creality 3D Printer Enclosure with Ventilation & LED Light 20.47\"\u00d723.62\"\u00d728.35\" 3D Printer Cover Fireproof Constant Temperature Ender 3 Enclosure for Ender 3 V3",
+      "price": 59.99,
+      "rating": 5.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "dim_lines": [],
+        "dims": [],
+        "mfr_ams_lite_inside_claim": false,
+        "mfr_asin": "B0G47HFSDN",
+        "mfr_brand": "creality",
+        "mfr_class_guess": "printer_only",
+        "mfr_combo_claim_in_title": false,
+        "mfr_conflict_listing_vs_official_size": "listing states 520x600x720mm (20.47x23.62x28.35in); Creality's standard Ender enclosure is 480x600x720mm per Amazon.ca/official listings. '2026 New Enclosure - S' may be a different variant \u2014 unresolved",
+        "mfr_dims_candidates": [
+          {
+            "mm": [
+              1000,
+              1000,
+              500
+            ],
+            "origin": "fresh Amazon listing fetch (browser): 234 Creality vent+LED"
+          },
+          {
+            "mm": [
+              720,
+              600,
+              520
+            ],
+            "origin": "fresh Amazon listing fetch (browser): 234 Creality vent+LED"
+          }
+        ],
+        "mfr_dims_excluded_package": [
+          [
+            424,
+            206,
+            112
+          ]
+        ],
+        "mfr_dims_mm_sorted_desc": [
+          720,
+          600,
+          520
+        ],
+        "mfr_dims_orientation": "as listed; order unverified (sorted desc for fit check)",
+        "mfr_dims_source": "title",
+        "mfr_dims_status": "found",
+        "mfr_features_from_title": [
+          "ventilation/exhaust",
+          "LED",
+          "fireproof"
+        ],
+        "mfr_fit_combo_ams_inside": false,
+        "mfr_fit_envelope": "depth>=390,width>=360,height>=460 (orientation-agnostic sorted check)",
+        "mfr_fit_printer_only": true,
+        "mfr_group_retailers": [
+          "Amazon"
+        ],
+        "mfr_group_urls": [
+          "https://www.amazon.com/dp/B0G47HFSDN"
+        ],
+        "mfr_item_id": 234,
+        "mfr_item_price": 59.99,
+        "mfr_item_retailer": "Amazon",
+        "mfr_listing_price": 59.99,
+        "mfr_listing_url": "https://www.amazon.com/dp/B0G47HFSDN",
+        "mfr_listings_in_group": 1,
+        "mfr_manufacturer_page_fetched": false,
+        "mfr_model": "enclosure-led-s 520x600x720",
+        "mfr_model_key": "creality|enclosure led s 520x600x720",
+        "mfr_price_from_page": 59.99,
+        "mfr_requires_printed_parts": false,
+        "mfr_retailer": "Amazon",
+        "mfr_source_detail": [],
+        "source": "BF re-scan browser sweep 2026-11-12",
+        "visit_error": "not visited (cap reached)",
+        "visited": false
+      },
+      "url": "https://www.amazon.com/dp/B0G47HFSDN",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "skouphy",
+      "brand_url": null,
+      "category": "uncategorized",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "a1mini-enclosure-235",
+      "image": null,
+      "in_stock": null,
+      "name": "Creality Ender 3D Printer Enclosure Fireproof and Dustproof Tent Constant Temperature Protective Cover Room for Creality Ender 3 3D Printer",
+      "price": 29.99,
+      "rating": 5.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "dim_lines": [],
+        "dims": [],
+        "mfr_ams_lite_inside_claim": false,
+        "mfr_asin": "B0CB8J52WM",
+        "mfr_brand": "skouphy",
+        "mfr_brand_from_page": "Skouphy",
+        "mfr_class_guess": "printer_only",
+        "mfr_combo_claim_in_title": false,
+        "mfr_conflict_brand_vs_manufacturer": "detail table: Brand Skouphy, Manufacturer Creality \u2014 seller brand vs manufacturer disagree; treat as Creality Ender tent (model ender-Tent) with caution",
+        "mfr_dims_candidates": [],
+        "mfr_dims_excluded_package": [
+          [
+            368,
+            209,
+            99
+          ]
+        ],
+        "mfr_dims_note": "no product size stated on the listing page; the standard Creality Ender tent is 480x600x720mm (inside 445x565x685) per Amazon.ca / the3dprinterbee, but that is NOT confirmed for this ASIN",
+        "mfr_dims_status": "not stated on listing (phase-1 visit + title)",
+        "mfr_features_from_title": [
+          "fireproof"
+        ],
+        "mfr_group_retailers": [
+          "Amazon"
+        ],
+        "mfr_group_urls": [
+          "https://www.amazon.com/dp/B0CB8J52WM"
+        ],
+        "mfr_item_id": 235,
+        "mfr_item_price": 29.99,
+        "mfr_item_retailer": "Amazon",
+        "mfr_listing_price": 29.99,
+        "mfr_listing_url": "https://www.amazon.com/dp/B0CB8J52WM",
+        "mfr_listings_in_group": 1,
+        "mfr_manufacturer_page_fetched": false,
+        "mfr_model": "creality ender fireproof dustproof",
+        "mfr_model_key": "skouphy|creality ender fireproof dustproof",
+        "mfr_price_from_page": 29.99,
+        "mfr_requires_printed_parts": false,
+        "mfr_retailer": "Amazon",
+        "mfr_source_detail": [],
+        "source": "BF re-scan browser sweep 2026-11-12",
+        "visit_error": "not visited (cap reached)",
+        "visited": false
+      },
+      "url": "https://www.amazon.com/dp/B0CB8J52WM",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "creality",
+      "brand_url": null,
+      "category": "uncategorized",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "a1mini-enclosure-236",
+      "image": null,
+      "in_stock": null,
+      "name": "Creality 3D Printer Enclosure with Exhaust Fan Interface Fireproof&Dustproof Tent Constant Temperature Protective Cover Room for Creality Ender 3V2/Ender 3V2 Ne",
+      "price": 49.99,
+      "rating": 5.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "dim_lines": [],
+        "dims": [],
+        "mfr_ams_lite_inside_claim": false,
+        "mfr_asin": "B0FSXHD9MW",
+        "mfr_brand": "creality",
+        "mfr_brand_from_page": "Creality",
+        "mfr_class_guess": "printer_only",
+        "mfr_combo_claim_in_title": false,
+        "mfr_conflict_dims_cell_vs_spec": "Product Dimensions cell states 21.65 x 21.65 x 21.65 in (a cube \u2014 jumbled variant data); Product Specifications line states 750 x 650 x 550mm \u2014 spec line used",
+        "mfr_dims_candidates": [
+          {
+            "mm": [
+              750,
+              650,
+              550
+            ],
+            "origin": "Product Specifications line (fresh fetch): 750 x 650 x 550mm"
+          },
+          {
+            "mm": [
+              550,
+              550,
+              550
+            ],
+            "origin": "fresh Amazon listing fetch (browser): 236 Creality exhaust-fan interface"
+          }
+        ],
+        "mfr_dims_excluded_package": [],
+        "mfr_dims_mm_sorted_desc": [
+          750,
+          650,
+          550
+        ],
+        "mfr_dims_orientation_note": "750mm dimension orientation unverified; combo-inside fit assumes 750 is width",
+        "mfr_dims_source": "Product Specifications line (fresh fetch): 750 x 650 x 550mm",
+        "mfr_dims_status": "found",
+        "mfr_features_from_title": [
+          "ventilation/exhaust",
+          "fireproof"
+        ],
+        "mfr_fit_combo_ams_inside": true,
+        "mfr_fit_envelope": "depth>=390,width>=360,height>=460 (orientation-agnostic sorted check)",
+        "mfr_fit_printer_only": true,
+        "mfr_group_retailers": [
+          "Amazon"
+        ],
+        "mfr_group_urls": [
+          "https://www.amazon.com/dp/B0FSXHD9MW"
+        ],
+        "mfr_item_id": 236,
+        "mfr_item_price": 49.99,
+        "mfr_item_retailer": "Amazon",
+        "mfr_listing_price": 49.99,
+        "mfr_listing_url": "https://www.amazon.com/dp/B0FSXHD9MW",
+        "mfr_listings_in_group": 1,
+        "mfr_manufacturer_page_fetched": false,
+        "mfr_model": "creality exhaust fan interface",
+        "mfr_model_key": "creality|creality exhaust fan interface",
+        "mfr_price_from_page": 49.99,
+        "mfr_requires_printed_parts": false,
+        "mfr_retailer": "Amazon",
+        "mfr_source_detail": [],
+        "source": "BF re-scan browser sweep 2026-11-12",
+        "visit_error": "not visited (cap reached)",
+        "visited": false
+      },
+      "url": "https://www.amazon.com/dp/B0FSXHD9MW",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "cregrant3d",
+      "brand_url": null,
+      "category": "uncategorized",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "a1mini-enclosure-238",
+      "image": null,
+      "in_stock": null,
+      "name": "Official Creality Fireproof and Dustproof 3D Printer Enclosure Constant Temperature Protective Cover Room for Ender5/5 pro/5 Plus,CR-10/10S/10S PRO/10MINI,29.5 ",
+      "price": 48.99,
+      "rating": 5.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "dim_lines": [],
+        "dims": [],
+        "mfr_ams_lite_inside_claim": false,
+        "mfr_asin": "B0CLTV6KVS",
+        "mfr_brand": "cregrant3d",
+        "mfr_brand_from_page": "Cregrant3D",
+        "mfr_class_guess": "printer_only",
+        "mfr_class_guess_note": "corrected 2026-11-12 BF phase 2: was 'dust_cover_only' (heuristic misfire on 'Cover' in tent title)",
+        "mfr_combo_claim_in_title": false,
+        "mfr_conflict_brand_vs_manufacturer": "detail table: Brand Cregrant3D, Manufacturer Creality \u2014 seller brand vs manufacturer disagree",
+        "mfr_conflict_dims_cell_vs_spec": "Product Dimensions cell states 35.4 x 27.5 x 35.4 in (899x699x899mm); description states 29.5*27.5*35.4in (750x700x900mm) \u2014 description used",
+        "mfr_dims_candidates": [
+          {
+            "mm": [
+              900,
+              750,
+              700
+            ],
+            "origin": "description Dimensions line (fresh fetch): 29.5*27.5*35.4in (750x700x900mm)"
+          },
+          {
+            "mm": [
+              719,
+              681,
+              500
+            ],
+            "origin": "fresh Amazon listing fetch (browser): 238 Creality Ender5/CR-10 29.5in"
+          },
+          {
+            "mm": [
+              899,
+              899,
+              698
+            ],
+            "origin": "fresh Amazon listing fetch (browser): 238 Creality Ender5/CR-10 29.5in"
+          },
+          {
+            "mm": [
+              670,
+              670,
+              580
+            ],
+            "origin": "fresh Amazon listing fetch (browser): 238 Creality Ender5/CR-10 29.5in"
+          }
+        ],
+        "mfr_dims_excluded_package": [],
+        "mfr_dims_mm_sorted_desc": [
+          900,
+          750,
+          700
+        ],
+        "mfr_dims_orientation_note": "900mm dimension orientation unverified; combo-inside fit assumes 900 is width",
+        "mfr_dims_source": "description Dimensions line (fresh fetch): 29.5*27.5*35.4in (750x700x900mm)",
+        "mfr_dims_status": "found",
+        "mfr_features_from_title": [
+          "fireproof"
+        ],
+        "mfr_fit_combo_ams_inside": true,
+        "mfr_fit_envelope": "depth>=390,width>=360,height>=460 (orientation-agnostic sorted check)",
+        "mfr_fit_printer_only": true,
+        "mfr_group_retailers": [
+          "Amazon"
+        ],
+        "mfr_group_urls": [
+          "https://www.amazon.com/dp/B0CLTV6KVS"
+        ],
+        "mfr_item_id": 238,
+        "mfr_item_price": 48.99,
+        "mfr_item_retailer": "Amazon",
+        "mfr_listing_price": 48.99,
+        "mfr_listing_url": "https://www.amazon.com/dp/B0CLTV6KVS",
+        "mfr_listings_in_group": 1,
+        "mfr_manufacturer_page_fetched": false,
+        "mfr_model": "official creality fireproof dustproof",
+        "mfr_model_key": "cregrant3d|official creality fireproof dustproof",
+        "mfr_price_from_page": 48.99,
+        "mfr_requires_printed_parts": false,
+        "mfr_retailer": "Amazon",
+        "mfr_source_detail": [],
+        "source": "BF re-scan browser sweep 2026-11-12",
+        "visit_error": "not visited (cap reached)",
+        "visited": false
+      },
+      "url": "https://www.amazon.com/dp/B0CLTV6KVS",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "elegoo",
+      "brand_url": null,
+      "category": "uncategorized",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "a1mini-enclosure-243",
+      "image": null,
+      "in_stock": null,
+      "name": "ELEGOO 3D Printer Enclosure, Fireproof & Dustproof 3D Printer Cover",
+      "price": 39.99,
+      "rating": 5.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "dim_lines": [],
+        "dims": [],
+        "mfr_ams_lite_inside_claim": false,
+        "mfr_asin": "B0CP8QHJ3Z",
+        "mfr_brand": "elegoo",
+        "mfr_class_guess": "printer_only",
+        "mfr_class_guess_note": "corrected 2026-11-12 BF phase 2: was 'dust_cover_only' (heuristic misfire on 'Cover' in tent title)",
+        "mfr_combo_claim_in_title": false,
+        "mfr_conflict_listing_vs_official_size": "listing states 550x650x750mm as product size; ELEGOO official page (us.elegoo.com, via search index \u2014 direct fetch timed out): product size 570x670x770mm, max machine-activity size 550x650x750mm. Listing quotes the activity size as product size; 20mm/side difference",
+        "mfr_dims_candidates": [
+          {
+            "mm": [
+              750,
+              650,
+              550
+            ],
+            "origin": "listing page (fresh fetch): 650x550x750mm"
+          }
+        ],
+        "mfr_dims_excluded_package": [
+          [
+            395,
+            177,
+            121
+          ]
+        ],
+        "mfr_dims_mm_sorted_desc": [
+          750,
+          650,
+          550
+        ],
+        "mfr_dims_orientation": "as listed; order unverified (sorted desc for fit check)",
+        "mfr_dims_source": "listing page (fresh fetch): 650x550x750mm",
+        "mfr_dims_status": "found",
+        "mfr_features_from_title": [
+          "fireproof"
+        ],
+        "mfr_fit_combo_ams_inside": true,
+        "mfr_fit_envelope": "depth>=390,width>=360,height>=460 (orientation-agnostic sorted check)",
+        "mfr_fit_printer_only": true,
+        "mfr_group_retailers": [
+          "Amazon"
+        ],
+        "mfr_group_urls": [
+          "https://www.amazon.com/dp/B0CP8QHJ3Z"
+        ],
+        "mfr_item_id": 243,
+        "mfr_item_price": 39.99,
+        "mfr_item_retailer": "Amazon",
+        "mfr_listing_price": 39.99,
+        "mfr_listing_url": "https://www.amazon.com/dp/B0CP8QHJ3Z",
+        "mfr_listings_in_group": 1,
+        "mfr_manufacturer_page_fetched": false,
+        "mfr_model": "elegoo fireproof dustproof",
+        "mfr_model_key": "elegoo|elegoo fireproof dustproof",
+        "mfr_official_dims_mm": [
+          770,
+          670,
+          570
+        ],
+        "mfr_official_dims_source": "ELEGOO official 3D Printer Enclosure page (us.elegoo.com)",
+        "mfr_price_from_page": 39.99,
+        "mfr_requires_printed_parts": false,
+        "mfr_retailer": "Amazon",
+        "mfr_source_detail": [],
+        "source": "BF re-scan browser sweep 2026-11-12",
+        "visit_error": "not visited (cap reached)",
+        "visited": false
+      },
+      "url": "https://www.amazon.com/dp/B0CP8QHJ3Z",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "creality",
+      "brand_url": null,
+      "category": "uncategorized",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "a1mini-enclosure-247",
+      "image": null,
+      "in_stock": null,
+      "name": "3D Printer Enclosure, Dustproof Waterproof Oxford Cloth 3D Printer Tent, Constant Temperature Protective Case with LED Lighting, Compatible with Creality/ELEGOO",
+      "price": null,
+      "rating": 5.0,
+      "retailer": "Walmart",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "dim_lines": [],
+        "dims": [],
+        "mfr_ams_lite_inside_claim": false,
+        "mfr_brand": "creality",
+        "mfr_class_guess": "printer_only",
+        "mfr_combo_claim_in_title": false,
+        "mfr_conflict_group_cache_dims_disagree": "same-title Walmart group cache lists 3 different sizes (475x366x345, 749x650x549, 800x800x250); this listing's own page was bot-walled, so no dims are claimed for this URL",
+        "mfr_dims_candidates": [],
+        "mfr_dims_candidates_from_group_cache": [
+          {
+            "mm": [
+              475,
+              366,
+              345
+            ],
+            "origin": "fresh Walmart listing fetch (browser)"
+          },
+          {
+            "mm": [
+              749,
+              650,
+              549
+            ],
+            "origin": "fresh Walmart listing fetch (browser)"
+          },
+          {
+            "mm": [
+              800,
+              800,
+              250
+            ],
+            "origin": "fresh Walmart listing fetch (browser)"
+          }
+        ],
+        "mfr_dims_excluded_package": [],
+        "mfr_dims_status": "not verified for this listing (own page bot-walled; group cache disagrees)",
+        "mfr_features_from_title": [
+          "LED",
+          "waterproof"
+        ],
+        "mfr_fetch_error": "Walmart /blocked bot wall",
+        "mfr_fetch_errors": {
+          "https://www.walmart.com/ip/3D-Printer-Enclosure-Dustproof-Waterproof-Oxford-Cloth-3D-Printer-Tent-Constant-Temperature-Protective-Case-LED-Lighting-Compatible-Creality-ELEGOO-A/19145663640": "Walmart /blocked bot wall"
+        },
+        "mfr_group_retailers": [
+          "Walmart"
+        ],
+        "mfr_group_urls": [
+          "https://www.walmart.com/ip/3D-Printer-Enclosure-Dustproof-Waterproof-Oxford-Cloth-3D-Printer-Tent-Constant-Temperature-Protective-Case-LED-Lighting-Compatible-Creality-ELEGOO-A/19145663640"
+        ],
+        "mfr_item_id": 247,
+        "mfr_item_price": null,
+        "mfr_item_retailer": "Walmart",
+        "mfr_listing_price": null,
+        "mfr_listing_url": "https://www.walmart.com/ip/3D-Printer-Enclosure-Dustproof-Waterproof-Oxford-Cloth-3D-Printer-Tent-Constant-Temperature-Protective-Case-LED-Lighting-Compatible-Creality-ELEGOO-A/19145663640",
+        "mfr_listings_in_group": 1,
+        "mfr_manufacturer_page_fetched": false,
+        "mfr_model": "dustproof waterproof oxford cloth",
+        "mfr_model_key": "creality|dustproof waterproof oxford cloth",
+        "mfr_requires_printed_parts": false,
+        "mfr_retailer": "Walmart",
+        "mfr_source_detail": [],
+        "source": "BF re-scan browser sweep 2026-11-12",
+        "visit_error": "not visited (cap reached)",
+        "visited": false
+      },
+      "url": "https://www.walmart.com/ip/3D-Printer-Enclosure-Dustproof-Waterproof-Oxford-Cloth-3D-Printer-Tent-Constant-Temperature-Protective-Case-LED-Lighting-Compatible-Creality-ELEGOO-A/19145663640",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "",
+      "brand_url": null,
+      "category": "uncategorized",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "a1mini-enclosure-248",
+      "image": null,
+      "in_stock": null,
+      "name": "Universal Fireproof Enclosure Cover Kit for 3D Printers Temperature Control Noise Reduction Protective Tent Shield Dustproof Solution, Price $87.06",
+      "price": null,
+      "rating": 5.0,
+      "retailer": "Walmart",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "dim_lines": [],
+        "dims": [],
+        "mfr_ams_lite_inside_claim": false,
+        "mfr_brand": "",
+        "mfr_class_guess": "printer_only",
+        "mfr_combo_claim_in_title": false,
+        "mfr_dims_candidates": [],
+        "mfr_dims_excluded_package": [],
+        "mfr_dims_status": "not stated on listing (phase-1 visit + title)",
+        "mfr_features_from_title": [
+          "fireproof"
+        ],
+        "mfr_fetch_error": "Walmart /blocked bot wall",
+        "mfr_fetch_errors": {
+          "https://www.walmart.com/ip/Universal-Fireproof-Enclosure-Cover-Kit-for-3D-Printers-Temperature-Control-Noise-Reduction-Protective-Tent-Shield-Dustproof-Solution/20689852008": "Walmart /blocked bot wall"
+        },
+        "mfr_group_retailers": [
+          "Walmart"
+        ],
+        "mfr_group_urls": [
+          "https://www.walmart.com/ip/Universal-Fireproof-Enclosure-Cover-Kit-for-3D-Printers-Temperature-Control-Noise-Reduction-Protective-Tent-Shield-Dustproof-Solution/20689852008"
+        ],
+        "mfr_item_id": 248,
+        "mfr_item_price": null,
+        "mfr_item_retailer": "Walmart",
+        "mfr_listing_price": null,
+        "mfr_listing_url": "https://www.walmart.com/ip/Universal-Fireproof-Enclosure-Cover-Kit-for-3D-Printers-Temperature-Control-Noise-Reduction-Protective-Tent-Shield-Dustproof-Solution/20689852008",
+        "mfr_listings_in_group": 1,
+        "mfr_manufacturer_page_fetched": false,
+        "mfr_model": "universal fireproof printers temperature",
+        "mfr_model_key": "|universal fireproof printers temperature",
+        "mfr_price_from_title": 87.06,
+        "mfr_requires_printed_parts": false,
+        "mfr_retailer": "Walmart",
+        "mfr_source_detail": [],
+        "source": "BF re-scan browser sweep 2026-11-12",
+        "visit_error": "not visited (cap reached)",
+        "visited": false
+      },
+      "url": "https://www.walmart.com/ip/Universal-Fireproof-Enclosure-Cover-Kit-for-3D-Printers-Temperature-Control-Noise-Reduction-Protective-Tent-Shield-Dustproof-Solution/20689852008",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "",
+      "brand_url": null,
+      "category": "uncategorized",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "a1mini-enclosure-250",
+      "image": null,
+      "in_stock": null,
+      "name": "SASABAXI Heavy-Duty Waterproof Printer Enclosure in Plated Silver, Anti-Static Case for 3D Printers & Office Equipment, Price $14.43 + $2.79 shipping",
+      "price": null,
+      "rating": 5.0,
+      "retailer": "Walmart",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "class": "dust_cover_only",
+        "dim_lines": [],
+        "dims": [],
+        "mfr_ams_lite_inside_claim": false,
+        "mfr_brand": "",
+        "mfr_class_guess": "dust_cover_only",
+        "mfr_class_guess_note": "corrected 2026-11-12 BF phase 2: phase-1 tagged dust_cover_only; title/URL is a slip-on dust cover",
+        "mfr_combo_claim_in_title": false,
+        "mfr_dims_candidates": [],
+        "mfr_dims_excluded_package": [],
+        "mfr_dims_status": "not stated on listing (phase-1 visit + title)",
+        "mfr_features_from_title": [
+          "waterproof"
+        ],
+        "mfr_group_retailers": [
+          "Walmart"
+        ],
+        "mfr_group_urls": [
+          "https://www.walmart.com/ip/SASABAXI-Printer-Dust-Cover-Plated-Silver-Oxford-Fabric-Anti-Static-Waterproof-Heavy-Duty-Enclosure-for-3D-Printers/20638170426"
+        ],
+        "mfr_item_id": 250,
+        "mfr_item_price": null,
+        "mfr_item_retailer": "Walmart",
+        "mfr_listing_price": null,
+        "mfr_listing_url": "https://www.walmart.com/ip/SASABAXI-Printer-Dust-Cover-Plated-Silver-Oxford-Fabric-Anti-Static-Waterproof-Heavy-Duty-Enclosure-for-3D-Printers/20638170426",
+        "mfr_listings_in_group": 1,
+        "mfr_manufacturer_page_fetched": false,
+        "mfr_model": "sasabaxi heavy duty waterproof",
+        "mfr_model_key": "|sasabaxi heavy duty waterproof",
+        "mfr_price_from_title": 14.43,
+        "mfr_price_note": "title also states + $2.79 shipping",
+        "mfr_requires_printed_parts": false,
+        "mfr_retailer": "Walmart",
+        "mfr_source_detail": [],
+        "source": "BF re-scan browser sweep 2026-11-12",
+        "visit_error": "not visited (cap reached)",
+        "visited": false
+      },
+      "url": "https://www.walmart.com/ip/SASABAXI-Printer-Dust-Cover-Plated-Silver-Oxford-Fabric-Anti-Static-Waterproof-Heavy-Duty-Enclosure-for-3D-Printers/20638170426",
+      "was": null
     }
   ],
   "spec_columns": [],
-  "title": "A1 mini enclosure"
+  "title": "Bambu Lab A1 mini enclosure"
 }
