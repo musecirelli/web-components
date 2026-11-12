@@ -73,7 +73,7 @@
       "updated_at": "2026-11-12T13:39:04.366433+00:00"
     }
   ],
-  "generated": "2026-11-12T14:30:02.236227+00:00",
+  "generated": "2026-11-12T14:30:12.916710+00:00",
   "hunt": "black-friday",
   "items": [
     {
@@ -106,38 +106,6 @@
         "platform": "Nintendo Switch 2"
       },
       "url": "https://www.amazon.com/dp/B0FQXR2NPH",
-      "was": null
-    },
-    {
-      "badges": [
-        "enriched"
-      ],
-      "baseline": null,
-      "brand": "Nintendo",
-      "brand_url": null,
-      "category": "Games",
-      "change": 0.0,
-      "confidence": "high",
-      "id": "black-friday-6",
-      "image": null,
-      "in_stock": null,
-      "name": "Metroid Prime 4: Beyond \u2014 Nintendo Switch 2 Edition (Physical) \u2014 Walmart Black Friday price",
-      "price": 48.89,
-      "rating": 85.0,
-      "retailer": "Walmart",
-      "ruled_out": false,
-      "spec_verification": {},
-      "specs": {
-        "brand": "Nintendo",
-        "edition": "Switch 2 Edition",
-        "format": "Physical",
-        "in_stock": null,
-        "mfr_category": "Games",
-        "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
-        "note": "PRICE SOURCE: deal trackers, not a live Walmart page read. Koupon (Nov 5) lists $48.89 (was $69); DealTikka repeats $48.89; 9to5Toys (Nov 6) lists $49 at Walmart. URL points at the Koupon deal roundup because the Walmart product page was not directly verified - confirm the price on Walmart before buying. This is the one real Black Friday game deal so far: ~29% off MSRP.",
-        "platform": "Nintendo Switch 2"
-      },
-      "url": "https://www.koupon.ai/articles/deal-news/walmart-black-friday-gaming-deals-november-5-2026",
       "was": null
     },
     {
