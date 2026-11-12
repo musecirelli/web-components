@@ -1,0 +1,401 @@
+{
+  "alerts": [],
+  "cert_links": {},
+  "coverage": [
+    {
+      "detail": "not yet checked; queued for Black Friday phase-1 sweep",
+      "phase": "seed-2026-11-12",
+      "retailer": "Amazon",
+      "status": "pending-bf-sweep",
+      "updated_at": "2026-11-12T13:39:04.525912+00:00"
+    },
+    {
+      "detail": "seeded 2026-11-12: Belmont's Curse $39.99 in stock; Metroid Prime 4 $69.99; Shinobi LRG marketplace sold out $57.99; reMarkable 2 bundle $512.99 clearance",
+      "phase": "seed-2026-11-12",
+      "retailer": "Best Buy",
+      "status": "ok",
+      "updated_at": "2026-11-12T13:39:04.104302+00:00"
+    },
+    {
+      "detail": "not yet checked; queued for Black Friday phase-1 sweep",
+      "phase": "seed-2026-11-12",
+      "retailer": "GameStop",
+      "status": "pending-bf-sweep",
+      "updated_at": "2026-11-12T13:39:04.602272+00:00"
+    },
+    {
+      "detail": "Shinobi LRG #286 original run ($39.99) is over; physical Switch copies are marketplace-only now",
+      "phase": "seed-2026-11-12",
+      "retailer": "Limited Run Games",
+      "status": "no-listing",
+      "updated_at": "2026-11-12T13:39:04.687696+00:00"
+    },
+    {
+      "detail": "seeded 2026-11-12: Shinobi LRG #286 $58.99 (Target Plus/Unboxy); Shinobi Switch 2 Deluxe $44.99 in stock",
+      "phase": "seed-2026-11-12",
+      "retailer": "Target",
+      "status": "ok",
+      "updated_at": "2026-11-12T13:39:04.195668+00:00"
+    },
+    {
+      "detail": "Metroid Prime 4 Switch 2 at $48.89 per Koupon Nov 5 / DealTikka / 9to5Toys Nov 6 ($49); Walmart product page not directly verified",
+      "phase": "seed-2026-11-12",
+      "retailer": "Walmart",
+      "status": "reported",
+      "updated_at": "2026-11-12T13:39:04.277112+00:00"
+    },
+    {
+      "detail": "auction #2076 has 2 LEGO lots (4998, 5001), $0 bids, ending Nov 24 2026; from ebidlocal watch state 2026-11-10",
+      "phase": "seed-2026-11-12",
+      "retailer": "eBidLocal",
+      "status": "ok",
+      "updated_at": "2026-11-12T13:39:04.448663+00:00"
+    },
+    {
+      "detail": "official refurbished store ladder $349-$499 (checked Oct 2026); BF 2026 sale announced for Paper Pro / Pro Move only, Nov 19 US start - no rM2 cut announced",
+      "phase": "seed-2026-11-12",
+      "retailer": "reMarkable",
+      "status": "ok",
+      "updated_at": "2026-11-12T13:39:04.366433+00:00"
+    }
+  ],
+  "generated": "2026-11-12T13:39:04.854236+00:00",
+  "hunt": "black-friday",
+  "items": [
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Nintendo",
+      "brand_url": null,
+      "category": "Games",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-6",
+      "image": null,
+      "in_stock": null,
+      "name": "Metroid Prime 4: Beyond \u2014 Nintendo Switch 2 Edition (Physical) \u2014 Walmart Black Friday price",
+      "price": 48.89,
+      "rating": 85.0,
+      "retailer": "Walmart",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Nintendo",
+        "edition": "Switch 2 Edition",
+        "format": "Physical",
+        "in_stock": null,
+        "mfr_category": "Games",
+        "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
+        "note": "PRICE SOURCE: deal trackers, not a live Walmart page read. Koupon (Nov 5) lists $48.89 (was $69); DealTikka repeats $48.89; 9to5Toys (Nov 6) lists $49 at Walmart. URL points at the Koupon deal roundup because the Walmart product page was not directly verified - confirm the price on Walmart before buying. This is the one real Black Friday game deal so far: ~29% off MSRP.",
+        "platform": "Nintendo Switch 2"
+      },
+      "url": "https://www.koupon.ai/articles/deal-news/walmart-black-friday-gaming-deals-november-5-2026",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "LEGO",
+      "brand_url": null,
+      "category": "LEGO (eBidLocal)",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-9",
+      "image": "https://s3.amazonaws.com/prod.maxanet.auction/eBI402/Inventory15755295/4998-b825ec3c-fb40-4082-ae8a-dfc13a148049-100x100.jpg",
+      "in_stock": true,
+      "name": "LEGO lot \u2014 Item 4998 (Auction #2076, eBidLocal)",
+      "price": 0.0,
+      "rating": 70.0,
+      "retailer": "eBidLocal",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "LEGO",
+        "edition": "Lot 4998, SKU 790419",
+        "format": "Auction (pickup only)",
+        "in_stock": true,
+        "mfr_category": "LEGO (eBidLocal)",
+        "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
+        "note": "Auction #2076 (Multi Seller, 7700 Advantage Storage Dr, Chester VA). Current bid $0.00 as of the Nov 10 scan; ends Tue Nov 24, 2026 10:25 AM ET. Listing title only says 'Legos' - contents are whatever the photo shows; eBidLocal does not ship, pickup only.",
+        "platform": "Auction lot"
+      },
+      "url": "https://auction.ebidlocal.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=UcaXNUZllScbqD2HAqTOpQ%3d%3d&AuctionId=XtQQwWh1htfd0%2fryBslfug%3d%3d",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "LEGO",
+      "brand_url": null,
+      "category": "LEGO (eBidLocal)",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-10",
+      "image": "https://s3.amazonaws.com/prod.maxanet.auction/eBI402/Inventory15755298/5001-aed299d2-5ed0-4655-a703-5cf914721b7c-100x100.jpg",
+      "in_stock": true,
+      "name": "LEGO lot \u2014 Item 5001 (Auction #2076, eBidLocal)",
+      "price": 0.0,
+      "rating": 70.0,
+      "retailer": "eBidLocal",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "LEGO",
+        "edition": "Lot 5001, SKU 790422",
+        "format": "Auction (pickup only)",
+        "in_stock": true,
+        "mfr_category": "LEGO (eBidLocal)",
+        "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
+        "note": "Auction #2076 (Multi Seller, 7700 Advantage Storage Dr, Chester VA). Current bid $0.00 as of the Nov 10 scan; ends Tue Nov 24, 2026 10:26 AM ET. Listing title only says 'Legos' - contents are whatever the photo shows; eBidLocal does not ship, pickup only.",
+        "platform": "Auction lot"
+      },
+      "url": "https://auction.ebidlocal.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=PKLdvy8drwLS2WUBMYdFLw%3d%3d&AuctionId=XtQQwWh1htfd0%2fryBslfug%3d%3d",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "reMarkable",
+      "brand_url": null,
+      "category": "Tablet",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-7",
+      "image": null,
+      "in_stock": null,
+      "name": "reMarkable 2 \u2014 Refurbished bundle (Marker + Book Folio)",
+      "price": 349.0,
+      "rating": 60.0,
+      "retailer": "reMarkable",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "reMarkable",
+        "edition": "Marker + Book Folio",
+        "format": "Refurbished bundle",
+        "in_stock": null,
+        "mfr_category": "Tablet",
+        "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
+        "note": "Entry rung of reMarkable's official refurbished store ($349-$499 ladder checked Oct 2026): refurbished tablet + NEW Marker + NEW Book Folio, standard warranty. Marker Plus rung is $399; Type Folio rungs $449/$499. reMarkable no longer sells the 2 new. Stock varies week to week.",
+        "platform": "10.3in e-paper tablet"
+      },
+      "url": "https://remarkable.com/shop/refurbished/remarkable-2",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "SEGA",
+      "brand_url": null,
+      "category": "Games",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-4",
+      "image": null,
+      "in_stock": true,
+      "name": "SHINOBI: Art of Vengeance \u2014 Deluxe Edition (Nintendo Switch 2, Physical) [alternate]",
+      "price": 44.99,
+      "rating": 55.0,
+      "retailer": "Target",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "SEGA",
+        "edition": "Deluxe Edition",
+        "format": "Physical (game-key card)",
+        "in_stock": true,
+        "mfr_category": "Games",
+        "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
+        "note": "ALTERNATE to the Switch 1 version Steve asked for: Switch 2 physical released Sep 24 2026. Deluxe $44.99 MSRP at Target, in stock; Standard Switch 2 physical is $29.99 MSRP. Switch 2 physical is a game-key card, not a full cartridge. Deluxe adds SEGA Villains Stage DLC, Ghost outfit, art book + soundtrack.",
+        "platform": "Nintendo Switch 2"
+      },
+      "url": "https://www.target.com/p/shinobi-art-of-vengeance-deluxe-edition/-/A-1012277440",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Konami",
+      "brand_url": null,
+      "category": "Games",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-1",
+      "image": null,
+      "in_stock": true,
+      "name": "Castlevania: Belmont's Curse \u2014 Midnight Edition (Nintendo Switch, Physical)",
+      "price": 39.99,
+      "rating": 45.0,
+      "retailer": "Best Buy",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Konami",
+        "edition": "Midnight Edition",
+        "format": "Physical cartridge",
+        "in_stock": true,
+        "mfr_category": "Games",
+        "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
+        "note": "Physical exists ONLY as Midnight Edition ($39.99 MSRP, launched Oct 15 2026); Standard $29.99 is digital-only. Best Buy SKU 6671884, in stock at MSRP on 2026-11-12. No Black Friday discount seen yet.",
+        "platform": "Nintendo Switch"
+      },
+      "url": "https://www.bestbuy.com/product/castlevania-belmonts-curse-nintendo-switch/J76T5H3L52",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Nintendo",
+      "brand_url": null,
+      "category": "Games",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-5",
+      "image": null,
+      "in_stock": true,
+      "name": "Metroid Prime 4: Beyond \u2014 Nintendo Switch 2 Edition (Physical)",
+      "price": 69.99,
+      "rating": 40.0,
+      "retailer": "Best Buy",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Nintendo",
+        "edition": "Switch 2 Edition",
+        "format": "Physical",
+        "in_stock": true,
+        "mfr_category": "Games",
+        "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
+        "note": "MSRP $69.99 at Best Buy (SKU 6646359), in stock 2026-11-12. Walmart is $21 cheaper right now - see Walmart row.",
+        "platform": "Nintendo Switch 2"
+      },
+      "url": "https://www.bestbuy.com/product/metroid-prime-4-beyond-nintendo-switch-2-nintendo-switch-2/J7GSL5JFV6",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "reMarkable",
+      "brand_url": null,
+      "category": "Tablet",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-8",
+      "image": null,
+      "in_stock": null,
+      "name": "reMarkable 2 \u2014 Bundle with Marker Plus + Polymer Weave Book Folio (Best Buy)",
+      "price": 512.99,
+      "rating": 35.0,
+      "retailer": "Best Buy",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "reMarkable",
+        "edition": "Marker Plus + Polymer Weave Folio",
+        "format": "Bundle",
+        "in_stock": null,
+        "mfr_category": "Tablet",
+        "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
+        "note": "Best Buy clearance $512.99 (comp value $569) on 2026-11-12. Compare: the official refurb store's Marker Plus + Book Folio rung is $399 - Best Buy is not the deal unless this drops hard for Black Friday.",
+        "platform": "10.3in e-paper tablet"
+      },
+      "url": "https://www.bestbuy.com/product/remarkable-2-10-3-paper-tablet-with-marker-plus-and-polymer-weave-book-folio-gray/C4SQZQ4JFJ?intl=nosplash",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Limited Run Games",
+      "brand_url": null,
+      "category": "Games",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-2",
+      "image": null,
+      "in_stock": true,
+      "name": "SHINOBI: Art of Vengeance \u2014 Limited Run #286 (Nintendo Switch, Physical)",
+      "price": 58.99,
+      "rating": 25.0,
+      "retailer": "Target",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Limited Run Games",
+        "edition": "Limited Run #286 Standard",
+        "format": "Physical cartridge",
+        "in_stock": true,
+        "mfr_category": "Games",
+        "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
+        "note": "The Switch 1 physical. LRG original price was $39.99 and that run is over; this is a Target Plus marketplace listing (seller Unboxy) at a $19 markup. In stock 2026-11-12.",
+        "platform": "Nintendo Switch"
+      },
+      "url": "https://www.TARGET.com/p/limited-run-games-shinobi-art-of-vengeance-limited-run-286-nintendo-switch/-/A-1014964037",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Limited Run Games",
+      "brand_url": null,
+      "category": "Games",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-3",
+      "image": null,
+      "in_stock": false,
+      "name": "SHINOBI: Art of Vengeance \u2014 Limited Run #286 (Nintendo Switch, Physical)",
+      "price": 57.99,
+      "rating": 20.0,
+      "retailer": "Best Buy",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Limited Run Games",
+        "edition": "Limited Run #286 Standard",
+        "format": "Physical cartridge",
+        "in_stock": false,
+        "mfr_category": "Games",
+        "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
+        "note": "Best Buy marketplace listing (third-party seller), SOLD OUT at $57.99 on 2026-11-12. Same $39.99-original LRG release as the Target row.",
+        "platform": "Nintendo Switch"
+      },
+      "url": "https://www.bestbuy.com/product/shinobi-art-of-vengeance-limited-run-286-nintendo-switch-nintendo-switch/J39TQZS2Q7/sku/13243926?ref=166_625&loc=SOC_1692337_%ebuy!_%epid!",
+      "was": null
+    }
+  ],
+  "spec_columns": [
+    {
+      "key": "platform",
+      "label": "Platform"
+    },
+    {
+      "key": "format",
+      "label": "Format"
+    },
+    {
+      "key": "edition",
+      "label": "Edition"
+    }
+  ],
+  "title": "Black Friday Hunt"
+}
