@@ -1,5 +1,11 @@
 {
-  "alerts": [],
+  "alerts": [
+    {
+      "detail": "present in previous feed, no items in this export",
+      "retailer": "Target",
+      "type": "retailer_disappeared"
+    }
+  ],
   "cert_links": {},
   "coverage": [
     {
@@ -17,7 +23,7 @@
       "updated_at": "2026-11-12T13:39:04.525912+00:00"
     },
     {
-      "detail": "seeded 2026-11-12: Belmont's Curse $39.99 in stock; Metroid Prime 4 $69.99; Shinobi LRG marketplace sold out $57.99; reMarkable 2 bundle $512.99 clearance",
+      "detail": "seeded 2026-11-12: Belmont's Curse 9.99 in stock; Metroid Prime 4 9.99; reMarkable 2 bundle 12.99 clearance. (Shinobi LRG row removed 2026-11-13 per Steve.)",
       "phase": "seed-2026-11-12",
       "retailer": "Best Buy",
       "status": "ok",
@@ -31,14 +37,7 @@
       "updated_at": "2026-11-12T13:39:04.602272+00:00"
     },
     {
-      "detail": "Shinobi LRG #286 original run ($39.99) is over; physical Switch copies are marketplace-only now",
-      "phase": "seed-2026-11-12",
-      "retailer": "Limited Run Games",
-      "status": "no-listing",
-      "updated_at": "2026-11-12T13:39:04.687696+00:00"
-    },
-    {
-      "detail": "seeded 2026-11-12: Shinobi LRG #286 $58.99 (Target Plus/Unboxy); Shinobi Switch 2 Deluxe $44.99 in stock",
+      "detail": "No current Target rows. Shinobi rows (LRG #286 8.99 Target Plus; Switch 2 Deluxe 4.99) removed 2026-11-13 per Steve - Shinobi dropped from the hunt.",
       "phase": "seed-2026-11-12",
       "retailer": "Target",
       "status": "ok",
@@ -73,7 +72,7 @@
       "updated_at": "2026-11-12T13:39:04.366433+00:00"
     }
   ],
-  "generated": "2026-11-12T14:30:12.916710+00:00",
+  "generated": "2026-11-13T15:34:57.805627+00:00",
   "hunt": "black-friday",
   "items": [
     {
@@ -202,38 +201,6 @@
         "platform": "10.3in e-paper tablet"
       },
       "url": "https://remarkable.com/shop/refurbished/remarkable-2",
-      "was": null
-    },
-    {
-      "badges": [
-        "enriched"
-      ],
-      "baseline": null,
-      "brand": "SEGA",
-      "brand_url": null,
-      "category": "Games",
-      "change": 0.0,
-      "confidence": "high",
-      "id": "black-friday-4",
-      "image": null,
-      "in_stock": true,
-      "name": "SHINOBI: Art of Vengeance \u2014 Deluxe Edition (Nintendo Switch 2, Physical) [alternate]",
-      "price": 44.99,
-      "rating": 55.0,
-      "retailer": "Target",
-      "ruled_out": false,
-      "spec_verification": {},
-      "specs": {
-        "brand": "SEGA",
-        "edition": "Deluxe Edition",
-        "format": "Physical (game-key card)",
-        "in_stock": true,
-        "mfr_category": "Games",
-        "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
-        "note": "ALTERNATE to the Switch 1 version Steve asked for: Switch 2 physical released Sep 24 2026. Deluxe $44.99 MSRP at Target, in stock; Standard Switch 2 physical is $29.99 MSRP. Switch 2 physical is a game-key card, not a full cartridge. Deluxe adds SEGA Villains Stage DLC, Ghost outfit, art book + soundtrack.",
-        "platform": "Nintendo Switch 2"
-      },
-      "url": "https://www.target.com/p/shinobi-art-of-vengeance-deluxe-edition/-/A-1012277440",
       "was": null
     },
     {
@@ -395,85 +362,8 @@
       },
       "url": "https://www.bestbuy.com/product/remarkable-2-10-3-paper-tablet-with-marker-plus-and-polymer-weave-book-folio-gray/C4SQZQ4JFJ?intl=nosplash",
       "was": null
-    },
-    {
-      "badges": [
-        "enriched"
-      ],
-      "baseline": null,
-      "brand": "Limited Run Games",
-      "brand_url": null,
-      "category": "Games",
-      "change": 0.0,
-      "confidence": "high",
-      "id": "black-friday-2",
-      "image": null,
-      "in_stock": true,
-      "name": "SHINOBI: Art of Vengeance \u2014 Limited Run #286 (Nintendo Switch, Physical)",
-      "price": 58.99,
-      "rating": 25.0,
-      "retailer": "Target",
-      "ruled_out": false,
-      "spec_verification": {},
-      "specs": {
-        "brand": "Limited Run Games",
-        "edition": "Limited Run #286 Standard",
-        "format": "Physical cartridge",
-        "in_stock": true,
-        "mfr_category": "Games",
-        "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
-        "note": "The Switch 1 physical. LRG original price was $39.99 and that run is over; this is a Target Plus marketplace listing (seller Unboxy) at a $19 markup. In stock 2026-11-12.",
-        "platform": "Nintendo Switch"
-      },
-      "url": "https://www.TARGET.com/p/limited-run-games-shinobi-art-of-vengeance-limited-run-286-nintendo-switch/-/A-1014964037",
-      "was": null
-    },
-    {
-      "badges": [
-        "enriched"
-      ],
-      "baseline": null,
-      "brand": "Limited Run Games",
-      "brand_url": null,
-      "category": "Games",
-      "change": 0.0,
-      "confidence": "high",
-      "id": "black-friday-3",
-      "image": null,
-      "in_stock": false,
-      "name": "SHINOBI: Art of Vengeance \u2014 Limited Run #286 (Nintendo Switch, Physical)",
-      "price": 57.99,
-      "rating": 20.0,
-      "retailer": "Best Buy",
-      "ruled_out": false,
-      "spec_verification": {},
-      "specs": {
-        "brand": "Limited Run Games",
-        "edition": "Limited Run #286 Standard",
-        "format": "Physical cartridge",
-        "in_stock": false,
-        "mfr_category": "Games",
-        "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
-        "note": "Best Buy marketplace listing (third-party seller), SOLD OUT at $57.99 on 2026-11-12. Same $39.99-original LRG release as the Target row.",
-        "platform": "Nintendo Switch"
-      },
-      "url": "https://www.bestbuy.com/product/shinobi-art-of-vengeance-limited-run-286-nintendo-switch-nintendo-switch/J39TQZS2Q7/sku/13243926?ref=166_625&loc=SOC_1692337_%ebuy!_%epid!",
-      "was": null
     }
   ],
-  "spec_columns": [
-    {
-      "key": "platform",
-      "label": "Platform"
-    },
-    {
-      "key": "format",
-      "label": "Format"
-    },
-    {
-      "key": "edition",
-      "label": "Edition"
-    }
-  ],
+  "spec_columns": [],
   "title": "Black Friday Hunt"
 }
