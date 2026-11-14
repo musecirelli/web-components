@@ -3,37 +3,73 @@
   "cert_links": {},
   "coverage": [
     {
-      "detail": "18 husky listings + Malamute search (0 results); all reviewed 2026-10-15",
+      "detail": "17 husky listings reviewed + Malamute search (0 results) 2026-11-14; only puppy was Ruh Roh (husky-mix, no photo) \u2014 excluded",
       "phase": "gather",
       "retailer": "Adopt-a-Pet",
       "status": "ok",
-      "updated_at": "2026-10-15T14:11:17.860262+00:00"
+      "updated_at": "2026-11-14T13:02:24.540702+00:00"
     },
     {
-      "detail": "Siberian Husky puppy (1 result), Husky puppy (24 results), Malamute puppy (0); all reviewed 2026-10-15",
+      "detail": "19 unique puppies across Siberian Husky/Husky/Malamute puppy searches reviewed 2026-11-14; 1 qualifying: Otso Bear Moonstone Eyes (Alaskan Malamute & Husky, transport)",
       "phase": "gather",
       "retailer": "Petfinder",
       "status": "ok",
-      "updated_at": "2026-10-15T14:11:17.935926+00:00"
+      "updated_at": "2026-11-14T13:02:24.618649+00:00"
     },
     {
-      "detail": "adoptable-pets widget reviewed; husky/malamute-labeled dogs all adult or mixed",
+      "detail": "49 pets reviewed 2026-11-14; no husky, no dog puppies",
       "phase": "gather",
       "retailer": "RACC",
       "status": "ok",
-      "updated_at": "2026-10-15T14:11:18.081123+00:00"
+      "updated_at": "2026-11-14T13:02:24.766720+00:00"
     },
     {
-      "detail": "46 adoptable dogs reviewed; only one under 1 yr (Jeepers, excluded: not visibly husky)",
+      "detail": "43 adoptable dogs reviewed 2026-11-14; 2 under 1 yr, neither husky (Ruh Roh no photo/mix, Ski Jumping visual fail)",
       "phase": "gather",
       "retailer": "Richmond SPCA",
       "status": "ok",
-      "updated_at": "2026-10-15T14:11:18.009017+00:00"
+      "updated_at": "2026-11-14T13:02:24.695427+00:00"
     }
   ],
-  "generated": "2026-10-15T14:11:18.227187+00:00",
+  "generated": "2026-11-14T13:02:28.374000+00:00",
   "hunt": "husky-puppy",
-  "items": [],
+  "items": [
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": null,
+      "brand_url": null,
+      "category": "uncategorized",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "husky-puppy-1",
+      "image": "https://dbw3zep4prcju.cloudfront.net/animal/f391bf30-058a-44d3-9ac2-110da8fde586/image/04e651c0-1c46-4bfa-9cf9-dc7cc8651955.jpeg?versionId=EYM3OYkhjru6ZSGAs_pspxCnnw5QW7zY",
+      "in_stock": null,
+      "name": "Otso Bear Moonstone Eyes",
+      "price": 1600.0,
+      "rating": 77.0,
+      "retailer": "Petfinder",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "age": "Puppy, ~1 month (as listed)",
+        "breed": "Alaskan Malamute & Husky",
+        "fee": "$1,600",
+        "mfr_breed_exact": "Alaskan Malamute & Husky (Petfinder Mix tag) \u2014 allowed Husky/Malamute mix",
+        "mfr_good_with_kids": "Yes (as listed); also good with dogs/cats as listed, but page also says 'Prefers a home without: Other animals' \u2014 contradiction flagged",
+        "mfr_notes": "Texas rescue transport listing, not physically in VA. Fee $1,600. Found 2026-11-14 scan, new since 2026-11-07.",
+        "mfr_transport": true,
+        "mfr_vetted": "Listed spayed/neutered Yes, vaccinated Yes, house-trained Yes \u2014 as listed only; story age (~1 month) makes neutered/house-trained claims questionable",
+        "mfr_visual_husky": "pass \u2014 thick grey/white fluffy coat, husky markings, blue eyes (photo verified loading)",
+        "sex": "Male",
+        "shelter": "Three Little Pitties Rescue (Friendswood, TX) \u2014 TRANSPORT, listed Chester, VA"
+      },
+      "url": "https://www.petfinder.com/dog/otso-bear-moonstone-eyes-f391bf30-058a-44d3-9ac2-110da8fde586/va/chester/three-little-pitties-rescue-tx2269/details/",
+      "was": null
+    }
+  ],
   "spec_columns": [
     {
       "key": "age",
