@@ -10,6 +10,13 @@
       "updated_at": "2026-11-14T13:02:24.540702+00:00"
     },
     {
+      "detail": "petharbor.org is Pet Harbor Rescue (Bowling Green VA), not the shelter database; available-dogs page shows 0 dogs 2026-11-15",
+      "phase": "gather",
+      "retailer": "PetHarbor",
+      "status": "ok",
+      "updated_at": "2026-11-15T14:48:46.045845+00:00"
+    },
+    {
       "detail": "19 unique puppies across Siberian Husky/Husky/Malamute puppy searches reviewed 2026-11-14; 1 qualifying: Otso Bear Moonstone Eyes (Alaskan Malamute & Husky, transport)",
       "phase": "gather",
       "retailer": "Petfinder",
@@ -24,14 +31,35 @@
       "updated_at": "2026-11-14T13:02:24.766720+00:00"
     },
     {
+      "detail": "12 VA listings reviewed 2026-11-15; 3 purebred puppies (Beans 6mo Triangle ~75mi $500, Olaf Fredericksburg ~55mi bonded pair w/ Xena, Shadow/Storm VA Beach ~95mi not good with kids) \u2014 all out of 50-mi radius; 0 qualifying in radius",
+      "phase": "gather",
+      "retailer": "Rescue Me Virginia",
+      "status": "ok",
+      "updated_at": "2026-11-15T14:48:45.902334+00:00"
+    },
+    {
       "detail": "43 adoptable dogs reviewed 2026-11-14; 2 under 1 yr, neither husky (Ruh Roh no photo/mix, Ski Jumping visual fail)",
       "phase": "gather",
       "retailer": "Richmond SPCA",
       "status": "ok",
       "updated_at": "2026-11-14T13:02:24.695427+00:00"
+    },
+    {
+      "detail": "Gloucester/Yorktown VA (~75mi); only available dog Rochambeau, 4y5m Pitsky mix \u2014 excluded 2026-11-15",
+      "phase": "gather",
+      "retailer": "Rox N Ro Rescue",
+      "status": "ok",
+      "updated_at": "2026-11-15T14:48:46.126598+00:00"
+    },
+    {
+      "detail": "Directory page last updated 2015; VA links dead/hijacked (siberescue.com redirects to casino site), SHCA/S.H.I.N.E. links broken, Siberian Husky Assist site has no adoptables \u2014 0 dogs checkable 2026-11-15",
+      "phase": "gather",
+      "retailer": "Siberian Rescue Southeast",
+      "status": "partial",
+      "updated_at": "2026-11-15T14:48:45.977296+00:00"
     }
   ],
-  "generated": "2026-11-14T13:02:28.374000+00:00",
+  "generated": "2026-11-15T14:48:46.275034+00:00",
   "hunt": "husky-puppy",
   "items": [
     {
