@@ -24,6 +24,13 @@
       "updated_at": "2026-11-12T13:39:04.525912+00:00"
     },
     {
+      "detail": "Belmont's Curse PURCHASED by Steve 2026-11-20 (price/retailer not stated); all Belmont rows removed from the hunt.",
+      "phase": "update-2026-11-20",
+      "retailer": "Amazon",
+      "status": "purchased-removed",
+      "updated_at": "2026-11-20T16:09:44.452059+00:00"
+    },
+    {
       "detail": "games pages timed out (Belmont + MP4 unverified); rM2 bundle verified $512.99 unchanged via page JSON-LD",
       "phase": "midwindow-2026-11-20",
       "retailer": "Best Buy",
@@ -36,6 +43,13 @@
       "retailer": "Best Buy",
       "status": "ok",
       "updated_at": "2026-11-12T13:39:04.104302+00:00"
+    },
+    {
+      "detail": "Belmont's Curse PURCHASED by Steve 2026-11-20 (price/retailer not stated); all Belmont rows removed from the hunt.",
+      "phase": "update-2026-11-20",
+      "retailer": "Best Buy",
+      "status": "purchased-removed",
+      "updated_at": "2026-11-20T16:09:44.250948+00:00"
     },
     {
       "detail": "search pages timed out on both passes; both games unverified",
@@ -87,6 +101,13 @@
       "updated_at": "2026-11-12T13:39:04.277112+00:00"
     },
     {
+      "detail": "Belmont's Curse PURCHASED by Steve 2026-11-20 (price/retailer not stated); all Belmont rows removed from the hunt.",
+      "phase": "update-2026-11-20",
+      "retailer": "Walmart",
+      "status": "purchased-removed",
+      "updated_at": "2026-11-20T16:09:44.369863+00:00"
+    },
+    {
       "detail": "no new auction since Nov 15 scan; #2076 LEGO lots 4998 $8.50 / 5001 $3.00; #2077 no LEGO; #2075 closed Nov 19",
       "phase": "midwindow-2026-11-20",
       "retailer": "eBidLocal",
@@ -115,7 +136,7 @@
       "updated_at": "2026-11-12T13:39:04.366433+00:00"
     }
   ],
-  "generated": "2026-11-20T14:37:17.975528+00:00",
+  "generated": "2026-11-20T16:09:59.058881+00:00",
   "hunt": "black-friday",
   "items": [
     {
@@ -276,102 +297,6 @@
         "platform": "Nintendo Switch 2"
       },
       "url": "https://www.amazon.com/dp/B0FQXR2NPH",
-      "was": null
-    },
-    {
-      "badges": [
-        "enriched"
-      ],
-      "baseline": null,
-      "brand": "Konami",
-      "brand_url": null,
-      "category": "Games",
-      "change": 0.0,
-      "confidence": "high",
-      "id": "black-friday-1",
-      "image": null,
-      "in_stock": true,
-      "name": "Castlevania: Belmont's Curse \u2014 Midnight Edition (Nintendo Switch, Physical)",
-      "price": 39.99,
-      "rating": 45.0,
-      "retailer": "Best Buy",
-      "ruled_out": false,
-      "spec_verification": {},
-      "specs": {
-        "brand": "Konami",
-        "edition": "Midnight Edition",
-        "format": "Physical cartridge",
-        "in_stock": true,
-        "mfr_category": "Games",
-        "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
-        "note": "Physical exists ONLY as Midnight Edition ($39.99 MSRP, launched Oct 15 2026); Standard $29.99 is digital-only. Best Buy SKU 6671884, in stock at MSRP on 2026-11-12. RE-CHECKED 2026-11-20: product page navigation timed out \u2014 $39.99 is the Nov 12 price, unconfirmed today.",
-        "platform": "Nintendo Switch"
-      },
-      "url": "https://www.bestbuy.com/product/castlevania-belmonts-curse-nintendo-switch/J76T5H3L52",
-      "was": null
-    },
-    {
-      "badges": [
-        "enriched"
-      ],
-      "baseline": null,
-      "brand": "Konami",
-      "brand_url": null,
-      "category": "Games",
-      "change": 0.0,
-      "confidence": "high",
-      "id": "black-friday-13",
-      "image": null,
-      "in_stock": true,
-      "name": "Castlevania: Belmont's Curse \u2014 Midnight Edition (Nintendo Switch, Physical) \u2014 Walmart",
-      "price": 39.99,
-      "rating": 45.0,
-      "retailer": "Walmart",
-      "ruled_out": false,
-      "spec_verification": {},
-      "specs": {
-        "brand": "Konami",
-        "edition": "Midnight Edition",
-        "format": "Physical cartridge",
-        "in_stock": true,
-        "mfr_category": "Games",
-        "mfr_source": "live checker 2026-11-12; re-check 2026-11-20 challenge-walled",
-        "note": "LIVE-VERIFIED 2026-11-12 09:24 EST via checker: $39.99 ([itemprop='price'], high confidence). Full MSRP, no discount. Seller EvoMicro (marketplace), not Walmart.com. RE-CHECKED 2026-11-20: page 'Robot or human?' challenge on load, not attempted \u2014 $39.99 is the Nov 12 price, unconfirmed today.",
-        "platform": "Nintendo Switch"
-      },
-      "url": "https://www.walmart.com/ip/CASTLEVANIA-BELMONT-S-CURSE-Nintendo-Switch-Game/19632206271",
-      "was": null
-    },
-    {
-      "badges": [
-        "enriched"
-      ],
-      "baseline": null,
-      "brand": "Konami",
-      "brand_url": null,
-      "category": "Games",
-      "change": 0.0,
-      "confidence": "high",
-      "id": "black-friday-14",
-      "image": null,
-      "in_stock": true,
-      "name": "Castlevania: Belmont's Curse \u2014 Midnight Edition (Nintendo Switch, Physical) \u2014 Amazon",
-      "price": 39.99,
-      "rating": 45.0,
-      "retailer": "Amazon",
-      "ruled_out": false,
-      "spec_verification": {},
-      "specs": {
-        "brand": "Konami",
-        "edition": "Midnight Edition",
-        "format": "Physical cartridge",
-        "in_stock": true,
-        "mfr_category": "Games",
-        "mfr_source": "live checker 2026-11-20 (bf_games_check.py)",
-        "note": "LIVE-VERIFIED 2026-11-20 via checker: $39.99 (selector read, confirmed visually \u2014 main price + buy box both $39.99). Full MSRP, no discount. Sold by Amazon.com; box art reads 'MIDNIGHT EDITION', Nintendo Switch platform selected.",
-        "platform": "Nintendo Switch"
-      },
-      "url": "https://www.amazon.com/dp/B0GMNVWQDV",
       "was": null
     },
     {
