@@ -1,11 +1,5 @@
 {
-  "alerts": [
-    {
-      "detail": "present in previous feed, no items in this export",
-      "retailer": "Target",
-      "type": "retailer_disappeared"
-    }
-  ],
+  "alerts": [],
   "cert_links": {},
   "coverage": [
     {
@@ -16,11 +10,25 @@
       "updated_at": "2026-11-12T14:30:02.091127+00:00"
     },
     {
+      "detail": "Belmont Midnight $39.99 verified (MSRP, sold by Amazon.com); MP4 price now hidden behind add-to-cart, Nov 12 $44.99 no longer confirmed",
+      "phase": "midwindow-2026-11-20",
+      "retailer": "Amazon",
+      "status": "ok",
+      "updated_at": "2026-11-20T14:37:11.483835+00:00"
+    },
+    {
       "detail": "not yet checked; queued for Black Friday phase-1 sweep",
       "phase": "seed-2026-11-12",
       "retailer": "Amazon",
       "status": "pending-bf-sweep",
       "updated_at": "2026-11-12T13:39:04.525912+00:00"
+    },
+    {
+      "detail": "games pages timed out (Belmont + MP4 unverified); rM2 bundle verified $512.99 unchanged via page JSON-LD",
+      "phase": "midwindow-2026-11-20",
+      "retailer": "Best Buy",
+      "status": "failed",
+      "updated_at": "2026-11-20T14:37:11.656366+00:00"
     },
     {
       "detail": "seeded 2026-11-12: Belmont's Curse 9.99 in stock; Metroid Prime 4 9.99; reMarkable 2 bundle 12.99 clearance. (Shinobi LRG row removed 2026-11-13 per Steve.)",
@@ -30,11 +38,25 @@
       "updated_at": "2026-11-12T13:39:04.104302+00:00"
     },
     {
+      "detail": "search pages timed out on both passes; both games unverified",
+      "phase": "midwindow-2026-11-20",
+      "retailer": "GameStop",
+      "status": "failed",
+      "updated_at": "2026-11-20T14:37:11.734716+00:00"
+    },
+    {
       "detail": "not yet checked; queued for Black Friday phase-1 sweep",
       "phase": "seed-2026-11-12",
       "retailer": "GameStop",
       "status": "pending-bf-sweep",
       "updated_at": "2026-11-12T13:39:04.602272+00:00"
+    },
+    {
+      "detail": "search pages failed/timed out on both passes; both games unverified",
+      "phase": "midwindow-2026-11-20",
+      "retailer": "Target",
+      "status": "failed",
+      "updated_at": "2026-11-20T14:37:11.811436+00:00"
     },
     {
       "detail": "No current Target rows. Shinobi rows (LRG #286 8.99 Target Plus; Switch 2 Deluxe 4.99) removed 2026-11-13 per Steve - Shinobi dropped from the hunt.",
@@ -51,11 +73,25 @@
       "updated_at": "2026-11-12T14:30:01.996093+00:00"
     },
     {
+      "detail": "both game pages 'Robot or human?' on load, not attempted; no live prices Nov 20; MP4 live-verify still not achieved",
+      "phase": "midwindow-2026-11-20",
+      "retailer": "Walmart",
+      "status": "blocked-challenge",
+      "updated_at": "2026-11-20T14:37:11.575037+00:00"
+    },
+    {
       "detail": "Metroid Prime 4 Switch 2 at $48.89 per Koupon Nov 5 / DealTikka / 9to5Toys Nov 6 ($49); Walmart product page not directly verified",
       "phase": "seed-2026-11-12",
       "retailer": "Walmart",
       "status": "reported",
       "updated_at": "2026-11-12T13:39:04.277112+00:00"
+    },
+    {
+      "detail": "no new auction since Nov 15 scan; #2076 LEGO lots 4998 $8.50 / 5001 $3.00; #2077 no LEGO; #2075 closed Nov 19",
+      "phase": "midwindow-2026-11-20",
+      "retailer": "eBidLocal",
+      "status": "ok",
+      "updated_at": "2026-11-20T14:37:11.969826+00:00"
     },
     {
       "detail": "auction #2076 has 2 LEGO lots (4998, 5001), $0 bids, ending Nov 24 2026; from ebidlocal watch state 2026-11-10",
@@ -65,6 +101,13 @@
       "updated_at": "2026-11-12T13:39:04.448663+00:00"
     },
     {
+      "detail": "refurb ladder re-verified Nov 20: all six rungs unchanged, entry $349; no rM2 BF cut (sale covers Paper Pro/Move only)",
+      "phase": "midwindow-2026-11-20",
+      "retailer": "reMarkable",
+      "status": "ok",
+      "updated_at": "2026-11-20T14:37:11.889048+00:00"
+    },
+    {
       "detail": "official refurbished store ladder $349-$499 (checked Oct 2026); BF 2026 sale announced for Paper Pro / Pro Move only, Nov 19 US start - no rM2 cut announced",
       "phase": "seed-2026-11-12",
       "retailer": "reMarkable",
@@ -72,41 +115,9 @@
       "updated_at": "2026-11-12T13:39:04.366433+00:00"
     }
   ],
-  "generated": "2026-11-13T15:34:57.805627+00:00",
+  "generated": "2026-11-20T14:37:17.975528+00:00",
   "hunt": "black-friday",
   "items": [
-    {
-      "badges": [
-        "enriched"
-      ],
-      "baseline": null,
-      "brand": "Nintendo",
-      "brand_url": null,
-      "category": "Games",
-      "change": 0.0,
-      "confidence": "high",
-      "id": "black-friday-12",
-      "image": "https://m.media-amazon.com/images/I/81D8Cy37+ZL._SL1500_.jpg",
-      "in_stock": true,
-      "name": "Metroid Prime 4: Beyond \u2014 Nintendo Switch 2 Edition (Physical) \u2014 Amazon",
-      "price": 44.99,
-      "rating": 90.0,
-      "retailer": "Amazon",
-      "ruled_out": false,
-      "spec_verification": {},
-      "specs": {
-        "brand": "Nintendo",
-        "edition": "Switch 2 Edition",
-        "format": "Physical",
-        "in_stock": true,
-        "mfr_category": "Games",
-        "mfr_source": "live checker price_check.py 2026-11-12 (walmart-verify-last-check.json)",
-        "note": "LIVE-VERIFIED 2026-11-12 09:27 EST via checker: $44.99 (high confidence, #corePriceDisplay selector), in stock, coupon + sale badges \u2014 $25.00 below the $69.99 MSRP. Caveat: price_check.py does not record variant text, so eyeball that the selected variant reads 'Switch 2 Edition' before buying (Amazon multi-variant lesson).",
-        "platform": "Nintendo Switch 2"
-      },
-      "url": "https://www.amazon.com/dp/B0FQXR2NPH",
-      "was": null
-    },
     {
       "badges": [
         "enriched"
@@ -121,7 +132,7 @@
       "image": "https://s3.amazonaws.com/prod.maxanet.auction/eBI402/Inventory15755295/4998-b825ec3c-fb40-4082-ae8a-dfc13a148049-100x100.jpg",
       "in_stock": true,
       "name": "LEGO lot \u2014 Item 4998 (Auction #2076, eBidLocal)",
-      "price": 0.0,
+      "price": 8.5,
       "rating": 70.0,
       "retailer": "eBidLocal",
       "ruled_out": false,
@@ -133,7 +144,7 @@
         "in_stock": true,
         "mfr_category": "LEGO (eBidLocal)",
         "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
-        "note": "Auction #2076 (Multi Seller, 7700 Advantage Storage Dr, Chester VA). Current bid $0.00 as of the Nov 10 scan; ends Tue Nov 24, 2026 10:25 AM ET. Listing title only says 'Legos' - contents are whatever the photo shows; eBidLocal does not ship, pickup only.",
+        "note": "Auction #2076 (Multi Seller, 7700 Advantage Storage Dr, Chester VA). Current bid $8.50 as of the Nov 15 scan (was $0.00); ends Tue Nov 24, 2026 10:25 AM ET. Listing title only says 'Legos' \u2014 contents are whatever the photo shows; eBidLocal does not ship, pickup only.",
         "platform": "Auction lot"
       },
       "url": "https://auction.ebidlocal.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=UcaXNUZllScbqD2HAqTOpQ%3d%3d&AuctionId=XtQQwWh1htfd0%2fryBslfug%3d%3d",
@@ -153,7 +164,7 @@
       "image": "https://s3.amazonaws.com/prod.maxanet.auction/eBI402/Inventory15755298/5001-aed299d2-5ed0-4655-a703-5cf914721b7c-100x100.jpg",
       "in_stock": true,
       "name": "LEGO lot \u2014 Item 5001 (Auction #2076, eBidLocal)",
-      "price": 0.0,
+      "price": 3.0,
       "rating": 70.0,
       "retailer": "eBidLocal",
       "ruled_out": false,
@@ -165,7 +176,7 @@
         "in_stock": true,
         "mfr_category": "LEGO (eBidLocal)",
         "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
-        "note": "Auction #2076 (Multi Seller, 7700 Advantage Storage Dr, Chester VA). Current bid $0.00 as of the Nov 10 scan; ends Tue Nov 24, 2026 10:26 AM ET. Listing title only says 'Legos' - contents are whatever the photo shows; eBidLocal does not ship, pickup only.",
+        "note": "Auction #2076 (Multi Seller, 7700 Advantage Storage Dr, Chester VA). Current bid $3.00 as of the Nov 15 scan (was $0.00); ends Tue Nov 24, 2026 10:26 AM ET. Listing title only says 'Legos' \u2014 contents are whatever the photo shows; eBidLocal does not ship, pickup only.",
         "platform": "Auction lot"
       },
       "url": "https://auction.ebidlocal.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=PKLdvy8drwLS2WUBMYdFLw%3d%3d&AuctionId=XtQQwWh1htfd0%2fryBslfug%3d%3d",
@@ -196,8 +207,8 @@
         "format": "Refurbished bundle",
         "in_stock": null,
         "mfr_category": "Tablet",
-        "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
-        "note": "Entry rung of reMarkable's official refurbished store ($349-$499 ladder checked Oct 2026): refurbished tablet + NEW Marker + NEW Book Folio, standard warranty. Marker Plus rung is $399; Type Folio rungs $449/$499. reMarkable no longer sells the 2 new. Stock varies week to week.",
+        "mfr_source": "live checker 2026-11-20 (debug_page.py via residential proxy)",
+        "note": "Entry rung of reMarkable's official refurbished store. RE-VERIFIED 2026-11-20: all six rungs unchanged ($349 Marker+Book Folio leather/polymer, $399 Marker Plus+Book Folio, $449 Marker+Type Folio, $499 Marker Plus+Type Folio). Site-wide BF banner ('Save up to $300') is general; the US BF sale covers Paper Pro/Move only \u2014 NO rM2 cut. No rung shows out of stock. reMarkable no longer sells the 2 new.",
         "platform": "10.3in e-paper tablet"
       },
       "url": "https://remarkable.com/shop/refurbished/remarkable-2",
@@ -228,11 +239,43 @@
         "format": "Physical",
         "in_stock": true,
         "mfr_category": "Games",
-        "mfr_source": "live checker 2026-11-12 (strict [itemprop] poll + screenshot verify-mp4-walmart.png)",
-        "note": "LIVE-CHECKED 2026-11-12 09:24 EST: product page hides the price behind 'See price in cart' \u2014 [itemprop='price'] stayed empty through a 60s poll, so NO verified price. Walmart's own search card showed $46.45 (was $69.00, options $46.45-$51.49) \u2014 search-card indication only, not verified. Tracker claims $48.89 / $46.45 both unconfirmed. In stock, sold/shipped by Walmart.com, '50+ bought since yesterday', free shipping, free holiday returns until Jan 31. Do not buy on a tracker number.",
+        "mfr_source": "live checker 2026-11-12; re-check 2026-11-20 challenge-walled",
+        "note": "LIVE-CHECKED 2026-11-12: price hidden behind 'See price in cart', unverified. RE-CHECKED 2026-11-20: 'Robot or human?' challenge on load, not attempted \u2014 live-verify STILL not achieved. Tracker claims $48.89 / $46.45 both unconfirmed. Do not buy on a tracker number.",
         "platform": "Nintendo Switch 2"
       },
       "url": "https://www.walmart.com/ip/Metroid-Prime-4-Beyond-Nintendo-Switch-2-Edition/17858804489",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Nintendo",
+      "brand_url": null,
+      "category": "Games",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-12",
+      "image": "https://m.media-amazon.com/images/I/81D8Cy37+ZL._SL1500_.jpg",
+      "in_stock": true,
+      "name": "Metroid Prime 4: Beyond \u2014 Nintendo Switch 2 Edition (Physical) \u2014 Amazon",
+      "price": null,
+      "rating": 50.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Nintendo",
+        "edition": "Switch 2 Edition",
+        "format": "Physical",
+        "in_stock": true,
+        "mfr_category": "Games",
+        "mfr_source": "live checker 2026-11-20 (bf_games_check.py; price hidden behind add-to-cart)",
+        "note": "RE-CHECKED 2026-11-20: page now reads 'To see our price, add this item to your cart' \u2014 the selected Switch 2 Edition price is HIDDEN, so the Nov 12 verified $44.99 is NO LONGER CONFIRMED and is not shown. A $59.00 string appears elsewhere on the page (alternate offer/variant) \u2014 it is NOT the selected edition's price. In stock, sold by Amazon.com, variant confirmed Switch 2 Edition. Do not buy on $44.99 or $59.00.",
+        "platform": "Nintendo Switch 2"
+      },
+      "url": "https://www.amazon.com/dp/B0FQXR2NPH",
       "was": null
     },
     {
@@ -261,7 +304,7 @@
         "in_stock": true,
         "mfr_category": "Games",
         "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
-        "note": "Physical exists ONLY as Midnight Edition ($39.99 MSRP, launched Oct 15 2026); Standard $29.99 is digital-only. Best Buy SKU 6671884, in stock at MSRP on 2026-11-12. No Black Friday discount seen yet.",
+        "note": "Physical exists ONLY as Midnight Edition ($39.99 MSRP, launched Oct 15 2026); Standard $29.99 is digital-only. Best Buy SKU 6671884, in stock at MSRP on 2026-11-12. RE-CHECKED 2026-11-20: product page navigation timed out \u2014 $39.99 is the Nov 12 price, unconfirmed today.",
         "platform": "Nintendo Switch"
       },
       "url": "https://www.bestbuy.com/product/castlevania-belmonts-curse-nintendo-switch/J76T5H3L52",
@@ -292,11 +335,43 @@
         "format": "Physical cartridge",
         "in_stock": true,
         "mfr_category": "Games",
-        "mfr_source": "live checker 2026-11-12 (strict [itemprop] poll + screenshot verify-belmont-walmart.png)",
-        "note": "LIVE-VERIFIED 2026-11-12 09:24 EST via checker: $39.99 ([itemprop='price'], high confidence). Full MSRP, no discount. Caveat: seller is EvoMicro (marketplace), not Walmart.com. In stock; delivery as soon as 19 mins / pickup available (profile location Richmond 23236, not 23832); free shipping.",
+        "mfr_source": "live checker 2026-11-12; re-check 2026-11-20 challenge-walled",
+        "note": "LIVE-VERIFIED 2026-11-12 09:24 EST via checker: $39.99 ([itemprop='price'], high confidence). Full MSRP, no discount. Seller EvoMicro (marketplace), not Walmart.com. RE-CHECKED 2026-11-20: page 'Robot or human?' challenge on load, not attempted \u2014 $39.99 is the Nov 12 price, unconfirmed today.",
         "platform": "Nintendo Switch"
       },
       "url": "https://www.walmart.com/ip/CASTLEVANIA-BELMONT-S-CURSE-Nintendo-Switch-Game/19632206271",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Konami",
+      "brand_url": null,
+      "category": "Games",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-14",
+      "image": null,
+      "in_stock": true,
+      "name": "Castlevania: Belmont's Curse \u2014 Midnight Edition (Nintendo Switch, Physical) \u2014 Amazon",
+      "price": 39.99,
+      "rating": 45.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Konami",
+        "edition": "Midnight Edition",
+        "format": "Physical cartridge",
+        "in_stock": true,
+        "mfr_category": "Games",
+        "mfr_source": "live checker 2026-11-20 (bf_games_check.py)",
+        "note": "LIVE-VERIFIED 2026-11-20 via checker: $39.99 (selector read, confirmed visually \u2014 main price + buy box both $39.99). Full MSRP, no discount. Sold by Amazon.com; box art reads 'MIDNIGHT EDITION', Nintendo Switch platform selected.",
+        "platform": "Nintendo Switch"
+      },
+      "url": "https://www.amazon.com/dp/B0GMNVWQDV",
       "was": null
     },
     {
@@ -325,7 +400,7 @@
         "in_stock": true,
         "mfr_category": "Games",
         "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
-        "note": "MSRP $69.99 at Best Buy (SKU 6646359), in stock 2026-11-12. Walmart is $21 cheaper right now - see Walmart row.",
+        "note": "MSRP $69.99 at Best Buy (SKU 6646359), in stock 2026-11-12. RE-CHECKED 2026-11-20: product page navigation timed out \u2014 $69.99 is the Nov 12 price, unconfirmed today.",
         "platform": "Nintendo Switch 2"
       },
       "url": "https://www.bestbuy.com/product/metroid-prime-4-beyond-nintendo-switch-2-nintendo-switch-2/J7GSL5JFV6",
@@ -343,7 +418,7 @@
       "confidence": "high",
       "id": "black-friday-8",
       "image": null,
-      "in_stock": null,
+      "in_stock": true,
       "name": "reMarkable 2 \u2014 Bundle with Marker Plus + Polymer Weave Book Folio (Best Buy)",
       "price": 512.99,
       "rating": 35.0,
@@ -354,10 +429,10 @@
         "brand": "reMarkable",
         "edition": "Marker Plus + Polymer Weave Folio",
         "format": "Bundle",
-        "in_stock": null,
+        "in_stock": true,
         "mfr_category": "Tablet",
-        "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
-        "note": "Best Buy clearance $512.99 (comp value $569) on 2026-11-12. Compare: the official refurb store's Marker Plus + Book Folio rung is $399 - Best Buy is not the deal unless this drops hard for Black Friday.",
+        "mfr_source": "browser.open JSON-LD 2026-11-20",
+        "note": "Best Buy clearance $512.99 (comp value $569), RE-VERIFIED 2026-11-20 via page JSON-LD \u2014 unchanged from Nov 12, in stock. Compare: official refurb store's Marker Plus + Book Folio rung is $399 \u2014 Best Buy is not the deal unless this drops hard for Black Friday.",
         "platform": "10.3in e-paper tablet"
       },
       "url": "https://www.bestbuy.com/product/remarkable-2-10-3-paper-tablet-with-marker-plus-and-polymer-weave-book-folio-gray/C4SQZQ4JFJ?intl=nosplash",
