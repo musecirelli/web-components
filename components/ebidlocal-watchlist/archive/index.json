@@ -1,6 +1,26 @@
 {
  "archived": [
   {
+   "id": "RqKqMtWdoAS9p6V8sz7VBg==",
+   "number": "2075",
+   "title": "Multi Seller Auction: 7700 Advantage Storage Dr: Chester VA 23831 (DIY Seller)",
+   "ends": "2026-11-19",
+   "closed": "2026-11-20",
+   "lots": 216,
+   "file": "archive/auction-2075-08852adc.json.gz",
+   "archived_at": "2026-11-20T13:17:52+00:00"
+  },
+  {
+   "id": "qMb2sx5DNgXXojXj9aBK6w==",
+   "number": "2072",
+   "title": "*PENDING* Real Estate Auction : 2404 Chilham Ct, in Settlers Landing - Bon Air : North Chesterfield VA 23235 (Appraise Sell LLC)",
+   "ends": null,
+   "closed": "2026-11-20",
+   "lots": 1,
+   "file": "archive/auction-2072-8e26f0d5.json.gz",
+   "archived_at": "2026-11-20T13:17:52+00:00"
+  },
+  {
    "id": "qA422SMpwmeP6LO+QwsiBg==",
    "number": "2074",
    "title": "Richmond Olympiad Fall Champion Dream Auction Online: 10701 Trade Road: N Chesterfield VA 23236 (Richmond Olympiad)",
