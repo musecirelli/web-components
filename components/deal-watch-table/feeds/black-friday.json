@@ -80,6 +80,13 @@
       "updated_at": "2026-11-12T13:39:04.602272+00:00"
     },
     {
+      "detail": "BF deal check 2026-11-22 (pages fetched, as-listed): Model Engine $34.99 and Fossil Dig $20.99 - single prices, NO reg strikethrough, NO sale/BF flagging on either product page. Model Engine MSRP/typical is $39.99 (Amazon 'Typical' + Macy's), so Target is everyday-$5-under-MSRP, not a sale. Fossil Dig $20.99 is Target's long-standing regular price. Neither is a Black Friday deal.",
+      "phase": "bf-deal-check-2026-11-22",
+      "retailer": "Target",
+      "status": "ok",
+      "updated_at": "2026-11-22T22:40:16.872590+00:00"
+    },
+    {
       "detail": "search pages failed/timed out on both passes; both games unverified",
       "phase": "midwindow-2026-11-20",
       "retailer": "Target",
@@ -99,6 +106,13 @@
       "retailer": "Target",
       "status": "ok",
       "updated_at": "2026-11-22T22:26:49.528684+00:00"
+    },
+    {
+      "detail": "BF deal check 2026-11-22: Solar Robot $18.97 and Microscope $36.97 live-read twice via checker - buy boxes show plain current prices, NO was-price/strikethrough/badge on either (seeding badge claims traced to carousel modules of other products). Action Circuitry $31.99 = regular price per Target's 'reg $31.99' for the identical kit; its price element failed to hydrate on re-check, was-price finding rests on the earlier same-day live read. None of the 3 Walmart kits is a Black Friday deal.",
+      "phase": "bf-deal-check-2026-11-22",
+      "retailer": "Walmart",
+      "status": "ok",
+      "updated_at": "2026-11-22T22:40:16.795502+00:00"
     },
     {
       "detail": "MP4: price hidden behind 'See price in cart', unverified after 60s [itemprop] poll; Belmont Midnight $39.99 verified (seller EvoMicro)",
@@ -171,7 +185,7 @@
       "updated_at": "2026-11-22T22:19:01.087418+00:00"
     }
   ],
-  "generated": "2026-11-22T22:26:52.370594+00:00",
+  "generated": "2026-11-22T22:40:17.039180+00:00",
   "hunt": "black-friday",
   "items": [
     {
@@ -280,38 +294,6 @@
       "category": "Science Kits",
       "change": 0.0,
       "confidence": "high",
-      "id": "black-friday-15",
-      "image": "https://i5.walmartimages.com/seo/Discovery-Mindblown-Solar-Vehicle-Robot-Science-Kit-Hands-on-STEM-toys-197-Pieces_593d5cb5-b281-478c-95dd-4b34313e74fa.fbf8630994dbabc4f25eb77d0de0f51b.jpeg",
-      "in_stock": true,
-      "name": "Discovery #Mindblown Solar Robot Creation Kit, 197-Piece \u2014 Walmart",
-      "price": 18.97,
-      "rating": 60.0,
-      "retailer": "Walmart",
-      "ruled_out": false,
-      "spec_verification": {},
-      "specs": {
-        "brand": "Discovery",
-        "edition": "197-Piece, 12 robot designs",
-        "format": "Physical kit, new/sealed",
-        "in_stock": true,
-        "mfr_category": "Science Kits",
-        "mfr_source": "live checker price_check.py 2026-11-22 (high confidence, in stock)",
-        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $18.97, high confidence, in stock, clearance/rollback badges on page (no was-price shown, so no confirmed discount amount). Sold/shipped by Walmart.com. Baseline = $18.97 (first tracked price; no MSRP found). Added 2026-11-22 per Steve - Discovery science kits for his daughter (10).",
-        "platform": "Solar robot build kit, ages 8+"
-      },
-      "url": "https://www.walmart.com/ip/Discovery-Mindblown-Solar-Vehicle-Robot-Science-Kit-Hands-on-STEM-toys-197-Pieces/865111559",
-      "was": null
-    },
-    {
-      "badges": [
-        "enriched"
-      ],
-      "baseline": null,
-      "brand": "Discovery",
-      "brand_url": null,
-      "category": "Science Kits",
-      "change": 0.0,
-      "confidence": "high",
       "id": "black-friday-18",
       "image": null,
       "in_stock": true,
@@ -328,7 +310,7 @@
         "in_stock": true,
         "mfr_category": "Science Kits",
         "mfr_source": "seeded 2026-11-22 from Target page crawls (browser.open, same-day) - as-listed, not live-verified",
-        "note": "AS-LISTED 2026-11-22 from Target page crawl (browser.open, same day): $34.99, add-to-cart shown, 4.6 stars / 120 ratings - NOT live-verified on the product page. Cheaper than Walmart's live-verified $36.97 for the same kit. Baseline = $34.99. Added 2026-11-22 per Steve.",
+        "note": "AS-LISTED 2026-11-22 from Target page crawl (browser.open, same day): $34.99, add-to-cart shown, 4.6 stars / 120 ratings - NOT live-verified on the product page. Cheaper than Walmart's live-verified $36.97 for the same kit. Baseline = $34.99. Added 2026-11-22 per Steve. BF DEAL CHECK 2026-11-22: NOT a Target sale. Target product page fetched 2026-11-22: single price $34.99, NO 'reg $' strikethrough, NO sale or Black Friday flagging - $34.99 is Target's everyday price (consistent across Target crawls for weeks). The kit's typical/MSRP price is $39.99 (Amazon listing B07YNY671W shows 'Typical: $39.99'; Macy's lists $39.99), so Target sits $5 (13%) under MSRP every day, but is not discounting it. Baseline = MSRP $39.99; Target regular $34.99.",
         "platform": "Model engine build kit"
       },
       "url": "https://www.target.com/p/discovery-mindblown-model-engine-stem-science-kit/-/A-80708303",
@@ -488,7 +470,7 @@
         "in_stock": true,
         "mfr_category": "Science Kits",
         "mfr_source": "live checker price_check.py 2026-11-22 (high confidence, in stock)",
-        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $31.99, high confidence, in stock (clearance/rollback badges, no was-price shown). Baseline = $31.99 (first tracked price; no MSRP found). Added 2026-11-22 per Steve.",
+        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $31.99, high confidence, in stock (clearance/rollback badges, no was-price shown). Baseline = $31.99 (first tracked price; no MSRP found). Added 2026-11-22 per Steve. BF DEAL CHECK 2026-11-22: NOT a deal. $31.99 is the REGULAR price - Target's own page for the identical kit lists 'reg $31.99' (Target had it at $27.19 on clearance, 15% off reg). Walmart live read earlier today ($31.99, high confidence) showed NO was-price; two re-check attempts today failed to hydrate the price element, so the was-price finding rests on the earlier same-day live read. (888lots lists the Amazon ASIN's MSRP as $29.99.) Baseline = regular price $31.99.",
         "platform": "Electronic experiment kit, ages 8+"
       },
       "url": "https://www.walmart.com/ip/Discovery-Mindblown-Action-Circuitry-Electronic-Experiment-STEM-Set-Build-it-Yourself-Engineering-Toy-Kit-Explore-Science-Lights-Sounds-Motion-6-Expe/594014505",
@@ -520,7 +502,7 @@
         "in_stock": true,
         "mfr_category": "Science Kits",
         "mfr_source": "live checker price_check.py 2026-11-22 (high confidence, in stock)",
-        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $36.97, high confidence, in stock (clearance badge, no was-price shown). Baseline = $36.97 (first tracked price; no MSRP found). Added 2026-11-22 per Steve.",
+        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $36.97, high confidence, in stock (clearance badge, no was-price shown). Baseline = $36.97 (first tracked price; no MSRP found). Added 2026-11-22 per Steve. BF DEAL CHECK 2026-11-22: NOT a deal at Walmart. Live-read twice via checker ([itemprop] $36.97 both times); buy box shows a plain 'Current price is $36.97' - NO was-price, NO strikethrough element anywhere on the page, NO sale badge in the buy box (seeding badge claim traced to other products' carousel modules). $36.97 is Walmart's regular price. Only higher reference found: JCPenney lists the identical 41-pc set at a $45 original price (their sale price $34.99) - Walmart itself is running no discount. Baseline = regular price $36.97.",
         "platform": "Microscope lab set, ages 8+"
       },
       "url": "https://www.walmart.com/ip/Discovery-MINDBLOWN-1200X-600X-300X-Microscope-41-Piece-Experiment-Lab-Set-for-Children-and-Elementary-School/5347546973",
@@ -552,7 +534,7 @@
         "in_stock": true,
         "mfr_category": "Science Kits",
         "mfr_source": "seeded 2026-11-22 from Target page crawls (browser.open, same-day) - as-listed, not live-verified",
-        "note": "AS-LISTED 2026-11-22 from Target page crawl (browser.open, same day): $20.99, add-to-cart shown, 4.3 stars / 228 ratings - NOT live-verified on the product page. Baseline = $20.99 (first tracked price; no MSRP found). Added 2026-11-22 per Steve.",
+        "note": "AS-LISTED 2026-11-22 from Target page crawl (browser.open, same day): $20.99, add-to-cart shown, 4.3 stars / 228 ratings - NOT live-verified on the product page. Baseline = $20.99 (first tracked price; no MSRP found). Added 2026-11-22 per Steve. BF DEAL CHECK 2026-11-22: NOT a deal. Target product page fetched 2026-11-22: single price $20.99, NO 'reg $' strikethrough, NO sale or Black Friday flagging. Target has listed this kit at $20.99 consistently across crawls spanning ~24 days - it is the regular price. No other major-retailer price found. Baseline = regular price $20.99.",
         "platform": "Excavation / fossil dig kit"
       },
       "url": "https://www.target.com/p/discovery-mindblown-colossal-fossil-dig-15pc-excavation-kit/-/A-80708297",
@@ -620,6 +602,38 @@
         "platform": "10.3in e-paper tablet"
       },
       "url": "https://www.bestbuy.com/product/remarkable-paper-pure-10-3-paper-tablet-and-marker-gray/C4SQZQ43CG",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Discovery",
+      "brand_url": null,
+      "category": "Science Kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-15",
+      "image": "https://i5.walmartimages.com/seo/Discovery-Mindblown-Solar-Vehicle-Robot-Science-Kit-Hands-on-STEM-toys-197-Pieces_593d5cb5-b281-478c-95dd-4b34313e74fa.fbf8630994dbabc4f25eb77d0de0f51b.jpeg",
+      "in_stock": true,
+      "name": "Discovery #Mindblown Solar Robot Creation Kit, 197-Piece \u2014 Walmart",
+      "price": 18.97,
+      "rating": 45.0,
+      "retailer": "Walmart",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Discovery",
+        "edition": "197-Piece, 12 robot designs",
+        "format": "Physical kit, new/sealed",
+        "in_stock": true,
+        "mfr_category": "Science Kits",
+        "mfr_source": "live checker price_check.py 2026-11-22 (high confidence, in stock)",
+        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $18.97, high confidence, in stock, clearance/rollback badges on page (no was-price shown, so no confirmed discount amount). Sold/shipped by Walmart.com. Baseline = $18.97 (first tracked price; no MSRP found). Added 2026-11-22 per Steve - Discovery science kits for his daughter (10). BF DEAL CHECK 2026-11-22: NOT a deal. Live-read twice via checker ([itemprop] $18.97 both times); buy box shows a plain 'Current price is $18.97' - NO was-price, NO strikethrough element anywhere on the page, NO rollback/clearance badge in the buy box. The seeding note's badge claim came from price_check.py's whole-page keyword scan hitting OTHER products' carousel modules (a $18.99 clearance / was $21.99 item and a $24.99 item render on these pages). $18.97 is the REGULAR price: Amazon sells the identical kit at $18.97 everyday (price tracker 2026-10-31; Amazon listing screenshot 2026-11-03). Baseline = regular price $18.97.",
+        "platform": "Solar robot build kit, ages 8+"
+      },
+      "url": "https://www.walmart.com/ip/Discovery-Mindblown-Solar-Vehicle-Robot-Science-Kit-Hands-on-STEM-toys-197-Pieces/865111559",
       "was": null
     },
     {
