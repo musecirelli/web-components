@@ -1,5 +1,11 @@
 {
-  "alerts": [],
+  "alerts": [
+    {
+      "detail": "present in previous feed, no items in this export",
+      "retailer": "reMarkable",
+      "type": "retailer_disappeared"
+    }
+  ],
   "cert_links": {},
   "coverage": [
     {
@@ -50,6 +56,13 @@
       "retailer": "Best Buy",
       "status": "purchased-removed",
       "updated_at": "2026-11-20T16:09:44.250948+00:00"
+    },
+    {
+      "detail": "Hunt switched to reMarkable Paper Pure 2026-11-22 per Steve: base Tablet+Marker $399 in stock; Marker Plus + Sleeve Folio bundle $499 as-listed (search crawl, not live-verified). rM2 Best Buy bundle row removed.",
+      "phase": "update-2026-11-22",
+      "retailer": "Best Buy",
+      "status": "ok",
+      "updated_at": "2026-11-22T22:19:01.014405+00:00"
     },
     {
       "detail": "search pages timed out on both passes; both games unverified",
@@ -134,9 +147,16 @@
       "retailer": "reMarkable",
       "status": "ok",
       "updated_at": "2026-11-12T13:39:04.366433+00:00"
+    },
+    {
+      "detail": "rM2 refurbished watch REMOVED 2026-11-22 per Steve - hunt now tracks the Paper Pure (new, $399) instead. Refurb ladder was $349-$499, last verified unchanged 2026-11-20.",
+      "phase": "update-2026-11-22",
+      "retailer": "reMarkable",
+      "status": "removed",
+      "updated_at": "2026-11-22T22:19:01.087418+00:00"
     }
   ],
-  "generated": "2026-11-20T16:09:59.058881+00:00",
+  "generated": "2026-11-22T22:19:11.794162+00:00",
   "hunt": "black-friday",
   "items": [
     {
@@ -208,38 +228,6 @@
         "enriched"
       ],
       "baseline": null,
-      "brand": "reMarkable",
-      "brand_url": null,
-      "category": "Tablet",
-      "change": 0.0,
-      "confidence": "high",
-      "id": "black-friday-7",
-      "image": null,
-      "in_stock": null,
-      "name": "reMarkable 2 \u2014 Refurbished bundle (Marker + Book Folio)",
-      "price": 349.0,
-      "rating": 60.0,
-      "retailer": "reMarkable",
-      "ruled_out": false,
-      "spec_verification": {},
-      "specs": {
-        "brand": "reMarkable",
-        "edition": "Marker + Book Folio",
-        "format": "Refurbished bundle",
-        "in_stock": null,
-        "mfr_category": "Tablet",
-        "mfr_source": "live checker 2026-11-20 (debug_page.py via residential proxy)",
-        "note": "Entry rung of reMarkable's official refurbished store. RE-VERIFIED 2026-11-20: all six rungs unchanged ($349 Marker+Book Folio leather/polymer, $399 Marker Plus+Book Folio, $449 Marker+Type Folio, $499 Marker Plus+Type Folio). Site-wide BF banner ('Save up to $300') is general; the US BF sale covers Paper Pro/Move only \u2014 NO rM2 cut. No rung shows out of stock. reMarkable no longer sells the 2 new.",
-        "platform": "10.3in e-paper tablet"
-      },
-      "url": "https://remarkable.com/shop/refurbished/remarkable-2",
-      "was": null
-    },
-    {
-      "badges": [
-        "enriched"
-      ],
-      "baseline": null,
       "brand": "Nintendo",
       "brand_url": null,
       "category": "Games",
@@ -304,6 +292,38 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "reMarkable",
+      "brand_url": null,
+      "category": "Tablet",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-13",
+      "image": null,
+      "in_stock": true,
+      "name": "reMarkable Paper Pure \u2014 10.3\" Paper Tablet and Marker (Gray)",
+      "price": 399.0,
+      "rating": 45.0,
+      "retailer": "Best Buy",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "reMarkable",
+        "edition": "Tablet + Marker",
+        "format": "New",
+        "in_stock": true,
+        "mfr_category": "Tablet",
+        "mfr_source": "Best Buy listing via web search crawl 2026-11-22 (not live-browser-verified)",
+        "note": "reMarkable Paper Pure - the successor to the reMarkable 2 (launched May 2026; rM2 production sunset). $399 MSRP: tablet + Marker, 32GB, 3rd-gen Canvas mono display; uses Paper Pro Markers (rM2 styluses NOT compatible). Best Buy model RM92A-1000NW (SKU 6672953), $399.00 in stock per Best Buy page crawled 2026-11-21. reMarkable's BF 2026 sale EXCLUDES Paper Pure (stays full price) - any price below $399 is reportable. Switched into the hunt 2026-11-22 per Steve, replacing the rM2 refurb watch.",
+        "platform": "10.3in e-paper tablet"
+      },
+      "url": "https://www.bestbuy.com/product/remarkable-paper-pure-10-3-paper-tablet-and-marker-gray/C4SQZQ43CG",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "Nintendo",
       "brand_url": null,
       "category": "Games",
@@ -341,26 +361,26 @@
       "category": "Tablet",
       "change": 0.0,
       "confidence": "high",
-      "id": "black-friday-8",
+      "id": "black-friday-14",
       "image": null,
       "in_stock": true,
-      "name": "reMarkable 2 \u2014 Bundle with Marker Plus + Polymer Weave Book Folio (Best Buy)",
-      "price": 512.99,
+      "name": "reMarkable Paper Pure \u2014 Bundle with Marker Plus and Sleeve Folio",
+      "price": 499.0,
       "rating": 35.0,
       "retailer": "Best Buy",
       "ruled_out": false,
       "spec_verification": {},
       "specs": {
         "brand": "reMarkable",
-        "edition": "Marker Plus + Polymer Weave Folio",
-        "format": "Bundle",
+        "edition": "Tablet + Marker Plus + Sleeve Folio",
+        "format": "New bundle",
         "in_stock": true,
         "mfr_category": "Tablet",
-        "mfr_source": "browser.open JSON-LD 2026-11-20",
-        "note": "Best Buy clearance $512.99 (comp value $569), RE-VERIFIED 2026-11-20 via page JSON-LD \u2014 unchanged from Nov 12, in stock. Compare: official refurb store's Marker Plus + Book Folio rung is $399 \u2014 Best Buy is not the deal unless this drops hard for Black Friday.",
+        "mfr_source": "Best Buy listing via web search crawl 2026-11-22 (not live-browser-verified)",
+        "note": "Best Buy bundle: Paper Pure + Marker Plus (eraser) + Sleeve Folio, $499.00 in stock per Best Buy pages crawled 2026-11-17/18 (colors Ocean Blue / Mist Green / Desert Pink, same price). Launch coverage put reMarkable's own bundle at $449 - Best Buy's $499 is as-listed; direct-store bundle price not verified. Base $399 row is the watch target.",
         "platform": "10.3in e-paper tablet"
       },
-      "url": "https://www.bestbuy.com/product/remarkable-2-10-3-paper-tablet-with-marker-plus-and-polymer-weave-book-folio-gray/C4SQZQ4JFJ?intl=nosplash",
+      "url": "https://www.bestbuy.com/product/remarkable-paper-pure-10-3-paper-tablet-bundle-with-marker-plus-and-sleeve-folio-ocean-blue/C4SQZQ4S6P",
       "was": null
     }
   ],
