@@ -1,11 +1,5 @@
 {
-  "alerts": [
-    {
-      "detail": "present in previous feed, no items in this export",
-      "retailer": "reMarkable",
-      "type": "retailer_disappeared"
-    }
-  ],
+  "alerts": [],
   "cert_links": {},
   "coverage": [
     {
@@ -28,6 +22,13 @@
       "retailer": "Amazon",
       "status": "pending-bf-sweep",
       "updated_at": "2026-11-12T13:39:04.525912+00:00"
+    },
+    {
+      "detail": "Seeded 2026-11-22: Elmer's Fluffy Slime Kit (B08C6TNHY5) $16.39 LIVE-VERIFIED via price_check.py, high confidence, in stock, coupon+sale badges; list price $19.99.",
+      "phase": "seed-2026-11-22",
+      "retailer": "Amazon",
+      "status": "ok",
+      "updated_at": "2026-11-22T22:26:49.439529+00:00"
     },
     {
       "detail": "Belmont's Curse PURCHASED by Steve 2026-11-20 (price/retailer not stated); all Belmont rows removed from the hunt.",
@@ -93,6 +94,13 @@
       "updated_at": "2026-11-12T13:39:04.195668+00:00"
     },
     {
+      "detail": "Seeded 2026-11-22 (as-listed from same-day Target page crawls, NOT live-verified): Discovery Model Engine $34.99, Discovery Fossil Dig $20.99, Elmer's Fairy Dust Slime Kit $16.39, Slimygloop Mix'Ems $9.99.",
+      "phase": "seed-2026-11-22",
+      "retailer": "Target",
+      "status": "ok",
+      "updated_at": "2026-11-22T22:26:49.528684+00:00"
+    },
+    {
       "detail": "MP4: price hidden behind 'See price in cart', unverified after 60s [itemprop] poll; Belmont Midnight $39.99 verified (seller EvoMicro)",
       "phase": "live-verify-2026-11-12",
       "retailer": "Walmart",
@@ -112,6 +120,13 @@
       "retailer": "Walmart",
       "status": "reported",
       "updated_at": "2026-11-12T13:39:04.277112+00:00"
+    },
+    {
+      "detail": "Seeded 2026-11-22 (Steve added Discovery science kits + slime kits for his daughter): Discovery Solar Robot $18.97, Action Circuitry $31.99, Microscope $36.97, Elmer's Fluffy Slime $18.87, Elmer's Eclipse Slime $18.97 - ALL LIVE-VERIFIED via price_check.py, high confidence, in stock.",
+      "phase": "seed-2026-11-22",
+      "retailer": "Walmart",
+      "status": "ok",
+      "updated_at": "2026-11-22T22:26:49.362302+00:00"
     },
     {
       "detail": "Belmont's Curse PURCHASED by Steve 2026-11-20 (price/retailer not stated); all Belmont rows removed from the hunt.",
@@ -156,7 +171,7 @@
       "updated_at": "2026-11-22T22:19:01.087418+00:00"
     }
   ],
-  "generated": "2026-11-22T22:19:11.794162+00:00",
+  "generated": "2026-11-22T22:26:52.370594+00:00",
   "hunt": "black-friday",
   "items": [
     {
@@ -228,6 +243,166 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "Elmer's",
+      "brand_url": null,
+      "category": "Slime Kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-20",
+      "image": "https://m.media-amazon.com/images/I/81qnWn+RaQL._AC_SL1500_.jpg",
+      "in_stock": true,
+      "name": "Elmer's Fluffy Slime Kit, 4-Count \u2014 Amazon",
+      "price": 16.39,
+      "rating": 70.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Elmer's",
+        "edition": "4-Count (2 glues + 2 activators)",
+        "format": "Physical kit, new/sealed",
+        "in_stock": true,
+        "mfr_category": "Slime Kits",
+        "mfr_source": "live checker price_check.py 2026-11-22 (high confidence, in stock)",
+        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $16.39, high confidence, in stock, coupon + sale badges. ASIN B08C6TNHY5 is the standard 4-count Fluffy Slime Kit listing (single kit variant). List price $19.99 per the product page - $16.39 is 18% below list. Baseline = $19.99 list. Added 2026-11-22 per Steve - slime kit for his daughter (10).",
+        "platform": "DIY slime kit"
+      },
+      "url": "https://www.amazon.com/dp/B08C6TNHY5",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Discovery",
+      "brand_url": null,
+      "category": "Science Kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-15",
+      "image": "https://i5.walmartimages.com/seo/Discovery-Mindblown-Solar-Vehicle-Robot-Science-Kit-Hands-on-STEM-toys-197-Pieces_593d5cb5-b281-478c-95dd-4b34313e74fa.fbf8630994dbabc4f25eb77d0de0f51b.jpeg",
+      "in_stock": true,
+      "name": "Discovery #Mindblown Solar Robot Creation Kit, 197-Piece \u2014 Walmart",
+      "price": 18.97,
+      "rating": 60.0,
+      "retailer": "Walmart",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Discovery",
+        "edition": "197-Piece, 12 robot designs",
+        "format": "Physical kit, new/sealed",
+        "in_stock": true,
+        "mfr_category": "Science Kits",
+        "mfr_source": "live checker price_check.py 2026-11-22 (high confidence, in stock)",
+        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $18.97, high confidence, in stock, clearance/rollback badges on page (no was-price shown, so no confirmed discount amount). Sold/shipped by Walmart.com. Baseline = $18.97 (first tracked price; no MSRP found). Added 2026-11-22 per Steve - Discovery science kits for his daughter (10).",
+        "platform": "Solar robot build kit, ages 8+"
+      },
+      "url": "https://www.walmart.com/ip/Discovery-Mindblown-Solar-Vehicle-Robot-Science-Kit-Hands-on-STEM-toys-197-Pieces/865111559",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Discovery",
+      "brand_url": null,
+      "category": "Science Kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-18",
+      "image": null,
+      "in_stock": true,
+      "name": "Discovery #Mindblown Model Engine STEM Science Kit \u2014 Target",
+      "price": 34.99,
+      "rating": 55.0,
+      "retailer": "Target",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Discovery",
+        "edition": "Working model engine with moving parts + LED",
+        "format": "Physical kit, new/sealed",
+        "in_stock": true,
+        "mfr_category": "Science Kits",
+        "mfr_source": "seeded 2026-11-22 from Target page crawls (browser.open, same-day) - as-listed, not live-verified",
+        "note": "AS-LISTED 2026-11-22 from Target page crawl (browser.open, same day): $34.99, add-to-cart shown, 4.6 stars / 120 ratings - NOT live-verified on the product page. Cheaper than Walmart's live-verified $36.97 for the same kit. Baseline = $34.99. Added 2026-11-22 per Steve.",
+        "platform": "Model engine build kit"
+      },
+      "url": "https://www.target.com/p/discovery-mindblown-model-engine-stem-science-kit/-/A-80708303",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Elmer's",
+      "brand_url": null,
+      "category": "Slime Kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-21",
+      "image": "https://i5.walmartimages.com/seo/Elmer-s-Fluffy-Slime-Kit-Includes-Elmer-s-Translucent-Glue-Elmer-s-Glitter-Glue-Elmer-s-Slime-Activator-4-Count_800b3a66-4de0-4024-a2ee-48deaf5a2809.d017ab87bc25805bb5635f88c6c89c9d.jpeg",
+      "in_stock": true,
+      "name": "Elmer's Fluffy Slime Kit, 4-Count \u2014 Walmart",
+      "price": 18.87,
+      "rating": 55.0,
+      "retailer": "Walmart",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Elmer's",
+        "edition": "4-Count (2 glues + 2 activators)",
+        "format": "Physical kit, new/sealed",
+        "in_stock": true,
+        "mfr_category": "Slime Kits",
+        "mfr_source": "live checker price_check.py 2026-11-22 (high confidence, in stock)",
+        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $18.87, high confidence, in stock, rollback badges; sold/shipped by Walmart.com, listed as a Walmart best seller. Same kit is $16.39 live-verified at Amazon today. Baseline = $19.99 (Amazon list price for the kit). Added 2026-11-22 per Steve.",
+        "platform": "DIY slime kit"
+      },
+      "url": "https://www.walmart.com/ip/Elmer-s-Fluffy-Slime-Kit-Includes-Elmer-s-Translucent-Glue-Elmer-s-Glitter-Glue-Elmer-s-Slime-Activator-4-Count/955748371",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Slimygloop",
+      "brand_url": null,
+      "category": "Slime Kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-24",
+      "image": null,
+      "in_stock": true,
+      "name": "Slimygloop Mix'Ems DIY Slime Kit (Cotton Candy Glitter) \u2014 Target",
+      "price": 9.99,
+      "rating": 55.0,
+      "retailer": "Target",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Slimygloop",
+        "edition": "Mix'Ems Cotton Candy Glitter",
+        "format": "Physical kit, new/sealed",
+        "in_stock": true,
+        "mfr_category": "Slime Kits",
+        "mfr_source": "seeded 2026-11-22 from Target page crawls (browser.open, same-day) - as-listed, not live-verified",
+        "note": "AS-LISTED 2026-11-22 from Target page crawl (browser.open, same day): $9.99, add-to-cart shown - NOT live-verified on the product page. Caution: a separate Target crawl showed a Mix'Ems variant at $19.99, so confirm the exact variant/price on the product page before buying. Baseline = $9.99 as-listed. Added 2026-11-22 per Steve.",
+        "platform": "DIY slime kit"
+      },
+      "url": "https://www.target.com/p/slimygloop-mix-ems-diy-slime-kit-for-kids-cotton-candy-mix-em-glitter-slime/-/A-80828931",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "Nintendo",
       "brand_url": null,
       "category": "Games",
@@ -292,6 +467,134 @@
         "enriched"
       ],
       "baseline": null,
+      "brand": "Discovery",
+      "brand_url": null,
+      "category": "Science Kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-16",
+      "image": "https://i5.walmartimages.com/seo/Discovery-Mindblown-Action-Circuitry-Electronic-Experiment-STEM-Set-Build-it-Yourself-Engineering-Toy-Kit-Explore-Science-Lights-Sounds-Motion-6-Expe_9d68ebf9-9fa1-4f8f-910f-e5f923a10891.8ad3cf34c37daef811775e4dfa0b554f.jpeg",
+      "in_stock": true,
+      "name": "Discovery #Mindblown Action Circuitry Electronic Experiment Kit, 51-Piece \u2014 Walmart",
+      "price": 31.99,
+      "rating": 50.0,
+      "retailer": "Walmart",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Discovery",
+        "edition": "51-Piece, 6 experiments",
+        "format": "Physical kit, new/sealed",
+        "in_stock": true,
+        "mfr_category": "Science Kits",
+        "mfr_source": "live checker price_check.py 2026-11-22 (high confidence, in stock)",
+        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $31.99, high confidence, in stock (clearance/rollback badges, no was-price shown). Baseline = $31.99 (first tracked price; no MSRP found). Added 2026-11-22 per Steve.",
+        "platform": "Electronic experiment kit, ages 8+"
+      },
+      "url": "https://www.walmart.com/ip/Discovery-Mindblown-Action-Circuitry-Electronic-Experiment-STEM-Set-Build-it-Yourself-Engineering-Toy-Kit-Explore-Science-Lights-Sounds-Motion-6-Expe/594014505",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Discovery",
+      "brand_url": null,
+      "category": "Science Kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-17",
+      "image": "https://i5.walmartimages.com/seo/Discovery-MINDBLOWN-1200X-600X-300X-Microscope-41-Piece-Experiment-Lab-Set-for-Children-and-Elementary-School_1f04f1dc-874b-4f6f-9aa1-9c8de3bf5975.986b30192e3206cdbd06d23869740b49.jpeg",
+      "in_stock": true,
+      "name": "Discovery #Mindblown Microscope Experiment Lab Set, 41-Piece (300X-1200X) \u2014 Walmart",
+      "price": 36.97,
+      "rating": 50.0,
+      "retailer": "Walmart",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Discovery",
+        "edition": "41-Piece, 300X/600X/1200X",
+        "format": "Physical kit, new/sealed",
+        "in_stock": true,
+        "mfr_category": "Science Kits",
+        "mfr_source": "live checker price_check.py 2026-11-22 (high confidence, in stock)",
+        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $36.97, high confidence, in stock (clearance badge, no was-price shown). Baseline = $36.97 (first tracked price; no MSRP found). Added 2026-11-22 per Steve.",
+        "platform": "Microscope lab set, ages 8+"
+      },
+      "url": "https://www.walmart.com/ip/Discovery-MINDBLOWN-1200X-600X-300X-Microscope-41-Piece-Experiment-Lab-Set-for-Children-and-Elementary-School/5347546973",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Discovery",
+      "brand_url": null,
+      "category": "Science Kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-19",
+      "image": null,
+      "in_stock": true,
+      "name": "Discovery #Mindblown Colossal Fossil Dig Excavation Kit, 15-Piece \u2014 Target",
+      "price": 20.99,
+      "rating": 50.0,
+      "retailer": "Target",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Discovery",
+        "edition": "15-Piece",
+        "format": "Physical kit, new/sealed",
+        "in_stock": true,
+        "mfr_category": "Science Kits",
+        "mfr_source": "seeded 2026-11-22 from Target page crawls (browser.open, same-day) - as-listed, not live-verified",
+        "note": "AS-LISTED 2026-11-22 from Target page crawl (browser.open, same day): $20.99, add-to-cart shown, 4.3 stars / 228 ratings - NOT live-verified on the product page. Baseline = $20.99 (first tracked price; no MSRP found). Added 2026-11-22 per Steve.",
+        "platform": "Excavation / fossil dig kit"
+      },
+      "url": "https://www.target.com/p/discovery-mindblown-colossal-fossil-dig-15pc-excavation-kit/-/A-80708297",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Elmer's",
+      "brand_url": null,
+      "category": "Slime Kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-23",
+      "image": null,
+      "in_stock": true,
+      "name": "Elmer's Fairy Dust Slime Kit, 4-Pack \u2014 Target",
+      "price": 16.39,
+      "rating": 50.0,
+      "retailer": "Target",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Elmer's",
+        "edition": "4-Pack with glue + activator",
+        "format": "Physical kit, new/sealed",
+        "in_stock": true,
+        "mfr_category": "Slime Kits",
+        "mfr_source": "seeded 2026-11-22 from Target page crawls (browser.open, same-day) - as-listed, not live-verified",
+        "note": "AS-LISTED 2026-11-22 from Target page crawl (browser.open, same day): $16.39, add-to-cart shown, 4.1 stars / 534 ratings - NOT live-verified on the product page. Baseline = $16.39 (first tracked price). Added 2026-11-22 per Steve.",
+        "platform": "DIY slime kit"
+      },
+      "url": "https://www.target.com/p/elmer-39-s-4pk-fairy-dust-slime-kit-with-glue-38-activator-solution/-/A-82809515",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
       "brand": "reMarkable",
       "brand_url": null,
       "category": "Tablet",
@@ -317,6 +620,38 @@
         "platform": "10.3in e-paper tablet"
       },
       "url": "https://www.bestbuy.com/product/remarkable-paper-pure-10-3-paper-tablet-and-marker-gray/C4SQZQ43CG",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Elmer's",
+      "brand_url": null,
+      "category": "Slime Kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-22",
+      "image": "https://i5.walmartimages.com/seo/Elmer-s-Eclipse-Slime-Kit-Includes-Liquid-Glue-and-Slime-Activator-4-Count_efbdd015-4d90-4006-9be2-e91d7a351fe6.877682aaf418178fe0a3fab95b2d9c6b.jpeg",
+      "in_stock": true,
+      "name": "Elmer's Eclipse Slime Kit, 4-Count \u2014 Walmart",
+      "price": 18.97,
+      "rating": 45.0,
+      "retailer": "Walmart",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Elmer's",
+        "edition": "4-Count (Cosmic + Glitter glue, 2 activators)",
+        "format": "Physical kit, new/sealed",
+        "in_stock": true,
+        "mfr_category": "Slime Kits",
+        "mfr_source": "live checker price_check.py 2026-11-22 (high confidence, in stock)",
+        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $18.97, high confidence, in stock; sold/shipped by Walmart.com. Note: Target as-listed the same Eclipse kit at $12.73 on 2026-11-22 (search-page crawl, unverified, no row seeded). Baseline = $18.97 (first tracked price). Added 2026-11-22 per Steve.",
+        "platform": "DIY slime kit"
+      },
+      "url": "https://www.walmart.com/ip/Elmer-s-Eclipse-Slime-Kit-Includes-Liquid-Glue-and-Slime-Activator-4-Count/15235912724",
       "was": null
     },
     {
