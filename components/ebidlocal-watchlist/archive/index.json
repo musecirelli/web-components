@@ -1,6 +1,16 @@
 {
  "archived": [
   {
+   "id": "/fPLATCe1HSwMI+KOqcu5A==",
+   "number": "2071",
+   "title": "*PENDING*  Real Estate Auction : 10012 River Road : South Chesterfield VA 23803 (Appraise Sell LLC)",
+   "ends": "2026-11-24",
+   "closed": "2026-11-24",
+   "lots": 1,
+   "file": "archive/auction-2071-4e5d2473.json.gz",
+   "archived_at": "2026-11-24T13:17:46+00:00"
+  },
+  {
    "id": "RqKqMtWdoAS9p6V8sz7VBg==",
    "number": "2075",
    "title": "Multi Seller Auction: 7700 Advantage Storage Dr: Chester VA 23831 (DIY Seller)",
