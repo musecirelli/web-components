@@ -1,7 +1,7 @@
 {
  "hunt": "scooter",
  "title": "Electric Scooter Hunt",
- "generated": "2026-10-12T14:47:52.713461+00:00",
+ "generated": "2026-11-27T15:55:46.064241+00:00",
  "spec_columns": [
   {
    "key": "motor",
@@ -164,16 +164,13 @@
    "brand_url": "https://www.hiboy.com/products/hiboy-s2pro-electric-scooter-for-daily-commuting",
    "rating": 83.0,
    "ruled_out": false,
-   "price": 422.95,
+   "price": null,
    "baseline": 422.95,
-   "was": 469.99,
-   "change": 0.0,
-   "in_stock": true,
-   "badges": [
-    "coupon",
-    "sale"
-   ],
-   "confidence": "high",
+   "was": null,
+   "change": null,
+   "in_stock": null,
+   "badges": [],
+   "confidence": null,
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -450,15 +447,14 @@
    "brand_url": "https://ap-en.segway.com/ekickscooter/products/e2-pro.html",
    "rating": 74.0,
    "ruled_out": false,
-   "price": 398.99,
-   "baseline": 398.99,
+   "price": 379.03,
+   "baseline": 379.03,
    "was": 499.99,
    "change": 0.0,
    "in_stock": true,
    "badges": [
     "coupon",
-    "sale",
-    "save $"
+    "sale"
    ],
    "confidence": "high",
    "category": "commuter",
@@ -800,10 +796,10 @@
    "brand_url": "https://ecoroad.com",
    "rating": 89.0,
    "ruled_out": false,
-   "price": 449.99,
-   "baseline": 399.99,
+   "price": 369.99,
+   "baseline": 369.99,
    "was": null,
-   "change": 50.0,
+   "change": 0.0,
    "in_stock": true,
    "badges": [
     "sale"
@@ -860,13 +856,15 @@
    "brand_url": "https://ecoroad.com",
    "rating": 94.5,
    "ruled_out": false,
-   "price": 459.99,
+   "price": 399.99,
    "baseline": 459.99,
-   "was": 499.99,
-   "change": 0.0,
+   "was": null,
+   "change": -60.0,
    "in_stock": true,
-   "badges": [],
-   "confidence": "verified-manual",
+   "badges": [
+    "sale"
+   ],
+   "confidence": "low",
    "category": "off-road",
    "spec_verification": {
     "motor": {
@@ -973,19 +971,21 @@
    "id": "ecoroad-es4-direct",
    "name": "ECOROAD ES4 Electric Scooter, 800W, 25 mph, 30-mi range, 330-lb max load",
    "url": "https://ecoroad.com/products/es4-electric-scooter",
-   "image": null,
+   "image": "http://ecoroad.com/cdn/shop/files/ES4_2.png?v=1775642039",
    "retailer": "ECOROAD direct",
    "brand": "ECOROAD",
    "brand_url": "https://ecoroad.com",
    "rating": 80.5,
    "ruled_out": false,
-   "price": null,
+   "price": 379.99,
    "baseline": 379.99,
    "was": null,
-   "change": null,
-   "in_stock": null,
-   "badges": [],
-   "confidence": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "sale"
+   ],
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1031,19 +1031,21 @@
    "id": "ecoroad-et6-direct",
    "name": "ECOROAD ET6 Long Range Electric Scooter, 800W, 28 mph, 42-mi range, 330-lb max load",
    "url": "https://ecoroad.com/products/et6-electric-scooter",
-   "image": null,
+   "image": "http://ecoroad.com/cdn/shop/files/ET6_1.png?v=1775642555",
    "retailer": "ECOROAD direct",
    "brand": "ECOROAD",
    "brand_url": "https://ecoroad.com",
    "rating": 79.5,
    "ruled_out": false,
-   "price": null,
+   "price": 499.99,
    "baseline": 499.99,
    "was": null,
-   "change": null,
-   "in_stock": null,
-   "badges": [],
-   "confidence": null,
+   "change": 0.0,
+   "in_stock": false,
+   "badges": [
+    "sale"
+   ],
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -1095,8 +1097,8 @@
    "brand_url": "https://naveetech.com",
    "rating": 74.0,
    "ruled_out": false,
-   "price": 449.99,
-   "baseline": 449.99,
+   "price": 399.99,
+   "baseline": 399.99,
    "was": null,
    "change": 0.0,
    "in_stock": true,
@@ -1207,7 +1209,7 @@
    "id": "gotrax-xr-elite-max-direct",
    "name": "Gotrax XR Elite MAX Electric Scooter, 350W, 15.5 mph, 20-mi range, 264-lb load",
    "url": "https://gotrax.com/products/xr-elite-max-electric-scooter",
-   "image": null,
+   "image": "http://gotrax.com/cdn/shop/products/xr-elite-max-electric-scooter-352997.jpg?v=1681768755&width=2048",
    "retailer": "GOTRAX direct",
    "brand": "GOTRAX",
    "brand_url": "https://gotrax.com",
@@ -1218,8 +1220,11 @@
    "was": null,
    "change": null,
    "in_stock": null,
-   "badges": [],
-   "confidence": null,
+   "badges": [
+    "clip",
+    "sale"
+   ],
+   "confidence": "low",
    "category": "commuter",
    "spec_verification": {
     "motor": {
@@ -2159,14 +2164,15 @@
    "brand_url": "https://turboant.com",
    "rating": 73.5,
    "ruled_out": false,
-   "price": 449.98,
-   "baseline": 449.98,
+   "price": 419.98,
+   "baseline": 419.98,
    "was": null,
    "change": 0.0,
    "in_stock": true,
    "badges": [
     "clearance",
-    "sale"
+    "sale",
+    "save $"
    ],
    "confidence": "low",
    "category": "commuter",
@@ -2226,7 +2232,8 @@
    "change": null,
    "in_stock": true,
    "badges": [
-    "sale"
+    "sale",
+    "save $"
    ],
    "confidence": "low",
    "category": "commuter",
@@ -4728,19 +4735,21 @@
    "id": "navee-v25-pro-direct",
    "name": "NAVEE V25 Pro Electric Scooter, 600W max (300W rated), 20 mph, 15.5-mi range, 220-lb load",
    "url": "https://naveetech.us/products/navee-v25pro",
-   "image": null,
+   "image": "http://naveetech.us/cdn/shop/files/NAVEE_V25_Pro.jpg?v=1793516951",
    "retailer": "NAVEE direct",
    "brand": "NAVEE",
    "brand_url": "https://naveetech.us",
    "rating": 66.5,
    "ruled_out": false,
-   "price": null,
-   "baseline": 449.99,
+   "price": 279.99,
+   "baseline": 279.99,
    "was": null,
-   "change": null,
-   "in_stock": null,
-   "badges": [],
-   "confidence": null,
+   "change": 0.0,
+   "in_stock": true,
+   "badges": [
+    "sale"
+   ],
+   "confidence": "high",
    "category": "commuter",
    "spec_verification": {
     "motor": {
