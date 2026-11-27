@@ -3,6 +3,13 @@
   "cert_links": {},
   "coverage": [
     {
+      "detail": "MP4 $49.00 live-verified (was $69.99, sale badge, in stock) - below MSRP; Fluffy $16.39 unchanged, live-verified",
+      "phase": "blackfriday-2026-11-27",
+      "retailer": "Amazon",
+      "status": "ok",
+      "updated_at": "2026-11-27T15:40:32.478627+00:00"
+    },
+    {
       "detail": "MP4 Switch 2 $44.99 verified (selector read, coupon+sale badges, in stock); variant text not recorded - eyeball before buying",
       "phase": "live-verify-2026-11-12",
       "retailer": "Amazon",
@@ -38,6 +45,13 @@
       "updated_at": "2026-11-20T16:09:44.452059+00:00"
     },
     {
+      "detail": "MP4 page timed out (unverified, $69.99 is Nov 12 price); Paper Pure base $399 + bundle $499 live-verified unchanged via browser.open",
+      "phase": "blackfriday-2026-11-27",
+      "retailer": "Best Buy",
+      "status": "failed",
+      "updated_at": "2026-11-27T15:40:32.671841+00:00"
+    },
+    {
       "detail": "games pages timed out (Belmont + MP4 unverified); rM2 bundle verified $512.99 unchanged via page JSON-LD",
       "phase": "midwindow-2026-11-20",
       "retailer": "Best Buy",
@@ -66,6 +80,13 @@
       "updated_at": "2026-11-22T22:19:01.014405+00:00"
     },
     {
+      "detail": "MP4 search page timed out; unverified",
+      "phase": "blackfriday-2026-11-27",
+      "retailer": "GameStop",
+      "status": "failed",
+      "updated_at": "2026-11-27T15:40:32.764129+00:00"
+    },
+    {
       "detail": "search pages timed out on both passes; both games unverified",
       "phase": "midwindow-2026-11-20",
       "retailer": "GameStop",
@@ -85,6 +106,13 @@
       "retailer": "Target",
       "status": "ok",
       "updated_at": "2026-11-22T22:40:16.872590+00:00"
+    },
+    {
+      "detail": "Model Engine $20.99 (was $34.99) in stock; Fossil Dig $12.59 (was $20.99) OUT OF STOCK; Fairy Dust $16.39 + Slimygloop $9.99 unchanged, all live-read; MP4 search found no matching product",
+      "phase": "blackfriday-2026-11-27",
+      "retailer": "Target",
+      "status": "ok",
+      "updated_at": "2026-11-27T15:40:32.855387+00:00"
     },
     {
       "detail": "search pages failed/timed out on both passes; both games unverified",
@@ -113,6 +141,13 @@
       "retailer": "Walmart",
       "status": "ok",
       "updated_at": "2026-11-22T22:40:16.795502+00:00"
+    },
+    {
+      "detail": "all 6 pages 'Robot or human?' on load (MP4 + 5 kits), checker handling could not clear; no live prices Nov 27; seeded baselines stand",
+      "phase": "blackfriday-2026-11-27",
+      "retailer": "Walmart",
+      "status": "blocked-challenge",
+      "updated_at": "2026-11-27T15:40:32.571915+00:00"
     },
     {
       "detail": "MP4: price hidden behind 'See price in cart', unverified after 60s [itemprop] poll; Belmont Midnight $39.99 verified (seller EvoMicro)",
@@ -150,6 +185,13 @@
       "updated_at": "2026-11-20T16:09:44.369863+00:00"
     },
     {
+      "detail": "no new auction since Nov 15 scan; #2077 (ends Dec 9) no LEGO; #2076 CLOSED Nov 24 (LEGO lots 4998/5001 ended)",
+      "phase": "blackfriday-2026-11-27",
+      "retailer": "eBidLocal",
+      "status": "ok",
+      "updated_at": "2026-11-27T15:40:33.104770+00:00"
+    },
+    {
       "detail": "no new auction since Nov 15 scan; #2076 LEGO lots 4998 $8.50 / 5001 $3.00; #2077 no LEGO; #2075 closed Nov 19",
       "phase": "midwindow-2026-11-20",
       "retailer": "eBidLocal",
@@ -162,6 +204,13 @@
       "retailer": "eBidLocal",
       "status": "ok",
       "updated_at": "2026-11-12T13:39:04.448663+00:00"
+    },
+    {
+      "detail": "direct store: Paper Pure 'From $399'; BF sale (Nov 19-Dec 1) explicitly excludes Paper Pure - no discount",
+      "phase": "blackfriday-2026-11-27",
+      "retailer": "reMarkable",
+      "status": "ok",
+      "updated_at": "2026-11-27T15:40:32.959893+00:00"
     },
     {
       "detail": "refurb ladder re-verified Nov 20: all six rungs unchanged, entry $349; no rM2 BF cut (sale covers Paper Pro/Move only)",
@@ -185,9 +234,73 @@
       "updated_at": "2026-11-22T22:19:01.087418+00:00"
     }
   ],
-  "generated": "2026-11-22T22:40:17.039180+00:00",
+  "generated": "2026-11-27T15:40:40.934683+00:00",
   "hunt": "black-friday",
   "items": [
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Nintendo",
+      "brand_url": null,
+      "category": "Games",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-12",
+      "image": "https://m.media-amazon.com/images/I/81D8Cy37+ZL._SL1500_.jpg",
+      "in_stock": true,
+      "name": "Metroid Prime 4: Beyond \u2014 Nintendo Switch 2 Edition (Physical) \u2014 Amazon",
+      "price": 49.0,
+      "rating": 85.0,
+      "retailer": "Amazon",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Nintendo",
+        "edition": "Switch 2 Edition",
+        "format": "Physical",
+        "in_stock": true,
+        "mfr_category": "Games",
+        "mfr_source": "live checker 2026-11-27 (bf_games_check.py; $49.00 selector read)",
+        "note": "RE-CHECKED 2026-11-27 (Black Friday): $49.00 LIVE-VERIFIED via checker (selector .a-price .a-offscreen, high confidence, in stock, was-price $69.99, 'sale' badge, free shipping). $20.99 below the $69.99 MSRP. The Nov 12 verified $44.99 is superseded \u2014 the price was hidden behind 'add to cart' on Nov 20 and is now visible again at $49.00, not $44.99. Variant confirmed Switch 2 Edition physical. Lower-priced related items ($13.99-$45.59) on the page are other editions/add-ons, not this listing.",
+        "platform": "Nintendo Switch 2"
+      },
+      "url": "https://www.amazon.com/dp/B0FQXR2NPH",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Discovery",
+      "brand_url": null,
+      "category": "Science Kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-18",
+      "image": null,
+      "in_stock": true,
+      "name": "Discovery #Mindblown Model Engine STEM Science Kit \u2014 Target",
+      "price": 20.99,
+      "rating": 85.0,
+      "retailer": "Target",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Discovery",
+        "edition": "Working model engine with moving parts + LED",
+        "format": "Physical kit, new/sealed",
+        "in_stock": true,
+        "mfr_category": "Science Kits",
+        "mfr_source": "Target page live-read 2026-11-27 (browser.open JSON-LD)",
+        "note": "AS-LISTED 2026-11-22: $34.99 (Target everyday price; MSRP/typical $39.99). RE-CHECKED 2026-11-27 (Black Friday): $20.99 live-read from the product page (JSON-LD Product.offers, Availability InStock) \u2014 $14.00 below the seeded $34.99, 48% below the $39.99 MSRP. No was/reg strikethrough or sale badge text appeared in the fetched page text, so the sale flagging is unconfirmed, but the price itself is live. 4.6 stars / 120 ratings. Added 2026-11-22 per Steve.",
+        "platform": "Model engine build kit"
+      },
+      "url": "https://www.target.com/p/discovery-mindblown-model-engine-stem-science-kit/-/A-80708303",
+      "was": null
+    },
     {
       "badges": [
         "enriched"
@@ -200,7 +313,7 @@
       "confidence": "high",
       "id": "black-friday-9",
       "image": "https://s3.amazonaws.com/prod.maxanet.auction/eBI402/Inventory15755295/4998-b825ec3c-fb40-4082-ae8a-dfc13a148049-100x100.jpg",
-      "in_stock": true,
+      "in_stock": false,
       "name": "LEGO lot \u2014 Item 4998 (Auction #2076, eBidLocal)",
       "price": 8.5,
       "rating": 70.0,
@@ -211,10 +324,10 @@
         "brand": "LEGO",
         "edition": "Lot 4998, SKU 790419",
         "format": "Auction (pickup only)",
-        "in_stock": true,
+        "in_stock": false,
         "mfr_category": "LEGO (eBidLocal)",
         "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
-        "note": "Auction #2076 (Multi Seller, 7700 Advantage Storage Dr, Chester VA). Current bid $8.50 as of the Nov 15 scan (was $0.00); ends Tue Nov 24, 2026 10:25 AM ET. Listing title only says 'Legos' \u2014 contents are whatever the photo shows; eBidLocal does not ship, pickup only.",
+        "note": "Auction #2076 (Multi Seller, 7700 Advantage Storage Dr, Chester VA). CLOSED Tue Nov 24, 2026 10:25 AM ET. Last current bid seen $8.50 (Nov 15 scan); final closing bid not tracked (no ongoing bid surveillance per Steve). Listing title only says 'Legos' \u2014 contents are whatever the photo shows; eBidLocal does not ship, pickup only.",
         "platform": "Auction lot"
       },
       "url": "https://auction.ebidlocal.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=UcaXNUZllScbqD2HAqTOpQ%3d%3d&AuctionId=XtQQwWh1htfd0%2fryBslfug%3d%3d",
@@ -232,7 +345,7 @@
       "confidence": "high",
       "id": "black-friday-10",
       "image": "https://s3.amazonaws.com/prod.maxanet.auction/eBI402/Inventory15755298/5001-aed299d2-5ed0-4655-a703-5cf914721b7c-100x100.jpg",
-      "in_stock": true,
+      "in_stock": false,
       "name": "LEGO lot \u2014 Item 5001 (Auction #2076, eBidLocal)",
       "price": 3.0,
       "rating": 70.0,
@@ -243,13 +356,45 @@
         "brand": "LEGO",
         "edition": "Lot 5001, SKU 790422",
         "format": "Auction (pickup only)",
-        "in_stock": true,
+        "in_stock": false,
         "mfr_category": "LEGO (eBidLocal)",
         "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
-        "note": "Auction #2076 (Multi Seller, 7700 Advantage Storage Dr, Chester VA). Current bid $3.00 as of the Nov 15 scan (was $0.00); ends Tue Nov 24, 2026 10:26 AM ET. Listing title only says 'Legos' \u2014 contents are whatever the photo shows; eBidLocal does not ship, pickup only.",
+        "note": "Auction #2076 (Multi Seller, 7700 Advantage Storage Dr, Chester VA). CLOSED Tue Nov 24, 2026 10:26 AM ET. Last current bid seen $3.00 (Nov 15 scan); final closing bid not tracked (no ongoing bid surveillance per Steve). Listing title only says 'Legos' \u2014 contents are whatever the photo shows; eBidLocal does not ship, pickup only.",
         "platform": "Auction lot"
       },
       "url": "https://auction.ebidlocal.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=PKLdvy8drwLS2WUBMYdFLw%3d%3d&AuctionId=XtQQwWh1htfd0%2fryBslfug%3d%3d",
+      "was": null
+    },
+    {
+      "badges": [
+        "enriched"
+      ],
+      "baseline": null,
+      "brand": "Discovery",
+      "brand_url": null,
+      "category": "Science Kits",
+      "change": 0.0,
+      "confidence": "high",
+      "id": "black-friday-19",
+      "image": null,
+      "in_stock": false,
+      "name": "Discovery #Mindblown Colossal Fossil Dig Excavation Kit, 15-Piece \u2014 Target",
+      "price": 12.59,
+      "rating": 70.0,
+      "retailer": "Target",
+      "ruled_out": false,
+      "spec_verification": {},
+      "specs": {
+        "brand": "Discovery",
+        "edition": "15-Piece",
+        "format": "Physical kit, new/sealed",
+        "in_stock": false,
+        "mfr_category": "Science Kits",
+        "mfr_source": "Target page live-read 2026-11-27 (browser.open JSON-LD)",
+        "note": "AS-LISTED 2026-11-22: $20.99 (Target regular price). RE-CHECKED 2026-11-27 (Black Friday): $12.59 live-read from the product page (JSON-LD Product.offers) \u2014 $8.40 below the seeded $20.99 \u2014 BUT Availability: OutOfStock, so the price cannot currently be bought at Target. No was/reg strikethrough or sale badge text in the fetched page. 4.3 stars / 228 ratings. Added 2026-11-22 per Steve.",
+        "platform": "Excavation / fossil dig kit"
+      },
+      "url": "https://www.target.com/p/discovery-mindblown-colossal-fossil-dig-15pc-excavation-kit/-/A-80708297",
       "was": null
     },
     {
@@ -277,43 +422,11 @@
         "format": "Physical kit, new/sealed",
         "in_stock": true,
         "mfr_category": "Slime Kits",
-        "mfr_source": "live checker price_check.py 2026-11-22 (high confidence, in stock)",
-        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $16.39, high confidence, in stock, coupon + sale badges. ASIN B08C6TNHY5 is the standard 4-count Fluffy Slime Kit listing (single kit variant). List price $19.99 per the product page - $16.39 is 18% below list. Baseline = $19.99 list. Added 2026-11-22 per Steve - slime kit for his daughter (10).",
+        "mfr_source": "live checker price_check.py 2026-11-22; re-verified 2026-11-27",
+        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $16.39, high confidence, in stock, coupon + sale badges. List price $19.99. RE-CHECKED 2026-11-27 (Black Friday): $16.39 live-verified again (high confidence, in stock, 'sale' badge, was-price $25.67) \u2014 unchanged from the seeded price. Baseline = $19.99 list. Added 2026-11-22 per Steve - slime kit for his daughter (10).",
         "platform": "DIY slime kit"
       },
       "url": "https://www.amazon.com/dp/B08C6TNHY5",
-      "was": null
-    },
-    {
-      "badges": [
-        "enriched"
-      ],
-      "baseline": null,
-      "brand": "Discovery",
-      "brand_url": null,
-      "category": "Science Kits",
-      "change": 0.0,
-      "confidence": "high",
-      "id": "black-friday-18",
-      "image": null,
-      "in_stock": true,
-      "name": "Discovery #Mindblown Model Engine STEM Science Kit \u2014 Target",
-      "price": 34.99,
-      "rating": 55.0,
-      "retailer": "Target",
-      "ruled_out": false,
-      "spec_verification": {},
-      "specs": {
-        "brand": "Discovery",
-        "edition": "Working model engine with moving parts + LED",
-        "format": "Physical kit, new/sealed",
-        "in_stock": true,
-        "mfr_category": "Science Kits",
-        "mfr_source": "seeded 2026-11-22 from Target page crawls (browser.open, same-day) - as-listed, not live-verified",
-        "note": "AS-LISTED 2026-11-22 from Target page crawl (browser.open, same day): $34.99, add-to-cart shown, 4.6 stars / 120 ratings - NOT live-verified on the product page. Cheaper than Walmart's live-verified $36.97 for the same kit. Baseline = $34.99. Added 2026-11-22 per Steve. BF DEAL CHECK 2026-11-22: NOT a Target sale. Target product page fetched 2026-11-22: single price $34.99, NO 'reg $' strikethrough, NO sale or Black Friday flagging - $34.99 is Target's everyday price (consistent across Target crawls for weeks). The kit's typical/MSRP price is $39.99 (Amazon listing B07YNY671W shows 'Typical: $39.99'; Macy's lists $39.99), so Target sits $5 (13%) under MSRP every day, but is not discounting it. Baseline = MSRP $39.99; Target regular $34.99.",
-        "platform": "Model engine build kit"
-      },
-      "url": "https://www.target.com/p/discovery-mindblown-model-engine-stem-science-kit/-/A-80708303",
       "was": null
     },
     {
@@ -341,8 +454,8 @@
         "format": "Physical kit, new/sealed",
         "in_stock": true,
         "mfr_category": "Slime Kits",
-        "mfr_source": "live checker price_check.py 2026-11-22 (high confidence, in stock)",
-        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $18.87, high confidence, in stock, rollback badges; sold/shipped by Walmart.com, listed as a Walmart best seller. Same kit is $16.39 live-verified at Amazon today. Baseline = $19.99 (Amazon list price for the kit). Added 2026-11-22 per Steve.",
+        "mfr_source": "live checker price_check.py 2026-11-22; re-check 2026-11-27 challenge-walled",
+        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $18.87, high confidence, in stock; sold/shipped by Walmart.com. Same kit is $16.39 live-verified at Amazon. Baseline = $19.99 (Amazon list price). RE-CHECKED 2026-11-27 (Black Friday): Walmart 'Robot or human?' challenge on load, checker handling could not clear it, not attempted \u2014 no live price this run; $18.87 is the Nov 22 price, unconfirmed today.",
         "platform": "DIY slime kit"
       },
       "url": "https://www.walmart.com/ip/Elmer-s-Fluffy-Slime-Kit-Includes-Elmer-s-Translucent-Glue-Elmer-s-Glitter-Glue-Elmer-s-Slime-Activator-4-Count/955748371",
@@ -373,8 +486,8 @@
         "format": "Physical kit, new/sealed",
         "in_stock": true,
         "mfr_category": "Slime Kits",
-        "mfr_source": "seeded 2026-11-22 from Target page crawls (browser.open, same-day) - as-listed, not live-verified",
-        "note": "AS-LISTED 2026-11-22 from Target page crawl (browser.open, same day): $9.99, add-to-cart shown - NOT live-verified on the product page. Caution: a separate Target crawl showed a Mix'Ems variant at $19.99, so confirm the exact variant/price on the product page before buying. Baseline = $9.99 as-listed. Added 2026-11-22 per Steve.",
+        "mfr_source": "Target page live-read 2026-11-27 (browser.open JSON-LD)",
+        "note": "AS-LISTED 2026-11-22: $9.99. RE-CHECKED 2026-11-27 (Black Friday): $9.99 live-read from the product page (on-page price + JSON-LD, In Stock) \u2014 unchanged, regular price. VARIANT CONFIRMED Nov 27: the page is exactly the Cotton Candy Mix'Em Glitter Slime variant; the $19.99 Mix'Ems variant from an earlier crawl is a different listing. Sold & shipped by Toynk (marketplace seller, not Target itself). 1.0 stars / 2 reviews. Baseline = $9.99. Added 2026-11-22 per Steve.",
         "platform": "DIY slime kit"
       },
       "url": "https://www.target.com/p/slimygloop-mix-ems-diy-slime-kit-for-kids-cotton-candy-mix-em-glitter-slime/-/A-80828931",
@@ -405,43 +518,11 @@
         "format": "Physical",
         "in_stock": true,
         "mfr_category": "Games",
-        "mfr_source": "live checker 2026-11-12; re-check 2026-11-20 challenge-walled",
-        "note": "LIVE-CHECKED 2026-11-12: price hidden behind 'See price in cart', unverified. RE-CHECKED 2026-11-20: 'Robot or human?' challenge on load, not attempted \u2014 live-verify STILL not achieved. Tracker claims $48.89 / $46.45 both unconfirmed. Do not buy on a tracker number.",
+        "mfr_source": "live checker 2026-11-12; re-checks 2026-11-20, 2026-11-27 challenge-walled",
+        "note": "LIVE-CHECKED 2026-11-12: price hidden behind 'See price in cart', unverified. RE-CHECKED 2026-11-20 and 2026-11-27 (Black Friday): 'Robot or human?' challenge on load, not attempted \u2014 live-verify STILL not achieved. Tracker claims $48.89 / $46.45 both unconfirmed. Do not buy on a tracker number.",
         "platform": "Nintendo Switch 2"
       },
       "url": "https://www.walmart.com/ip/Metroid-Prime-4-Beyond-Nintendo-Switch-2-Edition/17858804489",
-      "was": null
-    },
-    {
-      "badges": [
-        "enriched"
-      ],
-      "baseline": null,
-      "brand": "Nintendo",
-      "brand_url": null,
-      "category": "Games",
-      "change": 0.0,
-      "confidence": "high",
-      "id": "black-friday-12",
-      "image": "https://m.media-amazon.com/images/I/81D8Cy37+ZL._SL1500_.jpg",
-      "in_stock": true,
-      "name": "Metroid Prime 4: Beyond \u2014 Nintendo Switch 2 Edition (Physical) \u2014 Amazon",
-      "price": null,
-      "rating": 50.0,
-      "retailer": "Amazon",
-      "ruled_out": false,
-      "spec_verification": {},
-      "specs": {
-        "brand": "Nintendo",
-        "edition": "Switch 2 Edition",
-        "format": "Physical",
-        "in_stock": true,
-        "mfr_category": "Games",
-        "mfr_source": "live checker 2026-11-20 (bf_games_check.py; price hidden behind add-to-cart)",
-        "note": "RE-CHECKED 2026-11-20: page now reads 'To see our price, add this item to your cart' \u2014 the selected Switch 2 Edition price is HIDDEN, so the Nov 12 verified $44.99 is NO LONGER CONFIRMED and is not shown. A $59.00 string appears elsewhere on the page (alternate offer/variant) \u2014 it is NOT the selected edition's price. In stock, sold by Amazon.com, variant confirmed Switch 2 Edition. Do not buy on $44.99 or $59.00.",
-        "platform": "Nintendo Switch 2"
-      },
-      "url": "https://www.amazon.com/dp/B0FQXR2NPH",
       "was": null
     },
     {
@@ -469,8 +550,8 @@
         "format": "Physical kit, new/sealed",
         "in_stock": true,
         "mfr_category": "Science Kits",
-        "mfr_source": "live checker price_check.py 2026-11-22 (high confidence, in stock)",
-        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $31.99, high confidence, in stock (clearance/rollback badges, no was-price shown). Baseline = $31.99 (first tracked price; no MSRP found). Added 2026-11-22 per Steve. BF DEAL CHECK 2026-11-22: NOT a deal. $31.99 is the REGULAR price - Target's own page for the identical kit lists 'reg $31.99' (Target had it at $27.19 on clearance, 15% off reg). Walmart live read earlier today ($31.99, high confidence) showed NO was-price; two re-check attempts today failed to hydrate the price element, so the was-price finding rests on the earlier same-day live read. (888lots lists the Amazon ASIN's MSRP as $29.99.) Baseline = regular price $31.99.",
+        "mfr_source": "live checker price_check.py 2026-11-22; re-check 2026-11-27 challenge-walled",
+        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $31.99, high confidence, in stock. Baseline = $31.99 (regular price; Target lists 'reg $31.99' for the identical kit). RE-CHECKED 2026-11-27 (Black Friday): Walmart 'Robot or human?' challenge on load, checker handling could not clear it, not attempted \u2014 no live price this run; $31.99 is the Nov 22 price, unconfirmed today.",
         "platform": "Electronic experiment kit, ages 8+"
       },
       "url": "https://www.walmart.com/ip/Discovery-Mindblown-Action-Circuitry-Electronic-Experiment-STEM-Set-Build-it-Yourself-Engineering-Toy-Kit-Explore-Science-Lights-Sounds-Motion-6-Expe/594014505",
@@ -501,43 +582,11 @@
         "format": "Physical kit, new/sealed",
         "in_stock": true,
         "mfr_category": "Science Kits",
-        "mfr_source": "live checker price_check.py 2026-11-22 (high confidence, in stock)",
-        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $36.97, high confidence, in stock (clearance badge, no was-price shown). Baseline = $36.97 (first tracked price; no MSRP found). Added 2026-11-22 per Steve. BF DEAL CHECK 2026-11-22: NOT a deal at Walmart. Live-read twice via checker ([itemprop] $36.97 both times); buy box shows a plain 'Current price is $36.97' - NO was-price, NO strikethrough element anywhere on the page, NO sale badge in the buy box (seeding badge claim traced to other products' carousel modules). $36.97 is Walmart's regular price. Only higher reference found: JCPenney lists the identical 41-pc set at a $45 original price (their sale price $34.99) - Walmart itself is running no discount. Baseline = regular price $36.97.",
+        "mfr_source": "live checker price_check.py 2026-11-22; re-check 2026-11-27 challenge-walled",
+        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $36.97, high confidence, in stock. Baseline = $36.97 (regular price; JCPenney lists the identical 41-pc set at a $45 original price). RE-CHECKED 2026-11-27 (Black Friday): Walmart 'Robot or human?' challenge on load, checker handling could not clear it, not attempted \u2014 no live price this run; $36.97 is the Nov 22 price, unconfirmed today.",
         "platform": "Microscope lab set, ages 8+"
       },
       "url": "https://www.walmart.com/ip/Discovery-MINDBLOWN-1200X-600X-300X-Microscope-41-Piece-Experiment-Lab-Set-for-Children-and-Elementary-School/5347546973",
-      "was": null
-    },
-    {
-      "badges": [
-        "enriched"
-      ],
-      "baseline": null,
-      "brand": "Discovery",
-      "brand_url": null,
-      "category": "Science Kits",
-      "change": 0.0,
-      "confidence": "high",
-      "id": "black-friday-19",
-      "image": null,
-      "in_stock": true,
-      "name": "Discovery #Mindblown Colossal Fossil Dig Excavation Kit, 15-Piece \u2014 Target",
-      "price": 20.99,
-      "rating": 50.0,
-      "retailer": "Target",
-      "ruled_out": false,
-      "spec_verification": {},
-      "specs": {
-        "brand": "Discovery",
-        "edition": "15-Piece",
-        "format": "Physical kit, new/sealed",
-        "in_stock": true,
-        "mfr_category": "Science Kits",
-        "mfr_source": "seeded 2026-11-22 from Target page crawls (browser.open, same-day) - as-listed, not live-verified",
-        "note": "AS-LISTED 2026-11-22 from Target page crawl (browser.open, same day): $20.99, add-to-cart shown, 4.3 stars / 228 ratings - NOT live-verified on the product page. Baseline = $20.99 (first tracked price; no MSRP found). Added 2026-11-22 per Steve. BF DEAL CHECK 2026-11-22: NOT a deal. Target product page fetched 2026-11-22: single price $20.99, NO 'reg $' strikethrough, NO sale or Black Friday flagging. Target has listed this kit at $20.99 consistently across crawls spanning ~24 days - it is the regular price. No other major-retailer price found. Baseline = regular price $20.99.",
-        "platform": "Excavation / fossil dig kit"
-      },
-      "url": "https://www.target.com/p/discovery-mindblown-colossal-fossil-dig-15pc-excavation-kit/-/A-80708297",
       "was": null
     },
     {
@@ -565,8 +614,8 @@
         "format": "Physical kit, new/sealed",
         "in_stock": true,
         "mfr_category": "Slime Kits",
-        "mfr_source": "seeded 2026-11-22 from Target page crawls (browser.open, same-day) - as-listed, not live-verified",
-        "note": "AS-LISTED 2026-11-22 from Target page crawl (browser.open, same day): $16.39, add-to-cart shown, 4.1 stars / 534 ratings - NOT live-verified on the product page. Baseline = $16.39 (first tracked price). Added 2026-11-22 per Steve.",
+        "mfr_source": "Target page live-read 2026-11-27 (browser.open JSON-LD)",
+        "note": "AS-LISTED 2026-11-22: $16.39. RE-CHECKED 2026-11-27 (Black Friday): $16.39 live-read from the product page (JSON-LD Product.offers, Availability InStock) \u2014 unchanged, regular price, no sale flagging. 4.1 stars / 534 ratings. Baseline = $16.39. Added 2026-11-22 per Steve.",
         "platform": "DIY slime kit"
       },
       "url": "https://www.target.com/p/elmer-39-s-4pk-fairy-dust-slime-kit-with-glue-38-activator-solution/-/A-82809515",
@@ -597,8 +646,8 @@
         "format": "New",
         "in_stock": true,
         "mfr_category": "Tablet",
-        "mfr_source": "Best Buy listing via web search crawl 2026-11-22 (not live-browser-verified)",
-        "note": "reMarkable Paper Pure - the successor to the reMarkable 2 (launched May 2026; rM2 production sunset). $399 MSRP: tablet + Marker, 32GB, 3rd-gen Canvas mono display; uses Paper Pro Markers (rM2 styluses NOT compatible). Best Buy model RM92A-1000NW (SKU 6672953), $399.00 in stock per Best Buy page crawled 2026-11-21. reMarkable's BF 2026 sale EXCLUDES Paper Pure (stays full price) - any price below $399 is reportable. Switched into the hunt 2026-11-22 per Steve, replacing the rM2 refurb watch.",
+        "mfr_source": "Best Buy listing live-read 2026-11-27 (browser.open JSON-LD)",
+        "note": "reMarkable Paper Pure - successor to the reMarkable 2 (launched May 2026; rM2 production sunset). $399 MSRP: tablet + Marker, 32GB, 3rd-gen Canvas mono display; uses Paper Pro Markers (rM2 styluses NOT compatible). Best Buy model RM92A-1000NW (SKU 6672953). RE-CHECKED 2026-11-27 (Black Friday): $399.00 live-read via browser.open (on-page price + JSON-LD, InStock, Add to Cart) \u2014 unchanged, still full price. reMarkable's BF 2026 sale EXCLUDES Paper Pure, so any price below $399 is reportable. Open-box copies at $324.99-$399.00 are NOT tracked (NEW only). Switched into the hunt 2026-11-22 per Steve, replacing the rM2 refurb watch.",
         "platform": "10.3in e-paper tablet"
       },
       "url": "https://www.bestbuy.com/product/remarkable-paper-pure-10-3-paper-tablet-and-marker-gray/C4SQZQ43CG",
@@ -629,8 +678,8 @@
         "format": "Physical kit, new/sealed",
         "in_stock": true,
         "mfr_category": "Science Kits",
-        "mfr_source": "live checker price_check.py 2026-11-22 (high confidence, in stock)",
-        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $18.97, high confidence, in stock, clearance/rollback badges on page (no was-price shown, so no confirmed discount amount). Sold/shipped by Walmart.com. Baseline = $18.97 (first tracked price; no MSRP found). Added 2026-11-22 per Steve - Discovery science kits for his daughter (10). BF DEAL CHECK 2026-11-22: NOT a deal. Live-read twice via checker ([itemprop] $18.97 both times); buy box shows a plain 'Current price is $18.97' - NO was-price, NO strikethrough element anywhere on the page, NO rollback/clearance badge in the buy box. The seeding note's badge claim came from price_check.py's whole-page keyword scan hitting OTHER products' carousel modules (a $18.99 clearance / was $21.99 item and a $24.99 item render on these pages). $18.97 is the REGULAR price: Amazon sells the identical kit at $18.97 everyday (price tracker 2026-10-31; Amazon listing screenshot 2026-11-03). Baseline = regular price $18.97.",
+        "mfr_source": "live checker price_check.py 2026-11-22; re-check 2026-11-27 challenge-walled",
+        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $18.97, high confidence, in stock. Baseline = $18.97 (regular price; Amazon sells the identical kit at $18.97 everyday). RE-CHECKED 2026-11-27 (Black Friday): Walmart 'Robot or human?' challenge on load, checker handling could not clear it, not attempted \u2014 no live price this run; $18.97 is the Nov 22 price, unconfirmed today.",
         "platform": "Solar robot build kit, ages 8+"
       },
       "url": "https://www.walmart.com/ip/Discovery-Mindblown-Solar-Vehicle-Robot-Science-Kit-Hands-on-STEM-toys-197-Pieces/865111559",
@@ -661,8 +710,8 @@
         "format": "Physical kit, new/sealed",
         "in_stock": true,
         "mfr_category": "Slime Kits",
-        "mfr_source": "live checker price_check.py 2026-11-22 (high confidence, in stock)",
-        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $18.97, high confidence, in stock; sold/shipped by Walmart.com. Note: Target as-listed the same Eclipse kit at $12.73 on 2026-11-22 (search-page crawl, unverified, no row seeded). Baseline = $18.97 (first tracked price). Added 2026-11-22 per Steve.",
+        "mfr_source": "live checker price_check.py 2026-11-22; re-check 2026-11-27 challenge-walled",
+        "note": "LIVE-VERIFIED 2026-11-22 via price_check.py: $18.97, high confidence, in stock; sold/shipped by Walmart.com. Baseline = $18.97. RE-CHECKED 2026-11-27 (Black Friday): Walmart 'Robot or human?' challenge on load, checker handling could not clear it, not attempted \u2014 no live price this run; $18.97 is the Nov 22 price, unconfirmed today.",
         "platform": "DIY slime kit"
       },
       "url": "https://www.walmart.com/ip/Elmer-s-Eclipse-Slime-Kit-Includes-Liquid-Glue-and-Slime-Activator-4-Count/15235912724",
@@ -694,7 +743,7 @@
         "in_stock": true,
         "mfr_category": "Games",
         "mfr_source": "seeded 2026-11-12 from originating-chat research (retailer pages + deal trackers + ebidlocal state.json)",
-        "note": "MSRP $69.99 at Best Buy (SKU 6646359), in stock 2026-11-12. RE-CHECKED 2026-11-20: product page navigation timed out \u2014 $69.99 is the Nov 12 price, unconfirmed today.",
+        "note": "MSRP $69.99 at Best Buy (SKU 6646359), in stock 2026-11-12. RE-CHECKED 2026-11-20 and 2026-11-27 (Black Friday): product page navigation timed out \u2014 $69.99 is the Nov 12 price, unconfirmed today.",
         "platform": "Nintendo Switch 2"
       },
       "url": "https://www.bestbuy.com/product/metroid-prime-4-beyond-nintendo-switch-2-nintendo-switch-2/J7GSL5JFV6",
@@ -725,8 +774,8 @@
         "format": "New bundle",
         "in_stock": true,
         "mfr_category": "Tablet",
-        "mfr_source": "Best Buy listing via web search crawl 2026-11-22 (not live-browser-verified)",
-        "note": "Best Buy bundle: Paper Pure + Marker Plus (eraser) + Sleeve Folio, $499.00 in stock per Best Buy pages crawled 2026-11-17/18 (colors Ocean Blue / Mist Green / Desert Pink, same price). Launch coverage put reMarkable's own bundle at $449 - Best Buy's $499 is as-listed; direct-store bundle price not verified. Base $399 row is the watch target.",
+        "mfr_source": "Best Buy listing live-read 2026-11-27 (browser.open JSON-LD)",
+        "note": "Best Buy bundle: Paper Pure + Marker Plus (eraser) + Sleeve Folio, $499.00. RE-CHECKED 2026-11-27 (Black Friday): $499.00 live-read via browser.open (on-page price + JSON-LD, InStock) \u2014 unchanged. Also listed in Mist Green and Desert Pink at $499. Direct-store bundle price not readable from the remarkable.com page text today (price lives in the JS configurator); official compare page lists Paper Pure 'From $399'. Base $399 row is the watch target.",
         "platform": "10.3in e-paper tablet"
       },
       "url": "https://www.bestbuy.com/product/remarkable-paper-pure-10-3-paper-tablet-bundle-with-marker-plus-and-sleeve-folio-ocean-blue/C4SQZQ4S6P",
